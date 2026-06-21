@@ -6,5 +6,5 @@
     "entityType": "@jago_issues"
   } ],
   "priority": 500000,
-  "numTrainingPhrases": 54
+  "numTrainingPhrases": 56
 }

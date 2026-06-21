@@ -1,0 +1,63 @@
+{
+  "name": "ef676926-b505-566c-8f62-303626b717ae",
+  "displayName": "Feedback_Page",
+  "form": {
+    "parameters": [ {
+      "displayName": "s24_remarks_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "We'd love your input — please share your suggestion or feedback:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Kami senang menerima masukan Kakak — silakan sampaikan saran atau ide Kakak:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "setParameterActions": [ {
+      "parameter": "topic_l0",
+      "value": "Others"
+    }, {
+      "parameter": "topic_l1",
+      "value": "Feature suggestion"
+    }, {
+      "parameter": "topic_l2",
+      "value": ""
+    }, {
+      "parameter": "chosen_issue",
+      "value": "feedback"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Thank you! Your suggestion has been recorded and shared with our team." ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "Terima kasih! Saran Kakak sudah kami catat dan teruskan ke tim kami." ]
+        },
+        "languageCode": "id"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "s24_remarks",
+        "value": "$page.params.s24_remarks_slot"
+      } ]
+    },
+    "targetPage": "Bot_CSAT_Survey_Page",
+    "name": "41228322-ced2-55b4-a77b-42e700a60e28"
+  } ]
+}

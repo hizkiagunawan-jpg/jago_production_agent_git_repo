@@ -37,6 +37,9 @@
           "RESOLUTION_TIME": "$session.params.resolution_time",
           "SLA": "$session.params.sla",
           "TAG1": "$session.params.tag1",
+          "TOPIC_L0": "$session.params.topic_l0",
+          "TOPIC_L1": "$session.params.topic_l1",
+          "TOPIC_L2": "$session.params.topic_l2",
           "action": "HUMAN_ESCALATION"
         }
       },
@@ -63,6 +66,9 @@
           "RESOLUTION_TIME": "$session.params.resolution_time",
           "SLA": "$session.params.sla",
           "TAG1": "$session.params.tag1",
+          "TOPIC_L0": "$session.params.topic_l0",
+          "TOPIC_L1": "$session.params.topic_l1",
+          "TOPIC_L2": "$session.params.topic_l2",
           "action": "HUMAN_ESCALATION"
         }
       },

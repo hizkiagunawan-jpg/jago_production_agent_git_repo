@@ -54,6 +54,15 @@
         "parameter": "clan",
         "value": ""
       }, {
+        "parameter": "topic_l0",
+        "value": "Account / Profile"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Account Closing"
+      }, {
+        "parameter": "topic_l2",
+        "value": "Bank initiated account closure"
+      }, {
         "parameter": "chosen_issue",
         "value": "kyc__str_close_account"
       } ]
@@ -90,6 +99,15 @@
       }, {
         "parameter": "clan",
         "value": ""
+      }, {
+        "parameter": "topic_l0",
+        "value": "Account / Profile"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Customer Data Update"
+      }, {
+        "parameter": "topic_l2",
+        "value": "Update STR"
       }, {
         "parameter": "chosen_issue",
         "value": "kyc__str_update_customer_data"
@@ -128,6 +146,15 @@
         "parameter": "clan",
         "value": ""
       }, {
+        "parameter": "topic_l0",
+        "value": "Account / Profile"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Account blocking"
+      }, {
+        "parameter": "topic_l2",
+        "value": "Bank initiated account blocking"
+      }, {
         "parameter": "chosen_issue",
         "value": "kyc__blokir_account_nasabah"
       } ]
@@ -165,6 +192,15 @@
         "parameter": "clan",
         "value": ""
       }, {
+        "parameter": "topic_l0",
+        "value": "Card"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Card Management"
+      }, {
+        "parameter": "topic_l2",
+        "value": "Card Blocking"
+      }, {
         "parameter": "chosen_issue",
         "value": "kyc__blokir_kartu_debit"
       } ]
@@ -201,6 +237,15 @@
       }, {
         "parameter": "clan",
         "value": ""
+      }, {
+        "parameter": "topic_l0",
+        "value": "Account / Profile"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Account Closing"
+      }, {
+        "parameter": "topic_l2",
+        "value": "Customer initiated account closure"
       }, {
         "parameter": "chosen_issue",
         "value": "kyc__closing_account"

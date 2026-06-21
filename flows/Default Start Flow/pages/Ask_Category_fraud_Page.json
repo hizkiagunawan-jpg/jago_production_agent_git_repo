@@ -54,6 +54,15 @@
         "parameter": "clan",
         "value": ""
       }, {
+        "parameter": "topic_l0",
+        "value": "Account / Profile"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Fraud Report"
+      }, {
+        "parameter": "topic_l2",
+        "value": ""
+      }, {
         "parameter": "chosen_issue",
         "value": "fraud__alert_by_rule"
       } ]
@@ -89,6 +98,15 @@
         "value": "SLA::5D"
       }, {
         "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "topic_l0",
+        "value": "Account / Profile"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Fraud Report"
+      }, {
+        "parameter": "topic_l2",
         "value": ""
       }, {
         "parameter": "chosen_issue",
@@ -128,6 +146,15 @@
         "parameter": "clan",
         "value": ""
       }, {
+        "parameter": "topic_l0",
+        "value": "Account / Profile"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Fraud Report"
+      }, {
+        "parameter": "topic_l2",
+        "value": "Following up previous fraud report"
+      }, {
         "parameter": "chosen_issue",
         "value": "fraud__internal_request_follow_up_ticket_fraud"
       } ]
@@ -164,6 +191,15 @@
       }, {
         "parameter": "clan",
         "value": ""
+      }, {
+        "parameter": "topic_l0",
+        "value": "Account / Profile"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Fraud Report"
+      }, {
+        "parameter": "topic_l2",
+        "value": "Account Takeover / Hacking"
       }, {
         "parameter": "chosen_issue",
         "value": "fraud__external_fraud_nasabah"
@@ -202,6 +238,15 @@
         "parameter": "clan",
         "value": ""
       }, {
+        "parameter": "topic_l0",
+        "value": "Account / Profile"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Fraud Report"
+      }, {
+        "parameter": "topic_l2",
+        "value": "Phishing / Scam"
+      }, {
         "parameter": "chosen_issue",
         "value": "fraud__external_fraud_non_nasabah"
       } ]
@@ -239,6 +284,15 @@
         "parameter": "clan",
         "value": ""
       }, {
+        "parameter": "topic_l0",
+        "value": "Account / Profile"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Fraud Report"
+      }, {
+        "parameter": "topic_l2",
+        "value": "Following up previous fraud report"
+      }, {
         "parameter": "chosen_issue",
         "value": "fraud__laporan_report_follow_up_ticket_fraud"
       } ]
@@ -274,6 +328,15 @@
         "value": "SLA::5D"
       }, {
         "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "topic_l0",
+        "value": "Others"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Incomplete/Invalid Conversation"
+      }, {
+        "parameter": "topic_l2",
         "value": ""
       }, {
         "parameter": "chosen_issue",

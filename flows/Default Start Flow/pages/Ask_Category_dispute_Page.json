@@ -54,6 +54,15 @@
         "parameter": "clan",
         "value": ""
       }, {
+        "parameter": "topic_l0",
+        "value": "Transfer \u0026 Payment"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Card Transaction"
+      }, {
+        "parameter": "topic_l2",
+        "value": "Internal Chargeback (VISA)"
+      }, {
         "parameter": "chosen_issue",
         "value": "dispute__incoming_claim"
       } ]
@@ -91,6 +100,15 @@
         "parameter": "clan",
         "value": ""
       }, {
+        "parameter": "topic_l0",
+        "value": "Transfer \u0026 Payment"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Card Transaction"
+      }, {
+        "parameter": "topic_l2",
+        "value": "Internal Chargeback (VISA)"
+      }, {
         "parameter": "chosen_issue",
         "value": "dispute__internal_chargeback"
       } ]
@@ -126,6 +144,15 @@
         "value": "SLA::8H"
       }, {
         "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "topic_l0",
+        "value": "Transfer \u0026 Payment"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Bill Payment"
+      }, {
+        "parameter": "topic_l2",
         "value": ""
       }, {
         "parameter": "chosen_issue",
@@ -165,6 +192,15 @@
         "parameter": "clan",
         "value": "Cek Top Up E-wallet"
       }, {
+        "parameter": "topic_l0",
+        "value": "Transfer \u0026 Payment"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Topup E-Wallet"
+      }, {
+        "parameter": "topic_l2",
+        "value": ""
+      }, {
         "parameter": "chosen_issue",
         "value": "dispute__cek_top_up_e_wallet"
       } ]
@@ -200,6 +236,15 @@
         "value": "SLA::20D"
       }, {
         "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "topic_l0",
+        "value": "Transfer \u0026 Payment"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Bank Transfer"
+      }, {
+        "parameter": "topic_l2",
         "value": ""
       }, {
         "parameter": "chosen_issue",
@@ -239,6 +284,15 @@
         "parameter": "clan",
         "value": ""
       }, {
+        "parameter": "topic_l0",
+        "value": "Transfer \u0026 Payment"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Jagopay"
+      }, {
+        "parameter": "topic_l2",
+        "value": ""
+      }, {
         "parameter": "chosen_issue",
         "value": "dispute__cek_transaksi_jagopay"
       } ]
@@ -275,6 +329,15 @@
       }, {
         "parameter": "clan",
         "value": "Cek Transaksi Kartu"
+      }, {
+        "parameter": "topic_l0",
+        "value": "Transfer \u0026 Payment"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Card Transaction"
+      }, {
+        "parameter": "topic_l2",
+        "value": ""
       }, {
         "parameter": "chosen_issue",
         "value": "dispute__cek_transaksi_kartu"
@@ -313,6 +376,15 @@
         "parameter": "clan",
         "value": "If Remarks"
       }, {
+        "parameter": "topic_l0",
+        "value": "Transfer \u0026 Payment"
+      }, {
+        "parameter": "topic_l1",
+        "value": "QRIS"
+      }, {
+        "parameter": "topic_l2",
+        "value": ""
+      }, {
         "parameter": "chosen_issue",
         "value": "dispute__cek_transaksi_qris"
       } ]
@@ -349,6 +421,15 @@
       }, {
         "parameter": "clan",
         "value": "If Remarks"
+      }, {
+        "parameter": "topic_l0",
+        "value": "Transfer \u0026 Payment"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Bank Transfer"
+      }, {
+        "parameter": "topic_l2",
+        "value": ""
       }, {
         "parameter": "chosen_issue",
         "value": "dispute__cek_transfer"

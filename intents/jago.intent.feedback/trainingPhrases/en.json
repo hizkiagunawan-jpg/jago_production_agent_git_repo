@@ -1,0 +1,39 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "i want to give feedback"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i have a feature suggestion"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i want to suggest a feature"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "feedback for the app"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "i have an idea for a new feature"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "suggestion for jago app"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

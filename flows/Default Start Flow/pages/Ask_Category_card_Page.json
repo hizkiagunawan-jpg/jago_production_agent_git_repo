@@ -54,6 +54,15 @@
         "parameter": "clan",
         "value": ""
       }, {
+        "parameter": "topic_l0",
+        "value": "Card"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Card Issuance \u0026 Delivery"
+      }, {
+        "parameter": "topic_l2",
+        "value": "Delivery status inquiry"
+      }, {
         "parameter": "chosen_issue",
         "value": "card__card_follow_up"
       } ]
@@ -91,6 +100,15 @@
         "parameter": "clan",
         "value": ""
       }, {
+        "parameter": "topic_l0",
+        "value": "Card"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Card Issuance \u0026 Delivery"
+      }, {
+        "parameter": "topic_l2",
+        "value": "Delivery status inquiry"
+      }, {
         "parameter": "chosen_issue",
         "value": "card__check_card_delivery"
       } ]
@@ -127,6 +145,15 @@
       }, {
         "parameter": "clan",
         "value": ""
+      }, {
+        "parameter": "topic_l0",
+        "value": "Card"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Card Issuance \u0026 Delivery"
+      }, {
+        "parameter": "topic_l2",
+        "value": "Delivery status inquiry"
       }, {
         "parameter": "chosen_issue",
         "value": "card__pending_courier_ob_card"

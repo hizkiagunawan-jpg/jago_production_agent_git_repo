@@ -143,6 +143,14 @@
     },
     "targetPage": "Ask_Team_Page",
     "name": "d102cc37-9b23-5313-9877-7c6cc577e05c"
+  }, {
+    "intent": "jago.intent.feedback",
+    "condition": "$session.params.l0_team = null OR $session.params.l0_team = \"\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Feedback_Page",
+    "name": "17656d8b-b433-5761-aaac-5ac075cf6712"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",

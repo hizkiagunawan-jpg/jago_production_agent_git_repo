@@ -54,6 +54,15 @@
         "parameter": "clan",
         "value": ""
       }, {
+        "parameter": "topic_l0",
+        "value": "KYC \u0026 Verification / Onboarding"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Post-onboarding verification"
+      }, {
+        "parameter": "topic_l2",
+        "value": "Others"
+      }, {
         "parameter": "chosen_issue",
         "value": "cdd__escalation_outreach_customer_information"
       } ]
@@ -91,6 +100,15 @@
         "parameter": "clan",
         "value": ""
       }, {
+        "parameter": "topic_l0",
+        "value": "KYC \u0026 Verification / Onboarding"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Post-onboarding verification"
+      }, {
+        "parameter": "topic_l2",
+        "value": "Problem with ID document"
+      }, {
         "parameter": "chosen_issue",
         "value": "cdd__escalation_outreach_ktp_customer_s_ektp_"
       } ]
@@ -127,6 +145,15 @@
       }, {
         "parameter": "clan",
         "value": ""
+      }, {
+        "parameter": "topic_l0",
+        "value": "KYC \u0026 Verification / Onboarding"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Post-onboarding verification"
+      }, {
+        "parameter": "topic_l2",
+        "value": "Problem with ID document"
       }, {
         "parameter": "chosen_issue",
         "value": "cdd__escalation_outreach_ktp_customer_s_ektp__2"

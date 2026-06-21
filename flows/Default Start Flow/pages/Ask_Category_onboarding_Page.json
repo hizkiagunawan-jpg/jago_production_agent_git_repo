@@ -54,6 +54,15 @@
         "parameter": "clan",
         "value": ""
       }, {
+        "parameter": "topic_l0",
+        "value": "Account / Profile"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Customer Data Update"
+      }, {
+        "parameter": "topic_l2",
+        "value": "Others"
+      }, {
         "parameter": "chosen_issue",
         "value": "onboarding__data_maintenance_request"
       } ]
@@ -90,6 +99,15 @@
       }, {
         "parameter": "clan",
         "value": ""
+      }, {
+        "parameter": "topic_l0",
+        "value": "KYC \u0026 Verification / Onboarding"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Post-onboarding verification"
+      }, {
+        "parameter": "topic_l2",
+        "value": "Problem with ID document"
       }, {
         "parameter": "chosen_issue",
         "value": "onboarding__outreach_ktp_cropped"
@@ -128,6 +146,15 @@
         "parameter": "clan",
         "value": ""
       }, {
+        "parameter": "topic_l0",
+        "value": "KYC \u0026 Verification / Onboarding"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Post-onboarding verification"
+      }, {
+        "parameter": "topic_l2",
+        "value": "Problem with ID document"
+      }, {
         "parameter": "chosen_issue",
         "value": "onboarding__outreach_ktp_unclear"
       } ]
@@ -165,6 +192,15 @@
         "parameter": "clan",
         "value": ""
       }, {
+        "parameter": "topic_l0",
+        "value": "Account / Profile"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Account unblocking"
+      }, {
+        "parameter": "topic_l2",
+        "value": "Bank initiated unblocking"
+      }, {
         "parameter": "chosen_issue",
         "value": "onboarding__unblock_request_ktp_proper"
       } ]
@@ -201,6 +237,15 @@
       }, {
         "parameter": "clan",
         "value": ""
+      }, {
+        "parameter": "topic_l0",
+        "value": "Account / Profile"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Account unblocking"
+      }, {
+        "parameter": "topic_l2",
+        "value": "Bank initiated unblocking"
       }, {
         "parameter": "chosen_issue",
         "value": "onboarding__unblock_request_liveness_proper"

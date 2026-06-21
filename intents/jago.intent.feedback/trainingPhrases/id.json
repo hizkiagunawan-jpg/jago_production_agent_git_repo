@@ -1,0 +1,57 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "saya mau memberi saran"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "mau kasih masukan untuk aplikasi"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "usul fitur baru dong"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "ada saran untuk jago"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "saran pengembangan aplikasi"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "mau kasih feedback fitur"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "masukan untuk aplikasi jago"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "saya punya ide fitur baru"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "saran dan masukan"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  } ]
+}

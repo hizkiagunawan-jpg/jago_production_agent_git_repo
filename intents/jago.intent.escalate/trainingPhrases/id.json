@@ -139,7 +139,7 @@
     "languageCode": "id"
   }, {
     "parts": [ {
-      "text": "bagaimana cara menghubungi admin jago langsung"
+      "text": "mau dihubungkan ke admin jago langsung"
     } ],
     "repeatCount": 1,
     "languageCode": "id"
@@ -176,6 +176,18 @@
   }, {
     "parts": [ {
       "text": "bisa bypass bot, mau langsung komplain ke staff"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "saya ingin terhubung dengan agen manusia"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "tolong hubungkan saya ke admin jago"
     } ],
     "repeatCount": 1,
     "languageCode": "id"

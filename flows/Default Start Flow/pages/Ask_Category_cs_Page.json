@@ -54,6 +54,15 @@
         "parameter": "clan",
         "value": ""
       }, {
+        "parameter": "topic_l0",
+        "value": "Others"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Others"
+      }, {
+        "parameter": "topic_l2",
+        "value": ""
+      }, {
         "parameter": "chosen_issue",
         "value": "cs__internal_request"
       } ]
@@ -89,6 +98,15 @@
         "value": "SLA::8H"
       }, {
         "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "topic_l0",
+        "value": "Others"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Others"
+      }, {
+        "parameter": "topic_l2",
         "value": ""
       }, {
         "parameter": "chosen_issue",
@@ -128,6 +146,15 @@
         "parameter": "clan",
         "value": ""
       }, {
+        "parameter": "topic_l0",
+        "value": "Others"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Others"
+      }, {
+        "parameter": "topic_l2",
+        "value": ""
+      }, {
         "parameter": "chosen_issue",
         "value": "cs__permintaan_request"
       } ]
@@ -163,6 +190,15 @@
         "value": "SLA::8H"
       }, {
         "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "topic_l0",
+        "value": "Others"
+      }, {
+        "parameter": "topic_l1",
+        "value": "Others"
+      }, {
+        "parameter": "topic_l2",
         "value": ""
       }, {
         "parameter": "chosen_issue",
