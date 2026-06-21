@@ -1,0 +1,81 @@
+{
+  "name": "9455167c-6680-51f8-823d-209039db4de8",
+  "displayName": "Collect_it_helpdesk__service_request_network",
+  "form": {
+    "parameters": [ {
+      "displayName": "s2_additional_info_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please provide any additional information:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon berikan informasi tambahan:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s10_department_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Department:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Department:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s12_employee_id_number_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Employee ID Number:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Employee ID Number:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s2_additional_info",
+        "value": "$page.params.s2_additional_info_slot"
+      }, {
+        "parameter": "s10_department",
+        "value": "$page.params.s10_department_slot"
+      }, {
+        "parameter": "s12_employee_id_number",
+        "value": "$page.params.s12_employee_id_number_slot"
+      } ]
+    },
+    "targetPage": "IT_Helpdesk_Handoff_Page",
+    "name": "a3f63e28-8218-54ae-9a9e-d51d4771fcfb"
+  } ]
+}

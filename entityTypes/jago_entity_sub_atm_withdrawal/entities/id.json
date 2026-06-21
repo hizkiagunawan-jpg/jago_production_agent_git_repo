@@ -1,0 +1,31 @@
+{
+  "entities": [ {
+    "value": "Debit Card swallowed at ATM Jago",
+    "synonyms": [ "Debit Card swallowed at ATM Jago" ],
+    "languageCode": "id"
+  }, {
+    "value": "Debit Card swallowed at ATM other banks",
+    "synonyms": [ "Debit Card swallowed at ATM other banks" ],
+    "languageCode": "id"
+  }, {
+    "value": "Unauthorized Transaction",
+    "synonyms": [ "Unauthorized Transaction" ],
+    "languageCode": "id"
+  }, {
+    "value": "Received Partial Cash ATM Jago",
+    "synonyms": [ "Received Partial Cash ATM Jago" ],
+    "languageCode": "id"
+  }, {
+    "value": "Received Partial Cash ATM Other Bank",
+    "synonyms": [ "Received Partial Cash ATM Other Bank" ],
+    "languageCode": "id"
+  }, {
+    "value": "Not Receive Cash ATM Jago",
+    "synonyms": [ "Not Receive Cash ATM Jago" ],
+    "languageCode": "id"
+  }, {
+    "value": "Not Receive Cash ATM Other Bank",
+    "synonyms": [ "Not Receive Cash ATM Other Bank" ],
+    "languageCode": "id"
+  } ]
+}

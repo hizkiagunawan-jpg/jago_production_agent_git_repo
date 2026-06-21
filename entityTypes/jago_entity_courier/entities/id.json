@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "JNT",
+    "synonyms": [ "JNT" ],
+    "languageCode": "id"
+  }, {
+    "value": "Ninja",
+    "synonyms": [ "Ninja" ],
+    "languageCode": "id"
+  }, {
+    "value": "Sicepat",
+    "synonyms": [ "Sicepat" ],
+    "languageCode": "id"
+  } ]
+}

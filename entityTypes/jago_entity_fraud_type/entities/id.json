@@ -1,0 +1,547 @@
+{
+  "entities": [ {
+    "value": "56-ATO",
+    "synonyms": [ "56-ATO" ],
+    "languageCode": "id"
+  }, {
+    "value": "60-ATO",
+    "synonyms": [ "60-ATO" ],
+    "languageCode": "id"
+  }, {
+    "value": "64-Enumeration",
+    "synonyms": [ "64-Enumeration" ],
+    "languageCode": "id"
+  }, {
+    "value": "67-Card Delivery Anomaly",
+    "synonyms": [ "67-Card Delivery Anomaly" ],
+    "languageCode": "id"
+  }, {
+    "value": "68-Blacklisted Registration",
+    "synonyms": [ "68-Blacklisted Registration" ],
+    "languageCode": "id"
+  }, {
+    "value": "69-Suspicious Outgoing Transaction",
+    "synonyms": [ "69-Suspicious Outgoing Transaction" ],
+    "languageCode": "id"
+  }, {
+    "value": "71-Suspicious Address of Card Delivery",
+    "synonyms": [ "71-Suspicious Address of Card Delivery" ],
+    "languageCode": "id"
+  }, {
+    "value": "72-ATO Mule Account",
+    "synonyms": [ "72-ATO Mule Account" ],
+    "languageCode": "id"
+  }, {
+    "value": "73-ATO in Nigeria",
+    "synonyms": [ "73-ATO in Nigeria" ],
+    "languageCode": "id"
+  }, {
+    "value": "74-Mule Account Suspicious Pocket Name",
+    "synonyms": [ "74-Mule Account Suspicious Pocket Name" ],
+    "languageCode": "id"
+  }, {
+    "value": "75-Card Delivery Palembang",
+    "synonyms": [ "75-Card Delivery Palembang" ],
+    "languageCode": "id"
+  }, {
+    "value": "76-Suspicious Email",
+    "synonyms": [ "76-Suspicious Email" ],
+    "languageCode": "id"
+  }, {
+    "value": "77-Suspicious Beneficiary",
+    "synonyms": [ "77-Suspicious Beneficiary" ],
+    "languageCode": "id"
+  }, {
+    "value": "78-Suspicious Device Beneficiary",
+    "synonyms": [ "78-Suspicious Device Beneficiary" ],
+    "languageCode": "id"
+  }, {
+    "value": "79-Suspicious Pocket Name",
+    "synonyms": [ "79-Suspicious Pocket Name" ],
+    "languageCode": "id"
+  }, {
+    "value": "80-ATO GP/KP Suspicious Cities",
+    "synonyms": [ "80-ATO GP/KP Suspicious Cities" ],
+    "languageCode": "id"
+  }, {
+    "value": "81-Suspicious Transfer from Same District",
+    "synonyms": [ "81-Suspicious Transfer from Same District" ],
+    "languageCode": "id"
+  }, {
+    "value": "82-ATO-Selling Account",
+    "synonyms": [ "82-ATO-Selling Account" ],
+    "languageCode": "id"
+  }, {
+    "value": "83-Shared Email or Phone Number",
+    "synonyms": [ "83-Shared Email or Phone Number" ],
+    "languageCode": "id"
+  }, {
+    "value": "Account",
+    "synonyms": [ "Account" ],
+    "languageCode": "id"
+  }, {
+    "value": "Account Take Over",
+    "synonyms": [ "Account Take Over" ],
+    "languageCode": "id"
+  }, {
+    "value": "Cards - 3ds",
+    "synonyms": [ "Cards - 3ds" ],
+    "languageCode": "id"
+  }, {
+    "value": "Cards - Non 3ds",
+    "synonyms": [ "Cards - Non 3ds" ],
+    "languageCode": "id"
+  }, {
+    "value": "CNP (Cards not Present)",
+    "synonyms": [ "CNP (Cards not Present)" ],
+    "languageCode": "id"
+  }, {
+    "value": "Counterfeit",
+    "synonyms": [ "Counterfeit" ],
+    "languageCode": "id"
+  }, {
+    "value": "Customer No Response",
+    "synonyms": [ "Customer No Response" ],
+    "languageCode": "id"
+  }, {
+    "value": "Enumeration Attempt",
+    "synonyms": [ "Enumeration Attempt" ],
+    "languageCode": "id"
+  }, {
+    "value": "Fake ID",
+    "synonyms": [ "Fake ID" ],
+    "languageCode": "id"
+  }, {
+    "value": "Fraudulent Onboarding Process",
+    "synonyms": [ "Fraudulent Onboarding Process" ],
+    "languageCode": "id"
+  }, {
+    "value": "Improper liveness Process",
+    "synonyms": [ "Improper liveness Process" ],
+    "languageCode": "id"
+  }, {
+    "value": "Non Fraud",
+    "synonyms": [ "Non Fraud" ],
+    "languageCode": "id"
+  }, {
+    "value": "Payment / Transfer",
+    "synonyms": [ "Payment / Transfer" ],
+    "languageCode": "id"
+  }, {
+    "value": "Promo Abuse",
+    "synonyms": [ "Promo Abuse" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-CRD-001-01",
+    "synonyms": [ "FDS-CRD-001-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-DEL-001-01",
+    "synonyms": [ "FDS-DEL-001-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-DEL-002-01",
+    "synonyms": [ "FDS-DEL-002-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-DEL-003-01",
+    "synonyms": [ "FDS-DEL-003-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-DEL-004-01",
+    "synonyms": [ "FDS-DEL-004-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-DEL-005-01",
+    "synonyms": [ "FDS-DEL-005-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-001-01",
+    "synonyms": [ "FDS-LOG-001-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-002-01",
+    "synonyms": [ "FDS-LOG-002-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-003-01",
+    "synonyms": [ "FDS-LOG-003-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-004-01",
+    "synonyms": [ "FDS-LOG-004-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-005-01",
+    "synonyms": [ "FDS-LOG-005-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-006-01",
+    "synonyms": [ "FDS-LOG-006-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-007-01",
+    "synonyms": [ "FDS-LOG-007-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-008-01",
+    "synonyms": [ "FDS-LOG-008-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-009-01",
+    "synonyms": [ "FDS-LOG-009-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-010-01",
+    "synonyms": [ "FDS-LOG-010-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-011-01",
+    "synonyms": [ "FDS-LOG-011-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-012-01",
+    "synonyms": [ "FDS-LOG-012-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-013-01",
+    "synonyms": [ "FDS-LOG-013-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-013-02",
+    "synonyms": [ "FDS-LOG-013-02" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-013-03",
+    "synonyms": [ "FDS-LOG-013-03" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-014-01",
+    "synonyms": [ "FDS-LOG-014-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-015-01",
+    "synonyms": [ "FDS-LOG-015-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-015-02",
+    "synonyms": [ "FDS-LOG-015-02" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-016-01",
+    "synonyms": [ "FDS-LOG-016-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-017-01",
+    "synonyms": [ "FDS-LOG-017-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-017-03",
+    "synonyms": [ "FDS-LOG-017-03" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-018-01",
+    "synonyms": [ "FDS-LOG-018-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-019-01",
+    "synonyms": [ "FDS-LOG-019-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-020-01",
+    "synonyms": [ "FDS-LOG-020-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-021-01",
+    "synonyms": [ "FDS-LOG-021-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-022-01",
+    "synonyms": [ "FDS-LOG-022-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-023-01",
+    "synonyms": [ "FDS-LOG-023-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-024-01",
+    "synonyms": [ "FDS-LOG-024-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-025-01",
+    "synonyms": [ "FDS-LOG-025-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-026-01",
+    "synonyms": [ "FDS-LOG-026-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-027-02",
+    "synonyms": [ "FDS-LOG-027-02" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-028-01",
+    "synonyms": [ "FDS-LOG-028-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-029-01",
+    "synonyms": [ "FDS-LOG-029-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-030-01",
+    "synonyms": [ "FDS-LOG-030-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-031-01",
+    "synonyms": [ "FDS-LOG-031-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-032-01",
+    "synonyms": [ "FDS-LOG-032-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LP-001-01",
+    "synonyms": [ "FDS-LP-001-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-TRX-001-01",
+    "synonyms": [ "FDS-TRX-001-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-TRX-002-01",
+    "synonyms": [ "FDS-TRX-002-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-TRX-003-01",
+    "synonyms": [ "FDS-TRX-003-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "IF001",
+    "synonyms": [ "IF001" ],
+    "languageCode": "id"
+  }, {
+    "value": "IF002",
+    "synonyms": [ "IF002" ],
+    "languageCode": "id"
+  }, {
+    "value": "IF003",
+    "synonyms": [ "IF003" ],
+    "languageCode": "id"
+  }, {
+    "value": "IF004",
+    "synonyms": [ "IF004" ],
+    "languageCode": "id"
+  }, {
+    "value": "IF005",
+    "synonyms": [ "IF005" ],
+    "languageCode": "id"
+  }, {
+    "value": "IF006",
+    "synonyms": [ "IF006" ],
+    "languageCode": "id"
+  }, {
+    "value": "IF007",
+    "synonyms": [ "IF007" ],
+    "languageCode": "id"
+  }, {
+    "value": "IF008",
+    "synonyms": [ "IF008" ],
+    "languageCode": "id"
+  }, {
+    "value": "IF010",
+    "synonyms": [ "IF010" ],
+    "languageCode": "id"
+  }, {
+    "value": "IF011",
+    "synonyms": [ "IF011" ],
+    "languageCode": "id"
+  }, {
+    "value": "IF012",
+    "synonyms": [ "IF012" ],
+    "languageCode": "id"
+  }, {
+    "value": "IF013",
+    "synonyms": [ "IF013" ],
+    "languageCode": "id"
+  }, {
+    "value": "IF014",
+    "synonyms": [ "IF014" ],
+    "languageCode": "id"
+  }, {
+    "value": "IF015",
+    "synonyms": [ "IF015" ],
+    "languageCode": "id"
+  }, {
+    "value": "IF016",
+    "synonyms": [ "IF016" ],
+    "languageCode": "id"
+  }, {
+    "value": "IF017",
+    "synonyms": [ "IF017" ],
+    "languageCode": "id"
+  }, {
+    "value": "IF018",
+    "synonyms": [ "IF018" ],
+    "languageCode": "id"
+  }, {
+    "value": "IF019",
+    "synonyms": [ "IF019" ],
+    "languageCode": "id"
+  }, {
+    "value": "IF020",
+    "synonyms": [ "IF020" ],
+    "languageCode": "id"
+  }, {
+    "value": "INF001",
+    "synonyms": [ "INF001" ],
+    "languageCode": "id"
+  }, {
+    "value": "INF002",
+    "synonyms": [ "INF002" ],
+    "languageCode": "id"
+  }, {
+    "value": "INF004",
+    "synonyms": [ "INF004" ],
+    "languageCode": "id"
+  }, {
+    "value": "INF005",
+    "synonyms": [ "INF005" ],
+    "languageCode": "id"
+  }, {
+    "value": "JF001",
+    "synonyms": [ "JF001" ],
+    "languageCode": "id"
+  }, {
+    "value": "JF002",
+    "synonyms": [ "JF002" ],
+    "languageCode": "id"
+  }, {
+    "value": "JF003",
+    "synonyms": [ "JF003" ],
+    "languageCode": "id"
+  }, {
+    "value": "JF004",
+    "synonyms": [ "JF004" ],
+    "languageCode": "id"
+  }, {
+    "value": "JF005",
+    "synonyms": [ "JF005" ],
+    "languageCode": "id"
+  }, {
+    "value": "JF006",
+    "synonyms": [ "JF006" ],
+    "languageCode": "id"
+  }, {
+    "value": "JF007",
+    "synonyms": [ "JF007" ],
+    "languageCode": "id"
+  }, {
+    "value": "PC001",
+    "synonyms": [ "PC001" ],
+    "languageCode": "id"
+  }, {
+    "value": "TES002",
+    "synonyms": [ "TES002" ],
+    "languageCode": "id"
+  }, {
+    "value": "TES003",
+    "synonyms": [ "TES003" ],
+    "languageCode": "id"
+  }, {
+    "value": "TES004",
+    "synonyms": [ "TES004" ],
+    "languageCode": "id"
+  }, {
+    "value": "TES005",
+    "synonyms": [ "TES005" ],
+    "languageCode": "id"
+  }, {
+    "value": "84 - Visi Misi Mule Account",
+    "synonyms": [ "84 - Visi Misi Mule Account" ],
+    "languageCode": "id"
+  }, {
+    "value": "85 - Suspicious Source",
+    "synonyms": [ "85 - Suspicious Source" ],
+    "languageCode": "id"
+  }, {
+    "value": "86 - No Self Transfer History",
+    "synonyms": [ "86 - No Self Transfer History" ],
+    "languageCode": "id"
+  }, {
+    "value": "87 - FDS Actioned Alerts \u0026 BOP Not Blocked",
+    "synonyms": [ "87 - FDS Actioned Alerts \u0026 BOP Not Blocked" ],
+    "languageCode": "id"
+  }, {
+    "value": "88 - Sequential Inquiries",
+    "synonyms": [ "88 - Sequential Inquiries" ],
+    "languageCode": "id"
+  }, {
+    "value": "89 - Mass Registration Uncommon Domain",
+    "synonyms": [ "89 - Mass Registration Uncommon Domain" ],
+    "languageCode": "id"
+  }, {
+    "value": "90 - Suspicious Email Similarity",
+    "synonyms": [ "90 - Suspicious Email Similarity" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-LOG-035-01",
+    "synonyms": [ "FDS-LOG-035-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-TRX-004-01",
+    "synonyms": [ "FDS-TRX-004-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-TRX-005-02",
+    "synonyms": [ "FDS-TRX-005-02" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-TRX-007-02",
+    "synonyms": [ "FDS-TRX-007-02" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-TRX-008-01",
+    "synonyms": [ "FDS-TRX-008-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-TRX-009-02",
+    "synonyms": [ "FDS-TRX-009-02" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-TRX-010-01",
+    "synonyms": [ "FDS-TRX-010-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-TRX-011-01",
+    "synonyms": [ "FDS-TRX-011-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-TRX-012-01",
+    "synonyms": [ "FDS-TRX-012-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-TRX-013-01",
+    "synonyms": [ "FDS-TRX-013-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-TRX-014-01",
+    "synonyms": [ "FDS-TRX-014-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-TRX-017-01",
+    "synonyms": [ "FDS-TRX-017-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-TRX-018-01",
+    "synonyms": [ "FDS-TRX-018-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-TRX-020-01",
+    "synonyms": [ "FDS-TRX-020-01" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS-TRX-021-02",
+    "synonyms": [ "FDS-TRX-021-02" ],
+    "languageCode": "id"
+  } ]
+}

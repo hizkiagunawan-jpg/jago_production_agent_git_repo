@@ -1,0 +1,64 @@
+{
+  "name": "f11b285c-c43a-5bee-899c-881ccb7dbd20",
+  "displayName": "Ask_Category_cs_konven_Page",
+  "form": {
+    "parameters": [ {
+      "displayName": "sel_category",
+      "required": true,
+      "entityType": "@jago_cat_cs_konven",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please choose the category (reply with the number or name):\n1. Keluhan / Complaint" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Silakan pilih kategori (balas dengan nomor atau nama):\n1. Keluhan / Complaint" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.sel_category = \"Keluhan / Complaint\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Keluhan / Complaint"
+      }, {
+        "parameter": "l2_category",
+        "value": ""
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": ""
+      }, {
+        "parameter": "sla",
+        "value": ""
+      }, {
+        "parameter": "tag1",
+        "value": ""
+      }, {
+        "parameter": "resolution_time",
+        "value": ""
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "cs_konven__keluhan_complaint"
+      } ]
+    },
+    "targetPage": "Collect_cs_konven__keluhan_complaint",
+    "name": "38042b0b-92da-5463-acbd-447a71d7e1ef"
+  } ]
+}

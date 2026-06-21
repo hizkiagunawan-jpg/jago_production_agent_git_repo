@@ -1,0 +1,187 @@
+{
+  "name": "2e890730-952e-58a9-92d8-892a86dcfcc4",
+  "displayName": "Collect_cs__internal_request",
+  "form": {
+    "parameters": [ {
+      "displayName": "s24_remarks_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please describe your issue or add any notes:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon jelaskan kendala Kakak atau tambahkan catatan:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k31_result_slot",
+      "required": true,
+      "entityType": "@jago_entity_result_status",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please choose the result:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Silakan pilih hasil (result):" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Result",
+                "options": [ {
+                  "text": "Batal Pengiriman",
+                  "value": "Batal Pengiriman"
+                }, {
+                  "text": "Gagal Dihubungi",
+                  "value": "Gagal Dihubungi"
+                }, {
+                  "text": "Kartu Sudah Diterima",
+                  "value": "Kartu Sudah Diterima"
+                }, {
+                  "text": "Tambah Alamat",
+                  "value": "Tambah Alamat"
+                }, {
+                  "text": "DUKCAPIL NOT FOUND - CHECKED",
+                  "value": "DUKCAPIL NOT FOUND - CHECKED"
+                }, {
+                  "text": "FAKE ID - CHECKED",
+                  "value": "FAKE ID - CHECKED"
+                }, {
+                  "text": "FALSE ALERT - UNBLOCK",
+                  "value": "FALSE ALERT - UNBLOCK"
+                }, {
+                  "text": "FALSE ALERT-SAME PERSON",
+                  "value": "FALSE ALERT-SAME PERSON"
+                }, {
+                  "text": "VALID AGENT ERROR REVISE",
+                  "value": "VALID AGENT ERROR REVISE"
+                }, {
+                  "text": "Customer Contacted",
+                  "value": "Customer Contacted"
+                }, {
+                  "text": "Customer Not Found",
+                  "value": "Customer Not Found"
+                }, {
+                  "text": "Customer Uncontacted",
+                  "value": "Customer Uncontacted"
+                }, {
+                  "text": "Fraud Account",
+                  "value": "Fraud Account"
+                }, {
+                  "text": "Setuju",
+                  "value": "Setuju"
+                }, {
+                  "text": "Tidak Bisa Dihubungi",
+                  "value": "Tidak Bisa Dihubungi"
+                }, {
+                  "text": "Tidak Setuju",
+                  "value": "Tidak Setuju"
+                }, {
+                  "text": "Yes",
+                  "value": "Yes"
+                }, {
+                  "text": "No",
+                  "value": "No"
+                } ],
+                "parameter": "k31_result",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Result",
+                "options": [ {
+                  "text": "Batal Pengiriman",
+                  "value": "Batal Pengiriman"
+                }, {
+                  "text": "Gagal Dihubungi",
+                  "value": "Gagal Dihubungi"
+                }, {
+                  "text": "Kartu Sudah Diterima",
+                  "value": "Kartu Sudah Diterima"
+                }, {
+                  "text": "Tambah Alamat",
+                  "value": "Tambah Alamat"
+                }, {
+                  "text": "DUKCAPIL NOT FOUND - CHECKED",
+                  "value": "DUKCAPIL NOT FOUND - CHECKED"
+                }, {
+                  "text": "FAKE ID - CHECKED",
+                  "value": "FAKE ID - CHECKED"
+                }, {
+                  "text": "FALSE ALERT - UNBLOCK",
+                  "value": "FALSE ALERT - UNBLOCK"
+                }, {
+                  "text": "FALSE ALERT-SAME PERSON",
+                  "value": "FALSE ALERT-SAME PERSON"
+                }, {
+                  "text": "VALID AGENT ERROR REVISE",
+                  "value": "VALID AGENT ERROR REVISE"
+                }, {
+                  "text": "Nasabah Terhubung",
+                  "value": "Customer Contacted"
+                }, {
+                  "text": "Nasabah Tidak Ditemukan",
+                  "value": "Customer Not Found"
+                }, {
+                  "text": "Nasabah Tidak Terhubung",
+                  "value": "Customer Uncontacted"
+                }, {
+                  "text": "Akun Fraud",
+                  "value": "Fraud Account"
+                }, {
+                  "text": "Setuju",
+                  "value": "Setuju"
+                }, {
+                  "text": "Tidak Bisa Dihubungi",
+                  "value": "Tidak Bisa Dihubungi"
+                }, {
+                  "text": "Tidak Setuju",
+                  "value": "Tidak Setuju"
+                }, {
+                  "text": "Ya",
+                  "value": "Yes"
+                }, {
+                  "text": "Tidak",
+                  "value": "No"
+                } ],
+                "parameter": "k31_result",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s24_remarks",
+        "value": "$page.params.s24_remarks_slot"
+      }, {
+        "parameter": "k31_result",
+        "value": "$page.params.k31_result_slot"
+      } ]
+    },
+    "targetPage": "CS_Handoff_Page",
+    "name": "437443fa-a423-5dd9-8f2b-c1551e303e8d"
+  } ]
+}

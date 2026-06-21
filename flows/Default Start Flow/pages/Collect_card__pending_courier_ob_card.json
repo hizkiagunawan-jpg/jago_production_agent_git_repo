@@ -1,0 +1,357 @@
+{
+  "name": "e03323f6-b014-56f2-a9e2-4741420b4dd9",
+  "displayName": "Collect_card__pending_courier_ob_card",
+  "form": {
+    "parameters": [ {
+      "displayName": "s2_additional_info_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please provide any additional information:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon berikan informasi tambahan:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s5_awb_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the delivery tracking number (AWB):" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan nomor resi/pelacakan pengiriman (AWB):" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k9_courier_slot",
+      "required": true,
+      "entityType": "@jago_entity_courier",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please choose the courier:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Silakan pilih kurir pengiriman:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Courier",
+                "options": [ {
+                  "text": "JNT",
+                  "value": "JNT"
+                }, {
+                  "text": "Ninja",
+                  "value": "Ninja"
+                }, {
+                  "text": "Sicepat",
+                  "value": "Sicepat"
+                } ],
+                "parameter": "k9_courier",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Courier",
+                "options": [ {
+                  "text": "JNT",
+                  "value": "JNT"
+                }, {
+                  "text": "Ninja",
+                  "value": "Ninja"
+                }, {
+                  "text": "Sicepat",
+                  "value": "Sicepat"
+                } ],
+                "parameter": "k9_courier",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "d6_follow_up_date_slot",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What was the follow-up date of your previous report?" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Kapan tanggal tindak lanjut (follow up) laporan sebelumnya?" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s16_location_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please provide the full delivery address/location:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon berikan alamat/lokasi pengiriman lengkap:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "d8_pick_up_date_slot",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please specify your preferred pick-up date:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon tentukan tanggal penjemputan (pick up):" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s24_remarks_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please describe your issue or add any notes:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon jelaskan kendala Kakak atau tambahkan catatan:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k34_sub_card_delivery_slot",
+      "required": true,
+      "entityType": "@jago_entity_sub_card_delivery",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please choose your card delivery status:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Silakan pilih status pengiriman kartu Kakak:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Sub Card Delivery",
+                "options": [ {
+                  "text": "Kartu Belum Sampai-Over SLA",
+                  "value": "Kartu Belum Sampai-Over SLA"
+                }, {
+                  "text": "Kartu Belum Sampai-Penambahan Alamat",
+                  "value": "Kartu Belum Sampai-Penambahan Alamat"
+                }, {
+                  "text": "Kartu Belum Sampai-Penerima Tidak dikenal",
+                  "value": "Kartu Belum Sampai-Penerima Tidak dikenal"
+                }, {
+                  "text": "Kartu Belum Sampai-Retry Pengiriman",
+                  "value": "Kartu Belum Sampai-Retry Pengiriman"
+                }, {
+                  "text": "Kartu Rusak",
+                  "value": "Kartu Rusak"
+                }, {
+                  "text": "Pembatalan Kirim Kartu",
+                  "value": "Pembatalan Kirim Kartu"
+                }, {
+                  "text": "Penambahan Alamat",
+                  "value": "Penambahan Alamat"
+                }, {
+                  "text": "Penerima Tidak Dikenal",
+                  "value": "Penerima Tidak Dikenal"
+                } ],
+                "parameter": "k34_sub_card_delivery",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Sub Card Delivery",
+                "options": [ {
+                  "text": "Kartu Belum Sampai-Over SLA",
+                  "value": "Kartu Belum Sampai-Over SLA"
+                }, {
+                  "text": "Kartu Belum Sampai-Penambahan Alamat",
+                  "value": "Kartu Belum Sampai-Penambahan Alamat"
+                }, {
+                  "text": "Kartu Belum Sampai-Penerima Tidak dikenal",
+                  "value": "Kartu Belum Sampai-Penerima Tidak dikenal"
+                }, {
+                  "text": "Kartu Belum Sampai-Retry Pengiriman",
+                  "value": "Kartu Belum Sampai-Retry Pengiriman"
+                }, {
+                  "text": "Kartu Rusak",
+                  "value": "Kartu Rusak"
+                }, {
+                  "text": "Pembatalan Kirim Kartu",
+                  "value": "Pembatalan Kirim Kartu"
+                }, {
+                  "text": "Penambahan Alamat",
+                  "value": "Penambahan Alamat"
+                }, {
+                  "text": "Penerima Tidak Dikenal",
+                  "value": "Penerima Tidak Dikenal"
+                } ],
+                "parameter": "k34_sub_card_delivery",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k35_sub_card_report_slot",
+      "required": true,
+      "entityType": "@jago_entity_sub_card_report",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please choose the card report reason:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Silakan pilih alasan pelaporan kartu:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Sub Card Report",
+                "options": [ {
+                  "text": "Lost Card",
+                  "value": "Lost Card"
+                }, {
+                  "text": "Outbound Call Card",
+                  "value": "Outbound Call Card"
+                }, {
+                  "text": "Return to Bank",
+                  "value": "Return to Bank"
+                } ],
+                "parameter": "k35_sub_card_report",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Sub Card Report",
+                "options": [ {
+                  "text": "Kartu Hilang",
+                  "value": "Lost Card"
+                }, {
+                  "text": "Panggilan Keluar (Outbound Call) Kartu",
+                  "value": "Outbound Call Card"
+                }, {
+                  "text": "Dikembalikan ke Bank",
+                  "value": "Return to Bank"
+                } ],
+                "parameter": "k35_sub_card_report",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s2_additional_info",
+        "value": "$page.params.s2_additional_info_slot"
+      }, {
+        "parameter": "s5_awb",
+        "value": "$page.params.s5_awb_slot"
+      }, {
+        "parameter": "k9_courier",
+        "value": "$page.params.k9_courier_slot"
+      }, {
+        "parameter": "d6_follow_up_date",
+        "value": "$page.params.d6_follow_up_date_slot"
+      }, {
+        "parameter": "s16_location",
+        "value": "$page.params.s16_location_slot"
+      }, {
+        "parameter": "d8_pick_up_date",
+        "value": "$page.params.d8_pick_up_date_slot"
+      }, {
+        "parameter": "s24_remarks",
+        "value": "$page.params.s24_remarks_slot"
+      }, {
+        "parameter": "k34_sub_card_delivery",
+        "value": "$page.params.k34_sub_card_delivery_slot"
+      }, {
+        "parameter": "k35_sub_card_report",
+        "value": "$page.params.k35_sub_card_report_slot"
+      } ]
+    },
+    "targetPage": "Card_Handoff_Page",
+    "name": "c7c85a3d-e82e-5991-95b9-254a7a7a0e5c"
+  } ]
+}

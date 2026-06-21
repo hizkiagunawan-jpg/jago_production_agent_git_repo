@@ -1,0 +1,78 @@
+{
+  "name": "4addcdde-65b7-47be-acc5-ae6f9750689d",
+  "displayName": "Card_Handoff_Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "All right. I will connect you to our Jago Card specialist team to check the delivery status of your physical debit card. Please wait a moment." ]
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Baik, Kak. Saya akan segera menghubungkan Kakak ke tim spesialis Jago Card untuk mengecek status pengiriman kartu debit fisik Kakak. Mohon tunggu sebentar, ya." ]
+      },
+      "languageCode": "id"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "CLAN": "$session.params.clan",
+          "CUSTOM_FIELDS": {
+            "d6_follow_up_date": "$session.params.d6_follow_up_date",
+            "d8_pick_up_date": "$session.params.d8_pick_up_date",
+            "k31_result": "$session.params.k31_result",
+            "k34_sub_card_delivery": "$session.params.k34_sub_card_delivery",
+            "k35_sub_card_report": "$session.params.k35_sub_card_report",
+            "k9_courier": "$session.params.k9_courier",
+            "s16_location": "$session.params.s16_location",
+            "s24_remarks": "$session.params.s24_remarks",
+            "s2_additional_info": "$session.params.s2_additional_info",
+            "s5_awb": "$session.params.s5_awb"
+          },
+          "GROUP_CODE": "$session.params.group_code",
+          "L0_TEAM": "$session.params.l0_team",
+          "L1_FORM": "$session.params.l1_form",
+          "L2_CATEGORY": "$session.params.l2_category",
+          "L3_SUB_CATEGORY": "$session.params.l3_sub_category",
+          "L4_SUB_SUB_CATEGORY": "$session.params.l4_sub_sub_category",
+          "RESOLUTION_TIME": "$session.params.resolution_time",
+          "SLA": "$session.params.sla",
+          "TAG1": "$session.params.tag1",
+          "action": "HUMAN_ESCALATION"
+        }
+      },
+      "languageCode": "en"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "CLAN": "$session.params.clan",
+          "CUSTOM_FIELDS": {
+            "d6_follow_up_date": "$session.params.d6_follow_up_date",
+            "d8_pick_up_date": "$session.params.d8_pick_up_date",
+            "k31_result": "$session.params.k31_result",
+            "k34_sub_card_delivery": "$session.params.k34_sub_card_delivery",
+            "k35_sub_card_report": "$session.params.k35_sub_card_report",
+            "k9_courier": "$session.params.k9_courier",
+            "s16_location": "$session.params.s16_location",
+            "s24_remarks": "$session.params.s24_remarks",
+            "s2_additional_info": "$session.params.s2_additional_info",
+            "s5_awb": "$session.params.s5_awb"
+          },
+          "GROUP_CODE": "$session.params.group_code",
+          "L0_TEAM": "$session.params.l0_team",
+          "L1_FORM": "$session.params.l1_form",
+          "L2_CATEGORY": "$session.params.l2_category",
+          "L3_SUB_CATEGORY": "$session.params.l3_sub_category",
+          "L4_SUB_SUB_CATEGORY": "$session.params.l4_sub_sub_category",
+          "RESOLUTION_TIME": "$session.params.resolution_time",
+          "SLA": "$session.params.sla",
+          "TAG1": "$session.params.tag1",
+          "action": "HUMAN_ESCALATION"
+        }
+      },
+      "languageCode": "id"
+    } ]
+  }
+}

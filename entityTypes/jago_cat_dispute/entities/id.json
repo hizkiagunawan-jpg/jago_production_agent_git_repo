@@ -1,0 +1,39 @@
+{
+  "entities": [ {
+    "value": "Incoming Claim",
+    "synonyms": [ "Incoming Claim", "Klaim Masuk", "1" ],
+    "languageCode": "id"
+  }, {
+    "value": "Internal Chargeback",
+    "synonyms": [ "Internal Chargeback", "Chargeback Internal", "2" ],
+    "languageCode": "id"
+  }, {
+    "value": "Cek Biller",
+    "synonyms": [ "Cek Biller", "3" ],
+    "languageCode": "id"
+  }, {
+    "value": "Cek Top Up E-wallet",
+    "synonyms": [ "Cek Top Up E-wallet", "4" ],
+    "languageCode": "id"
+  }, {
+    "value": "Cek Transaksi BI Fast",
+    "synonyms": [ "Cek Transaksi BI Fast", "5" ],
+    "languageCode": "id"
+  }, {
+    "value": "Cek Transaksi Jagopay",
+    "synonyms": [ "Cek Transaksi Jagopay", "6" ],
+    "languageCode": "id"
+  }, {
+    "value": "Cek Transaksi Kartu",
+    "synonyms": [ "Cek Transaksi Kartu", "7" ],
+    "languageCode": "id"
+  }, {
+    "value": "Cek Transaksi QRIS",
+    "synonyms": [ "Cek Transaksi QRIS", "8" ],
+    "languageCode": "id"
+  }, {
+    "value": "Cek Transfer",
+    "synonyms": [ "Cek Transfer", "9" ],
+    "languageCode": "id"
+  } ]
+}

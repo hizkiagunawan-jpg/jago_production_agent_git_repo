@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "Escalation - Outreach Customer Information",
+    "synonyms": [ "Escalation - Outreach Customer Information", "Eskalasi - Outreach Informasi Nasabah", "1" ],
+    "languageCode": "en"
+  }, {
+    "value": "Escalation - Outreach KTP - Customer's eKTP is Cropped",
+    "synonyms": [ "Escalation - Outreach KTP - Customer's eKTP is Cropped", "Eskalasi - Outreach KTP - eKTP Nasabah Terpotong", "2" ],
+    "languageCode": "en"
+  }, {
+    "value": "Escalation - Outreach KTP - Customer's eKTP is Unclear",
+    "synonyms": [ "Escalation - Outreach KTP - Customer's eKTP is Unclear", "Eskalasi - Outreach KTP - eKTP Nasabah Tidak Jelas", "3" ],
+    "languageCode": "en"
+  } ]
+}

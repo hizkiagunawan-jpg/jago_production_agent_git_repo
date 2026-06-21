@@ -1,0 +1,47 @@
+{
+  "entities": [ {
+    "value": "Blocked",
+    "synonyms": [ "Blocked", "Diblokir" ],
+    "languageCode": "en"
+  }, {
+    "value": "Declined",
+    "synonyms": [ "Declined", "Ditolak" ],
+    "languageCode": "en"
+  }, {
+    "value": "KTP BOP Error",
+    "synonyms": [ "KTP BOP Error", "Error KTP BOP" ],
+    "languageCode": "en"
+  }, {
+    "value": "No Dukcapil Photo",
+    "synonyms": [ "No Dukcapil Photo", "Tidak Ada Foto Dukcapil" ],
+    "languageCode": "en"
+  }, {
+    "value": "Refunded",
+    "synonyms": [ "Refunded", "Dana Dikembalikan" ],
+    "languageCode": "en"
+  }, {
+    "value": "Same Person",
+    "synonyms": [ "Same Person", "Orang yang Sama" ],
+    "languageCode": "en"
+  }, {
+    "value": "False Positive",
+    "synonyms": [ "False Positive", "Positif Palsu" ],
+    "languageCode": "en"
+  }, {
+    "value": "True Positive",
+    "synonyms": [ "True Positive", "Positif Benar" ],
+    "languageCode": "en"
+  }, {
+    "value": "Customer No Reply",
+    "synonyms": [ "Customer No Reply", "Nasabah Tidak Merespons" ],
+    "languageCode": "en"
+  }, {
+    "value": "Approved",
+    "synonyms": [ "Approved", "Disetujui" ],
+    "languageCode": "en"
+  }, {
+    "value": "Rejected",
+    "synonyms": [ "Rejected", "Ditolak" ],
+    "languageCode": "en"
+  } ]
+}

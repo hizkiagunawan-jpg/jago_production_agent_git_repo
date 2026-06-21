@@ -1,0 +1,360 @@
+{
+  "name": "1d14a39b-0160-5c54-9175-c1eaea8a744e",
+  "displayName": "Ask_Category_dispute_Page",
+  "form": {
+    "parameters": [ {
+      "displayName": "sel_category",
+      "required": true,
+      "entityType": "@jago_cat_dispute",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please choose the category (reply with the number or name):\n1. Incoming Claim\n2. Internal Chargeback\n3. Cek Biller\n4. Cek Top Up E-wallet\n5. Cek Transaksi BI Fast\n6. Cek Transaksi Jagopay\n7. Cek Transaksi Kartu\n8. Cek Transaksi QRIS\n9. Cek Transfer" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Silakan pilih kategori (balas dengan nomor atau nama):\n1. Klaim Masuk\n2. Chargeback Internal\n3. Cek Biller\n4. Cek Top Up E-wallet\n5. Cek Transaksi BI Fast\n6. Cek Transaksi Jagopay\n7. Cek Transaksi Kartu\n8. Cek Transaksi QRIS\n9. Cek Transfer" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.sel_category = \"Incoming Claim\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Chargeback"
+      }, {
+        "parameter": "l2_category",
+        "value": "Incoming Claim"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "dispute_l2"
+      }, {
+        "parameter": "sla",
+        "value": ""
+      }, {
+        "parameter": "tag1",
+        "value": "Dispute::Chargeback"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::8H"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "dispute__incoming_claim"
+      } ]
+    },
+    "targetPage": "Collect_dispute__incoming_claim_1",
+    "name": "2b53b9bb-6041-5ff1-8610-3f153538814b"
+  }, {
+    "condition": "$session.params.sel_category = \"Internal Chargeback\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Chargeback"
+      }, {
+        "parameter": "l2_category",
+        "value": "Internal Chargeback"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "dispute_l2"
+      }, {
+        "parameter": "sla",
+        "value": ""
+      }, {
+        "parameter": "tag1",
+        "value": "Dispute::Chargeback"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::8H"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "dispute__internal_chargeback"
+      } ]
+    },
+    "targetPage": "Collect_dispute__internal_chargeback_1",
+    "name": "38425492-1a61-5bf3-b05d-a11f4e1d4839"
+  }, {
+    "condition": "$session.params.sel_category = \"Cek Biller\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Permintaan / Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "Cek Biller"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "dispute_l1, dispute_l2"
+      }, {
+        "parameter": "sla",
+        "value": ""
+      }, {
+        "parameter": "tag1",
+        "value": "Internal SLA"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::8H"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "dispute__cek_biller"
+      } ]
+    },
+    "targetPage": "Collect_dispute__cek_biller",
+    "name": "60053d8e-b4f0-5a20-8817-a00c40db5e59"
+  }, {
+    "condition": "$session.params.sel_category = \"Cek Top Up E-wallet\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Permintaan / Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "Cek Top Up E-wallet"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "dispute_l1"
+      }, {
+        "parameter": "sla",
+        "value": ""
+      }, {
+        "parameter": "tag1",
+        "value": "Dispute::Topup E-Wallet"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::20D"
+      }, {
+        "parameter": "clan",
+        "value": "Cek Top Up E-wallet"
+      }, {
+        "parameter": "chosen_issue",
+        "value": "dispute__cek_top_up_e_wallet"
+      } ]
+    },
+    "targetPage": "Collect_dispute__cek_top_up_e_wallet_1",
+    "name": "8bf9a2e9-bcdc-57ee-9f75-44a54eb835f0"
+  }, {
+    "condition": "$session.params.sel_category = \"Cek Transaksi BI Fast\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Permintaan / Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "Cek Transaksi BI Fast"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "dispute_l1"
+      }, {
+        "parameter": "sla",
+        "value": ""
+      }, {
+        "parameter": "tag1",
+        "value": "Dispute::Transfer BIFast Klaim Refund"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::20D"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "dispute__cek_transaksi_bi_fast"
+      } ]
+    },
+    "targetPage": "Collect_dispute__cek_transaksi_bi_fast",
+    "name": "46b6c0bd-e049-5eab-bc65-1f0bb66f352e"
+  }, {
+    "condition": "$session.params.sel_category = \"Cek Transaksi Jagopay\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Permintaan / Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "Cek Transaksi Jagopay"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "dispute_l1"
+      }, {
+        "parameter": "sla",
+        "value": ""
+      }, {
+        "parameter": "tag1",
+        "value": "Internal SLA"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::8H"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "dispute__cek_transaksi_jagopay"
+      } ]
+    },
+    "targetPage": "Collect_dispute__cek_transaksi_jagopay",
+    "name": "ff0b9ed1-fd9c-577f-af18-454b8ffeb211"
+  }, {
+    "condition": "$session.params.sel_category = \"Cek Transaksi Kartu\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Permintaan / Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "Cek Transaksi Kartu"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "dispute_l1"
+      }, {
+        "parameter": "sla",
+        "value": ""
+      }, {
+        "parameter": "tag1",
+        "value": "Dispute::Debit Card Check"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::60D"
+      }, {
+        "parameter": "clan",
+        "value": "Cek Transaksi Kartu"
+      }, {
+        "parameter": "chosen_issue",
+        "value": "dispute__cek_transaksi_kartu"
+      } ]
+    },
+    "targetPage": "Collect_dispute__cek_transaksi_kartu_1",
+    "name": "7019fcaa-c8d2-592a-8eb7-e765f118b4f3"
+  }, {
+    "condition": "$session.params.sel_category = \"Cek Transaksi QRIS\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Permintaan / Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "Cek Transaksi QRIS"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "dispute_l1"
+      }, {
+        "parameter": "sla",
+        "value": ""
+      }, {
+        "parameter": "tag1",
+        "value": "Dispute::QRIS Transaction Check"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::60D"
+      }, {
+        "parameter": "clan",
+        "value": "If Remarks"
+      }, {
+        "parameter": "chosen_issue",
+        "value": "dispute__cek_transaksi_qris"
+      } ]
+    },
+    "targetPage": "Collect_dispute__cek_transaksi_qris_1",
+    "name": "38e1d8d8-27fb-504e-a281-e0ceafd43cd1"
+  }, {
+    "condition": "$session.params.sel_category = \"Cek Transfer\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Permintaan / Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "Cek Transfer"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "dispute_l1"
+      }, {
+        "parameter": "sla",
+        "value": ""
+      }, {
+        "parameter": "tag1",
+        "value": "Dispute::Transfer GPN Klaim Refund"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::20D"
+      }, {
+        "parameter": "clan",
+        "value": "If Remarks"
+      }, {
+        "parameter": "chosen_issue",
+        "value": "dispute__cek_transfer"
+      } ]
+    },
+    "targetPage": "Collect_dispute__cek_transfer",
+    "name": "db28636a-0fb8-516c-bbdb-3c415befaa68"
+  } ]
+}

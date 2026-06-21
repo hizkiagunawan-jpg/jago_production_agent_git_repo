@@ -1,0 +1,255 @@
+{
+  "name": "f905514b-5c89-57c5-b164-44da4be3831e",
+  "displayName": "Collect_cs__permintaan_request",
+  "form": {
+    "parameters": [ {
+      "displayName": "s24_remarks_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please describe your issue or add any notes:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon jelaskan kendala Kakak atau tambahkan catatan:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s17_main_ticket_no_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Main Ticket No:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Main Ticket No:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s18_master_ticket_no_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Master Ticket No:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Master Ticket No:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k26_partner_slot",
+      "required": true,
+      "entityType": "@jago_entity_partner",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please choose the partner:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Silakan pilih partner/mitra:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Partner",
+                "options": [ {
+                  "text": "AdaKami",
+                  "value": "AdaKami"
+                }, {
+                  "text": "Amaan",
+                  "value": "Amaan"
+                }, {
+                  "text": "Atome",
+                  "value": "Atome"
+                }, {
+                  "text": "BFI Finance Indonesia",
+                  "value": "BFI Finance Indonesia"
+                }, {
+                  "text": "BNI Finance",
+                  "value": "BNI Finance"
+                }, {
+                  "text": "Bibit",
+                  "value": "Bibit"
+                }, {
+                  "text": "Buana Finance",
+                  "value": "Buana Finance"
+                }, {
+                  "text": "CarSome",
+                  "value": "CarSome"
+                }, {
+                  "text": "Dhanapala",
+                  "value": "Dhanapala"
+                }, {
+                  "text": "Easy Cash",
+                  "value": "Easy Cash"
+                }, {
+                  "text": "Gojek",
+                  "value": "Gojek"
+                }, {
+                  "text": "Gopay Unified",
+                  "value": "Gopay Unified"
+                }, {
+                  "text": "Home Credit",
+                  "value": "Home Credit"
+                }, {
+                  "text": "Indomobil",
+                  "value": "Indomobil"
+                }, {
+                  "text": "Jago Stand Alone",
+                  "value": "Jago Stand Alone"
+                }, {
+                  "text": "Kredit Pintar",
+                  "value": "Kredit Pintar"
+                }, {
+                  "text": "MAB - Gopaylater",
+                  "value": "MAB - Gopaylater"
+                }, {
+                  "text": "MGR - Findaya",
+                  "value": "MGR - Findaya"
+                }, {
+                  "text": "MNC Guna Usaha",
+                  "value": "MNC Guna Usaha"
+                }, {
+                  "text": "Radana",
+                  "value": "Radana"
+                }, {
+                  "text": "Stockbit",
+                  "value": "Stockbit"
+                }, {
+                  "text": "True Finance",
+                  "value": "True Finance"
+                } ],
+                "parameter": "k26_partner",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Partner",
+                "options": [ {
+                  "text": "AdaKami",
+                  "value": "AdaKami"
+                }, {
+                  "text": "Amaan",
+                  "value": "Amaan"
+                }, {
+                  "text": "Atome",
+                  "value": "Atome"
+                }, {
+                  "text": "BFI Finance Indonesia",
+                  "value": "BFI Finance Indonesia"
+                }, {
+                  "text": "BNI Finance",
+                  "value": "BNI Finance"
+                }, {
+                  "text": "Bibit",
+                  "value": "Bibit"
+                }, {
+                  "text": "Buana Finance",
+                  "value": "Buana Finance"
+                }, {
+                  "text": "CarSome",
+                  "value": "CarSome"
+                }, {
+                  "text": "Dhanapala",
+                  "value": "Dhanapala"
+                }, {
+                  "text": "Easy Cash",
+                  "value": "Easy Cash"
+                }, {
+                  "text": "Gojek",
+                  "value": "Gojek"
+                }, {
+                  "text": "Gopay Unified",
+                  "value": "Gopay Unified"
+                }, {
+                  "text": "Home Credit",
+                  "value": "Home Credit"
+                }, {
+                  "text": "Indomobil",
+                  "value": "Indomobil"
+                }, {
+                  "text": "Jago Stand Alone",
+                  "value": "Jago Stand Alone"
+                }, {
+                  "text": "Kredit Pintar",
+                  "value": "Kredit Pintar"
+                }, {
+                  "text": "MAB - Gopaylater",
+                  "value": "MAB - Gopaylater"
+                }, {
+                  "text": "MGR - Findaya",
+                  "value": "MGR - Findaya"
+                }, {
+                  "text": "MNC Guna Usaha",
+                  "value": "MNC Guna Usaha"
+                }, {
+                  "text": "Radana",
+                  "value": "Radana"
+                }, {
+                  "text": "Stockbit",
+                  "value": "Stockbit"
+                }, {
+                  "text": "True Finance",
+                  "value": "True Finance"
+                } ],
+                "parameter": "k26_partner",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s24_remarks",
+        "value": "$page.params.s24_remarks_slot"
+      }, {
+        "parameter": "s17_main_ticket_no",
+        "value": "$page.params.s17_main_ticket_no_slot"
+      }, {
+        "parameter": "s18_master_ticket_no",
+        "value": "$page.params.s18_master_ticket_no_slot"
+      }, {
+        "parameter": "k26_partner",
+        "value": "$page.params.k26_partner_slot"
+      } ]
+    },
+    "targetPage": "CS_Handoff_Page",
+    "name": "fb30a928-fd84-5a5f-8532-1157a6335128"
+  } ]
+}

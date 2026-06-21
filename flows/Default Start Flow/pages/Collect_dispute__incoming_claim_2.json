@@ -1,0 +1,105 @@
+{
+  "name": "292e9fa4-272a-5713-8a47-7f405db1bb98",
+  "displayName": "Collect_dispute__incoming_claim_2",
+  "form": {
+    "parameters": [ {
+      "displayName": "k36_sub_transfer_slot",
+      "required": true,
+      "entityType": "@jago_entity_sub_transfer",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Sub Transfer:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Sub Transfer:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Sub Transfer",
+                "options": [ {
+                  "text": "Declined",
+                  "value": "Declined"
+                }, {
+                  "text": "Balance Deducted",
+                  "value": "Balance Deducted"
+                }, {
+                  "text": "Pending Transaction",
+                  "value": "Pending Transaction"
+                }, {
+                  "text": "Submitted Transaction",
+                  "value": "Submitted Transaction"
+                }, {
+                  "text": "Unauthorized transfer",
+                  "value": "Unauthorized transfer"
+                }, {
+                  "text": "Failed transfer",
+                  "value": "Failed transfer"
+                }, {
+                  "text": "Transfer not received by Target Bank",
+                  "value": "Transfer not received by Target Bank"
+                }, {
+                  "text": "Incorrect Transfer",
+                  "value": "Incorrect Transfer"
+                } ],
+                "parameter": "k36_sub_transfer",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Sub Transfer",
+                "options": [ {
+                  "text": "Ditolak",
+                  "value": "Declined"
+                }, {
+                  "text": "Balance Deducted",
+                  "value": "Balance Deducted"
+                }, {
+                  "text": "Pending Transaction",
+                  "value": "Pending Transaction"
+                }, {
+                  "text": "Submitted Transaction",
+                  "value": "Submitted Transaction"
+                }, {
+                  "text": "Unauthorized transfer",
+                  "value": "Unauthorized transfer"
+                }, {
+                  "text": "Failed transfer",
+                  "value": "Failed transfer"
+                }, {
+                  "text": "Transfer not received by Target Bank",
+                  "value": "Transfer not received by Target Bank"
+                }, {
+                  "text": "Incorrect Transfer",
+                  "value": "Incorrect Transfer"
+                } ],
+                "parameter": "k36_sub_transfer",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "k36_sub_transfer",
+        "value": "$page.params.k36_sub_transfer_slot"
+      } ]
+    },
+    "targetPage": "Dispute_Handoff_Page",
+    "name": "aa72d9c6-678f-5cea-b173-3a8068367bb4"
+  } ]
+}

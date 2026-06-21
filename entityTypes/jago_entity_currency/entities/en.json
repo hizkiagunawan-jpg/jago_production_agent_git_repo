@@ -1,0 +1,39 @@
+{
+  "entities": [ {
+    "value": "CNY",
+    "synonyms": [ "CNY" ],
+    "languageCode": "en"
+  }, {
+    "value": "EUR",
+    "synonyms": [ "EUR" ],
+    "languageCode": "en"
+  }, {
+    "value": "GBP",
+    "synonyms": [ "GBP" ],
+    "languageCode": "en"
+  }, {
+    "value": "HKD",
+    "synonyms": [ "HKD" ],
+    "languageCode": "en"
+  }, {
+    "value": "IDR",
+    "synonyms": [ "IDR" ],
+    "languageCode": "en"
+  }, {
+    "value": "JPY",
+    "synonyms": [ "JPY" ],
+    "languageCode": "en"
+  }, {
+    "value": "MYR",
+    "synonyms": [ "MYR" ],
+    "languageCode": "en"
+  }, {
+    "value": "SGD",
+    "synonyms": [ "SGD" ],
+    "languageCode": "en"
+  }, {
+    "value": "USD",
+    "synonyms": [ "USD" ],
+    "languageCode": "en"
+  } ]
+}

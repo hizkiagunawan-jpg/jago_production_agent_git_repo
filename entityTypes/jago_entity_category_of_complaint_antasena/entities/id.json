@@ -1,0 +1,67 @@
+{
+  "entities": [ {
+    "value": "10 - Perubahan/Pemutusan Akad/Perjanjian/Kontrak",
+    "synonyms": [ "10 - Perubahan/Pemutusan Akad/Perjanjian/Kontrak" ],
+    "languageCode": "id"
+  }, {
+    "value": "20 - Permasalahan/kerusakan pada Sistem Teknologi Informasi",
+    "synonyms": [ "20 - Permasalahan/kerusakan pada Sistem Teknologi Informasi" ],
+    "languageCode": "id"
+  }, {
+    "value": "30 - Produk digunakan atau data disalahgunakan oleh orang lain",
+    "synonyms": [ "30 - Produk digunakan atau data disalahgunakan oleh orang lain" ],
+    "languageCode": "id"
+  }, {
+    "value": "40 - Penipuan",
+    "synonyms": [ "40 - Penipuan" ],
+    "languageCode": "id"
+  }, {
+    "value": "50 - Salah Transfer",
+    "synonyms": [ "50 - Salah Transfer" ],
+    "languageCode": "id"
+  }, {
+    "value": "61 - Usaha pengambilan data secara ilegal - Double Swipe",
+    "synonyms": [ "61 - Usaha pengambilan data secara ilegal - Double Swipe" ],
+    "languageCode": "id"
+  }, {
+    "value": "62 - Usaha pengambilan data secara ilegal - Card Trapping",
+    "synonyms": [ "62 - Usaha pengambilan data secara ilegal - Card Trapping" ],
+    "languageCode": "id"
+  }, {
+    "value": "63 - Usaha pengambilan data secara ilegal - Skimming",
+    "synonyms": [ "63 - Usaha pengambilan data secara ilegal - Skimming" ],
+    "languageCode": "id"
+  }, {
+    "value": "69 - Usaha pengambilan data secara ilegal - Lainnya",
+    "synonyms": [ "69 - Usaha pengambilan data secara ilegal - Lainnya" ],
+    "languageCode": "id"
+  }, {
+    "value": "70 - Etika Penagihan/Debt Collector",
+    "synonyms": [ "70 - Etika Penagihan/Debt Collector" ],
+    "languageCode": "id"
+  }, {
+    "value": "80 - Surcharge",
+    "synonyms": [ "80 - Surcharge" ],
+    "languageCode": "id"
+  }, {
+    "value": "90 - Bunga/Biaya Lainnya",
+    "synonyms": [ "90 - Bunga/Biaya Lainnya" ],
+    "languageCode": "id"
+  }, {
+    "value": "100 - Gestun (Penarikan Tunai di merchant)",
+    "synonyms": [ "100 - Gestun (Penarikan Tunai di merchant)" ],
+    "languageCode": "id"
+  }, {
+    "value": "110 - Keringanan Tagihan Kartu Kredit",
+    "synonyms": [ "110 - Keringanan Tagihan Kartu Kredit" ],
+    "languageCode": "id"
+  }, {
+    "value": "120 - Top up Tidak Berhasil",
+    "synonyms": [ "120 - Top up Tidak Berhasil" ],
+    "languageCode": "id"
+  }, {
+    "value": "999 - Lainnya",
+    "synonyms": [ "999 - Lainnya" ],
+    "languageCode": "id"
+  } ]
+}

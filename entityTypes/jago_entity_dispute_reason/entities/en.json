@@ -1,0 +1,35 @@
+{
+  "entities": [ {
+    "value": "Unauthorized Transaction",
+    "synonyms": [ "Unauthorized Transaction" ],
+    "languageCode": "en"
+  }, {
+    "value": "Double Debit",
+    "synonyms": [ "Double Debit" ],
+    "languageCode": "en"
+  }, {
+    "value": "Transaction failed cardholder debited",
+    "synonyms": [ "Transaction failed cardholder debited" ],
+    "languageCode": "en"
+  }, {
+    "value": "Paid by other means",
+    "synonyms": [ "Paid by other means" ],
+    "languageCode": "en"
+  }, {
+    "value": "Reject Transaction",
+    "synonyms": [ "Reject Transaction" ],
+    "languageCode": "en"
+  }, {
+    "value": "Transaction already canceled",
+    "synonyms": [ "Transaction already canceled" ],
+    "languageCode": "en"
+  }, {
+    "value": "Merchandise/Service not received",
+    "synonyms": [ "Merchandise/Service not received" ],
+    "languageCode": "en"
+  }, {
+    "value": "Incorrect transaction amount",
+    "synonyms": [ "Incorrect transaction amount" ],
+    "languageCode": "en"
+  } ]
+}

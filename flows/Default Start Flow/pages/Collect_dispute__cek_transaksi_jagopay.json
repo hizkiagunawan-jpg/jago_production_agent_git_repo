@@ -1,0 +1,711 @@
+{
+  "name": "cf00c0d6-dabd-5d50-8624-fb2342f06a1b",
+  "displayName": "Collect_dispute__cek_transaksi_jagopay",
+  "form": {
+    "parameters": [ {
+      "displayName": "s2_additional_info_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please provide any additional information:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon berikan informasi tambahan:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "n1_amount_slot",
+      "required": true,
+      "entityType": "@sys.number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the transaction amount:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan nominal transaksi:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k14_dispute_reason_slot",
+      "required": true,
+      "entityType": "@jago_entity_dispute_reason",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Dispute Reason:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Dispute Reason:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Dispute Reason",
+                "options": [ {
+                  "text": "Unauthorized Transaction",
+                  "value": "Unauthorized Transaction"
+                }, {
+                  "text": "Double Debit",
+                  "value": "Double Debit"
+                }, {
+                  "text": "Transaction failed cardholder debited",
+                  "value": "Transaction failed cardholder debited"
+                }, {
+                  "text": "Paid by other means",
+                  "value": "Paid by other means"
+                }, {
+                  "text": "Reject Transaction",
+                  "value": "Reject Transaction"
+                }, {
+                  "text": "Transaction already canceled",
+                  "value": "Transaction already canceled"
+                }, {
+                  "text": "Merchandise/Service not received",
+                  "value": "Merchandise/Service not received"
+                }, {
+                  "text": "Incorrect transaction amount",
+                  "value": "Incorrect transaction amount"
+                } ],
+                "parameter": "k14_dispute_reason",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Dispute Reason",
+                "options": [ {
+                  "text": "Unauthorized Transaction",
+                  "value": "Unauthorized Transaction"
+                }, {
+                  "text": "Double Debit",
+                  "value": "Double Debit"
+                }, {
+                  "text": "Transaction failed cardholder debited",
+                  "value": "Transaction failed cardholder debited"
+                }, {
+                  "text": "Paid by other means",
+                  "value": "Paid by other means"
+                }, {
+                  "text": "Reject Transaction",
+                  "value": "Reject Transaction"
+                }, {
+                  "text": "Transaction already canceled",
+                  "value": "Transaction already canceled"
+                }, {
+                  "text": "Merchandise/Service not received",
+                  "value": "Merchandise/Service not received"
+                }, {
+                  "text": "Incorrect transaction amount",
+                  "value": "Incorrect transaction amount"
+                } ],
+                "parameter": "k14_dispute_reason",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "d5_due_date_slot",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Due Date:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Due Date:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "d6_follow_up_date_slot",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What was the follow-up date of your previous report?" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Kapan tanggal tindak lanjut (follow up) laporan sebelumnya?" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k26_partner_slot",
+      "required": true,
+      "entityType": "@jago_entity_partner",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please choose the partner:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Silakan pilih partner/mitra:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Partner",
+                "options": [ {
+                  "text": "AdaKami",
+                  "value": "AdaKami"
+                }, {
+                  "text": "Amaan",
+                  "value": "Amaan"
+                }, {
+                  "text": "Atome",
+                  "value": "Atome"
+                }, {
+                  "text": "BFI Finance Indonesia",
+                  "value": "BFI Finance Indonesia"
+                }, {
+                  "text": "BNI Finance",
+                  "value": "BNI Finance"
+                }, {
+                  "text": "Bibit",
+                  "value": "Bibit"
+                }, {
+                  "text": "Buana Finance",
+                  "value": "Buana Finance"
+                }, {
+                  "text": "CarSome",
+                  "value": "CarSome"
+                }, {
+                  "text": "Dhanapala",
+                  "value": "Dhanapala"
+                }, {
+                  "text": "Easy Cash",
+                  "value": "Easy Cash"
+                }, {
+                  "text": "Gojek",
+                  "value": "Gojek"
+                }, {
+                  "text": "Gopay Unified",
+                  "value": "Gopay Unified"
+                }, {
+                  "text": "Home Credit",
+                  "value": "Home Credit"
+                }, {
+                  "text": "Indomobil",
+                  "value": "Indomobil"
+                }, {
+                  "text": "Jago Stand Alone",
+                  "value": "Jago Stand Alone"
+                }, {
+                  "text": "Kredit Pintar",
+                  "value": "Kredit Pintar"
+                }, {
+                  "text": "MAB - Gopaylater",
+                  "value": "MAB - Gopaylater"
+                }, {
+                  "text": "MGR - Findaya",
+                  "value": "MGR - Findaya"
+                }, {
+                  "text": "MNC Guna Usaha",
+                  "value": "MNC Guna Usaha"
+                }, {
+                  "text": "Radana",
+                  "value": "Radana"
+                }, {
+                  "text": "Stockbit",
+                  "value": "Stockbit"
+                }, {
+                  "text": "True Finance",
+                  "value": "True Finance"
+                } ],
+                "parameter": "k26_partner",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Partner",
+                "options": [ {
+                  "text": "AdaKami",
+                  "value": "AdaKami"
+                }, {
+                  "text": "Amaan",
+                  "value": "Amaan"
+                }, {
+                  "text": "Atome",
+                  "value": "Atome"
+                }, {
+                  "text": "BFI Finance Indonesia",
+                  "value": "BFI Finance Indonesia"
+                }, {
+                  "text": "BNI Finance",
+                  "value": "BNI Finance"
+                }, {
+                  "text": "Bibit",
+                  "value": "Bibit"
+                }, {
+                  "text": "Buana Finance",
+                  "value": "Buana Finance"
+                }, {
+                  "text": "CarSome",
+                  "value": "CarSome"
+                }, {
+                  "text": "Dhanapala",
+                  "value": "Dhanapala"
+                }, {
+                  "text": "Easy Cash",
+                  "value": "Easy Cash"
+                }, {
+                  "text": "Gojek",
+                  "value": "Gojek"
+                }, {
+                  "text": "Gopay Unified",
+                  "value": "Gopay Unified"
+                }, {
+                  "text": "Home Credit",
+                  "value": "Home Credit"
+                }, {
+                  "text": "Indomobil",
+                  "value": "Indomobil"
+                }, {
+                  "text": "Jago Stand Alone",
+                  "value": "Jago Stand Alone"
+                }, {
+                  "text": "Kredit Pintar",
+                  "value": "Kredit Pintar"
+                }, {
+                  "text": "MAB - Gopaylater",
+                  "value": "MAB - Gopaylater"
+                }, {
+                  "text": "MGR - Findaya",
+                  "value": "MGR - Findaya"
+                }, {
+                  "text": "MNC Guna Usaha",
+                  "value": "MNC Guna Usaha"
+                }, {
+                  "text": "Radana",
+                  "value": "Radana"
+                }, {
+                  "text": "Stockbit",
+                  "value": "Stockbit"
+                }, {
+                  "text": "True Finance",
+                  "value": "True Finance"
+                } ],
+                "parameter": "k26_partner",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s24_remarks_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please describe your issue or add any notes:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon jelaskan kendala Kakak atau tambahkan catatan:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s26_rrn_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the reference number (RRN):" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan nomor referensi (RRN):" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s28_time_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Time:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Time:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k37_transaction_claim_slot",
+      "required": true,
+      "entityType": "@jago_entity_transaction_claim",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Transaction Claim:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Transaction Claim:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Transaction Claim",
+                "options": [ {
+                  "text": "NO::AJ",
+                  "value": "NO::AJ"
+                }, {
+                  "text": "NO::ALTO",
+                  "value": "NO::ALTO"
+                }, {
+                  "text": "NO::ALTO QRIS",
+                  "value": "NO::ALTO QRIS"
+                }, {
+                  "text": "NO::BI Fast",
+                  "value": "NO::BI Fast"
+                }, {
+                  "text": "NO::Bibit",
+                  "value": "NO::Bibit"
+                }, {
+                  "text": "NO::Gojek",
+                  "value": "NO::Gojek"
+                }, {
+                  "text": "NO::Jago",
+                  "value": "NO::Jago"
+                }, {
+                  "text": "NO::SKN/RTGS",
+                  "value": "NO::SKN/RTGS"
+                }, {
+                  "text": "NO::Stockbit",
+                  "value": "NO::Stockbit"
+                }, {
+                  "text": "NO::Tokopedia",
+                  "value": "NO::Tokopedia"
+                }, {
+                  "text": "NO::VISA",
+                  "value": "NO::VISA"
+                }, {
+                  "text": "YES::AJ",
+                  "value": "YES::AJ"
+                }, {
+                  "text": "YES::ALTO",
+                  "value": "YES::ALTO"
+                }, {
+                  "text": "YES::ALTO QRIS",
+                  "value": "YES::ALTO QRIS"
+                }, {
+                  "text": "YES::BI Fast",
+                  "value": "YES::BI Fast"
+                }, {
+                  "text": "YES::Bibit",
+                  "value": "YES::Bibit"
+                }, {
+                  "text": "YES::Gojek",
+                  "value": "YES::Gojek"
+                }, {
+                  "text": "YES::Jago",
+                  "value": "YES::Jago"
+                }, {
+                  "text": "YES::SKN/RTGS",
+                  "value": "YES::SKN/RTGS"
+                }, {
+                  "text": "YES::Stockbit",
+                  "value": "YES::Stockbit"
+                }, {
+                  "text": "YES::Tokopedia",
+                  "value": "YES::Tokopedia"
+                }, {
+                  "text": "YES::VISA",
+                  "value": "YES::VISA"
+                } ],
+                "parameter": "k37_transaction_claim",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Transaction Claim",
+                "options": [ {
+                  "text": "NO::AJ",
+                  "value": "NO::AJ"
+                }, {
+                  "text": "NO::ALTO",
+                  "value": "NO::ALTO"
+                }, {
+                  "text": "NO::ALTO QRIS",
+                  "value": "NO::ALTO QRIS"
+                }, {
+                  "text": "NO::BI Fast",
+                  "value": "NO::BI Fast"
+                }, {
+                  "text": "NO::Bibit",
+                  "value": "NO::Bibit"
+                }, {
+                  "text": "NO::Gojek",
+                  "value": "NO::Gojek"
+                }, {
+                  "text": "NO::Jago",
+                  "value": "NO::Jago"
+                }, {
+                  "text": "NO::SKN/RTGS",
+                  "value": "NO::SKN/RTGS"
+                }, {
+                  "text": "NO::Stockbit",
+                  "value": "NO::Stockbit"
+                }, {
+                  "text": "NO::Tokopedia",
+                  "value": "NO::Tokopedia"
+                }, {
+                  "text": "NO::VISA",
+                  "value": "NO::VISA"
+                }, {
+                  "text": "YES::AJ",
+                  "value": "YES::AJ"
+                }, {
+                  "text": "YES::ALTO",
+                  "value": "YES::ALTO"
+                }, {
+                  "text": "YES::ALTO QRIS",
+                  "value": "YES::ALTO QRIS"
+                }, {
+                  "text": "YES::BI Fast",
+                  "value": "YES::BI Fast"
+                }, {
+                  "text": "YES::Bibit",
+                  "value": "YES::Bibit"
+                }, {
+                  "text": "YES::Gojek",
+                  "value": "YES::Gojek"
+                }, {
+                  "text": "YES::Jago",
+                  "value": "YES::Jago"
+                }, {
+                  "text": "YES::SKN/RTGS",
+                  "value": "YES::SKN/RTGS"
+                }, {
+                  "text": "YES::Stockbit",
+                  "value": "YES::Stockbit"
+                }, {
+                  "text": "YES::Tokopedia",
+                  "value": "YES::Tokopedia"
+                }, {
+                  "text": "YES::VISA",
+                  "value": "YES::VISA"
+                } ],
+                "parameter": "k37_transaction_claim",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "d11_transaction_date_slot",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "When did the transaction occur?" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Kapan tanggal transaksinya?" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "n7_transaction_id_slot",
+      "required": true,
+      "entityType": "@sys.number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Transaction ID:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Transaction ID:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k38_transaction_status_slot",
+      "required": true,
+      "entityType": "@jago_entity_transaction_status",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Transaction Status:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Transaction Status:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Transaction Status",
+                "options": [ {
+                  "text": "Success",
+                  "value": "Success"
+                }, {
+                  "text": "Decline",
+                  "value": "Decline"
+                }, {
+                  "text": "Report Not Available",
+                  "value": "Report Not Available"
+                } ],
+                "parameter": "k38_transaction_status",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Transaction Status",
+                "options": [ {
+                  "text": "Sukses",
+                  "value": "Success"
+                }, {
+                  "text": "Ditolak",
+                  "value": "Decline"
+                }, {
+                  "text": "Laporan Tidak Tersedia",
+                  "value": "Report Not Available"
+                } ],
+                "parameter": "k38_transaction_status",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s2_additional_info",
+        "value": "$page.params.s2_additional_info_slot"
+      }, {
+        "parameter": "n1_amount",
+        "value": "$page.params.n1_amount_slot"
+      }, {
+        "parameter": "k14_dispute_reason",
+        "value": "$page.params.k14_dispute_reason_slot"
+      }, {
+        "parameter": "d5_due_date",
+        "value": "$page.params.d5_due_date_slot"
+      }, {
+        "parameter": "d6_follow_up_date",
+        "value": "$page.params.d6_follow_up_date_slot"
+      }, {
+        "parameter": "k26_partner",
+        "value": "$page.params.k26_partner_slot"
+      }, {
+        "parameter": "s24_remarks",
+        "value": "$page.params.s24_remarks_slot"
+      }, {
+        "parameter": "s26_rrn",
+        "value": "$page.params.s26_rrn_slot"
+      }, {
+        "parameter": "s28_time",
+        "value": "$page.params.s28_time_slot"
+      }, {
+        "parameter": "k37_transaction_claim",
+        "value": "$page.params.k37_transaction_claim_slot"
+      }, {
+        "parameter": "d11_transaction_date",
+        "value": "$page.params.d11_transaction_date_slot"
+      }, {
+        "parameter": "n7_transaction_id",
+        "value": "$page.params.n7_transaction_id_slot"
+      }, {
+        "parameter": "k38_transaction_status",
+        "value": "$page.params.k38_transaction_status_slot"
+      } ]
+    },
+    "targetPage": "Dispute_Handoff_Page",
+    "name": "c68dcb0f-d797-5048-9c97-700342a4700c"
+  } ]
+}

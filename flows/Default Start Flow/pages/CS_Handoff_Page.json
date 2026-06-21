@@ -1,0 +1,78 @@
+{
+  "name": "20b59caa-0429-40a3-b2e6-1df1dc0f24ee",
+  "displayName": "CS_Handoff_Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Certainly! Your questions and issues will be addressed in detail by the Bank Jago Customer Service (CS) team. Please wait a moment while I connect you to an active agent." ]
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Siap Kak, pertanyaan dan kendala Kakak akan langsung dijawab secara detail oleh tim Customer Service (CS) Bank Jago. Mohon tunggu sebentar ya, saya sambungkan sekarang ke agen aktif." ]
+      },
+      "languageCode": "id"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "CLAN": "$session.params.clan",
+          "CUSTOM_FIELDS": {
+            "k26_partner": "$session.params.k26_partner",
+            "k31_result": "$session.params.k31_result",
+            "k41_type_of_product_complaint_antasena": "$session.params.k41_type_of_product_complaint_antasena",
+            "k46_type_of_product_complaint_sipeduli": "$session.params.k46_type_of_product_complaint_sipeduli",
+            "k47_sub_complaint_sipeduli": "$session.params.k47_sub_complaint_sipeduli",
+            "k48_category_of_complaint_antasena": "$session.params.k48_category_of_complaint_antasena",
+            "k5_category_of_complaint_sipeduli": "$session.params.k5_category_of_complaint_sipeduli",
+            "s17_main_ticket_no": "$session.params.s17_main_ticket_no",
+            "s18_master_ticket_no": "$session.params.s18_master_ticket_no",
+            "s24_remarks": "$session.params.s24_remarks"
+          },
+          "GROUP_CODE": "$session.params.group_code",
+          "L0_TEAM": "$session.params.l0_team",
+          "L1_FORM": "$session.params.l1_form",
+          "L2_CATEGORY": "$session.params.l2_category",
+          "L3_SUB_CATEGORY": "$session.params.l3_sub_category",
+          "L4_SUB_SUB_CATEGORY": "$session.params.l4_sub_sub_category",
+          "RESOLUTION_TIME": "$session.params.resolution_time",
+          "SLA": "$session.params.sla",
+          "TAG1": "$session.params.tag1",
+          "action": "HUMAN_ESCALATION"
+        }
+      },
+      "languageCode": "en"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "CLAN": "$session.params.clan",
+          "CUSTOM_FIELDS": {
+            "k26_partner": "$session.params.k26_partner",
+            "k31_result": "$session.params.k31_result",
+            "k41_type_of_product_complaint_antasena": "$session.params.k41_type_of_product_complaint_antasena",
+            "k46_type_of_product_complaint_sipeduli": "$session.params.k46_type_of_product_complaint_sipeduli",
+            "k47_sub_complaint_sipeduli": "$session.params.k47_sub_complaint_sipeduli",
+            "k48_category_of_complaint_antasena": "$session.params.k48_category_of_complaint_antasena",
+            "k5_category_of_complaint_sipeduli": "$session.params.k5_category_of_complaint_sipeduli",
+            "s17_main_ticket_no": "$session.params.s17_main_ticket_no",
+            "s18_master_ticket_no": "$session.params.s18_master_ticket_no",
+            "s24_remarks": "$session.params.s24_remarks"
+          },
+          "GROUP_CODE": "$session.params.group_code",
+          "L0_TEAM": "$session.params.l0_team",
+          "L1_FORM": "$session.params.l1_form",
+          "L2_CATEGORY": "$session.params.l2_category",
+          "L3_SUB_CATEGORY": "$session.params.l3_sub_category",
+          "L4_SUB_SUB_CATEGORY": "$session.params.l4_sub_sub_category",
+          "RESOLUTION_TIME": "$session.params.resolution_time",
+          "SLA": "$session.params.sla",
+          "TAG1": "$session.params.tag1",
+          "action": "HUMAN_ESCALATION"
+        }
+      },
+      "languageCode": "id"
+    } ]
+  }
+}

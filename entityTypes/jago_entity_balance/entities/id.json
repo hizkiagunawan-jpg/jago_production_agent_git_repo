@@ -1,0 +1,19 @@
+{
+  "entities": [ {
+    "value": "Balance \u003eRp10000",
+    "synonyms": [ "Balance \u003eRp10000" ],
+    "languageCode": "id"
+  }, {
+    "value": "Balance \u003cRp10000",
+    "synonyms": [ "Balance \u003cRp10000" ],
+    "languageCode": "id"
+  }, {
+    "value": "Balance =Rp10000",
+    "synonyms": [ "Balance =Rp10000" ],
+    "languageCode": "id"
+  }, {
+    "value": "No Balance",
+    "synonyms": [ "No Balance" ],
+    "languageCode": "id"
+  } ]
+}

@@ -1,0 +1,59 @@
+{
+  "name": "10d2cbc2-b327-54d6-9087-4ed170fe8753",
+  "displayName": "Collect_kyc__blokir_account_nasabah",
+  "form": {
+    "parameters": [ {
+      "displayName": "s22_reason_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please state the reason:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon sebutkan alasannya:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s24_remarks_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please describe your issue or add any notes:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon jelaskan kendala Kakak atau tambahkan catatan:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s22_reason",
+        "value": "$page.params.s22_reason_slot"
+      }, {
+        "parameter": "s24_remarks",
+        "value": "$page.params.s24_remarks_slot"
+      } ]
+    },
+    "targetPage": "KYC_Handoff_Page",
+    "name": "b8848498-5bdd-517a-80e3-05ff62ac5436"
+  } ]
+}

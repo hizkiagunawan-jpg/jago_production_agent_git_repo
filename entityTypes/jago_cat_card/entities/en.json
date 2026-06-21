@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "Card Follow Up",
+    "synonyms": [ "Card Follow Up", "Tindak Lanjut Kartu", "1" ],
+    "languageCode": "en"
+  }, {
+    "value": "Check Card Delivery",
+    "synonyms": [ "Check Card Delivery", "Cek Pengiriman Kartu", "2" ],
+    "languageCode": "en"
+  }, {
+    "value": "Pending Courier OB Card",
+    "synonyms": [ "Pending Courier OB Card", "Kartu Kurir Tertunda (OB)", "3" ],
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,117 @@
+{
+  "name": "99838cb5-db03-5246-9329-a52e4fa4b8cf",
+  "displayName": "Ask_Team_Page",
+  "form": {
+    "parameters": [ {
+      "displayName": "sel_team",
+      "required": true,
+      "entityType": "@jago_issues",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Which team can help you today?\n- Card\n- Dispute\n- Fraud\n- IT Helpdesk\n- KYC\n- Onboarding\n- CDD/EDD\n- CS Konven\n- CS" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Tim mana yang bisa membantu Kakak hari ini?\n- Kartu\n- Sanggahan Transaksi\n- Penipuan / Keamanan Akun\n- IT Helpdesk\n- KYC / Blokir Akun\n- Pendaftaran / Onboarding\n- CDD/EDD\n- CS Konvensional\n- Layanan Umum (CS)" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.sel_team = \"card\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l0_team",
+        "value": "Card"
+      } ]
+    },
+    "targetPage": "Ask_Category_card_Page",
+    "name": "84f429fb-22f7-5a67-859f-fd0008b4b702"
+  }, {
+    "condition": "$session.params.sel_team = \"dispute\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l0_team",
+        "value": "Dispute"
+      } ]
+    },
+    "targetPage": "Ask_Category_dispute_Page",
+    "name": "21b598ed-a8c9-5393-9bb5-cfa36b6e24c1"
+  }, {
+    "condition": "$session.params.sel_team = \"fraud\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l0_team",
+        "value": "Fraud"
+      } ]
+    },
+    "targetPage": "Ask_Category_fraud_Page",
+    "name": "2ed95fa5-acdb-5974-8ac7-5dbe15a4a9cd"
+  }, {
+    "condition": "$session.params.sel_team = \"it_helpdesk\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l0_team",
+        "value": "IT Helpdesk"
+      } ]
+    },
+    "targetPage": "Ask_Category_it_helpdesk_Page",
+    "name": "ab4e7f1e-32c2-593c-9926-0263a6801e2f"
+  }, {
+    "condition": "$session.params.sel_team = \"kyc\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l0_team",
+        "value": "KYC"
+      } ]
+    },
+    "targetPage": "Ask_Category_kyc_Page",
+    "name": "ffe71b9c-62c0-5049-a212-a31f45717a21"
+  }, {
+    "condition": "$session.params.sel_team = \"onboarding\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l0_team",
+        "value": "Onboarding"
+      } ]
+    },
+    "targetPage": "Ask_Category_onboarding_Page",
+    "name": "ba832614-6489-51c8-9218-2603838160a6"
+  }, {
+    "condition": "$session.params.sel_team = \"cdd\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l0_team",
+        "value": "CDD/EDD"
+      } ]
+    },
+    "targetPage": "Ask_Category_cdd_Page",
+    "name": "a755ecb5-d78a-54b1-8f48-426fce751520"
+  }, {
+    "condition": "$session.params.sel_team = \"cs_konven\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l0_team",
+        "value": "CS Konven"
+      } ]
+    },
+    "targetPage": "Ask_Category_cs_konven_Page",
+    "name": "5941e5c9-a75a-5111-bc42-9bbf4906d6ee"
+  }, {
+    "condition": "$session.params.sel_team = \"cs\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l0_team",
+        "value": "CS"
+      } ]
+    },
+    "targetPage": "Ask_Category_cs_Page",
+    "name": "c793a248-797c-5bf3-9e40-53bd480a4c5c"
+  } ]
+}

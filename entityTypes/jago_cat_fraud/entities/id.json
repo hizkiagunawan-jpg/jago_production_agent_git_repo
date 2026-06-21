@@ -1,0 +1,31 @@
+{
+  "entities": [ {
+    "value": "Alert by Rule",
+    "synonyms": [ "Alert by Rule", "Peringatan oleh Aturan (Rule)", "1" ],
+    "languageCode": "id"
+  }, {
+    "value": "FDS",
+    "synonyms": [ "FDS", "FDS (Sistem Deteksi Penipuan)", "2" ],
+    "languageCode": "id"
+  }, {
+    "value": "Internal Request - Follow Up Ticket Fraud",
+    "synonyms": [ "Internal Request - Follow Up Ticket Fraud", "Permintaan Internal - Tindak Lanjut Tiket Fraud", "3" ],
+    "languageCode": "id"
+  }, {
+    "value": "External Fraud - Nasabah",
+    "synonyms": [ "External Fraud - Nasabah", "Fraud Eksternal - Nasabah", "4" ],
+    "languageCode": "id"
+  }, {
+    "value": "External Fraud - Non Nasabah",
+    "synonyms": [ "External Fraud - Non Nasabah", "Fraud Eksternal - Non Nasabah", "5" ],
+    "languageCode": "id"
+  }, {
+    "value": "Laporan / Report - Follow Up Ticket Fraud",
+    "synonyms": [ "Laporan / Report - Follow Up Ticket Fraud", "Laporan - Tindak Lanjut Tiket Fraud", "6" ],
+    "languageCode": "id"
+  }, {
+    "value": "Invalid Report",
+    "synonyms": [ "Invalid Report", "Laporan Tidak Valid", "7" ],
+    "languageCode": "id"
+  } ]
+}

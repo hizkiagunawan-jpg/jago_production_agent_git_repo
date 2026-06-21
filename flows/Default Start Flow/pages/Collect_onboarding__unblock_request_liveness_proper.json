@@ -1,0 +1,297 @@
+{
+  "name": "ba191c88-6a18-5b2d-a03c-b9f43640384d",
+  "displayName": "Collect_onboarding__unblock_request_liveness_proper",
+  "form": {
+    "parameters": [ {
+      "displayName": "k13_decision_slot",
+      "required": true,
+      "entityType": "@jago_entity_decision",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please choose the decision:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Silakan pilih keputusan (decision):" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Decision",
+                "options": [ {
+                  "text": "Blocked",
+                  "value": "Blocked"
+                }, {
+                  "text": "Declined",
+                  "value": "Declined"
+                }, {
+                  "text": "KTP BOP Error",
+                  "value": "KTP BOP Error"
+                }, {
+                  "text": "No Dukcapil Photo",
+                  "value": "No Dukcapil Photo"
+                }, {
+                  "text": "Refunded",
+                  "value": "Refunded"
+                }, {
+                  "text": "Same Person",
+                  "value": "Same Person"
+                }, {
+                  "text": "False Positive",
+                  "value": "False Positive"
+                }, {
+                  "text": "True Positive",
+                  "value": "True Positive"
+                }, {
+                  "text": "Customer No Reply",
+                  "value": "Customer No Reply"
+                }, {
+                  "text": "Approved",
+                  "value": "Approved"
+                }, {
+                  "text": "Rejected",
+                  "value": "Rejected"
+                } ],
+                "parameter": "k13_decision",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Decision",
+                "options": [ {
+                  "text": "Diblokir",
+                  "value": "Blocked"
+                }, {
+                  "text": "Ditolak",
+                  "value": "Declined"
+                }, {
+                  "text": "Error KTP BOP",
+                  "value": "KTP BOP Error"
+                }, {
+                  "text": "Tidak Ada Foto Dukcapil",
+                  "value": "No Dukcapil Photo"
+                }, {
+                  "text": "Dana Dikembalikan",
+                  "value": "Refunded"
+                }, {
+                  "text": "Orang yang Sama",
+                  "value": "Same Person"
+                }, {
+                  "text": "Positif Palsu",
+                  "value": "False Positive"
+                }, {
+                  "text": "Positif Benar",
+                  "value": "True Positive"
+                }, {
+                  "text": "Nasabah Tidak Merespons",
+                  "value": "Customer No Reply"
+                }, {
+                  "text": "Disetujui",
+                  "value": "Approved"
+                }, {
+                  "text": "Ditolak",
+                  "value": "Rejected"
+                } ],
+                "parameter": "k13_decision",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k26_partner_slot",
+      "required": true,
+      "entityType": "@jago_entity_partner",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please choose the partner:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Silakan pilih partner/mitra:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Partner",
+                "options": [ {
+                  "text": "AdaKami",
+                  "value": "AdaKami"
+                }, {
+                  "text": "Amaan",
+                  "value": "Amaan"
+                }, {
+                  "text": "Atome",
+                  "value": "Atome"
+                }, {
+                  "text": "BFI Finance Indonesia",
+                  "value": "BFI Finance Indonesia"
+                }, {
+                  "text": "BNI Finance",
+                  "value": "BNI Finance"
+                }, {
+                  "text": "Bibit",
+                  "value": "Bibit"
+                }, {
+                  "text": "Buana Finance",
+                  "value": "Buana Finance"
+                }, {
+                  "text": "CarSome",
+                  "value": "CarSome"
+                }, {
+                  "text": "Dhanapala",
+                  "value": "Dhanapala"
+                }, {
+                  "text": "Easy Cash",
+                  "value": "Easy Cash"
+                }, {
+                  "text": "Gojek",
+                  "value": "Gojek"
+                }, {
+                  "text": "Gopay Unified",
+                  "value": "Gopay Unified"
+                }, {
+                  "text": "Home Credit",
+                  "value": "Home Credit"
+                }, {
+                  "text": "Indomobil",
+                  "value": "Indomobil"
+                }, {
+                  "text": "Jago Stand Alone",
+                  "value": "Jago Stand Alone"
+                }, {
+                  "text": "Kredit Pintar",
+                  "value": "Kredit Pintar"
+                }, {
+                  "text": "MAB - Gopaylater",
+                  "value": "MAB - Gopaylater"
+                }, {
+                  "text": "MGR - Findaya",
+                  "value": "MGR - Findaya"
+                }, {
+                  "text": "MNC Guna Usaha",
+                  "value": "MNC Guna Usaha"
+                }, {
+                  "text": "Radana",
+                  "value": "Radana"
+                }, {
+                  "text": "Stockbit",
+                  "value": "Stockbit"
+                }, {
+                  "text": "True Finance",
+                  "value": "True Finance"
+                } ],
+                "parameter": "k26_partner",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Partner",
+                "options": [ {
+                  "text": "AdaKami",
+                  "value": "AdaKami"
+                }, {
+                  "text": "Amaan",
+                  "value": "Amaan"
+                }, {
+                  "text": "Atome",
+                  "value": "Atome"
+                }, {
+                  "text": "BFI Finance Indonesia",
+                  "value": "BFI Finance Indonesia"
+                }, {
+                  "text": "BNI Finance",
+                  "value": "BNI Finance"
+                }, {
+                  "text": "Bibit",
+                  "value": "Bibit"
+                }, {
+                  "text": "Buana Finance",
+                  "value": "Buana Finance"
+                }, {
+                  "text": "CarSome",
+                  "value": "CarSome"
+                }, {
+                  "text": "Dhanapala",
+                  "value": "Dhanapala"
+                }, {
+                  "text": "Easy Cash",
+                  "value": "Easy Cash"
+                }, {
+                  "text": "Gojek",
+                  "value": "Gojek"
+                }, {
+                  "text": "Gopay Unified",
+                  "value": "Gopay Unified"
+                }, {
+                  "text": "Home Credit",
+                  "value": "Home Credit"
+                }, {
+                  "text": "Indomobil",
+                  "value": "Indomobil"
+                }, {
+                  "text": "Jago Stand Alone",
+                  "value": "Jago Stand Alone"
+                }, {
+                  "text": "Kredit Pintar",
+                  "value": "Kredit Pintar"
+                }, {
+                  "text": "MAB - Gopaylater",
+                  "value": "MAB - Gopaylater"
+                }, {
+                  "text": "MGR - Findaya",
+                  "value": "MGR - Findaya"
+                }, {
+                  "text": "MNC Guna Usaha",
+                  "value": "MNC Guna Usaha"
+                }, {
+                  "text": "Radana",
+                  "value": "Radana"
+                }, {
+                  "text": "Stockbit",
+                  "value": "Stockbit"
+                }, {
+                  "text": "True Finance",
+                  "value": "True Finance"
+                } ],
+                "parameter": "k26_partner",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "k13_decision",
+        "value": "$page.params.k13_decision_slot"
+      }, {
+        "parameter": "k26_partner",
+        "value": "$page.params.k26_partner_slot"
+      } ]
+    },
+    "targetPage": "Onboarding_Handoff_Page",
+    "name": "2ffb6d51-9973-51c2-86dd-598b8384e4d5"
+  } ]
+}

@@ -1,0 +1,35 @@
+{
+  "entities": [ {
+    "value": "Kartu Belum Sampai-Over SLA",
+    "synonyms": [ "Kartu Belum Sampai-Over SLA" ],
+    "languageCode": "id"
+  }, {
+    "value": "Kartu Belum Sampai-Penambahan Alamat",
+    "synonyms": [ "Kartu Belum Sampai-Penambahan Alamat" ],
+    "languageCode": "id"
+  }, {
+    "value": "Kartu Belum Sampai-Penerima Tidak dikenal",
+    "synonyms": [ "Kartu Belum Sampai-Penerima Tidak dikenal" ],
+    "languageCode": "id"
+  }, {
+    "value": "Kartu Belum Sampai-Retry Pengiriman",
+    "synonyms": [ "Kartu Belum Sampai-Retry Pengiriman" ],
+    "languageCode": "id"
+  }, {
+    "value": "Kartu Rusak",
+    "synonyms": [ "Kartu Rusak" ],
+    "languageCode": "id"
+  }, {
+    "value": "Pembatalan Kirim Kartu",
+    "synonyms": [ "Pembatalan Kirim Kartu" ],
+    "languageCode": "id"
+  }, {
+    "value": "Penambahan Alamat",
+    "synonyms": [ "Penambahan Alamat" ],
+    "languageCode": "id"
+  }, {
+    "value": "Penerima Tidak Dikenal",
+    "synonyms": [ "Penerima Tidak Dikenal" ],
+    "languageCode": "id"
+  } ]
+}

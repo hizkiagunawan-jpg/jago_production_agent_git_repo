@@ -1,0 +1,55 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Gojek transaction sync issue with ",
+      "auto": true
+    }, {
+      "text": "Jago",
+      "parameterId": "person",
+      "auto": true
+    }, {
+      "text": " pocket.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Bisa tlg bantu check Gojek integration payment failure?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Error connecting my Jago account to GoPay wallet during checkout.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I want to dispute a failed GoFood transaction paid via Bank Jago.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "My Gojek order failed but my linked Jago pocket balance was deducted.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Gojek",
+      "auto": true
+    }, {
+      "text": " jago error link",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

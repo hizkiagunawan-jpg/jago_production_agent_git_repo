@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "Terima",
+    "synonyms": [ "Terima" ],
+    "languageCode": "id"
+  }, {
+    "value": "Tidak Terima",
+    "synonyms": [ "Tidak Terima" ],
+    "languageCode": "id"
+  } ]
+}

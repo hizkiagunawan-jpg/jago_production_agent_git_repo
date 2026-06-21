@@ -1,0 +1,40 @@
+{
+  "name": "50c32dac-12de-41ff-b356-fcbd449fb0bb",
+  "displayName": "bank_jago_faq",
+  "dataStoreSpec": {
+    "dataStoreConnections": [ {
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/571384310908/locations/global/collections/default_collection/dataStores/bank-jago-faq_1780584889403",
+      "documentProcessingMode": "DOCUMENTS",
+      "engineType": "CHAT_ENGINE",
+      "connectorConfig": {
+      
+      },
+      "createTime": {
+        "seconds": 1780584932,
+        "nanos": 453390000
+      },
+      "displayName": "bank_jago_faq",
+      "dialogflowAddTime": {
+        "seconds": 1780637010,
+        "nanos": 565000000
+      }
+    } ],
+    "models": {
+      "summarizationModel": {
+        "model": "default"
+      },
+      "rewriterModel": {
+        "model": "default"
+      }
+    },
+    "groundingSettings": {
+    
+    },
+    "payloadSettings": {
+    
+    },
+    "mode": "MODE_DEFAULT"
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

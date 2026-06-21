@@ -1,0 +1,72 @@
+{
+  "name": "b8a5448e-fbc3-4576-93a2-c2078728641f",
+  "displayName": "KYC_Handoff_Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "All right, I have received your profile update details and identity document request. I am now connecting you to our KYC Verification team to process your documents. Please wait a moment." ]
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Baik Kak, data pengkinian profil serta keluhan dokumen identitas Kakak sudah saya terima. Sekarang saya hubungkan Kakak ke tim verifikasi KYC untuk penyelesaian berkas data Anda. Mohon tunggu sebentar ya." ]
+      },
+      "languageCode": "id"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "CLAN": "$session.params.clan",
+          "CUSTOM_FIELDS": {
+            "k13_decision": "$session.params.k13_decision",
+            "k1_balance": "$session.params.k1_balance",
+            "k40_type": "$session.params.k40_type",
+            "k7_closing_account_reason": "$session.params.k7_closing_account_reason",
+            "s1_account_no": "$session.params.s1_account_no",
+            "s22_reason": "$session.params.s22_reason",
+            "s24_remarks": "$session.params.s24_remarks"
+          },
+          "GROUP_CODE": "$session.params.group_code",
+          "L0_TEAM": "$session.params.l0_team",
+          "L1_FORM": "$session.params.l1_form",
+          "L2_CATEGORY": "$session.params.l2_category",
+          "L3_SUB_CATEGORY": "$session.params.l3_sub_category",
+          "L4_SUB_SUB_CATEGORY": "$session.params.l4_sub_sub_category",
+          "RESOLUTION_TIME": "$session.params.resolution_time",
+          "SLA": "$session.params.sla",
+          "TAG1": "$session.params.tag1",
+          "action": "HUMAN_ESCALATION"
+        }
+      },
+      "languageCode": "en"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "CLAN": "$session.params.clan",
+          "CUSTOM_FIELDS": {
+            "k13_decision": "$session.params.k13_decision",
+            "k1_balance": "$session.params.k1_balance",
+            "k40_type": "$session.params.k40_type",
+            "k7_closing_account_reason": "$session.params.k7_closing_account_reason",
+            "s1_account_no": "$session.params.s1_account_no",
+            "s22_reason": "$session.params.s22_reason",
+            "s24_remarks": "$session.params.s24_remarks"
+          },
+          "GROUP_CODE": "$session.params.group_code",
+          "L0_TEAM": "$session.params.l0_team",
+          "L1_FORM": "$session.params.l1_form",
+          "L2_CATEGORY": "$session.params.l2_category",
+          "L3_SUB_CATEGORY": "$session.params.l3_sub_category",
+          "L4_SUB_SUB_CATEGORY": "$session.params.l4_sub_sub_category",
+          "RESOLUTION_TIME": "$session.params.resolution_time",
+          "SLA": "$session.params.sla",
+          "TAG1": "$session.params.tag1",
+          "action": "HUMAN_ESCALATION"
+        }
+      },
+      "languageCode": "id"
+    } ]
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "name": "6a7a8de7-e417-5abb-a9b4-85e642d739cf",
+  "displayName": "Ask_Category_fraud_Page",
+  "form": {
+    "parameters": [ {
+      "displayName": "sel_category",
+      "required": true,
+      "entityType": "@jago_cat_fraud",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please choose the category (reply with the number or name):\n1. Alert by Rule\n2. FDS\n3. Internal Request - Follow Up Ticket Fraud\n4. External Fraud - Nasabah\n5. External Fraud - Non Nasabah\n6. Laporan / Report - Follow Up Ticket Fraud\n7. Invalid Report" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Silakan pilih kategori (balas dengan nomor atau nama):\n1. Peringatan oleh Aturan (Rule)\n2. FDS (Sistem Deteksi Penipuan)\n3. Permintaan Internal - Tindak Lanjut Tiket Fraud\n4. Fraud Eksternal - Nasabah\n5. Fraud Eksternal - Non Nasabah\n6. Laporan - Tindak Lanjut Tiket Fraud\n7. Laporan Tidak Valid" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.sel_category = \"Alert by Rule\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Internal Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "Alert by Rule"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "fraud_l1"
+      }, {
+        "parameter": "sla",
+        "value": "5 Hari"
+      }, {
+        "parameter": "tag1",
+        "value": "Fraud::Fraud Cases Related"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::5D"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "fraud__alert_by_rule"
+      } ]
+    },
+    "targetPage": "Collect_fraud__alert_by_rule",
+    "name": "ed9236bd-8397-5f37-9750-2355fae93194"
+  }, {
+    "condition": "$session.params.sel_category = \"FDS\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Internal Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "FDS"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "fraud_l1"
+      }, {
+        "parameter": "sla",
+        "value": "5 Hari"
+      }, {
+        "parameter": "tag1",
+        "value": "Fraud::Fraud Cases Related"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::5D"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "fraud__fds"
+      } ]
+    },
+    "targetPage": "Collect_fraud__fds",
+    "name": "ddcb55d0-5b40-5292-941e-53b6ac154fa0"
+  }, {
+    "condition": "$session.params.sel_category = \"Internal Request - Follow Up Ticket Fraud\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Internal Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "Follow Up Ticket Fraud"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "fraud_l1"
+      }, {
+        "parameter": "sla",
+        "value": "5 Hari"
+      }, {
+        "parameter": "tag1",
+        "value": "Fraud::Fraud Cases Related"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::5D"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "fraud__internal_request_follow_up_ticket_fraud"
+      } ]
+    },
+    "targetPage": "Collect_fraud__internal_request_follow_up_ticket_fraud",
+    "name": "0de5c5dd-2119-56a9-9b5f-fc5908efde5c"
+  }, {
+    "condition": "$session.params.sel_category = \"External Fraud - Nasabah\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Laporan / Report"
+      }, {
+        "parameter": "l2_category",
+        "value": "External Fraud - Nasabah"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "fraud_l1"
+      }, {
+        "parameter": "sla",
+        "value": "5 Hari"
+      }, {
+        "parameter": "tag1",
+        "value": "Fraud::Fraud Cases Related"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::5D"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "fraud__external_fraud_nasabah"
+      } ]
+    },
+    "targetPage": "Collect_fraud__external_fraud_nasabah_1",
+    "name": "b1be912c-43d1-5497-ac0f-69e47783f121"
+  }, {
+    "condition": "$session.params.sel_category = \"External Fraud - Non Nasabah\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Laporan / Report"
+      }, {
+        "parameter": "l2_category",
+        "value": "External Fraud - Non Nasabah"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "fraud_l1"
+      }, {
+        "parameter": "sla",
+        "value": "5 Hari"
+      }, {
+        "parameter": "tag1",
+        "value": "Fraud::Fraud Cases Related"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::5D"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "fraud__external_fraud_non_nasabah"
+      } ]
+    },
+    "targetPage": "Collect_fraud__external_fraud_non_nasabah_1",
+    "name": "deedddd4-6b69-533b-9346-420ac8bc18c7"
+  }, {
+    "condition": "$session.params.sel_category = \"Laporan / Report - Follow Up Ticket Fraud\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Laporan / Report"
+      }, {
+        "parameter": "l2_category",
+        "value": "Follow Up Ticket Fraud"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "fraud_l1"
+      }, {
+        "parameter": "sla",
+        "value": "5 Hari"
+      }, {
+        "parameter": "tag1",
+        "value": "Fraud::Fraud Cases Related"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::5D"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "fraud__laporan_report_follow_up_ticket_fraud"
+      } ]
+    },
+    "targetPage": "Collect_fraud__laporan_report_follow_up_ticket_fraud",
+    "name": "97504074-0b73-5ea4-9158-3f488b12b72c"
+  }, {
+    "condition": "$session.params.sel_category = \"Invalid Report\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Laporan / Report"
+      }, {
+        "parameter": "l2_category",
+        "value": "Invalid Report"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "fraud_l1"
+      }, {
+        "parameter": "sla",
+        "value": "5 Hari"
+      }, {
+        "parameter": "tag1",
+        "value": "Fraud::Fraud Cases Related"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::5D"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "fraud__invalid_report"
+      } ]
+    },
+    "targetPage": "Collect_fraud__invalid_report",
+    "name": "0f2da3fa-c02e-546b-b364-ad48c97a2560"
+  } ]
+}

@@ -1,0 +1,681 @@
+{
+  "name": "4029798f-ff79-5f96-a975-742e40e2b3fa",
+  "displayName": "Collect_dispute__cek_biller",
+  "form": {
+    "parameters": [ {
+      "displayName": "n1_amount_slot",
+      "required": true,
+      "entityType": "@sys.number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the transaction amount:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan nominal transaksi:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k3_biller_type_slot",
+      "required": true,
+      "entityType": "@jago_entity_biller_type",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Biller Type:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Biller Type:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Biller Type",
+                "options": [ {
+                  "text": "Multifinance",
+                  "value": "Multifinance"
+                }, {
+                  "text": "Water Billing",
+                  "value": "Water Billing"
+                }, {
+                  "text": "Credit Card Payment",
+                  "value": "Credit Card Payment"
+                }, {
+                  "text": "Prepaid/postpaid mobile phone",
+                  "value": "Prepaid/postpaid mobile phone"
+                }, {
+                  "text": "Electricity Billing/Token",
+                  "value": "Electricity Billing/Token"
+                }, {
+                  "text": "Internet / TV Cable Billing",
+                  "value": "Internet / TV Cable Billing"
+                } ],
+                "parameter": "k3_biller_type",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Biller Type",
+                "options": [ {
+                  "text": "Multifinance",
+                  "value": "Multifinance"
+                }, {
+                  "text": "Water Billing",
+                  "value": "Water Billing"
+                }, {
+                  "text": "Credit Card Payment",
+                  "value": "Credit Card Payment"
+                }, {
+                  "text": "Prepaid/postpaid mobile phone",
+                  "value": "Prepaid/postpaid mobile phone"
+                }, {
+                  "text": "Electricity Billing/Token",
+                  "value": "Electricity Billing/Token"
+                }, {
+                  "text": "Internet / TV Cable Billing",
+                  "value": "Internet / TV Cable Billing"
+                } ],
+                "parameter": "k3_biller_type",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "d5_due_date_slot",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Due Date:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Due Date:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "d6_follow_up_date_slot",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What was the follow-up date of your previous report?" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Kapan tanggal tindak lanjut (follow up) laporan sebelumnya?" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s23_refund_amount_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Refund Amount:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Refund Amount:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "d9_refund_date_slot",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Refund Date:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Refund Date:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s24_remarks_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please describe your issue or add any notes:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon jelaskan kendala Kakak atau tambahkan catatan:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s26_rrn_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the reference number (RRN):" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan nomor referensi (RRN):" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s28_time_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Time:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Time:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "n5_total_of_transaction_slot",
+      "required": true,
+      "entityType": "@sys.number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Total of Transaction:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Total of Transaction:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "n6_total_transaction_amount_slot",
+      "required": true,
+      "entityType": "@sys.number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Total Transaction Amount:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Total Transaction Amount:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k37_transaction_claim_slot",
+      "required": true,
+      "entityType": "@jago_entity_transaction_claim",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Transaction Claim:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Transaction Claim:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Transaction Claim",
+                "options": [ {
+                  "text": "NO::AJ",
+                  "value": "NO::AJ"
+                }, {
+                  "text": "NO::ALTO",
+                  "value": "NO::ALTO"
+                }, {
+                  "text": "NO::ALTO QRIS",
+                  "value": "NO::ALTO QRIS"
+                }, {
+                  "text": "NO::BI Fast",
+                  "value": "NO::BI Fast"
+                }, {
+                  "text": "NO::Bibit",
+                  "value": "NO::Bibit"
+                }, {
+                  "text": "NO::Gojek",
+                  "value": "NO::Gojek"
+                }, {
+                  "text": "NO::Jago",
+                  "value": "NO::Jago"
+                }, {
+                  "text": "NO::SKN/RTGS",
+                  "value": "NO::SKN/RTGS"
+                }, {
+                  "text": "NO::Stockbit",
+                  "value": "NO::Stockbit"
+                }, {
+                  "text": "NO::Tokopedia",
+                  "value": "NO::Tokopedia"
+                }, {
+                  "text": "NO::VISA",
+                  "value": "NO::VISA"
+                }, {
+                  "text": "YES::AJ",
+                  "value": "YES::AJ"
+                }, {
+                  "text": "YES::ALTO",
+                  "value": "YES::ALTO"
+                }, {
+                  "text": "YES::ALTO QRIS",
+                  "value": "YES::ALTO QRIS"
+                }, {
+                  "text": "YES::BI Fast",
+                  "value": "YES::BI Fast"
+                }, {
+                  "text": "YES::Bibit",
+                  "value": "YES::Bibit"
+                }, {
+                  "text": "YES::Gojek",
+                  "value": "YES::Gojek"
+                }, {
+                  "text": "YES::Jago",
+                  "value": "YES::Jago"
+                }, {
+                  "text": "YES::SKN/RTGS",
+                  "value": "YES::SKN/RTGS"
+                }, {
+                  "text": "YES::Stockbit",
+                  "value": "YES::Stockbit"
+                }, {
+                  "text": "YES::Tokopedia",
+                  "value": "YES::Tokopedia"
+                }, {
+                  "text": "YES::VISA",
+                  "value": "YES::VISA"
+                } ],
+                "parameter": "k37_transaction_claim",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Transaction Claim",
+                "options": [ {
+                  "text": "NO::AJ",
+                  "value": "NO::AJ"
+                }, {
+                  "text": "NO::ALTO",
+                  "value": "NO::ALTO"
+                }, {
+                  "text": "NO::ALTO QRIS",
+                  "value": "NO::ALTO QRIS"
+                }, {
+                  "text": "NO::BI Fast",
+                  "value": "NO::BI Fast"
+                }, {
+                  "text": "NO::Bibit",
+                  "value": "NO::Bibit"
+                }, {
+                  "text": "NO::Gojek",
+                  "value": "NO::Gojek"
+                }, {
+                  "text": "NO::Jago",
+                  "value": "NO::Jago"
+                }, {
+                  "text": "NO::SKN/RTGS",
+                  "value": "NO::SKN/RTGS"
+                }, {
+                  "text": "NO::Stockbit",
+                  "value": "NO::Stockbit"
+                }, {
+                  "text": "NO::Tokopedia",
+                  "value": "NO::Tokopedia"
+                }, {
+                  "text": "NO::VISA",
+                  "value": "NO::VISA"
+                }, {
+                  "text": "YES::AJ",
+                  "value": "YES::AJ"
+                }, {
+                  "text": "YES::ALTO",
+                  "value": "YES::ALTO"
+                }, {
+                  "text": "YES::ALTO QRIS",
+                  "value": "YES::ALTO QRIS"
+                }, {
+                  "text": "YES::BI Fast",
+                  "value": "YES::BI Fast"
+                }, {
+                  "text": "YES::Bibit",
+                  "value": "YES::Bibit"
+                }, {
+                  "text": "YES::Gojek",
+                  "value": "YES::Gojek"
+                }, {
+                  "text": "YES::Jago",
+                  "value": "YES::Jago"
+                }, {
+                  "text": "YES::SKN/RTGS",
+                  "value": "YES::SKN/RTGS"
+                }, {
+                  "text": "YES::Stockbit",
+                  "value": "YES::Stockbit"
+                }, {
+                  "text": "YES::Tokopedia",
+                  "value": "YES::Tokopedia"
+                }, {
+                  "text": "YES::VISA",
+                  "value": "YES::VISA"
+                } ],
+                "parameter": "k37_transaction_claim",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "d11_transaction_date_slot",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "When did the transaction occur?" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Kapan tanggal transaksinya?" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "n7_transaction_id_slot",
+      "required": true,
+      "entityType": "@sys.number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Transaction ID:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Transaction ID:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k38_transaction_status_slot",
+      "required": true,
+      "entityType": "@jago_entity_transaction_status",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Transaction Status:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Transaction Status:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Transaction Status",
+                "options": [ {
+                  "text": "Success",
+                  "value": "Success"
+                }, {
+                  "text": "Decline",
+                  "value": "Decline"
+                }, {
+                  "text": "Report Not Available",
+                  "value": "Report Not Available"
+                } ],
+                "parameter": "k38_transaction_status",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Transaction Status",
+                "options": [ {
+                  "text": "Sukses",
+                  "value": "Success"
+                }, {
+                  "text": "Ditolak",
+                  "value": "Decline"
+                }, {
+                  "text": "Laporan Tidak Tersedia",
+                  "value": "Report Not Available"
+                } ],
+                "parameter": "k38_transaction_status",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k39_transaction_type_slot",
+      "required": true,
+      "entityType": "@jago_entity_transaction_type",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Transaction Type:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Transaction Type:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Transaction Type",
+                "options": [ {
+                  "text": "Transfer ATM",
+                  "value": "Transfer ATM"
+                }, {
+                  "text": "Outgoing Transfer",
+                  "value": "Outgoing Transfer"
+                }, {
+                  "text": "Incoming Transfer",
+                  "value": "Incoming Transfer"
+                }, {
+                  "text": "Cash Withdrawal ATM",
+                  "value": "Cash Withdrawal ATM"
+                }, {
+                  "text": "Online Debit Card Transaction",
+                  "value": "Online Debit Card Transaction"
+                }, {
+                  "text": "Offline Debit Card Transaction",
+                  "value": "Offline Debit Card Transaction"
+                }, {
+                  "text": "QRIS Transaction",
+                  "value": "QRIS Transaction"
+                }, {
+                  "text": "Biller Payment",
+                  "value": "Biller Payment"
+                } ],
+                "parameter": "k39_transaction_type",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Transaction Type",
+                "options": [ {
+                  "text": "Transfer ATM",
+                  "value": "Transfer ATM"
+                }, {
+                  "text": "Outgoing Transfer",
+                  "value": "Outgoing Transfer"
+                }, {
+                  "text": "Incoming Transfer",
+                  "value": "Incoming Transfer"
+                }, {
+                  "text": "Cash Withdrawal ATM",
+                  "value": "Cash Withdrawal ATM"
+                }, {
+                  "text": "Online Debit Card Transaction",
+                  "value": "Online Debit Card Transaction"
+                }, {
+                  "text": "Offline Debit Card Transaction",
+                  "value": "Offline Debit Card Transaction"
+                }, {
+                  "text": "QRIS Transaction",
+                  "value": "QRIS Transaction"
+                }, {
+                  "text": "Biller Payment",
+                  "value": "Biller Payment"
+                } ],
+                "parameter": "k39_transaction_type",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "n1_amount",
+        "value": "$page.params.n1_amount_slot"
+      }, {
+        "parameter": "k3_biller_type",
+        "value": "$page.params.k3_biller_type_slot"
+      }, {
+        "parameter": "d5_due_date",
+        "value": "$page.params.d5_due_date_slot"
+      }, {
+        "parameter": "d6_follow_up_date",
+        "value": "$page.params.d6_follow_up_date_slot"
+      }, {
+        "parameter": "s23_refund_amount",
+        "value": "$page.params.s23_refund_amount_slot"
+      }, {
+        "parameter": "d9_refund_date",
+        "value": "$page.params.d9_refund_date_slot"
+      }, {
+        "parameter": "s24_remarks",
+        "value": "$page.params.s24_remarks_slot"
+      }, {
+        "parameter": "s26_rrn",
+        "value": "$page.params.s26_rrn_slot"
+      }, {
+        "parameter": "s28_time",
+        "value": "$page.params.s28_time_slot"
+      }, {
+        "parameter": "n5_total_of_transaction",
+        "value": "$page.params.n5_total_of_transaction_slot"
+      }, {
+        "parameter": "n6_total_transaction_amount",
+        "value": "$page.params.n6_total_transaction_amount_slot"
+      }, {
+        "parameter": "k37_transaction_claim",
+        "value": "$page.params.k37_transaction_claim_slot"
+      }, {
+        "parameter": "d11_transaction_date",
+        "value": "$page.params.d11_transaction_date_slot"
+      }, {
+        "parameter": "n7_transaction_id",
+        "value": "$page.params.n7_transaction_id_slot"
+      }, {
+        "parameter": "k38_transaction_status",
+        "value": "$page.params.k38_transaction_status_slot"
+      }, {
+        "parameter": "k39_transaction_type",
+        "value": "$page.params.k39_transaction_type_slot"
+      } ]
+    },
+    "targetPage": "Dispute_Handoff_Page",
+    "name": "87c42566-9974-5c37-ab4e-d622f2f54856"
+  } ]
+}

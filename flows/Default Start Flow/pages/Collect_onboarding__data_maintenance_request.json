@@ -1,0 +1,489 @@
+{
+  "name": "04c1b56e-514d-557b-88a7-f3d0bb27ff13",
+  "displayName": "Collect_onboarding__data_maintenance_request",
+  "form": {
+    "parameters": [ {
+      "displayName": "k13_decision_slot",
+      "required": true,
+      "entityType": "@jago_entity_decision",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please choose the decision:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Silakan pilih keputusan (decision):" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Decision",
+                "options": [ {
+                  "text": "Blocked",
+                  "value": "Blocked"
+                }, {
+                  "text": "Declined",
+                  "value": "Declined"
+                }, {
+                  "text": "KTP BOP Error",
+                  "value": "KTP BOP Error"
+                }, {
+                  "text": "No Dukcapil Photo",
+                  "value": "No Dukcapil Photo"
+                }, {
+                  "text": "Refunded",
+                  "value": "Refunded"
+                }, {
+                  "text": "Same Person",
+                  "value": "Same Person"
+                }, {
+                  "text": "False Positive",
+                  "value": "False Positive"
+                }, {
+                  "text": "True Positive",
+                  "value": "True Positive"
+                }, {
+                  "text": "Customer No Reply",
+                  "value": "Customer No Reply"
+                }, {
+                  "text": "Approved",
+                  "value": "Approved"
+                }, {
+                  "text": "Rejected",
+                  "value": "Rejected"
+                } ],
+                "parameter": "k13_decision",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Decision",
+                "options": [ {
+                  "text": "Diblokir",
+                  "value": "Blocked"
+                }, {
+                  "text": "Ditolak",
+                  "value": "Declined"
+                }, {
+                  "text": "Error KTP BOP",
+                  "value": "KTP BOP Error"
+                }, {
+                  "text": "Tidak Ada Foto Dukcapil",
+                  "value": "No Dukcapil Photo"
+                }, {
+                  "text": "Dana Dikembalikan",
+                  "value": "Refunded"
+                }, {
+                  "text": "Orang yang Sama",
+                  "value": "Same Person"
+                }, {
+                  "text": "Positif Palsu",
+                  "value": "False Positive"
+                }, {
+                  "text": "Positif Benar",
+                  "value": "True Positive"
+                }, {
+                  "text": "Nasabah Tidak Merespons",
+                  "value": "Customer No Reply"
+                }, {
+                  "text": "Disetujui",
+                  "value": "Approved"
+                }, {
+                  "text": "Ditolak",
+                  "value": "Rejected"
+                } ],
+                "parameter": "k13_decision",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k24_maintenance_fields_slot",
+      "required": true,
+      "entityType": "@jago_entity_maintenance_fields",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Maintenance Fields:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Maintenance Fields:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Maintenance Fields",
+                "options": [ {
+                  "text": "NIK",
+                  "value": "NIK"
+                }, {
+                  "text": "Name",
+                  "value": "Name"
+                }, {
+                  "text": "Place of Birth",
+                  "value": "Place of Birth"
+                }, {
+                  "text": "Date of Birth",
+                  "value": "Date of Birth"
+                }, {
+                  "text": "Gender",
+                  "value": "Gender"
+                }, {
+                  "text": "Marital Status",
+                  "value": "Marital Status"
+                }, {
+                  "text": "NPWP",
+                  "value": "NPWP"
+                }, {
+                  "text": "Phone Number",
+                  "value": "Phone Number"
+                }, {
+                  "text": "Email",
+                  "value": "Email"
+                }, {
+                  "text": "Address",
+                  "value": "Address"
+                }, {
+                  "text": "Province",
+                  "value": "Province"
+                }, {
+                  "text": "City",
+                  "value": "City"
+                }, {
+                  "text": "District",
+                  "value": "District"
+                }, {
+                  "text": "Subdistrict",
+                  "value": "Subdistrict"
+                }, {
+                  "text": "Postal Code",
+                  "value": "Postal Code"
+                }, {
+                  "text": "Goal of Activation",
+                  "value": "Goal of Activation"
+                }, {
+                  "text": "Monthly Income",
+                  "value": "Monthly Income"
+                }, {
+                  "text": "Monthly Expense",
+                  "value": "Monthly Expense"
+                }, {
+                  "text": "Source of Income",
+                  "value": "Source of Income"
+                }, {
+                  "text": "Occupation",
+                  "value": "Occupation"
+                }, {
+                  "text": "Industry of Profession",
+                  "value": "Industry of Profession"
+                }, {
+                  "text": "Job Position",
+                  "value": "Job Position"
+                }, {
+                  "text": "Company Name",
+                  "value": "Company Name"
+                }, {
+                  "text": "Company Address",
+                  "value": "Company Address"
+                }, {
+                  "text": "Company Phone",
+                  "value": "Company Phone"
+                } ],
+                "parameter": "k24_maintenance_fields",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Maintenance Fields",
+                "options": [ {
+                  "text": "NIK",
+                  "value": "NIK"
+                }, {
+                  "text": "Name",
+                  "value": "Name"
+                }, {
+                  "text": "Place of Birth",
+                  "value": "Place of Birth"
+                }, {
+                  "text": "Date of Birth",
+                  "value": "Date of Birth"
+                }, {
+                  "text": "Gender",
+                  "value": "Gender"
+                }, {
+                  "text": "Marital Status",
+                  "value": "Marital Status"
+                }, {
+                  "text": "NPWP",
+                  "value": "NPWP"
+                }, {
+                  "text": "Phone Number",
+                  "value": "Phone Number"
+                }, {
+                  "text": "Email",
+                  "value": "Email"
+                }, {
+                  "text": "Address",
+                  "value": "Address"
+                }, {
+                  "text": "Province",
+                  "value": "Province"
+                }, {
+                  "text": "City",
+                  "value": "City"
+                }, {
+                  "text": "District",
+                  "value": "District"
+                }, {
+                  "text": "Subdistrict",
+                  "value": "Subdistrict"
+                }, {
+                  "text": "Postal Code",
+                  "value": "Postal Code"
+                }, {
+                  "text": "Goal of Activation",
+                  "value": "Goal of Activation"
+                }, {
+                  "text": "Monthly Income",
+                  "value": "Monthly Income"
+                }, {
+                  "text": "Monthly Expense",
+                  "value": "Monthly Expense"
+                }, {
+                  "text": "Source of Income",
+                  "value": "Source of Income"
+                }, {
+                  "text": "Occupation",
+                  "value": "Occupation"
+                }, {
+                  "text": "Industry of Profession",
+                  "value": "Industry of Profession"
+                }, {
+                  "text": "Job Position",
+                  "value": "Job Position"
+                }, {
+                  "text": "Company Name",
+                  "value": "Company Name"
+                }, {
+                  "text": "Company Address",
+                  "value": "Company Address"
+                }, {
+                  "text": "Company Phone",
+                  "value": "Company Phone"
+                } ],
+                "parameter": "k24_maintenance_fields",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k26_partner_slot",
+      "required": true,
+      "entityType": "@jago_entity_partner",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please choose the partner:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Silakan pilih partner/mitra:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Partner",
+                "options": [ {
+                  "text": "AdaKami",
+                  "value": "AdaKami"
+                }, {
+                  "text": "Amaan",
+                  "value": "Amaan"
+                }, {
+                  "text": "Atome",
+                  "value": "Atome"
+                }, {
+                  "text": "BFI Finance Indonesia",
+                  "value": "BFI Finance Indonesia"
+                }, {
+                  "text": "BNI Finance",
+                  "value": "BNI Finance"
+                }, {
+                  "text": "Bibit",
+                  "value": "Bibit"
+                }, {
+                  "text": "Buana Finance",
+                  "value": "Buana Finance"
+                }, {
+                  "text": "CarSome",
+                  "value": "CarSome"
+                }, {
+                  "text": "Dhanapala",
+                  "value": "Dhanapala"
+                }, {
+                  "text": "Easy Cash",
+                  "value": "Easy Cash"
+                }, {
+                  "text": "Gojek",
+                  "value": "Gojek"
+                }, {
+                  "text": "Gopay Unified",
+                  "value": "Gopay Unified"
+                }, {
+                  "text": "Home Credit",
+                  "value": "Home Credit"
+                }, {
+                  "text": "Indomobil",
+                  "value": "Indomobil"
+                }, {
+                  "text": "Jago Stand Alone",
+                  "value": "Jago Stand Alone"
+                }, {
+                  "text": "Kredit Pintar",
+                  "value": "Kredit Pintar"
+                }, {
+                  "text": "MAB - Gopaylater",
+                  "value": "MAB - Gopaylater"
+                }, {
+                  "text": "MGR - Findaya",
+                  "value": "MGR - Findaya"
+                }, {
+                  "text": "MNC Guna Usaha",
+                  "value": "MNC Guna Usaha"
+                }, {
+                  "text": "Radana",
+                  "value": "Radana"
+                }, {
+                  "text": "Stockbit",
+                  "value": "Stockbit"
+                }, {
+                  "text": "True Finance",
+                  "value": "True Finance"
+                } ],
+                "parameter": "k26_partner",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Partner",
+                "options": [ {
+                  "text": "AdaKami",
+                  "value": "AdaKami"
+                }, {
+                  "text": "Amaan",
+                  "value": "Amaan"
+                }, {
+                  "text": "Atome",
+                  "value": "Atome"
+                }, {
+                  "text": "BFI Finance Indonesia",
+                  "value": "BFI Finance Indonesia"
+                }, {
+                  "text": "BNI Finance",
+                  "value": "BNI Finance"
+                }, {
+                  "text": "Bibit",
+                  "value": "Bibit"
+                }, {
+                  "text": "Buana Finance",
+                  "value": "Buana Finance"
+                }, {
+                  "text": "CarSome",
+                  "value": "CarSome"
+                }, {
+                  "text": "Dhanapala",
+                  "value": "Dhanapala"
+                }, {
+                  "text": "Easy Cash",
+                  "value": "Easy Cash"
+                }, {
+                  "text": "Gojek",
+                  "value": "Gojek"
+                }, {
+                  "text": "Gopay Unified",
+                  "value": "Gopay Unified"
+                }, {
+                  "text": "Home Credit",
+                  "value": "Home Credit"
+                }, {
+                  "text": "Indomobil",
+                  "value": "Indomobil"
+                }, {
+                  "text": "Jago Stand Alone",
+                  "value": "Jago Stand Alone"
+                }, {
+                  "text": "Kredit Pintar",
+                  "value": "Kredit Pintar"
+                }, {
+                  "text": "MAB - Gopaylater",
+                  "value": "MAB - Gopaylater"
+                }, {
+                  "text": "MGR - Findaya",
+                  "value": "MGR - Findaya"
+                }, {
+                  "text": "MNC Guna Usaha",
+                  "value": "MNC Guna Usaha"
+                }, {
+                  "text": "Radana",
+                  "value": "Radana"
+                }, {
+                  "text": "Stockbit",
+                  "value": "Stockbit"
+                }, {
+                  "text": "True Finance",
+                  "value": "True Finance"
+                } ],
+                "parameter": "k26_partner",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "k13_decision",
+        "value": "$page.params.k13_decision_slot"
+      }, {
+        "parameter": "k24_maintenance_fields",
+        "value": "$page.params.k24_maintenance_fields_slot"
+      }, {
+        "parameter": "k26_partner",
+        "value": "$page.params.k26_partner_slot"
+      } ]
+    },
+    "targetPage": "Onboarding_Handoff_Page",
+    "name": "c239626b-5fd3-5ddd-9ee4-140d8db857c5"
+  } ]
+}

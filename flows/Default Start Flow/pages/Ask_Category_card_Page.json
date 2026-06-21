@@ -1,0 +1,138 @@
+{
+  "name": "35ac418c-8ec1-53ff-8132-3e134be884d0",
+  "displayName": "Ask_Category_card_Page",
+  "form": {
+    "parameters": [ {
+      "displayName": "sel_category",
+      "required": true,
+      "entityType": "@jago_cat_card",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please choose the category (reply with the number or name):\n1. Card Follow Up\n2. Check Card Delivery\n3. Pending Courier OB Card" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Silakan pilih kategori (balas dengan nomor atau nama):\n1. Tindak Lanjut Kartu\n2. Cek Pengiriman Kartu\n3. Kartu Kurir Tertunda (OB)" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.sel_category = \"Card Follow Up\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Internal Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "Card Follow Up"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "ta_cards"
+      }, {
+        "parameter": "sla",
+        "value": ""
+      }, {
+        "parameter": "tag1",
+        "value": "TA Cards::Debit Card Delivery Check"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::5D"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "card__card_follow_up"
+      } ]
+    },
+    "targetPage": "Collect_card__card_follow_up",
+    "name": "0ce35f92-ccc3-5cce-bd8e-39e57697f375"
+  }, {
+    "condition": "$session.params.sel_category = \"Check Card Delivery\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Permintaan / Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "Check Card Delivery"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "ta_cards"
+      }, {
+        "parameter": "sla",
+        "value": ""
+      }, {
+        "parameter": "tag1",
+        "value": "TA Cards::Debit Card Delivery Check"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::5D"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "card__check_card_delivery"
+      } ]
+    },
+    "targetPage": "Collect_card__check_card_delivery",
+    "name": "312bc3d7-3384-5248-9049-0083b7475135"
+  }, {
+    "condition": "$session.params.sel_category = \"Pending Courier OB Card\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Permintaan / Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "Pending Courier OB Card"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "ta_cards"
+      }, {
+        "parameter": "sla",
+        "value": ""
+      }, {
+        "parameter": "tag1",
+        "value": "TA Cards::Debit Card Delivery Check"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::5D"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "card__pending_courier_ob_card"
+      } ]
+    },
+    "targetPage": "Collect_card__pending_courier_ob_card",
+    "name": "a31684b6-1e10-5fbd-91da-f4d1a553b0be"
+  } ]
+}

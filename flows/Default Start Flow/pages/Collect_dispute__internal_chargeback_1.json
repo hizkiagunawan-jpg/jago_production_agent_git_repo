@@ -1,0 +1,973 @@
+{
+  "name": "863112b7-87b0-5fea-beea-c7eeacb257ec",
+  "displayName": "Collect_dispute__internal_chargeback_1",
+  "form": {
+    "parameters": [ {
+      "displayName": "n1_amount_slot",
+      "required": true,
+      "entityType": "@sys.number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the transaction amount:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan nominal transaksi:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s7_card_number_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the card number:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan nomor kartu:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s8_case_number_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the case number:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan nomor kasus (case number):" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k14_dispute_reason_slot",
+      "required": true,
+      "entityType": "@jago_entity_dispute_reason",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Dispute Reason:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Dispute Reason:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Dispute Reason",
+                "options": [ {
+                  "text": "Unauthorized Transaction",
+                  "value": "Unauthorized Transaction"
+                }, {
+                  "text": "Double Debit",
+                  "value": "Double Debit"
+                }, {
+                  "text": "Transaction failed cardholder debited",
+                  "value": "Transaction failed cardholder debited"
+                }, {
+                  "text": "Paid by other means",
+                  "value": "Paid by other means"
+                }, {
+                  "text": "Reject Transaction",
+                  "value": "Reject Transaction"
+                }, {
+                  "text": "Transaction already canceled",
+                  "value": "Transaction already canceled"
+                }, {
+                  "text": "Merchandise/Service not received",
+                  "value": "Merchandise/Service not received"
+                }, {
+                  "text": "Incorrect transaction amount",
+                  "value": "Incorrect transaction amount"
+                } ],
+                "parameter": "k14_dispute_reason",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Dispute Reason",
+                "options": [ {
+                  "text": "Unauthorized Transaction",
+                  "value": "Unauthorized Transaction"
+                }, {
+                  "text": "Double Debit",
+                  "value": "Double Debit"
+                }, {
+                  "text": "Transaction failed cardholder debited",
+                  "value": "Transaction failed cardholder debited"
+                }, {
+                  "text": "Paid by other means",
+                  "value": "Paid by other means"
+                }, {
+                  "text": "Reject Transaction",
+                  "value": "Reject Transaction"
+                }, {
+                  "text": "Transaction already canceled",
+                  "value": "Transaction already canceled"
+                }, {
+                  "text": "Merchandise/Service not received",
+                  "value": "Merchandise/Service not received"
+                }, {
+                  "text": "Incorrect transaction amount",
+                  "value": "Incorrect transaction amount"
+                } ],
+                "parameter": "k14_dispute_reason",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k15_dispute_stage_slot",
+      "required": true,
+      "entityType": "@jago_entity_dispute_stage",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Dispute Stage:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Dispute Stage:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Dispute Stage",
+                "options": [ {
+                  "text": "Arbitration",
+                  "value": "Arbitration"
+                }, {
+                  "text": "Chargeback",
+                  "value": "Chargeback"
+                }, {
+                  "text": "Compliance",
+                  "value": "Compliance"
+                }, {
+                  "text": "Dispute",
+                  "value": "Dispute"
+                }, {
+                  "text": "Dispute Response",
+                  "value": "Dispute Response"
+                }, {
+                  "text": "Good Faith",
+                  "value": "Good Faith"
+                }, {
+                  "text": "Pre-Arbitration",
+                  "value": "Pre-Arbitration"
+                }, {
+                  "text": "Pre-Compliance",
+                  "value": "Pre-Compliance"
+                }, {
+                  "text": "Representment",
+                  "value": "Representment"
+                }, {
+                  "text": "Retrieval Request",
+                  "value": "Retrieval Request"
+                }, {
+                  "text": "Second Chargeback",
+                  "value": "Second Chargeback"
+                } ],
+                "parameter": "k15_dispute_stage",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Dispute Stage",
+                "options": [ {
+                  "text": "Arbitration",
+                  "value": "Arbitration"
+                }, {
+                  "text": "Chargeback",
+                  "value": "Chargeback"
+                }, {
+                  "text": "Compliance",
+                  "value": "Compliance"
+                }, {
+                  "text": "Dispute",
+                  "value": "Dispute"
+                }, {
+                  "text": "Dispute Response",
+                  "value": "Dispute Response"
+                }, {
+                  "text": "Good Faith",
+                  "value": "Good Faith"
+                }, {
+                  "text": "Pre-Arbitration",
+                  "value": "Pre-Arbitration"
+                }, {
+                  "text": "Pre-Compliance",
+                  "value": "Pre-Compliance"
+                }, {
+                  "text": "Representment",
+                  "value": "Representment"
+                }, {
+                  "text": "Retrieval Request",
+                  "value": "Retrieval Request"
+                }, {
+                  "text": "Second Chargeback",
+                  "value": "Second Chargeback"
+                } ],
+                "parameter": "k15_dispute_stage",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "d5_due_date_slot",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Due Date:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Due Date:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "d6_follow_up_date_slot",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What was the follow-up date of your previous report?" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Kapan tanggal tindak lanjut (follow up) laporan sebelumnya?" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s18_master_ticket_no_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Master Ticket No:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Master Ticket No:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k30_reason_code_slot",
+      "required": true,
+      "entityType": "@jago_entity_reason_code",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Reason Code:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Reason Code:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Reason Code",
+                "options": [ {
+                  "text": "101",
+                  "value": "101"
+                }, {
+                  "text": "102",
+                  "value": "102"
+                }, {
+                  "text": "103",
+                  "value": "103"
+                }, {
+                  "text": "104",
+                  "value": "104"
+                }, {
+                  "text": "105",
+                  "value": "105"
+                }, {
+                  "text": "111",
+                  "value": "111"
+                }, {
+                  "text": "112",
+                  "value": "112"
+                }, {
+                  "text": "113",
+                  "value": "113"
+                }, {
+                  "text": "121",
+                  "value": "121"
+                }, {
+                  "text": "122",
+                  "value": "122"
+                }, {
+                  "text": "123",
+                  "value": "123"
+                }, {
+                  "text": "124",
+                  "value": "124"
+                }, {
+                  "text": "125",
+                  "value": "125"
+                }, {
+                  "text": "126",
+                  "value": "126"
+                }, {
+                  "text": "127",
+                  "value": "127"
+                }, {
+                  "text": "131",
+                  "value": "131"
+                }, {
+                  "text": "132",
+                  "value": "132"
+                }, {
+                  "text": "133",
+                  "value": "133"
+                }, {
+                  "text": "134",
+                  "value": "134"
+                }, {
+                  "text": "135",
+                  "value": "135"
+                }, {
+                  "text": "136",
+                  "value": "136"
+                }, {
+                  "text": "137",
+                  "value": "137"
+                }, {
+                  "text": "138",
+                  "value": "138"
+                }, {
+                  "text": "139",
+                  "value": "139"
+                }, {
+                  "text": "2001",
+                  "value": "2001"
+                }, {
+                  "text": "2002",
+                  "value": "2002"
+                }, {
+                  "text": "2003",
+                  "value": "2003"
+                }, {
+                  "text": "2004",
+                  "value": "2004"
+                }, {
+                  "text": "2005",
+                  "value": "2005"
+                }, {
+                  "text": "2006",
+                  "value": "2006"
+                }, {
+                  "text": "2007",
+                  "value": "2007"
+                }, {
+                  "text": "2008",
+                  "value": "2008"
+                }, {
+                  "text": "2009",
+                  "value": "2009"
+                }, {
+                  "text": "2010",
+                  "value": "2010"
+                }, {
+                  "text": "2011",
+                  "value": "2011"
+                }, {
+                  "text": "2014",
+                  "value": "2014"
+                }, {
+                  "text": "2015",
+                  "value": "2015"
+                }, {
+                  "text": "2016",
+                  "value": "2016"
+                }, {
+                  "text": "2017",
+                  "value": "2017"
+                }, {
+                  "text": "1001",
+                  "value": "1001"
+                }, {
+                  "text": "1002",
+                  "value": "1002"
+                }, {
+                  "text": "1003",
+                  "value": "1003"
+                }, {
+                  "text": "1004",
+                  "value": "1004"
+                }, {
+                  "text": "1005",
+                  "value": "1005"
+                } ],
+                "parameter": "k30_reason_code",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Reason Code",
+                "options": [ {
+                  "text": "101",
+                  "value": "101"
+                }, {
+                  "text": "102",
+                  "value": "102"
+                }, {
+                  "text": "103",
+                  "value": "103"
+                }, {
+                  "text": "104",
+                  "value": "104"
+                }, {
+                  "text": "105",
+                  "value": "105"
+                }, {
+                  "text": "111",
+                  "value": "111"
+                }, {
+                  "text": "112",
+                  "value": "112"
+                }, {
+                  "text": "113",
+                  "value": "113"
+                }, {
+                  "text": "121",
+                  "value": "121"
+                }, {
+                  "text": "122",
+                  "value": "122"
+                }, {
+                  "text": "123",
+                  "value": "123"
+                }, {
+                  "text": "124",
+                  "value": "124"
+                }, {
+                  "text": "125",
+                  "value": "125"
+                }, {
+                  "text": "126",
+                  "value": "126"
+                }, {
+                  "text": "127",
+                  "value": "127"
+                }, {
+                  "text": "131",
+                  "value": "131"
+                }, {
+                  "text": "132",
+                  "value": "132"
+                }, {
+                  "text": "133",
+                  "value": "133"
+                }, {
+                  "text": "134",
+                  "value": "134"
+                }, {
+                  "text": "135",
+                  "value": "135"
+                }, {
+                  "text": "136",
+                  "value": "136"
+                }, {
+                  "text": "137",
+                  "value": "137"
+                }, {
+                  "text": "138",
+                  "value": "138"
+                }, {
+                  "text": "139",
+                  "value": "139"
+                }, {
+                  "text": "2001",
+                  "value": "2001"
+                }, {
+                  "text": "2002",
+                  "value": "2002"
+                }, {
+                  "text": "2003",
+                  "value": "2003"
+                }, {
+                  "text": "2004",
+                  "value": "2004"
+                }, {
+                  "text": "2005",
+                  "value": "2005"
+                }, {
+                  "text": "2006",
+                  "value": "2006"
+                }, {
+                  "text": "2007",
+                  "value": "2007"
+                }, {
+                  "text": "2008",
+                  "value": "2008"
+                }, {
+                  "text": "2009",
+                  "value": "2009"
+                }, {
+                  "text": "2010",
+                  "value": "2010"
+                }, {
+                  "text": "2011",
+                  "value": "2011"
+                }, {
+                  "text": "2014",
+                  "value": "2014"
+                }, {
+                  "text": "2015",
+                  "value": "2015"
+                }, {
+                  "text": "2016",
+                  "value": "2016"
+                }, {
+                  "text": "2017",
+                  "value": "2017"
+                }, {
+                  "text": "1001",
+                  "value": "1001"
+                }, {
+                  "text": "1002",
+                  "value": "1002"
+                }, {
+                  "text": "1003",
+                  "value": "1003"
+                }, {
+                  "text": "1004",
+                  "value": "1004"
+                }, {
+                  "text": "1005",
+                  "value": "1005"
+                } ],
+                "parameter": "k30_reason_code",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s24_remarks_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please describe your issue or add any notes:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon jelaskan kendala Kakak atau tambahkan catatan:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s26_rrn_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the reference number (RRN):" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan nomor referensi (RRN):" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s28_time_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Time:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Time:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "d11_transaction_date_slot",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "When did the transaction occur?" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Kapan tanggal transaksinya?" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s9_claim_no_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the claim number:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan nomor klaim:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k6_claim_status_slot",
+      "required": true,
+      "entityType": "@jago_entity_claim_status",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Claim Status:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Claim Status:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Claim Status",
+                "options": [ {
+                  "text": "Incoming",
+                  "value": "Incoming"
+                }, {
+                  "text": "Outgoing",
+                  "value": "Outgoing"
+                } ],
+                "parameter": "k6_claim_status",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Claim Status",
+                "options": [ {
+                  "text": "Masuk",
+                  "value": "Incoming"
+                }, {
+                  "text": "Keluar",
+                  "value": "Outgoing"
+                } ],
+                "parameter": "k6_claim_status",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "d4_date_of_reps_or_win_slot",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Date of Reps or WIN:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Date of Reps or WIN:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s19_mcc_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the MCC:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan MCC:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k40_type_slot",
+      "required": true,
+      "entityType": "@jago_entity_type",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Type:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Type:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Type",
+                "options": [ {
+                  "text": "Claim",
+                  "value": "Claim"
+                }, {
+                  "text": "Re-Claim",
+                  "value": "Re-Claim"
+                }, {
+                  "text": "Re-Re-Claim",
+                  "value": "Re-Re-Claim"
+                }, {
+                  "text": "Response Re-Re-Claim",
+                  "value": "Response Re-Re-Claim"
+                }, {
+                  "text": "Proactive",
+                  "value": "Proactive"
+                }, {
+                  "text": "Claim Dispute/Abnormal/Cash Dispense",
+                  "value": "Claim Dispute/Abnormal/Cash Dispense"
+                }, {
+                  "text": "Jawaban Claim Dispute/Abnormal/Cash Dispense",
+                  "value": "Jawaban Claim Dispute/Abnormal/Cash Dispense"
+                }, {
+                  "text": "Request CCTV",
+                  "value": "Request CCTV"
+                }, {
+                  "text": "Claim Force Credit",
+                  "value": "Claim Force Credit"
+                }, {
+                  "text": "Response Force Credit",
+                  "value": "Response Force Credit"
+                }, {
+                  "text": "Claim Refund",
+                  "value": "Claim Refund"
+                }, {
+                  "text": " jawaban Claim Refund",
+                  "value": " jawaban Claim Refund"
+                } ],
+                "parameter": "k40_type",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Type",
+                "options": [ {
+                  "text": "Claim",
+                  "value": "Claim"
+                }, {
+                  "text": "Re-Claim",
+                  "value": "Re-Claim"
+                }, {
+                  "text": "Re-Re-Claim",
+                  "value": "Re-Re-Claim"
+                }, {
+                  "text": "Response Re-Re-Claim",
+                  "value": "Response Re-Re-Claim"
+                }, {
+                  "text": "Proactive",
+                  "value": "Proactive"
+                }, {
+                  "text": "Claim Dispute/Abnormal/Cash Dispense",
+                  "value": "Claim Dispute/Abnormal/Cash Dispense"
+                }, {
+                  "text": "Jawaban Claim Dispute/Abnormal/Cash Dispense",
+                  "value": "Jawaban Claim Dispute/Abnormal/Cash Dispense"
+                }, {
+                  "text": "Request CCTV",
+                  "value": "Request CCTV"
+                }, {
+                  "text": "Claim Force Credit",
+                  "value": "Claim Force Credit"
+                }, {
+                  "text": "Response Force Credit",
+                  "value": "Response Force Credit"
+                }, {
+                  "text": "Claim Refund",
+                  "value": "Claim Refund"
+                }, {
+                  "text": " jawaban Claim Refund",
+                  "value": " jawaban Claim Refund"
+                } ],
+                "parameter": "k40_type",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "n1_amount",
+        "value": "$page.params.n1_amount_slot"
+      }, {
+        "parameter": "s7_card_number",
+        "value": "$page.params.s7_card_number_slot"
+      }, {
+        "parameter": "s8_case_number",
+        "value": "$page.params.s8_case_number_slot"
+      }, {
+        "parameter": "k14_dispute_reason",
+        "value": "$page.params.k14_dispute_reason_slot"
+      }, {
+        "parameter": "k15_dispute_stage",
+        "value": "$page.params.k15_dispute_stage_slot"
+      }, {
+        "parameter": "d5_due_date",
+        "value": "$page.params.d5_due_date_slot"
+      }, {
+        "parameter": "d6_follow_up_date",
+        "value": "$page.params.d6_follow_up_date_slot"
+      }, {
+        "parameter": "s18_master_ticket_no",
+        "value": "$page.params.s18_master_ticket_no_slot"
+      }, {
+        "parameter": "k30_reason_code",
+        "value": "$page.params.k30_reason_code_slot"
+      }, {
+        "parameter": "s24_remarks",
+        "value": "$page.params.s24_remarks_slot"
+      }, {
+        "parameter": "s26_rrn",
+        "value": "$page.params.s26_rrn_slot"
+      }, {
+        "parameter": "s28_time",
+        "value": "$page.params.s28_time_slot"
+      }, {
+        "parameter": "d11_transaction_date",
+        "value": "$page.params.d11_transaction_date_slot"
+      }, {
+        "parameter": "s9_claim_no",
+        "value": "$page.params.s9_claim_no_slot"
+      }, {
+        "parameter": "k6_claim_status",
+        "value": "$page.params.k6_claim_status_slot"
+      }, {
+        "parameter": "d4_date_of_reps_or_win",
+        "value": "$page.params.d4_date_of_reps_or_win_slot"
+      }, {
+        "parameter": "s19_mcc",
+        "value": "$page.params.s19_mcc_slot"
+      }, {
+        "parameter": "k40_type",
+        "value": "$page.params.k40_type_slot"
+      } ]
+    },
+    "targetPage": "Collect_dispute__internal_chargeback_2",
+    "name": "b46dd786-ad90-58fe-8a6b-f313362ee0bd"
+  } ]
+}

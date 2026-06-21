@@ -1,0 +1,111 @@
+{
+  "entities": [ {
+    "value": "Sinarmas",
+    "synonyms": [ "Sinarmas" ],
+    "languageCode": "en"
+  }, {
+    "value": "Permata",
+    "synonyms": [ "Permata" ],
+    "languageCode": "en"
+  }, {
+    "value": "OCBC NISP",
+    "synonyms": [ "OCBC NISP" ],
+    "languageCode": "en"
+  }, {
+    "value": "Muamalat",
+    "synonyms": [ "Muamalat" ],
+    "languageCode": "en"
+  }, {
+    "value": "Mega Syariah",
+    "synonyms": [ "Mega Syariah" ],
+    "languageCode": "en"
+  }, {
+    "value": "Mega",
+    "synonyms": [ "Mega" ],
+    "languageCode": "en"
+  }, {
+    "value": "Maybank Syariah",
+    "synonyms": [ "Maybank Syariah" ],
+    "languageCode": "en"
+  }, {
+    "value": "Maybank",
+    "synonyms": [ "Maybank" ],
+    "languageCode": "en"
+  }, {
+    "value": "Mayapada",
+    "synonyms": [ "Mayapada" ],
+    "languageCode": "en"
+  }, {
+    "value": "Mandiri Syariah",
+    "synonyms": [ "Mandiri Syariah" ],
+    "languageCode": "en"
+  }, {
+    "value": "Mandiri",
+    "synonyms": [ "Mandiri" ],
+    "languageCode": "en"
+  }, {
+    "value": "Jago",
+    "synonyms": [ "Jago" ],
+    "languageCode": "en"
+  }, {
+    "value": "Hana Bank",
+    "synonyms": [ "Hana Bank" ],
+    "languageCode": "en"
+  }, {
+    "value": "Ganesha",
+    "synonyms": [ "Ganesha" ],
+    "languageCode": "en"
+  }, {
+    "value": "DKI",
+    "synonyms": [ "DKI" ],
+    "languageCode": "en"
+  }, {
+    "value": "Danamon",
+    "synonyms": [ "Danamon" ],
+    "languageCode": "en"
+  }, {
+    "value": "CIMB Niaga",
+    "synonyms": [ "CIMB Niaga" ],
+    "languageCode": "en"
+  }, {
+    "value": "Bukopin",
+    "synonyms": [ "Bukopin" ],
+    "languageCode": "en"
+  }, {
+    "value": "BTN",
+    "synonyms": [ "BTN" ],
+    "languageCode": "en"
+  }, {
+    "value": "BRI Syariah",
+    "synonyms": [ "BRI Syariah" ],
+    "languageCode": "en"
+  }, {
+    "value": "BRI",
+    "synonyms": [ "BRI" ],
+    "languageCode": "en"
+  }, {
+    "value": "BNI",
+    "synonyms": [ "BNI" ],
+    "languageCode": "en"
+  }, {
+    "value": "BJB",
+    "synonyms": [ "BJB" ],
+    "languageCode": "en"
+  }, {
+    "value": "BCA Syariah",
+    "synonyms": [ "BCA Syariah" ],
+    "languageCode": "en"
+  }, {
+    "value": "BCA",
+    "synonyms": [ "BCA" ],
+    "languageCode": "en"
+  }, {
+    "value": "ANZ",
+    "synonyms": [ "ANZ" ],
+    "languageCode": "en"
+  }, {
+    "value": "*Lain",
+    "synonyms": [ "*Lain" ],
+    "languageCode": "en"
+  } ]
+}

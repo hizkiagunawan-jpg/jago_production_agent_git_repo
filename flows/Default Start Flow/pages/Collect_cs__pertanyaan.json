@@ -1,0 +1,211 @@
+{
+  "name": "1c496d7a-f910-5719-a987-f411f51e9b0d",
+  "displayName": "Collect_cs__pertanyaan",
+  "form": {
+    "parameters": [ {
+      "displayName": "s24_remarks_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please describe your issue or add any notes:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon jelaskan kendala Kakak atau tambahkan catatan:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k26_partner_slot",
+      "required": true,
+      "entityType": "@jago_entity_partner",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please choose the partner:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Silakan pilih partner/mitra:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Partner",
+                "options": [ {
+                  "text": "AdaKami",
+                  "value": "AdaKami"
+                }, {
+                  "text": "Amaan",
+                  "value": "Amaan"
+                }, {
+                  "text": "Atome",
+                  "value": "Atome"
+                }, {
+                  "text": "BFI Finance Indonesia",
+                  "value": "BFI Finance Indonesia"
+                }, {
+                  "text": "BNI Finance",
+                  "value": "BNI Finance"
+                }, {
+                  "text": "Bibit",
+                  "value": "Bibit"
+                }, {
+                  "text": "Buana Finance",
+                  "value": "Buana Finance"
+                }, {
+                  "text": "CarSome",
+                  "value": "CarSome"
+                }, {
+                  "text": "Dhanapala",
+                  "value": "Dhanapala"
+                }, {
+                  "text": "Easy Cash",
+                  "value": "Easy Cash"
+                }, {
+                  "text": "Gojek",
+                  "value": "Gojek"
+                }, {
+                  "text": "Gopay Unified",
+                  "value": "Gopay Unified"
+                }, {
+                  "text": "Home Credit",
+                  "value": "Home Credit"
+                }, {
+                  "text": "Indomobil",
+                  "value": "Indomobil"
+                }, {
+                  "text": "Jago Stand Alone",
+                  "value": "Jago Stand Alone"
+                }, {
+                  "text": "Kredit Pintar",
+                  "value": "Kredit Pintar"
+                }, {
+                  "text": "MAB - Gopaylater",
+                  "value": "MAB - Gopaylater"
+                }, {
+                  "text": "MGR - Findaya",
+                  "value": "MGR - Findaya"
+                }, {
+                  "text": "MNC Guna Usaha",
+                  "value": "MNC Guna Usaha"
+                }, {
+                  "text": "Radana",
+                  "value": "Radana"
+                }, {
+                  "text": "Stockbit",
+                  "value": "Stockbit"
+                }, {
+                  "text": "True Finance",
+                  "value": "True Finance"
+                } ],
+                "parameter": "k26_partner",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Partner",
+                "options": [ {
+                  "text": "AdaKami",
+                  "value": "AdaKami"
+                }, {
+                  "text": "Amaan",
+                  "value": "Amaan"
+                }, {
+                  "text": "Atome",
+                  "value": "Atome"
+                }, {
+                  "text": "BFI Finance Indonesia",
+                  "value": "BFI Finance Indonesia"
+                }, {
+                  "text": "BNI Finance",
+                  "value": "BNI Finance"
+                }, {
+                  "text": "Bibit",
+                  "value": "Bibit"
+                }, {
+                  "text": "Buana Finance",
+                  "value": "Buana Finance"
+                }, {
+                  "text": "CarSome",
+                  "value": "CarSome"
+                }, {
+                  "text": "Dhanapala",
+                  "value": "Dhanapala"
+                }, {
+                  "text": "Easy Cash",
+                  "value": "Easy Cash"
+                }, {
+                  "text": "Gojek",
+                  "value": "Gojek"
+                }, {
+                  "text": "Gopay Unified",
+                  "value": "Gopay Unified"
+                }, {
+                  "text": "Home Credit",
+                  "value": "Home Credit"
+                }, {
+                  "text": "Indomobil",
+                  "value": "Indomobil"
+                }, {
+                  "text": "Jago Stand Alone",
+                  "value": "Jago Stand Alone"
+                }, {
+                  "text": "Kredit Pintar",
+                  "value": "Kredit Pintar"
+                }, {
+                  "text": "MAB - Gopaylater",
+                  "value": "MAB - Gopaylater"
+                }, {
+                  "text": "MGR - Findaya",
+                  "value": "MGR - Findaya"
+                }, {
+                  "text": "MNC Guna Usaha",
+                  "value": "MNC Guna Usaha"
+                }, {
+                  "text": "Radana",
+                  "value": "Radana"
+                }, {
+                  "text": "Stockbit",
+                  "value": "Stockbit"
+                }, {
+                  "text": "True Finance",
+                  "value": "True Finance"
+                } ],
+                "parameter": "k26_partner",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s24_remarks",
+        "value": "$page.params.s24_remarks_slot"
+      }, {
+        "parameter": "k26_partner",
+        "value": "$page.params.k26_partner_slot"
+      } ]
+    },
+    "targetPage": "CS_Handoff_Page",
+    "name": "d505503a-011c-5091-b3d4-c26062fc3417"
+  } ]
+}

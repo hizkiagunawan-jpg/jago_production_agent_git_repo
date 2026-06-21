@@ -1,0 +1,62 @@
+{
+  "name": "35b13336-1ced-4ef8-a10e-10fb3e3bab0d",
+  "displayName": "CDD_Handoff_Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Thank you for the information. Regarding this compliance data review, I will forward your details directly to our Compliance (CDD/EDD) team for a manual check. Please wait a moment while I connect you." ]
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Terima kasih atas informasinya Kak. Terkait peninjauan data kepatuhan ini, saya akan langsung meneruskan data Kakak ke tim Compliance (CDD/EDD) untuk diperiksa secara manual. Mohon tunggu sebentar, saya sambungkan sekarang." ]
+      },
+      "languageCode": "id"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "CLAN": "$session.params.clan",
+          "CUSTOM_FIELDS": {
+            "k13_decision": "$session.params.k13_decision",
+            "k26_partner": "$session.params.k26_partner"
+          },
+          "GROUP_CODE": "$session.params.group_code",
+          "L0_TEAM": "$session.params.l0_team",
+          "L1_FORM": "$session.params.l1_form",
+          "L2_CATEGORY": "$session.params.l2_category",
+          "L3_SUB_CATEGORY": "$session.params.l3_sub_category",
+          "L4_SUB_SUB_CATEGORY": "$session.params.l4_sub_sub_category",
+          "RESOLUTION_TIME": "$session.params.resolution_time",
+          "SLA": "$session.params.sla",
+          "TAG1": "$session.params.tag1",
+          "action": "HUMAN_ESCALATION"
+        }
+      },
+      "languageCode": "en"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "CLAN": "$session.params.clan",
+          "CUSTOM_FIELDS": {
+            "k13_decision": "$session.params.k13_decision",
+            "k26_partner": "$session.params.k26_partner"
+          },
+          "GROUP_CODE": "$session.params.group_code",
+          "L0_TEAM": "$session.params.l0_team",
+          "L1_FORM": "$session.params.l1_form",
+          "L2_CATEGORY": "$session.params.l2_category",
+          "L3_SUB_CATEGORY": "$session.params.l3_sub_category",
+          "L4_SUB_SUB_CATEGORY": "$session.params.l4_sub_sub_category",
+          "RESOLUTION_TIME": "$session.params.resolution_time",
+          "SLA": "$session.params.sla",
+          "TAG1": "$session.params.tag1",
+          "action": "HUMAN_ESCALATION"
+        }
+      },
+      "languageCode": "id"
+    } ]
+  }
+}

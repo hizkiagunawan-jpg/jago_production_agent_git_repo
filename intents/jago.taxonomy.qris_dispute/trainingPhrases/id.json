@@ -1,0 +1,259 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Bisa "
+    }, {
+      "text": "bantu"
+    }, {
+      "text": " claim "
+    }, {
+      "text": "QRIS"
+    }, {
+      "text": " transaction issue?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Qris jagoan nyangkut gmn nih"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Double debit "
+    }, {
+      "text": "qris"
+    }, {
+      "text": " "
+    }, {
+      "text": "toko"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Cek dispute "
+    }, {
+      "text": "qris"
+    }, {
+      "text": " jago"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Duit "
+    }, {
+      "text": "qris"
+    }, {
+      "text": " nyangkut di kasir"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Bayar"
+    }, {
+      "text": " "
+    }, {
+      "text": "qris"
+    }, {
+      "text": " failed tapi saldo berkurang"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Komplain "
+    }, {
+      "text": "qris nyangkut min"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Scan"
+    }, {
+      "text": " "
+    }, {
+      "text": "qris"
+    }, {
+      "text": " jago error duit ilang"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Qris"
+    }, {
+      "text": " gagal saldo kepotong"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Kok bayar pake "
+    }, {
+      "text": "QRIS"
+    }, {
+      "text": " malah kegunting saldonya padahal merchant bilang gak masuk?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Gimana ya cara urus "
+    }, {
+      "text": "uang QRIS"
+    }, {
+      "text": " yang kepotong tapi struknya gak keluar?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Min"
+    }, {
+      "text": ", ini saldo kesedot pas scan "
+    }, {
+      "text": "QR"
+    }, {
+      "text": " code "
+    }, {
+      "text": "toko"
+    }, {
+      "text": " tapi transaksinya "
+    }, {
+      "text": "gak"
+    }, {
+      "text": " sukses."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Tadi bayar pake QRIS Jago, di aplikasi sukses tapi di "
+    }, {
+      "text": "toko"
+    }, {
+      "text": " dibilang failed."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Mau komplain "
+    }, {
+      "text": "dong"
+    }, {
+      "text": ", dana "
+    }, {
+      "text": "QRIS"
+    }, {
+      "text": " nyangkut nih di merchant."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Duit udah berkurang pas bayar QRIS, tapi di sistem "
+    }, {
+      "text": "toko"
+    }, {
+      "text": " katanya belom masuk."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Barusan"
+    }, {
+      "text": " "
+    }, {
+      "text": "scan"
+    }, {
+      "text": " QRIS pake Jago saldo kepotong tapi "
+    }, {
+      "text": "kasirnya"
+    }, {
+      "text": " bilang gagal."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Laporan pengembalian dana "
+    }, {
+      "text": "QRIS"
+    }, {
+      "text": " yang tidak diterima oleh kasir."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Saya mengalami masalah pendebetan ganda pada transaksi "
+    }, {
+      "text": "QRIS"
+    }, {
+      "text": " saya."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Bagaimana cara mengurus dana "
+    }, {
+      "text": "QRIS"
+    }, {
+      "text": " yang nyangkut di "
+    }, {
+      "text": "toko"
+    }, {
+      "text": "?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Terjadi kegagalan pembayaran "
+    }, {
+      "text": "QRIS"
+    }, {
+      "text": " padahal dana sudah terdebit."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Mohon"
+    }, {
+      "text": " bantuannya untuk sengketa transaksi "
+    }, {
+      "text": "QRIS Bank"
+    }, {
+      "text": " Jago."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Saldo Jago"
+    }, {
+      "text": " saya terpotong saat scan QRIS, namun status di merchant belum masuk."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Saya ingin mengajukan komplain terkait transaksi "
+    }, {
+      "text": "QRIS"
+    }, {
+      "text": " yang gagal."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  } ]
+}

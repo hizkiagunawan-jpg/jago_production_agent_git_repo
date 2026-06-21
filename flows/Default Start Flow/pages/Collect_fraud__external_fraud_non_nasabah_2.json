@@ -1,0 +1,59 @@
+{
+  "name": "773740d8-b283-5937-b38b-983fc7f0b8bf",
+  "displayName": "Collect_fraud__external_fraud_non_nasabah_2",
+  "form": {
+    "parameters": [ {
+      "displayName": "s25_reported_bank_name_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Reported Bank Name:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Reported Bank Name:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "n4_third_party_loss_slot",
+      "required": true,
+      "entityType": "@sys.number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Third Party Loss:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Third Party Loss:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s25_reported_bank_name",
+        "value": "$page.params.s25_reported_bank_name_slot"
+      }, {
+        "parameter": "n4_third_party_loss",
+        "value": "$page.params.n4_third_party_loss_slot"
+      } ]
+    },
+    "targetPage": "Fraud_Handoff_Page",
+    "name": "c8b8eedc-7e4f-50f7-a6db-bce69f19f3bc"
+  } ]
+}

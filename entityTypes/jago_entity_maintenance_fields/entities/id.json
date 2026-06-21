@@ -1,0 +1,103 @@
+{
+  "entities": [ {
+    "value": "NIK",
+    "synonyms": [ "NIK" ],
+    "languageCode": "id"
+  }, {
+    "value": "Name",
+    "synonyms": [ "Name" ],
+    "languageCode": "id"
+  }, {
+    "value": "Place of Birth",
+    "synonyms": [ "Place of Birth" ],
+    "languageCode": "id"
+  }, {
+    "value": "Date of Birth",
+    "synonyms": [ "Date of Birth" ],
+    "languageCode": "id"
+  }, {
+    "value": "Gender",
+    "synonyms": [ "Gender" ],
+    "languageCode": "id"
+  }, {
+    "value": "Marital Status",
+    "synonyms": [ "Marital Status" ],
+    "languageCode": "id"
+  }, {
+    "value": "NPWP",
+    "synonyms": [ "NPWP" ],
+    "languageCode": "id"
+  }, {
+    "value": "Phone Number",
+    "synonyms": [ "Phone Number" ],
+    "languageCode": "id"
+  }, {
+    "value": "Email",
+    "synonyms": [ "Email" ],
+    "languageCode": "id"
+  }, {
+    "value": "Address",
+    "synonyms": [ "Address" ],
+    "languageCode": "id"
+  }, {
+    "value": "Province",
+    "synonyms": [ "Province" ],
+    "languageCode": "id"
+  }, {
+    "value": "City",
+    "synonyms": [ "City" ],
+    "languageCode": "id"
+  }, {
+    "value": "District",
+    "synonyms": [ "District" ],
+    "languageCode": "id"
+  }, {
+    "value": "Subdistrict",
+    "synonyms": [ "Subdistrict" ],
+    "languageCode": "id"
+  }, {
+    "value": "Postal Code",
+    "synonyms": [ "Postal Code" ],
+    "languageCode": "id"
+  }, {
+    "value": "Goal of Activation",
+    "synonyms": [ "Goal of Activation" ],
+    "languageCode": "id"
+  }, {
+    "value": "Monthly Income",
+    "synonyms": [ "Monthly Income" ],
+    "languageCode": "id"
+  }, {
+    "value": "Monthly Expense",
+    "synonyms": [ "Monthly Expense" ],
+    "languageCode": "id"
+  }, {
+    "value": "Source of Income",
+    "synonyms": [ "Source of Income" ],
+    "languageCode": "id"
+  }, {
+    "value": "Occupation",
+    "synonyms": [ "Occupation" ],
+    "languageCode": "id"
+  }, {
+    "value": "Industry of Profession",
+    "synonyms": [ "Industry of Profession" ],
+    "languageCode": "id"
+  }, {
+    "value": "Job Position",
+    "synonyms": [ "Job Position" ],
+    "languageCode": "id"
+  }, {
+    "value": "Company Name",
+    "synonyms": [ "Company Name" ],
+    "languageCode": "id"
+  }, {
+    "value": "Company Address",
+    "synonyms": [ "Company Address" ],
+    "languageCode": "id"
+  }, {
+    "value": "Company Phone",
+    "synonyms": [ "Company Phone" ],
+    "languageCode": "id"
+  } ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "4fa1b9c1-9a2d-40da-bd7d-83953356c674",
+  "displayName": "Bot_CSAT_Survey_Page",
+  "form": {
+    "parameters": [ {
+      "displayName": "bot_csat",
+      "required": true,
+      "entityType": "@sys.number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Apakah asisten virtual Tanya Jago sudah menjawab pertanyaan Anda dengan baik? Silakan balas dengan angka: 1 (Sangat Buruk), 2 (Buruk), 3 (Netral), 4 (Puas), 5 (Sangat Puas)." ]
+      },
+      "languageCode": "id"
+    }, {
+      "text": {
+        "text": [ "Did the Tanya Jago virtual assistant answer your question well? Please rate it with a number: 1 (Very Poor), 2 (Poor), 3 (Neutral), 4 (Satisfied), 5 (Very Satisfied)." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.bot_csat != null",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Terima kasih atas rating penilaian. Jika ada kendala atau hal yang ingin ditanyakan, Saya Tanya Jago Assistant siap membantu. " ]
+        },
+        "languageCode": "id"
+      }, {
+        "text": {
+          "text": [ "Thank you for your rating. If you have any questions or concerns, Ask Jago Assistant is ready to help." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "238f82bf-e702-463c-aadf-9ed3e7cb3553"
+  } ]
+}

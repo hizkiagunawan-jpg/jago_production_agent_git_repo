@@ -1,0 +1,10 @@
+{
+  "name": "c0cc5c19-4b2e-4d8e-8e1c-a3b515b01426",
+  "displayName": "jago.intent.escalate",
+  "parameters": [ {
+    "id": "chosen_issue",
+    "entityType": "@jago_issues"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 54
+}

@@ -1,0 +1,212 @@
+{
+  "name": "867002fb-cac7-53fd-afa5-212ad23ce455",
+  "displayName": "Ask_Category_kyc_Page",
+  "form": {
+    "parameters": [ {
+      "displayName": "sel_category",
+      "required": true,
+      "entityType": "@jago_cat_kyc",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please choose the category (reply with the number or name):\n1. STR - Close Account\n2. STR - Update Customer Data\n3. Blokir - Account Nasabah\n4. Blokir - Kartu debit\n5. Closing Account" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Silakan pilih kategori (balas dengan nomor atau nama):\n1. STR - Penutupan Rekening\n2. STR - Pembaruan Data Nasabah\n3. Blokir - Rekening Nasabah\n4. Blokir - Kartu Debit\n5. Penutupan Rekening" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.sel_category = \"STR - Close Account\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Internal Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "STR - Close Account"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "kyc_team"
+      }, {
+        "parameter": "sla",
+        "value": "7 Hari"
+      }, {
+        "parameter": "tag1",
+        "value": "KYC Admin::STR"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::7D"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "kyc__str_close_account"
+      } ]
+    },
+    "targetPage": "Collect_kyc__str_close_account",
+    "name": "c869e6b3-f927-5c8c-bdf4-ede6beb3cd77"
+  }, {
+    "condition": "$session.params.sel_category = \"STR - Update Customer Data\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Internal Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "STR - Update Customer Data"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "kyc_admin"
+      }, {
+        "parameter": "sla",
+        "value": "7 Hari"
+      }, {
+        "parameter": "tag1",
+        "value": "KYC Admin::STR"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::7D"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "kyc__str_update_customer_data"
+      } ]
+    },
+    "targetPage": "Collect_kyc__str_update_customer_data",
+    "name": "5a9ab1db-ba3c-52aa-86df-42813e36b2a1"
+  }, {
+    "condition": "$session.params.sel_category = \"Blokir - Account Nasabah\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Permintaan / Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "Blokir - Account Nasabah"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "kyc_admin"
+      }, {
+        "parameter": "sla",
+        "value": "1 Hari"
+      }, {
+        "parameter": "tag1",
+        "value": "KYC Admin::Block"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::1D"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "kyc__blokir_account_nasabah"
+      } ]
+    },
+    "targetPage": "Collect_kyc__blokir_account_nasabah",
+    "name": "987a82ae-9487-5727-af42-3d96ee4541c9"
+  }, {
+    "condition": "$session.params.sel_category = \"Blokir - Kartu debit\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Permintaan / Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "Blokir - Kartu debit"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "kyc_admin"
+      }, {
+        "parameter": "sla",
+        "value": "1 Hari"
+      }, {
+        "parameter": "tag1",
+        "value": "KYC Admin::Block"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::1D"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "kyc__blokir_kartu_debit"
+      } ]
+    },
+    "targetPage": "Collect_kyc__blokir_kartu_debit",
+    "name": "0d2958c3-f8d8-5143-95c3-c4a57b189801"
+  }, {
+    "condition": "$session.params.sel_category = \"Closing Account\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Permintaan / Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "Closing Account"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "kyc_team"
+      }, {
+        "parameter": "sla",
+        "value": "1 Hari"
+      }, {
+        "parameter": "tag1",
+        "value": "KYC Admin::Closing Account"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::1D"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "kyc__closing_account"
+      } ]
+    },
+    "targetPage": "Collect_kyc__closing_account",
+    "name": "9a6e9b41-c437-5031-9139-1ebae9318c7a"
+  } ]
+}

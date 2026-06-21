@@ -1,0 +1,1153 @@
+{
+  "name": "24ef6ede-8b34-5956-86ef-330ba4229fa7",
+  "displayName": "Collect_cs__keluhan",
+  "form": {
+    "parameters": [ {
+      "displayName": "k48_category_of_complaint_antasena_slot",
+      "required": true,
+      "entityType": "@jago_entity_category_of_complaint_antasena",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Category of Complaint Antasena:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Category of Complaint Antasena:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Category of Complaint Antasena",
+                "options": [ {
+                  "text": "10 - Perubahan/Pemutusan Akad/Perjanjian/Kontrak",
+                  "value": "10 - Perubahan/Pemutusan Akad/Perjanjian/Kontrak"
+                }, {
+                  "text": "20 - Permasalahan/kerusakan pada Sistem Teknologi Informasi",
+                  "value": "20 - Permasalahan/kerusakan pada Sistem Teknologi Informasi"
+                }, {
+                  "text": "30 - Produk digunakan atau data disalahgunakan oleh orang lain",
+                  "value": "30 - Produk digunakan atau data disalahgunakan oleh orang lain"
+                }, {
+                  "text": "40 - Penipuan",
+                  "value": "40 - Penipuan"
+                }, {
+                  "text": "50 - Salah Transfer",
+                  "value": "50 - Salah Transfer"
+                }, {
+                  "text": "61 - Usaha pengambilan data secara ilegal - Double Swipe",
+                  "value": "61 - Usaha pengambilan data secara ilegal - Double Swipe"
+                }, {
+                  "text": "62 - Usaha pengambilan data secara ilegal - Card Trapping",
+                  "value": "62 - Usaha pengambilan data secara ilegal - Card Trapping"
+                }, {
+                  "text": "63 - Usaha pengambilan data secara ilegal - Skimming",
+                  "value": "63 - Usaha pengambilan data secara ilegal - Skimming"
+                }, {
+                  "text": "69 - Usaha pengambilan data secara ilegal - Lainnya",
+                  "value": "69 - Usaha pengambilan data secara ilegal - Lainnya"
+                }, {
+                  "text": "70 - Etika Penagihan/Debt Collector",
+                  "value": "70 - Etika Penagihan/Debt Collector"
+                }, {
+                  "text": "80 - Surcharge",
+                  "value": "80 - Surcharge"
+                }, {
+                  "text": "90 - Bunga/Biaya Lainnya",
+                  "value": "90 - Bunga/Biaya Lainnya"
+                }, {
+                  "text": "100 - Gestun (Penarikan Tunai di merchant)",
+                  "value": "100 - Gestun (Penarikan Tunai di merchant)"
+                }, {
+                  "text": "110 - Keringanan Tagihan Kartu Kredit",
+                  "value": "110 - Keringanan Tagihan Kartu Kredit"
+                }, {
+                  "text": "120 - Top up Tidak Berhasil",
+                  "value": "120 - Top up Tidak Berhasil"
+                }, {
+                  "text": "999 - Lainnya",
+                  "value": "999 - Lainnya"
+                } ],
+                "parameter": "k48_category_of_complaint_antasena",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Category of Complaint Antasena",
+                "options": [ {
+                  "text": "10 - Perubahan/Pemutusan Akad/Perjanjian/Kontrak",
+                  "value": "10 - Perubahan/Pemutusan Akad/Perjanjian/Kontrak"
+                }, {
+                  "text": "20 - Permasalahan/kerusakan pada Sistem Teknologi Informasi",
+                  "value": "20 - Permasalahan/kerusakan pada Sistem Teknologi Informasi"
+                }, {
+                  "text": "30 - Produk digunakan atau data disalahgunakan oleh orang lain",
+                  "value": "30 - Produk digunakan atau data disalahgunakan oleh orang lain"
+                }, {
+                  "text": "40 - Penipuan",
+                  "value": "40 - Penipuan"
+                }, {
+                  "text": "50 - Salah Transfer",
+                  "value": "50 - Salah Transfer"
+                }, {
+                  "text": "61 - Usaha pengambilan data secara ilegal - Double Swipe",
+                  "value": "61 - Usaha pengambilan data secara ilegal - Double Swipe"
+                }, {
+                  "text": "62 - Usaha pengambilan data secara ilegal - Card Trapping",
+                  "value": "62 - Usaha pengambilan data secara ilegal - Card Trapping"
+                }, {
+                  "text": "63 - Usaha pengambilan data secara ilegal - Skimming",
+                  "value": "63 - Usaha pengambilan data secara ilegal - Skimming"
+                }, {
+                  "text": "69 - Usaha pengambilan data secara ilegal - Lainnya",
+                  "value": "69 - Usaha pengambilan data secara ilegal - Lainnya"
+                }, {
+                  "text": "70 - Etika Penagihan/Debt Collector",
+                  "value": "70 - Etika Penagihan/Debt Collector"
+                }, {
+                  "text": "80 - Surcharge",
+                  "value": "80 - Surcharge"
+                }, {
+                  "text": "90 - Bunga/Biaya Lainnya",
+                  "value": "90 - Bunga/Biaya Lainnya"
+                }, {
+                  "text": "100 - Gestun (Penarikan Tunai di merchant)",
+                  "value": "100 - Gestun (Penarikan Tunai di merchant)"
+                }, {
+                  "text": "110 - Keringanan Tagihan Kartu Kredit",
+                  "value": "110 - Keringanan Tagihan Kartu Kredit"
+                }, {
+                  "text": "120 - Top up Tidak Berhasil",
+                  "value": "120 - Top up Tidak Berhasil"
+                }, {
+                  "text": "999 - Lainnya",
+                  "value": "999 - Lainnya"
+                } ],
+                "parameter": "k48_category_of_complaint_antasena",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k5_category_of_complaint_sipeduli_slot",
+      "required": true,
+      "entityType": "@jago_entity_category_of_complaint_sipeduli",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Category of Complaint Sipeduli:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Category of Complaint Sipeduli:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Category of Complaint Sipeduli",
+                "options": [ {
+                  "text": "Pemahaman Karakteristik produk oleh Konsumen",
+                  "value": "Pemahaman Karakteristik produk oleh Konsumen"
+                }, {
+                  "text": "Informasi Produk kurang memadai",
+                  "value": "Informasi Produk kurang memadai"
+                }, {
+                  "text": "Gangguan/ Kerusakan perangkat dan sistem teknologi informasi",
+                  "value": "Gangguan/ Kerusakan perangkat dan sistem teknologi informasi"
+                }, {
+                  "text": "Perubahan/ Pemutusan akad/ Perjanjian/ kontrak",
+                  "value": "Perubahan/ Pemutusan akad/ Perjanjian/ kontrak"
+                }, {
+                  "text": "Kelalaian Konsumen",
+                  "value": "Kelalaian Konsumen"
+                }, {
+                  "text": "Kelalaian Pelaku Usaha Jasa Keuangan",
+                  "value": "Kelalaian Pelaku Usaha Jasa Keuangan"
+                }, {
+                  "text": "Tindak Pidana Pelaku Usaha Jasa Keuangan",
+                  "value": "Tindak Pidana Pelaku Usaha Jasa Keuangan"
+                }, {
+                  "text": "Lainnya",
+                  "value": "Lainnya"
+                } ],
+                "parameter": "k5_category_of_complaint_sipeduli",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Category of Complaint Sipeduli",
+                "options": [ {
+                  "text": "Pemahaman Karakteristik produk oleh Konsumen",
+                  "value": "Pemahaman Karakteristik produk oleh Konsumen"
+                }, {
+                  "text": "Informasi Produk kurang memadai",
+                  "value": "Informasi Produk kurang memadai"
+                }, {
+                  "text": "Gangguan/ Kerusakan perangkat dan sistem teknologi informasi",
+                  "value": "Gangguan/ Kerusakan perangkat dan sistem teknologi informasi"
+                }, {
+                  "text": "Perubahan/ Pemutusan akad/ Perjanjian/ kontrak",
+                  "value": "Perubahan/ Pemutusan akad/ Perjanjian/ kontrak"
+                }, {
+                  "text": "Kelalaian Konsumen",
+                  "value": "Kelalaian Konsumen"
+                }, {
+                  "text": "Kelalaian Pelaku Usaha Jasa Keuangan",
+                  "value": "Kelalaian Pelaku Usaha Jasa Keuangan"
+                }, {
+                  "text": "Tindak Pidana Pelaku Usaha Jasa Keuangan",
+                  "value": "Tindak Pidana Pelaku Usaha Jasa Keuangan"
+                }, {
+                  "text": "Lainnya",
+                  "value": "Lainnya"
+                } ],
+                "parameter": "k5_category_of_complaint_sipeduli",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k41_type_of_product_complaint_antasena_slot",
+      "required": true,
+      "entityType": "@jago_entity_type_of_product_complaint_antasena",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Type of Product - Complaint Antasena:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Type of Product - Complaint Antasena:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Type of Product - Complaint Antasena",
+                "options": [ {
+                  "text": "AD - ATM dan/atau Kartu Debet",
+                  "value": "AD - ATM dan/atau Kartu Debet"
+                }, {
+                  "text": "DD - Direct Debit",
+                  "value": "DD - Direct Debit"
+                }, {
+                  "text": "DH - Daftar Hitam Nasional (DHN) dan Cek/Bilyet Giro",
+                  "value": "DH - Daftar Hitam Nasional (DHN) dan Cek/Bilyet Giro"
+                }, {
+                  "text": "EC - E - Commerce",
+                  "value": "EC - E - Commerce"
+                }, {
+                  "text": "EW - Dompet Elektronik/E-Wallet",
+                  "value": "EW - Dompet Elektronik/E-Wallet"
+                }, {
+                  "text": "IB - Delivery Channel - Internet banking",
+                  "value": "IB - Delivery Channel - Internet banking"
+                }, {
+                  "text": "KK - Kartu Kredit",
+                  "value": "KK - Kartu Kredit"
+                }, {
+                  "text": "KR - Kliring",
+                  "value": "KR - Kliring"
+                }, {
+                  "text": "MB - Delivery Channel - Mobile/SMS banking",
+                  "value": "MB - Delivery Channel - Mobile/SMS banking"
+                }, {
+                  "text": "PB - Delivery Channel - Phone banking",
+                  "value": "PB - Delivery Channel - Phone banking"
+                }, {
+                  "text": "RM - Remitansi",
+                  "value": "RM - Remitansi"
+                }, {
+                  "text": "RT - RTGS",
+                  "value": "RT - RTGS"
+                }, {
+                  "text": "SI - Standing Instruction",
+                  "value": "SI - Standing Instruction"
+                }, {
+                  "text": "TC - Travelers Cheque",
+                  "value": "TC - Travelers Cheque"
+                }, {
+                  "text": "TD - Transfer Dana",
+                  "value": "TD - Transfer Dana"
+                }, {
+                  "text": "UE - Uang elektronik",
+                  "value": "UE - Uang elektronik"
+                }, {
+                  "text": "UK - Uang Kartal",
+                  "value": "UK - Uang Kartal"
+                }, {
+                  "text": "XX - Lainnya",
+                  "value": "XX - Lainnya"
+                } ],
+                "parameter": "k41_type_of_product_complaint_antasena",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Type of Product - Complaint Antasena",
+                "options": [ {
+                  "text": "AD - ATM dan/atau Kartu Debet",
+                  "value": "AD - ATM dan/atau Kartu Debet"
+                }, {
+                  "text": "DD - Direct Debit",
+                  "value": "DD - Direct Debit"
+                }, {
+                  "text": "DH - Daftar Hitam Nasional (DHN) dan Cek/Bilyet Giro",
+                  "value": "DH - Daftar Hitam Nasional (DHN) dan Cek/Bilyet Giro"
+                }, {
+                  "text": "EC - E - Commerce",
+                  "value": "EC - E - Commerce"
+                }, {
+                  "text": "EW - Dompet Elektronik/E-Wallet",
+                  "value": "EW - Dompet Elektronik/E-Wallet"
+                }, {
+                  "text": "IB - Delivery Channel - Internet banking",
+                  "value": "IB - Delivery Channel - Internet banking"
+                }, {
+                  "text": "KK - Kartu Kredit",
+                  "value": "KK - Kartu Kredit"
+                }, {
+                  "text": "KR - Kliring",
+                  "value": "KR - Kliring"
+                }, {
+                  "text": "MB - Delivery Channel - Mobile/SMS banking",
+                  "value": "MB - Delivery Channel - Mobile/SMS banking"
+                }, {
+                  "text": "PB - Delivery Channel - Phone banking",
+                  "value": "PB - Delivery Channel - Phone banking"
+                }, {
+                  "text": "RM - Remitansi",
+                  "value": "RM - Remitansi"
+                }, {
+                  "text": "RT - RTGS",
+                  "value": "RT - RTGS"
+                }, {
+                  "text": "SI - Standing Instruction",
+                  "value": "SI - Standing Instruction"
+                }, {
+                  "text": "TC - Travelers Cheque",
+                  "value": "TC - Travelers Cheque"
+                }, {
+                  "text": "TD - Transfer Dana",
+                  "value": "TD - Transfer Dana"
+                }, {
+                  "text": "UE - Uang elektronik",
+                  "value": "UE - Uang elektronik"
+                }, {
+                  "text": "UK - Uang Kartal",
+                  "value": "UK - Uang Kartal"
+                }, {
+                  "text": "XX - Lainnya",
+                  "value": "XX - Lainnya"
+                } ],
+                "parameter": "k41_type_of_product_complaint_antasena",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k46_type_of_product_complaint_sipeduli_slot",
+      "required": true,
+      "entityType": "@jago_entity_type_of_product_complaint_sipeduli",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Type of Product - Complaint Sipeduli:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Type of Product - Complaint Sipeduli:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Type of Product - Complaint Sipeduli",
+                "options": [ {
+                  "text": "Bancassurance",
+                  "value": "Bancassurance"
+                }, {
+                  "text": "Bank Garansi",
+                  "value": "Bank Garansi"
+                }, {
+                  "text": "Bilyet Giro",
+                  "value": "Bilyet Giro"
+                }, {
+                  "text": "Commercial paper",
+                  "value": "Commercial paper"
+                }, {
+                  "text": "Deposito",
+                  "value": "Deposito"
+                }, {
+                  "text": "Derivatif",
+                  "value": "Derivatif"
+                }, {
+                  "text": "Direct Debit",
+                  "value": "Direct Debit"
+                }, {
+                  "text": "Electronic Banking",
+                  "value": "Electronic Banking"
+                }, {
+                  "text": "Giro",
+                  "value": "Giro"
+                }, {
+                  "text": "Kartu ATM/Debit/Mesin ATM",
+                  "value": "Kartu ATM/Debit/Mesin ATM"
+                }, {
+                  "text": "Kartu Kredit",
+                  "value": "Kartu Kredit"
+                }, {
+                  "text": "Kartu Pra Bayar",
+                  "value": "Kartu Pra Bayar"
+                }, {
+                  "text": "Kewajiban pada Bank Lain",
+                  "value": "Kewajiban pada Bank Lain"
+                }, {
+                  "text": "Kliring (Transfer)/Remittance",
+                  "value": "Kliring (Transfer)/Remittance"
+                }, {
+                  "text": "Kredit Tanpa Agunan",
+                  "value": "Kredit Tanpa Agunan"
+                }, {
+                  "text": "Kredit/Pembiayaan Investasi",
+                  "value": "Kredit/Pembiayaan Investasi"
+                }, {
+                  "text": "Kredit/Pembiayaan Kendaraan Bermotor",
+                  "value": "Kredit/Pembiayaan Kendaraan Bermotor"
+                }, {
+                  "text": "Kredit/Pembiayaan Modal Kerja",
+                  "value": "Kredit/Pembiayaan Modal Kerja"
+                }, {
+                  "text": "Kredit/Pembiayaan Pemilikan Rumah/Apartemen",
+                  "value": "Kredit/Pembiayaan Pemilikan Rumah/Apartemen"
+                }, {
+                  "text": "Penempatan pada Bank lain",
+                  "value": "Penempatan pada Bank lain"
+                }, {
+                  "text": "Pengelolaan Portofolio Efek Untuk Kepentingan Nasabah Secara Individual (KPD)",
+                  "value": "Pengelolaan Portofolio Efek Untuk Kepentingan Nasabah Secara Individual (KPD)"
+                }, {
+                  "text": "Penghimpun Dana Lainnya",
+                  "value": "Penghimpun Dana Lainnya"
+                }, {
+                  "text": "Penyaluran Dana Lainnya",
+                  "value": "Penyaluran Dana Lainnya"
+                }, {
+                  "text": "Produk Kerjasama lainnya",
+                  "value": "Produk Kerjasama lainnya"
+                }, {
+                  "text": "Reksadana",
+                  "value": "Reksadana"
+                }, {
+                  "text": "RTGS",
+                  "value": "RTGS"
+                }, {
+                  "text": "Safe Deposit Box",
+                  "value": "Safe Deposit Box"
+                }, {
+                  "text": "Sistem Pembayaran Lainnya",
+                  "value": "Sistem Pembayaran Lainnya"
+                }, {
+                  "text": "SMS Banking",
+                  "value": "SMS Banking"
+                }, {
+                  "text": "Standing Instruction",
+                  "value": "Standing Instruction"
+                }, {
+                  "text": "Structured Product",
+                  "value": "Structured Product"
+                }, {
+                  "text": "Tabungan",
+                  "value": "Tabungan"
+                }, {
+                  "text": "Trade Finance/Letter of Credit",
+                  "value": "Trade Finance/Letter of Credit"
+                }, {
+                  "text": "Travellers Cheque",
+                  "value": "Travellers Cheque"
+                }, {
+                  "text": "Trust",
+                  "value": "Trust"
+                }, {
+                  "text": "Valuta Asing",
+                  "value": "Valuta Asing"
+                }, {
+                  "text": "Wealth Management",
+                  "value": "Wealth Management"
+                } ],
+                "parameter": "k46_type_of_product_complaint_sipeduli",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Type of Product - Complaint Sipeduli",
+                "options": [ {
+                  "text": "Bancassurance",
+                  "value": "Bancassurance"
+                }, {
+                  "text": "Bank Garansi",
+                  "value": "Bank Garansi"
+                }, {
+                  "text": "Bilyet Giro",
+                  "value": "Bilyet Giro"
+                }, {
+                  "text": "Commercial paper",
+                  "value": "Commercial paper"
+                }, {
+                  "text": "Deposito",
+                  "value": "Deposito"
+                }, {
+                  "text": "Derivatif",
+                  "value": "Derivatif"
+                }, {
+                  "text": "Direct Debit",
+                  "value": "Direct Debit"
+                }, {
+                  "text": "Electronic Banking",
+                  "value": "Electronic Banking"
+                }, {
+                  "text": "Giro",
+                  "value": "Giro"
+                }, {
+                  "text": "Kartu ATM/Debit/Mesin ATM",
+                  "value": "Kartu ATM/Debit/Mesin ATM"
+                }, {
+                  "text": "Kartu Kredit",
+                  "value": "Kartu Kredit"
+                }, {
+                  "text": "Kartu Pra Bayar",
+                  "value": "Kartu Pra Bayar"
+                }, {
+                  "text": "Kewajiban pada Bank Lain",
+                  "value": "Kewajiban pada Bank Lain"
+                }, {
+                  "text": "Kliring (Transfer)/Remittance",
+                  "value": "Kliring (Transfer)/Remittance"
+                }, {
+                  "text": "Kredit Tanpa Agunan",
+                  "value": "Kredit Tanpa Agunan"
+                }, {
+                  "text": "Kredit/Pembiayaan Investasi",
+                  "value": "Kredit/Pembiayaan Investasi"
+                }, {
+                  "text": "Kredit/Pembiayaan Kendaraan Bermotor",
+                  "value": "Kredit/Pembiayaan Kendaraan Bermotor"
+                }, {
+                  "text": "Kredit/Pembiayaan Modal Kerja",
+                  "value": "Kredit/Pembiayaan Modal Kerja"
+                }, {
+                  "text": "Kredit/Pembiayaan Pemilikan Rumah/Apartemen",
+                  "value": "Kredit/Pembiayaan Pemilikan Rumah/Apartemen"
+                }, {
+                  "text": "Penempatan pada Bank lain",
+                  "value": "Penempatan pada Bank lain"
+                }, {
+                  "text": "Pengelolaan Portofolio Efek Untuk Kepentingan Nasabah Secara Individual (KPD)",
+                  "value": "Pengelolaan Portofolio Efek Untuk Kepentingan Nasabah Secara Individual (KPD)"
+                }, {
+                  "text": "Penghimpun Dana Lainnya",
+                  "value": "Penghimpun Dana Lainnya"
+                }, {
+                  "text": "Penyaluran Dana Lainnya",
+                  "value": "Penyaluran Dana Lainnya"
+                }, {
+                  "text": "Produk Kerjasama lainnya",
+                  "value": "Produk Kerjasama lainnya"
+                }, {
+                  "text": "Reksadana",
+                  "value": "Reksadana"
+                }, {
+                  "text": "RTGS",
+                  "value": "RTGS"
+                }, {
+                  "text": "Safe Deposit Box",
+                  "value": "Safe Deposit Box"
+                }, {
+                  "text": "Sistem Pembayaran Lainnya",
+                  "value": "Sistem Pembayaran Lainnya"
+                }, {
+                  "text": "SMS Banking",
+                  "value": "SMS Banking"
+                }, {
+                  "text": "Standing Instruction",
+                  "value": "Standing Instruction"
+                }, {
+                  "text": "Structured Product",
+                  "value": "Structured Product"
+                }, {
+                  "text": "Tabungan",
+                  "value": "Tabungan"
+                }, {
+                  "text": "Trade Finance/Letter of Credit",
+                  "value": "Trade Finance/Letter of Credit"
+                }, {
+                  "text": "Travellers Cheque",
+                  "value": "Travellers Cheque"
+                }, {
+                  "text": "Trust",
+                  "value": "Trust"
+                }, {
+                  "text": "Valuta Asing",
+                  "value": "Valuta Asing"
+                }, {
+                  "text": "Wealth Management",
+                  "value": "Wealth Management"
+                } ],
+                "parameter": "k46_type_of_product_complaint_sipeduli",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k47_sub_complaint_sipeduli_slot",
+      "required": true,
+      "entityType": "@jago_entity_sub_complaint_sipeduli",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Sub Complaint Sipeduli:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Sub Complaint Sipeduli:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Sub Complaint Sipeduli",
+                "options": [ {
+                  "text": "Account take over dan kartu diaktifkan pihak lain",
+                  "value": "Account take over dan kartu diaktifkan pihak lain"
+                }, {
+                  "text": "Biaya administrasi/Provisi/Transaksi",
+                  "value": "Biaya administrasi/Provisi/Transaksi"
+                }, {
+                  "text": "Bunga/Bagi Hasil/Margin Keuntungan",
+                  "value": "Bunga/Bagi Hasil/Margin Keuntungan"
+                }, {
+                  "text": "Denda/Pinalti",
+                  "value": "Denda/Pinalti"
+                }, {
+                  "text": "Fraud application",
+                  "value": "Fraud application"
+                }, {
+                  "text": "Fraud eksternal dan kelalaian Bank",
+                  "value": "Fraud eksternal dan kelalaian Bank"
+                }, {
+                  "text": "Fraud, penipuan, kecurangan oleh pegawai dan/atau pihak lain",
+                  "value": "Fraud, penipuan, kecurangan oleh pegawai dan/atau pihak lain"
+                }, {
+                  "text": "Jumlah NAB, UP atau NAB/UP",
+                  "value": "Jumlah NAB, UP atau NAB/UP"
+                }, {
+                  "text": "Jumlah saldo rekening",
+                  "value": "Jumlah saldo rekening"
+                }, {
+                  "text": "Jumlah tagihan",
+                  "value": "Jumlah tagihan"
+                }, {
+                  "text": "Jumlah tagihan/saldo rekening",
+                  "value": "Jumlah tagihan/saldo rekening"
+                }, {
+                  "text": "Jumlah tagihan/sanggahan transaksi",
+                  "value": "Jumlah tagihan/sanggahan transaksi"
+                }, {
+                  "text": "Jumlah transaksi kliring/transfer",
+                  "value": "Jumlah transaksi kliring/transfer"
+                }, {
+                  "text": "Jumlah transaksi RTGS",
+                  "value": "Jumlah transaksi RTGS"
+                }, {
+                  "text": "Kebakaran/",
+                  "value": "Kebakaran/"
+                }, {
+                  "text": "Keberadaan atas transaksi",
+                  "value": "Keberadaan atas transaksi"
+                }, {
+                  "text": "Keberatan pemberian fasilitas secara sepihak",
+                  "value": "Keberatan pemberian fasilitas secara sepihak"
+                }, {
+                  "text": "Kegagalan",
+                  "value": "Kegagalan"
+                }, {
+                  "text": "Kegagalan/keterlambatan/ketidaksesuaian transaksi (mis: tarik/setor)",
+                  "value": "Kegagalan/keterlambatan/ketidaksesuaian transaksi (mis: tarik/setor)"
+                }, {
+                  "text": "Kehilangan barang",
+                  "value": "Kehilangan barang"
+                }, {
+                  "text": "Keterlambatan penerimaan dana hasil pencairan Reksa Dana (redemption)",
+                  "value": "Keterlambatan penerimaan dana hasil pencairan Reksa Dana (redemption)"
+                }, {
+                  "text": "Keterlambatan transaksi",
+                  "value": "Keterlambatan transaksi"
+                }, {
+                  "text": "Ketidaksesuaian nilai tukar",
+                  "value": "Ketidaksesuaian nilai tukar"
+                }, {
+                  "text": "Lainnya",
+                  "value": "Lainnya"
+                }, {
+                  "text": "Pelunasan Biaya Penyelenggaraan Ibadah haji (BPIH)",
+                  "value": "Pelunasan Biaya Penyelenggaraan Ibadah haji (BPIH)"
+                }, {
+                  "text": "Pemblokiran/Penutupan/perubahan rekening secara sepihak",
+                  "value": "Pemblokiran/Penutupan/perubahan rekening secara sepihak"
+                }, {
+                  "text": "Pembukaan tanpa/tidak sesuai persetujuan",
+                  "value": "Pembukaan tanpa/tidak sesuai persetujuan"
+                }, {
+                  "text": "Penalti",
+                  "value": "Penalti"
+                }, {
+                  "text": "Pencairan tanpa/tidak sesuai persetujuan",
+                  "value": "Pencairan tanpa/tidak sesuai persetujuan"
+                }, {
+                  "text": "Pencairan tidak sesuai perintah/specimen",
+                  "value": "Pencairan tidak sesuai perintah/specimen"
+                }, {
+                  "text": "Pendebetan rekening tanpa persetujuan",
+                  "value": "Pendebetan rekening tanpa persetujuan"
+                }, {
+                  "text": "Penolakan klaim oleh asuransi",
+                  "value": "Penolakan klaim oleh asuransi"
+                }, {
+                  "text": "Penundaan/Penolakan pencairan",
+                  "value": "Penundaan/Penolakan pencairan"
+                }, {
+                  "text": "Penutupan rekening",
+                  "value": "Penutupan rekening"
+                }, {
+                  "text": "Perilaku petugas penagihan",
+                  "value": "Perilaku petugas penagihan"
+                }, {
+                  "text": "Permasalahan agunan/jaminan",
+                  "value": "Permasalahan agunan/jaminan"
+                }, {
+                  "text": "Permasalahan penyerahan rumah/apartemen",
+                  "value": "Permasalahan penyerahan rumah/apartemen"
+                }, {
+                  "text": "permintaan pengembalian dana",
+                  "value": "permintaan pengembalian dana"
+                }, {
+                  "text": "Sistem Layanan Informasi Keuangan",
+                  "value": "Sistem Layanan Informasi Keuangan"
+                }, {
+                  "text": "SWIFT tidak sesuai dengan tujuan pengiriman",
+                  "value": "SWIFT tidak sesuai dengan tujuan pengiriman"
+                }, {
+                  "text": "Tidak menerima laporan/statement",
+                  "value": "Tidak menerima laporan/statement"
+                }, {
+                  "text": "Transaksi",
+                  "value": "Transaksi"
+                }, {
+                  "text": "Unauthorized transaction",
+                  "value": "Unauthorized transaction"
+                } ],
+                "parameter": "k47_sub_complaint_sipeduli",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Sub Complaint Sipeduli",
+                "options": [ {
+                  "text": "Account take over dan kartu diaktifkan pihak lain",
+                  "value": "Account take over dan kartu diaktifkan pihak lain"
+                }, {
+                  "text": "Biaya administrasi/Provisi/Transaksi",
+                  "value": "Biaya administrasi/Provisi/Transaksi"
+                }, {
+                  "text": "Bunga/Bagi Hasil/Margin Keuntungan",
+                  "value": "Bunga/Bagi Hasil/Margin Keuntungan"
+                }, {
+                  "text": "Denda/Pinalti",
+                  "value": "Denda/Pinalti"
+                }, {
+                  "text": "Fraud application",
+                  "value": "Fraud application"
+                }, {
+                  "text": "Fraud eksternal dan kelalaian Bank",
+                  "value": "Fraud eksternal dan kelalaian Bank"
+                }, {
+                  "text": "Fraud, penipuan, kecurangan oleh pegawai dan/atau pihak lain",
+                  "value": "Fraud, penipuan, kecurangan oleh pegawai dan/atau pihak lain"
+                }, {
+                  "text": "Jumlah NAB, UP atau NAB/UP",
+                  "value": "Jumlah NAB, UP atau NAB/UP"
+                }, {
+                  "text": "Jumlah saldo rekening",
+                  "value": "Jumlah saldo rekening"
+                }, {
+                  "text": "Jumlah tagihan",
+                  "value": "Jumlah tagihan"
+                }, {
+                  "text": "Jumlah tagihan/saldo rekening",
+                  "value": "Jumlah tagihan/saldo rekening"
+                }, {
+                  "text": "Jumlah tagihan/sanggahan transaksi",
+                  "value": "Jumlah tagihan/sanggahan transaksi"
+                }, {
+                  "text": "Jumlah transaksi kliring/transfer",
+                  "value": "Jumlah transaksi kliring/transfer"
+                }, {
+                  "text": "Jumlah transaksi RTGS",
+                  "value": "Jumlah transaksi RTGS"
+                }, {
+                  "text": "Kebakaran/",
+                  "value": "Kebakaran/"
+                }, {
+                  "text": "Keberadaan atas transaksi",
+                  "value": "Keberadaan atas transaksi"
+                }, {
+                  "text": "Keberatan pemberian fasilitas secara sepihak",
+                  "value": "Keberatan pemberian fasilitas secara sepihak"
+                }, {
+                  "text": "Kegagalan",
+                  "value": "Kegagalan"
+                }, {
+                  "text": "Kegagalan/keterlambatan/ketidaksesuaian transaksi (mis: tarik/setor)",
+                  "value": "Kegagalan/keterlambatan/ketidaksesuaian transaksi (mis: tarik/setor)"
+                }, {
+                  "text": "Kehilangan barang",
+                  "value": "Kehilangan barang"
+                }, {
+                  "text": "Keterlambatan penerimaan dana hasil pencairan Reksa Dana (redemption)",
+                  "value": "Keterlambatan penerimaan dana hasil pencairan Reksa Dana (redemption)"
+                }, {
+                  "text": "Keterlambatan transaksi",
+                  "value": "Keterlambatan transaksi"
+                }, {
+                  "text": "Ketidaksesuaian nilai tukar",
+                  "value": "Ketidaksesuaian nilai tukar"
+                }, {
+                  "text": "Lainnya",
+                  "value": "Lainnya"
+                }, {
+                  "text": "Pelunasan Biaya Penyelenggaraan Ibadah haji (BPIH)",
+                  "value": "Pelunasan Biaya Penyelenggaraan Ibadah haji (BPIH)"
+                }, {
+                  "text": "Pemblokiran/Penutupan/perubahan rekening secara sepihak",
+                  "value": "Pemblokiran/Penutupan/perubahan rekening secara sepihak"
+                }, {
+                  "text": "Pembukaan tanpa/tidak sesuai persetujuan",
+                  "value": "Pembukaan tanpa/tidak sesuai persetujuan"
+                }, {
+                  "text": "Penalti",
+                  "value": "Penalti"
+                }, {
+                  "text": "Pencairan tanpa/tidak sesuai persetujuan",
+                  "value": "Pencairan tanpa/tidak sesuai persetujuan"
+                }, {
+                  "text": "Pencairan tidak sesuai perintah/specimen",
+                  "value": "Pencairan tidak sesuai perintah/specimen"
+                }, {
+                  "text": "Pendebetan rekening tanpa persetujuan",
+                  "value": "Pendebetan rekening tanpa persetujuan"
+                }, {
+                  "text": "Penolakan klaim oleh asuransi",
+                  "value": "Penolakan klaim oleh asuransi"
+                }, {
+                  "text": "Penundaan/Penolakan pencairan",
+                  "value": "Penundaan/Penolakan pencairan"
+                }, {
+                  "text": "Penutupan rekening",
+                  "value": "Penutupan rekening"
+                }, {
+                  "text": "Perilaku petugas penagihan",
+                  "value": "Perilaku petugas penagihan"
+                }, {
+                  "text": "Permasalahan agunan/jaminan",
+                  "value": "Permasalahan agunan/jaminan"
+                }, {
+                  "text": "Permasalahan penyerahan rumah/apartemen",
+                  "value": "Permasalahan penyerahan rumah/apartemen"
+                }, {
+                  "text": "permintaan pengembalian dana",
+                  "value": "permintaan pengembalian dana"
+                }, {
+                  "text": "Sistem Layanan Informasi Keuangan",
+                  "value": "Sistem Layanan Informasi Keuangan"
+                }, {
+                  "text": "SWIFT tidak sesuai dengan tujuan pengiriman",
+                  "value": "SWIFT tidak sesuai dengan tujuan pengiriman"
+                }, {
+                  "text": "Tidak menerima laporan/statement",
+                  "value": "Tidak menerima laporan/statement"
+                }, {
+                  "text": "Transaksi",
+                  "value": "Transaksi"
+                }, {
+                  "text": "Unauthorized transaction",
+                  "value": "Unauthorized transaction"
+                } ],
+                "parameter": "k47_sub_complaint_sipeduli",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s24_remarks_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please describe your issue or add any notes:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon jelaskan kendala Kakak atau tambahkan catatan:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k26_partner_slot",
+      "required": true,
+      "entityType": "@jago_entity_partner",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please choose the partner:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Silakan pilih partner/mitra:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Partner",
+                "options": [ {
+                  "text": "AdaKami",
+                  "value": "AdaKami"
+                }, {
+                  "text": "Amaan",
+                  "value": "Amaan"
+                }, {
+                  "text": "Atome",
+                  "value": "Atome"
+                }, {
+                  "text": "BFI Finance Indonesia",
+                  "value": "BFI Finance Indonesia"
+                }, {
+                  "text": "BNI Finance",
+                  "value": "BNI Finance"
+                }, {
+                  "text": "Bibit",
+                  "value": "Bibit"
+                }, {
+                  "text": "Buana Finance",
+                  "value": "Buana Finance"
+                }, {
+                  "text": "CarSome",
+                  "value": "CarSome"
+                }, {
+                  "text": "Dhanapala",
+                  "value": "Dhanapala"
+                }, {
+                  "text": "Easy Cash",
+                  "value": "Easy Cash"
+                }, {
+                  "text": "Gojek",
+                  "value": "Gojek"
+                }, {
+                  "text": "Gopay Unified",
+                  "value": "Gopay Unified"
+                }, {
+                  "text": "Home Credit",
+                  "value": "Home Credit"
+                }, {
+                  "text": "Indomobil",
+                  "value": "Indomobil"
+                }, {
+                  "text": "Jago Stand Alone",
+                  "value": "Jago Stand Alone"
+                }, {
+                  "text": "Kredit Pintar",
+                  "value": "Kredit Pintar"
+                }, {
+                  "text": "MAB - Gopaylater",
+                  "value": "MAB - Gopaylater"
+                }, {
+                  "text": "MGR - Findaya",
+                  "value": "MGR - Findaya"
+                }, {
+                  "text": "MNC Guna Usaha",
+                  "value": "MNC Guna Usaha"
+                }, {
+                  "text": "Radana",
+                  "value": "Radana"
+                }, {
+                  "text": "Stockbit",
+                  "value": "Stockbit"
+                }, {
+                  "text": "True Finance",
+                  "value": "True Finance"
+                } ],
+                "parameter": "k26_partner",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Partner",
+                "options": [ {
+                  "text": "AdaKami",
+                  "value": "AdaKami"
+                }, {
+                  "text": "Amaan",
+                  "value": "Amaan"
+                }, {
+                  "text": "Atome",
+                  "value": "Atome"
+                }, {
+                  "text": "BFI Finance Indonesia",
+                  "value": "BFI Finance Indonesia"
+                }, {
+                  "text": "BNI Finance",
+                  "value": "BNI Finance"
+                }, {
+                  "text": "Bibit",
+                  "value": "Bibit"
+                }, {
+                  "text": "Buana Finance",
+                  "value": "Buana Finance"
+                }, {
+                  "text": "CarSome",
+                  "value": "CarSome"
+                }, {
+                  "text": "Dhanapala",
+                  "value": "Dhanapala"
+                }, {
+                  "text": "Easy Cash",
+                  "value": "Easy Cash"
+                }, {
+                  "text": "Gojek",
+                  "value": "Gojek"
+                }, {
+                  "text": "Gopay Unified",
+                  "value": "Gopay Unified"
+                }, {
+                  "text": "Home Credit",
+                  "value": "Home Credit"
+                }, {
+                  "text": "Indomobil",
+                  "value": "Indomobil"
+                }, {
+                  "text": "Jago Stand Alone",
+                  "value": "Jago Stand Alone"
+                }, {
+                  "text": "Kredit Pintar",
+                  "value": "Kredit Pintar"
+                }, {
+                  "text": "MAB - Gopaylater",
+                  "value": "MAB - Gopaylater"
+                }, {
+                  "text": "MGR - Findaya",
+                  "value": "MGR - Findaya"
+                }, {
+                  "text": "MNC Guna Usaha",
+                  "value": "MNC Guna Usaha"
+                }, {
+                  "text": "Radana",
+                  "value": "Radana"
+                }, {
+                  "text": "Stockbit",
+                  "value": "Stockbit"
+                }, {
+                  "text": "True Finance",
+                  "value": "True Finance"
+                } ],
+                "parameter": "k26_partner",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "k48_category_of_complaint_antasena",
+        "value": "$page.params.k48_category_of_complaint_antasena_slot"
+      }, {
+        "parameter": "k5_category_of_complaint_sipeduli",
+        "value": "$page.params.k5_category_of_complaint_sipeduli_slot"
+      }, {
+        "parameter": "k41_type_of_product_complaint_antasena",
+        "value": "$page.params.k41_type_of_product_complaint_antasena_slot"
+      }, {
+        "parameter": "k46_type_of_product_complaint_sipeduli",
+        "value": "$page.params.k46_type_of_product_complaint_sipeduli_slot"
+      }, {
+        "parameter": "k47_sub_complaint_sipeduli",
+        "value": "$page.params.k47_sub_complaint_sipeduli_slot"
+      }, {
+        "parameter": "s24_remarks",
+        "value": "$page.params.s24_remarks_slot"
+      }, {
+        "parameter": "k26_partner",
+        "value": "$page.params.k26_partner_slot"
+      } ]
+    },
+    "targetPage": "CS_Handoff_Page",
+    "name": "58848163-142b-5ad0-81b0-f8babb6441ad"
+  } ]
+}

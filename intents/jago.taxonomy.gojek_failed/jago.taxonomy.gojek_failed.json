@@ -1,0 +1,10 @@
+{
+  "name": "90a78b7f-b440-4918-a993-b649a23ea70b",
+  "displayName": "jago.taxonomy.gojek_failed",
+  "parameters": [ {
+    "id": "person",
+    "entityType": "@sys.person"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 27
+}

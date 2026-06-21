@@ -1,0 +1,81 @@
+{
+  "name": "b91ba153-b0f6-50a8-9e01-618baff3db64",
+  "displayName": "Collect_fraud__internal_request_follow_up_ticket_fraud",
+  "form": {
+    "parameters": [ {
+      "displayName": "d12_confirmed_fraud_date_slot",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Confirmed Fraud Date:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Confirmed Fraud Date:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s32_customer_id_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Customer ID:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Customer ID:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s27_ticket_1_no_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Ticket 1 No:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Ticket 1 No:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "d12_confirmed_fraud_date",
+        "value": "$page.params.d12_confirmed_fraud_date_slot"
+      }, {
+        "parameter": "s32_customer_id",
+        "value": "$page.params.s32_customer_id_slot"
+      }, {
+        "parameter": "s27_ticket_1_no",
+        "value": "$page.params.s27_ticket_1_no_slot"
+      } ]
+    },
+    "targetPage": "Fraud_Handoff_Page",
+    "name": "ab6d5ece-aa9b-5c50-853c-b874874783ab"
+  } ]
+}

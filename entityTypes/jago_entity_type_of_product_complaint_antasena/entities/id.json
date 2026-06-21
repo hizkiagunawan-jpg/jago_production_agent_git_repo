@@ -1,0 +1,75 @@
+{
+  "entities": [ {
+    "value": "AD - ATM dan/atau Kartu Debet",
+    "synonyms": [ "AD - ATM dan/atau Kartu Debet" ],
+    "languageCode": "id"
+  }, {
+    "value": "DD - Direct Debit",
+    "synonyms": [ "DD - Direct Debit" ],
+    "languageCode": "id"
+  }, {
+    "value": "DH - Daftar Hitam Nasional (DHN) dan Cek/Bilyet Giro",
+    "synonyms": [ "DH - Daftar Hitam Nasional (DHN) dan Cek/Bilyet Giro" ],
+    "languageCode": "id"
+  }, {
+    "value": "EC - E - Commerce",
+    "synonyms": [ "EC - E - Commerce" ],
+    "languageCode": "id"
+  }, {
+    "value": "EW - Dompet Elektronik/E-Wallet",
+    "synonyms": [ "EW - Dompet Elektronik/E-Wallet" ],
+    "languageCode": "id"
+  }, {
+    "value": "IB - Delivery Channel - Internet banking",
+    "synonyms": [ "IB - Delivery Channel - Internet banking" ],
+    "languageCode": "id"
+  }, {
+    "value": "KK - Kartu Kredit",
+    "synonyms": [ "KK - Kartu Kredit" ],
+    "languageCode": "id"
+  }, {
+    "value": "KR - Kliring",
+    "synonyms": [ "KR - Kliring" ],
+    "languageCode": "id"
+  }, {
+    "value": "MB - Delivery Channel - Mobile/SMS banking",
+    "synonyms": [ "MB - Delivery Channel - Mobile/SMS banking" ],
+    "languageCode": "id"
+  }, {
+    "value": "PB - Delivery Channel - Phone banking",
+    "synonyms": [ "PB - Delivery Channel - Phone banking" ],
+    "languageCode": "id"
+  }, {
+    "value": "RM - Remitansi",
+    "synonyms": [ "RM - Remitansi" ],
+    "languageCode": "id"
+  }, {
+    "value": "RT - RTGS",
+    "synonyms": [ "RT - RTGS" ],
+    "languageCode": "id"
+  }, {
+    "value": "SI - Standing Instruction",
+    "synonyms": [ "SI - Standing Instruction" ],
+    "languageCode": "id"
+  }, {
+    "value": "TC - Travelers Cheque",
+    "synonyms": [ "TC - Travelers Cheque" ],
+    "languageCode": "id"
+  }, {
+    "value": "TD - Transfer Dana",
+    "synonyms": [ "TD - Transfer Dana" ],
+    "languageCode": "id"
+  }, {
+    "value": "UE - Uang elektronik",
+    "synonyms": [ "UE - Uang elektronik" ],
+    "languageCode": "id"
+  }, {
+    "value": "UK - Uang Kartal",
+    "synonyms": [ "UK - Uang Kartal" ],
+    "languageCode": "id"
+  }, {
+    "value": "XX - Lainnya",
+    "synonyms": [ "XX - Lainnya" ],
+    "languageCode": "id"
+  } ]
+}

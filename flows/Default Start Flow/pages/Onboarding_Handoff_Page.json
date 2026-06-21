@@ -1,0 +1,64 @@
+{
+  "name": "7d7249a3-48d9-4142-a339-25fd95de0f2b",
+  "displayName": "Onboarding_Handoff_Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Please don't worry. Our Onboarding team will assist you directly with the issues you're facing during your initial Bank Jago account registration. Please wait a moment while I transfer this chat." ]
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Jangan khawatir Kak, kendala hambatan pendaftaran awal akun Jago Kakak akan dibantu langsung secara terarah oleh tim Onboarding kami. Mohon tunggu sesaat sementara saya alihkan obrolan ini." ]
+      },
+      "languageCode": "id"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "CLAN": "$session.params.clan",
+          "CUSTOM_FIELDS": {
+            "k13_decision": "$session.params.k13_decision",
+            "k24_maintenance_fields": "$session.params.k24_maintenance_fields",
+            "k26_partner": "$session.params.k26_partner"
+          },
+          "GROUP_CODE": "$session.params.group_code",
+          "L0_TEAM": "$session.params.l0_team",
+          "L1_FORM": "$session.params.l1_form",
+          "L2_CATEGORY": "$session.params.l2_category",
+          "L3_SUB_CATEGORY": "$session.params.l3_sub_category",
+          "L4_SUB_SUB_CATEGORY": "$session.params.l4_sub_sub_category",
+          "RESOLUTION_TIME": "$session.params.resolution_time",
+          "SLA": "$session.params.sla",
+          "TAG1": "$session.params.tag1",
+          "action": "HUMAN_ESCALATION"
+        }
+      },
+      "languageCode": "en"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "CLAN": "$session.params.clan",
+          "CUSTOM_FIELDS": {
+            "k13_decision": "$session.params.k13_decision",
+            "k24_maintenance_fields": "$session.params.k24_maintenance_fields",
+            "k26_partner": "$session.params.k26_partner"
+          },
+          "GROUP_CODE": "$session.params.group_code",
+          "L0_TEAM": "$session.params.l0_team",
+          "L1_FORM": "$session.params.l1_form",
+          "L2_CATEGORY": "$session.params.l2_category",
+          "L3_SUB_CATEGORY": "$session.params.l3_sub_category",
+          "L4_SUB_SUB_CATEGORY": "$session.params.l4_sub_sub_category",
+          "RESOLUTION_TIME": "$session.params.resolution_time",
+          "SLA": "$session.params.sla",
+          "TAG1": "$session.params.tag1",
+          "action": "HUMAN_ESCALATION"
+        }
+      },
+      "languageCode": "id"
+    } ]
+  }
+}

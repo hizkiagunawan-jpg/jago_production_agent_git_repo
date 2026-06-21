@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "Yes",
+    "synonyms": [ "Yes", "Ya" ],
+    "languageCode": "en"
+  }, {
+    "value": "No",
+    "synonyms": [ "No", "Tidak" ],
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "7366db84-b5a1-40d5-bd23-9619d2732ab1",
+  "displayName": "Triage_Gate_Page",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.customer_tier = VIP OR $session.params.customer_tier = Platinum",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Hello Jagoan VIP! Welcome to Bank Jago's priority service. How can Jagoan help you today? Is it regarding your Card Delivery, QRIS Transaction, or Gojek account?\"" ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "Halo Jagoan VIP! Selamat datang di layanan prioritas Bank Jago. Ada yang bisa Jagoan bantu hari ini? Apakah terkait kendala Pengiriman Kartu, Transaksi QRIS, atau akun Gojek Kakak?" ]
+        },
+        "languageCode": "id"
+      } ]
+    },
+    "targetPage": "Knowledge_Base_Fulfillment",
+    "name": "7b590d7e-5e68-4b10-8c34-d39956d040df"
+  }, {
+    "condition": "$session.params.customer_tier = Standard OR $session.params.customer_tier = null",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Hello! Welcome to Bank Jago's digital service. How can Jagoan help you today?" ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "Halo! Selamat datang di layanan digital Bank Jago. Ada yang bisa Jagoan bantu hari ini?" ]
+        },
+        "languageCode": "id"
+      } ]
+    },
+    "targetPage": "Knowledge_Base_Fulfillment",
+    "name": "2f167be2-2698-4faa-b9d7-c69978d41056"
+  } ]
+}

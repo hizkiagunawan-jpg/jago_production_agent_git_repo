@@ -1,0 +1,19 @@
+{
+  "entities": [ {
+    "value": "Foto Cek Tidak Tersedia",
+    "synonyms": [ "Foto Cek Tidak Tersedia" ],
+    "languageCode": "en"
+  }, {
+    "value": "Foto Cocok",
+    "synonyms": [ "Foto Cocok" ],
+    "languageCode": "en"
+  }, {
+    "value": "Foto Tidak Cocok",
+    "synonyms": [ "Foto Tidak Cocok" ],
+    "languageCode": "en"
+  }, {
+    "value": "NIK Tidak Ditemukan",
+    "synonyms": [ "NIK Tidak Ditemukan" ],
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,35 @@
+{
+  "entities": [ {
+    "value": "Transfer ATM",
+    "synonyms": [ "Transfer ATM" ],
+    "languageCode": "en"
+  }, {
+    "value": "Outgoing Transfer",
+    "synonyms": [ "Outgoing Transfer" ],
+    "languageCode": "en"
+  }, {
+    "value": "Incoming Transfer",
+    "synonyms": [ "Incoming Transfer" ],
+    "languageCode": "en"
+  }, {
+    "value": "Cash Withdrawal ATM",
+    "synonyms": [ "Cash Withdrawal ATM" ],
+    "languageCode": "en"
+  }, {
+    "value": "Online Debit Card Transaction",
+    "synonyms": [ "Online Debit Card Transaction" ],
+    "languageCode": "en"
+  }, {
+    "value": "Offline Debit Card Transaction",
+    "synonyms": [ "Offline Debit Card Transaction" ],
+    "languageCode": "en"
+  }, {
+    "value": "QRIS Transaction",
+    "synonyms": [ "QRIS Transaction" ],
+    "languageCode": "en"
+  }, {
+    "value": "Biller Payment",
+    "synonyms": [ "Biller Payment" ],
+    "languageCode": "en"
+  } ]
+}

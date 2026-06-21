@@ -1,0 +1,41 @@
+{
+  "name": "45b248ca-c7d4-4835-a9f6-cd9e7a685f5f",
+  "displayName": "Revised_Bank_Jago_FAQ_English",
+  "description": "This is the knowledge base of Chatbot whenever there is a question related to FAQ being raised by user.",
+  "dataStoreSpec": {
+    "dataStoreConnections": [ {
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/571384310908/locations/global/collections/default_collection/dataStores/revised-bank-jago-faq-english_1780911935187",
+      "documentProcessingMode": "DOCUMENTS",
+      "engineType": "CHAT_ENGINE",
+      "connectorConfig": {
+      
+      },
+      "createTime": {
+        "seconds": 1780911970,
+        "nanos": 824224000
+      },
+      "displayName": "Revised_Bank_Jago_FAQ_English",
+      "dialogflowAddTime": {
+        "seconds": 1780913062,
+        "nanos": 784000000
+      }
+    } ],
+    "models": {
+      "summarizationModel": {
+        "model": "default"
+      },
+      "rewriterModel": {
+        "model": "default"
+      }
+    },
+    "groundingSettings": {
+    
+    },
+    "payloadSettings": {
+    
+    },
+    "mode": "MODE_DEFAULT"
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

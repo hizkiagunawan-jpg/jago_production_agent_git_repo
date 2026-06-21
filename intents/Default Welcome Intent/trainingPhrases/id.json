@@ -1,0 +1,85 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Hello"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Hi"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "id": "4c8a02c8-4b0d-499e-bb58-7f9fd78b99b1",
+    "parts": [ {
+      "text": "halo yang di sana"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "id": "332cf2e9-ede3-4add-a61c-e63e6a63db7d",
+    "parts": [ {
+      "text": "halo"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "id": "e436748e-e5d1-48b8-ac65-33ab0b20dc06",
+    "parts": [ {
+      "text": "hai"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "id": "6cf5dd1f-6b29-4cd6-9359-715c3ca80c27",
+    "parts": [ {
+      "text": "salam"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "id": "f41925c7-da43-4b69-8f2d-d492dab09ff0",
+    "parts": [ {
+      "text": "halo halo"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "id": "35f7717f-f4a6-4a16-af20-9c94cebd3866",
+    "parts": [ {
+      "text": "lama nggak ketemu"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "id": "499e17b1-5750-49df-882a-e177262b1e46",
+    "parts": [ {
+      "text": "hai hai"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "id": "cf884ce9-90ec-4daf-930f-b94573542859",
+    "parts": [ {
+      "text": "halo apa kabar"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "id": "4105555f-33fb-481c-9ccd-272bfa7d3306",
+    "parts": [ {
+      "text": "assalamualaikum"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "id": "78fa8b9c-896d-41e9-a282-4cae6366fd07",
+    "parts": [ {
+      "text": "hai apa kabarnya"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  } ]
+}

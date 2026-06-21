@@ -1,0 +1,81 @@
+{
+  "name": "94532c4c-f646-57d2-955d-721ab4ef0ab4",
+  "displayName": "Collect_fraud__invalid_report",
+  "form": {
+    "parameters": [ {
+      "displayName": "s2_additional_info_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please provide any additional information:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon berikan informasi tambahan:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "d12_confirmed_fraud_date_slot",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Confirmed Fraud Date:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Confirmed Fraud Date:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s32_customer_id_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Customer ID:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Customer ID:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s2_additional_info",
+        "value": "$page.params.s2_additional_info_slot"
+      }, {
+        "parameter": "d12_confirmed_fraud_date",
+        "value": "$page.params.d12_confirmed_fraud_date_slot"
+      }, {
+        "parameter": "s32_customer_id",
+        "value": "$page.params.s32_customer_id_slot"
+      } ]
+    },
+    "targetPage": "Fraud_Handoff_Page",
+    "name": "acf10819-bf05-551e-a0fe-87ecaa3e61de"
+  } ]
+}

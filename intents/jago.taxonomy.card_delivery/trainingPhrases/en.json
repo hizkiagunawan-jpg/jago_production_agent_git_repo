@@ -1,0 +1,39 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Check shipping status for my Jago card."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Bisa tlg track debit card delivery progress?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Where is my Jago debit card? Check tracking number."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Track my physical "
+    }, {
+      "text": "Jago",
+      "parameterId": "person",
+      "auto": true
+    }, {
+      "text": " card."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Check my debit card delivery status."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

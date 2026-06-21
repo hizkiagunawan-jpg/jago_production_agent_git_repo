@@ -1,0 +1,39 @@
+{
+  "entities": [ {
+    "value": "card",
+    "synonyms": [ "card", "Card", "Kartu", "kartu", "kartu debit", "debit card", "pengiriman kartu" ],
+    "languageCode": "id"
+  }, {
+    "value": "dispute",
+    "synonyms": [ "dispute", "Dispute", "Sanggahan Transaksi", "sanggahan", "chargeback", "qris", "transfer", "klaim transaksi" ],
+    "languageCode": "id"
+  }, {
+    "value": "fraud",
+    "synonyms": [ "fraud", "Fraud", "Penipuan / Keamanan Akun", "penipuan", "scam", "keamanan akun", "account takeover", "ato" ],
+    "languageCode": "id"
+  }, {
+    "value": "it_helpdesk",
+    "synonyms": [ "it_helpdesk", "IT Helpdesk", "it helpdesk", "it", "perangkat", "laptop", "hardware", "software" ],
+    "languageCode": "id"
+  }, {
+    "value": "kyc",
+    "synonyms": [ "kyc", "KYC", "KYC / Blokir Akun", "verifikasi identitas", "blokir akun", "tutup akun", "str" ],
+    "languageCode": "id"
+  }, {
+    "value": "onboarding",
+    "synonyms": [ "onboarding", "Onboarding", "Pendaftaran / Onboarding", "pendaftaran", "registrasi", "ktp", "liveness" ],
+    "languageCode": "id"
+  }, {
+    "value": "cdd",
+    "synonyms": [ "cdd", "CDD/EDD", "edd", "enhanced due diligence", "outreach" ],
+    "languageCode": "id"
+  }, {
+    "value": "cs_konven",
+    "synonyms": [ "cs_konven", "CS Konven", "CS Konvensional", "cs konven", "konvensional", "bank konven" ],
+    "languageCode": "id"
+  }, {
+    "value": "cs",
+    "synonyms": [ "cs", "CS", "Layanan Umum (CS)", "customer service", "gojek", "deposito", "rdn", "kantong", "amal", "pinjaman", "lainnya" ],
+    "languageCode": "id"
+  } ]
+}

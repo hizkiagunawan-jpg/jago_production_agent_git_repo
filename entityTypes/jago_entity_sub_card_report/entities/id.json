@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "Lost Card",
+    "synonyms": [ "Lost Card", "Kartu Hilang" ],
+    "languageCode": "id"
+  }, {
+    "value": "Outbound Call Card",
+    "synonyms": [ "Outbound Call Card", "Panggilan Keluar (Outbound Call) Kartu" ],
+    "languageCode": "id"
+  }, {
+    "value": "Return to Bank",
+    "synonyms": [ "Return to Bank", "Dikembalikan ke Bank" ],
+    "languageCode": "id"
+  } ]
+}

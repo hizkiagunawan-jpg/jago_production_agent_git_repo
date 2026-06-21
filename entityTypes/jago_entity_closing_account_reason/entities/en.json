@@ -1,0 +1,23 @@
+{
+  "entities": [ {
+    "value": "Customer's Request - Product or features offered are unsuitbale",
+    "synonyms": [ "Customer's Request - Product or features offered are unsuitbale" ],
+    "languageCode": "en"
+  }, {
+    "value": "Customer's Request - Service given are bad",
+    "synonyms": [ "Customer's Request - Service given are bad" ],
+    "languageCode": "en"
+  }, {
+    "value": "Customer's Request - Fraud Victim",
+    "synonyms": [ "Customer's Request - Fraud Victim" ],
+    "languageCode": "en"
+  }, {
+    "value": "Customer's Request - Account is unused",
+    "synonyms": [ "Customer's Request - Account is unused" ],
+    "languageCode": "en"
+  }, {
+    "value": "Customer's Request - Customer is deceased",
+    "synonyms": [ "Customer's Request - Customer is deceased" ],
+    "languageCode": "en"
+  } ]
+}

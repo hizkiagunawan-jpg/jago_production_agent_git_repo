@@ -1,0 +1,101 @@
+{
+  "name": "255701ea-c322-4105-893a-b09f77d5d908",
+  "displayName": "Knowledge_Base_Fulfillment",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "jago.intent.escalate",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Ask_Team_Page",
+    "name": "05391a08-3c4a-4242-b261-d8e7fdc3eb01"
+  }, {
+    "intent": "User_Intent_Done",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Sama-sama! Terima kasih telah menggunakan Jago Care." ]
+        },
+        "languageCode": "id"
+      }, {
+        "text": {
+          "text": [ "You're welcome, Thank you for using Jago Care." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Bot_CSAT_Survey_Page",
+    "name": "889e207c-6895-4bb9-a8d2-fe1ab884fbef"
+  } ],
+  "knowledgeConnectorSettings": {
+    "enabled": true,
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$request.knowledge.answers[0]" ]
+        },
+        "languageCode": "id"
+      }, {
+        "text": {
+          "text": [ "Apakah ada hal lain yang bisa saya bantu?" ]
+        },
+        "languageCode": "id"
+      }, {
+        "text": {
+          "text": [ "$request.knowledge.answers[0]" ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "Is there anything else that I can help?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "dataStoreConnections": [ {
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/571384310908/locations/global/collections/default_collection/dataStores/revised-bank-jago-faq-english_1780911935187",
+      "languageCode": "en",
+      "documentProcessingMode": "DOCUMENTS",
+      "aclConfig": {
+      
+      },
+      "engineType": "CHAT_ENGINE",
+      "connectorConfig": {
+      
+      },
+      "createTime": {
+        "seconds": 1780911970,
+        "nanos": 824224000
+      },
+      "displayName": "Revised_Bank_Jago_FAQ_English",
+      "dialogflowAddTime": {
+        "seconds": 1780912359,
+        "nanos": 630000000
+      }
+    }, {
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/571384310908/locations/global/collections/default_collection/dataStores/revised-bank-jago-faq_1780911785770",
+      "languageCode": "id",
+      "documentProcessingMode": "DOCUMENTS",
+      "aclConfig": {
+      
+      },
+      "engineType": "CHAT_ENGINE",
+      "connectorConfig": {
+      
+      },
+      "createTime": {
+        "seconds": 1780911809,
+        "nanos": 487836000
+      },
+      "displayName": "Revised_Bank_Jago_FAQ",
+      "dialogflowAddTime": {
+        "seconds": 1780912319,
+        "nanos": 963000000
+      }
+    } ]
+  }
+}

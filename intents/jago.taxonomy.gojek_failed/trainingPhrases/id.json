@@ -1,0 +1,217 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Transaksi "
+    }, {
+      "text": "gojek"
+    }, {
+      "text": " failed saldo ilang"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Komplain orderan "
+    }, {
+      "text": "gojek nyangkut jago"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Gopay jagoan error min"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Saldo kantong jago kesedot di gojek"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Bayar gojek pake jagoan"
+    }, {
+      "text": " gagal"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Gofood failed tapi saldo jago berkurang"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Gojek jago eror"
+    }, {
+      "text": " saldo kepotong"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Gimana nih cara balikin saldo Jago yang kepotong gara-gara sistem Gojek eror?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Tadi naik GoRide bayar paspasan pake "
+    }, {
+      "text": "Jago"
+    }, {
+      "text": ", pas dicek kepotong "
+    }, {
+      "text": "dua"
+    }, {
+      "text": " kali atau failed."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Min"
+    }, {
+      "text": ", urus dana nyangkut di Gojek "
+    }, {
+      "text": "dong"
+    }, {
+      "text": ", link Jago ku bermasalah pas checkout."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Kok "
+    }, {
+      "text": "bayar pake Jagoan di Gojek"
+    }, {
+      "text": " malah "
+    }, {
+      "text": "hang"
+    }, {
+      "text": " padahal saldo udah berkurang ya?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Duit "
+    }, {
+      "text": "Jago gw kesedot"
+    }, {
+      "text": " buat bayar "
+    }, {
+      "text": "GoPay"
+    }, {
+      "text": ", tapi status di Gojek dibilang belum bayar."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Mau komplain "
+    }, {
+      "text": "dong,"
+    }, {
+      "text": " dana di Kantong Jago berkurang pas bayar Gojek tapi di aplikasi Gojeknya error."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Barusan order GoFood pake "
+    }, {
+      "text": "Jago"
+    }, {
+      "text": ", makanannya gagal dipesan tapi saldo tetep kepotong."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Laporan mengenai "
+    }, {
+      "text": "saldo Kantong Jagoan"
+    }, {
+      "text": " yang berkurang untuk orderan "
+    }, {
+      "text": "Gojek"
+    }, {
+      "text": " yang failed."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Saya mengalami kendala interkoneksi antara "
+    }, {
+      "text": "akun Jago"
+    }, {
+      "text": " dan "
+    }, {
+      "text": "akun Gojek"
+    }, {
+      "text": " saya."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Bagaimana cara mengajukan pengembalian dana untuk transaksi "
+    }, {
+      "text": "Gojek"
+    }, {
+      "text": " yang gagal?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Terjadi error saat melakukan pembayaran "
+    }, {
+      "text": "GoPay"
+    }, {
+      "text": " menggunakan sumber dana "
+    }, {
+      "text": "Bank"
+    }, {
+      "text": " "
+    }, {
+      "text": "Jago"
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Mohon"
+    }, {
+      "text": " bantuan terkait masalah sinkronisasi pembayaran Jago di ekosistem Gojek."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Saldo Jago"
+    }, {
+      "text": " saya sudah terpotong tetapi pesanan "
+    }, {
+      "text": "GoFood"
+    }, {
+      "text": " saya dibatalkan atau gagal."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Saya ingin melaporkan kegagalan transaksi pada aplikasi Gojek menggunakan Kantong Jago."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  } ]
+}

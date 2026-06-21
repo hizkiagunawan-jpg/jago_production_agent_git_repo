@@ -1,0 +1,303 @@
+{
+  "name": "d507c177-a760-58fd-944c-6505b906fc73",
+  "displayName": "Collect_kyc__str_close_account",
+  "form": {
+    "parameters": [ {
+      "displayName": "k1_balance_slot",
+      "required": true,
+      "entityType": "@jago_entity_balance",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Balance:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Balance:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Balance",
+                "options": [ {
+                  "text": "Balance \u003eRp10000",
+                  "value": "Balance \u003eRp10000"
+                }, {
+                  "text": "Balance \u003cRp10000",
+                  "value": "Balance \u003cRp10000"
+                }, {
+                  "text": "Balance =Rp10000",
+                  "value": "Balance =Rp10000"
+                }, {
+                  "text": "No Balance",
+                  "value": "No Balance"
+                } ],
+                "parameter": "k1_balance",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Balance",
+                "options": [ {
+                  "text": "Balance \u003eRp10000",
+                  "value": "Balance \u003eRp10000"
+                }, {
+                  "text": "Balance \u003cRp10000",
+                  "value": "Balance \u003cRp10000"
+                }, {
+                  "text": "Balance =Rp10000",
+                  "value": "Balance =Rp10000"
+                }, {
+                  "text": "No Balance",
+                  "value": "No Balance"
+                } ],
+                "parameter": "k1_balance",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k13_decision_slot",
+      "required": true,
+      "entityType": "@jago_entity_decision",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please choose the decision:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Silakan pilih keputusan (decision):" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Decision",
+                "options": [ {
+                  "text": "Blocked",
+                  "value": "Blocked"
+                }, {
+                  "text": "Declined",
+                  "value": "Declined"
+                }, {
+                  "text": "KTP BOP Error",
+                  "value": "KTP BOP Error"
+                }, {
+                  "text": "No Dukcapil Photo",
+                  "value": "No Dukcapil Photo"
+                }, {
+                  "text": "Refunded",
+                  "value": "Refunded"
+                }, {
+                  "text": "Same Person",
+                  "value": "Same Person"
+                }, {
+                  "text": "False Positive",
+                  "value": "False Positive"
+                }, {
+                  "text": "True Positive",
+                  "value": "True Positive"
+                }, {
+                  "text": "Customer No Reply",
+                  "value": "Customer No Reply"
+                }, {
+                  "text": "Approved",
+                  "value": "Approved"
+                }, {
+                  "text": "Rejected",
+                  "value": "Rejected"
+                } ],
+                "parameter": "k13_decision",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Decision",
+                "options": [ {
+                  "text": "Diblokir",
+                  "value": "Blocked"
+                }, {
+                  "text": "Ditolak",
+                  "value": "Declined"
+                }, {
+                  "text": "Error KTP BOP",
+                  "value": "KTP BOP Error"
+                }, {
+                  "text": "Tidak Ada Foto Dukcapil",
+                  "value": "No Dukcapil Photo"
+                }, {
+                  "text": "Dana Dikembalikan",
+                  "value": "Refunded"
+                }, {
+                  "text": "Orang yang Sama",
+                  "value": "Same Person"
+                }, {
+                  "text": "Positif Palsu",
+                  "value": "False Positive"
+                }, {
+                  "text": "Positif Benar",
+                  "value": "True Positive"
+                }, {
+                  "text": "Nasabah Tidak Merespons",
+                  "value": "Customer No Reply"
+                }, {
+                  "text": "Disetujui",
+                  "value": "Approved"
+                }, {
+                  "text": "Ditolak",
+                  "value": "Rejected"
+                } ],
+                "parameter": "k13_decision",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k40_type_slot",
+      "required": true,
+      "entityType": "@jago_entity_type",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Type:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Type:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Type",
+                "options": [ {
+                  "text": "Claim",
+                  "value": "Claim"
+                }, {
+                  "text": "Re-Claim",
+                  "value": "Re-Claim"
+                }, {
+                  "text": "Re-Re-Claim",
+                  "value": "Re-Re-Claim"
+                }, {
+                  "text": "Response Re-Re-Claim",
+                  "value": "Response Re-Re-Claim"
+                }, {
+                  "text": "Proactive",
+                  "value": "Proactive"
+                }, {
+                  "text": "Claim Dispute/Abnormal/Cash Dispense",
+                  "value": "Claim Dispute/Abnormal/Cash Dispense"
+                }, {
+                  "text": "Jawaban Claim Dispute/Abnormal/Cash Dispense",
+                  "value": "Jawaban Claim Dispute/Abnormal/Cash Dispense"
+                }, {
+                  "text": "Request CCTV",
+                  "value": "Request CCTV"
+                }, {
+                  "text": "Claim Force Credit",
+                  "value": "Claim Force Credit"
+                }, {
+                  "text": "Response Force Credit",
+                  "value": "Response Force Credit"
+                }, {
+                  "text": "Claim Refund",
+                  "value": "Claim Refund"
+                }, {
+                  "text": " jawaban Claim Refund",
+                  "value": " jawaban Claim Refund"
+                } ],
+                "parameter": "k40_type",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Type",
+                "options": [ {
+                  "text": "Claim",
+                  "value": "Claim"
+                }, {
+                  "text": "Re-Claim",
+                  "value": "Re-Claim"
+                }, {
+                  "text": "Re-Re-Claim",
+                  "value": "Re-Re-Claim"
+                }, {
+                  "text": "Response Re-Re-Claim",
+                  "value": "Response Re-Re-Claim"
+                }, {
+                  "text": "Proactive",
+                  "value": "Proactive"
+                }, {
+                  "text": "Claim Dispute/Abnormal/Cash Dispense",
+                  "value": "Claim Dispute/Abnormal/Cash Dispense"
+                }, {
+                  "text": "Jawaban Claim Dispute/Abnormal/Cash Dispense",
+                  "value": "Jawaban Claim Dispute/Abnormal/Cash Dispense"
+                }, {
+                  "text": "Request CCTV",
+                  "value": "Request CCTV"
+                }, {
+                  "text": "Claim Force Credit",
+                  "value": "Claim Force Credit"
+                }, {
+                  "text": "Response Force Credit",
+                  "value": "Response Force Credit"
+                }, {
+                  "text": "Claim Refund",
+                  "value": "Claim Refund"
+                }, {
+                  "text": " jawaban Claim Refund",
+                  "value": " jawaban Claim Refund"
+                } ],
+                "parameter": "k40_type",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "k1_balance",
+        "value": "$page.params.k1_balance_slot"
+      }, {
+        "parameter": "k13_decision",
+        "value": "$page.params.k13_decision_slot"
+      }, {
+        "parameter": "k40_type",
+        "value": "$page.params.k40_type_slot"
+      } ]
+    },
+    "targetPage": "KYC_Handoff_Page",
+    "name": "ed990b12-b728-58c3-973a-3b79674afa53"
+  } ]
+}

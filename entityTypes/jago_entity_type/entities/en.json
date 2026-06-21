@@ -1,0 +1,51 @@
+{
+  "entities": [ {
+    "value": "Claim",
+    "synonyms": [ "Claim" ],
+    "languageCode": "en"
+  }, {
+    "value": "Re-Claim",
+    "synonyms": [ "Re-Claim" ],
+    "languageCode": "en"
+  }, {
+    "value": "Re-Re-Claim",
+    "synonyms": [ "Re-Re-Claim" ],
+    "languageCode": "en"
+  }, {
+    "value": "Response Re-Re-Claim",
+    "synonyms": [ "Response Re-Re-Claim" ],
+    "languageCode": "en"
+  }, {
+    "value": "Proactive",
+    "synonyms": [ "Proactive" ],
+    "languageCode": "en"
+  }, {
+    "value": "Claim Dispute/Abnormal/Cash Dispense",
+    "synonyms": [ "Claim Dispute/Abnormal/Cash Dispense" ],
+    "languageCode": "en"
+  }, {
+    "value": "Jawaban Claim Dispute/Abnormal/Cash Dispense",
+    "synonyms": [ "Jawaban Claim Dispute/Abnormal/Cash Dispense" ],
+    "languageCode": "en"
+  }, {
+    "value": "Request CCTV",
+    "synonyms": [ "Request CCTV" ],
+    "languageCode": "en"
+  }, {
+    "value": "Claim Force Credit",
+    "synonyms": [ "Claim Force Credit" ],
+    "languageCode": "en"
+  }, {
+    "value": "Response Force Credit",
+    "synonyms": [ "Response Force Credit" ],
+    "languageCode": "en"
+  }, {
+    "value": "Claim Refund",
+    "synonyms": [ "Claim Refund" ],
+    "languageCode": "en"
+  }, {
+    "value": " jawaban Claim Refund",
+    "synonyms": [ " jawaban Claim Refund" ],
+    "languageCode": "en"
+  } ]
+}

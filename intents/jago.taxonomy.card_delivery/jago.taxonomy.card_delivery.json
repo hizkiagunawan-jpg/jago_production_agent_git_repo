@@ -1,0 +1,10 @@
+{
+  "name": "88babfb1-8107-4322-a5cb-2ce248713eee",
+  "displayName": "jago.taxonomy.card_delivery",
+  "parameters": [ {
+    "id": "person",
+    "entityType": "@sys.person"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 28
+}

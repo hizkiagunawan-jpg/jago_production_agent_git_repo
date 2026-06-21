@@ -1,0 +1,47 @@
+{
+  "entities": [ {
+    "value": "Arbitration",
+    "synonyms": [ "Arbitration" ],
+    "languageCode": "id"
+  }, {
+    "value": "Chargeback",
+    "synonyms": [ "Chargeback" ],
+    "languageCode": "id"
+  }, {
+    "value": "Compliance",
+    "synonyms": [ "Compliance" ],
+    "languageCode": "id"
+  }, {
+    "value": "Dispute",
+    "synonyms": [ "Dispute" ],
+    "languageCode": "id"
+  }, {
+    "value": "Dispute Response",
+    "synonyms": [ "Dispute Response" ],
+    "languageCode": "id"
+  }, {
+    "value": "Good Faith",
+    "synonyms": [ "Good Faith" ],
+    "languageCode": "id"
+  }, {
+    "value": "Pre-Arbitration",
+    "synonyms": [ "Pre-Arbitration" ],
+    "languageCode": "id"
+  }, {
+    "value": "Pre-Compliance",
+    "synonyms": [ "Pre-Compliance" ],
+    "languageCode": "id"
+  }, {
+    "value": "Representment",
+    "synonyms": [ "Representment" ],
+    "languageCode": "id"
+  }, {
+    "value": "Retrieval Request",
+    "synonyms": [ "Retrieval Request" ],
+    "languageCode": "id"
+  }, {
+    "value": "Second Chargeback",
+    "synonyms": [ "Second Chargeback" ],
+    "languageCode": "id"
+  } ]
+}

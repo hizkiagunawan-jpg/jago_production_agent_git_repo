@@ -1,0 +1,75 @@
+{
+  "entities": [ {
+    "value": "Batal Pengiriman",
+    "synonyms": [ "Batal Pengiriman" ],
+    "languageCode": "id"
+  }, {
+    "value": "Gagal Dihubungi",
+    "synonyms": [ "Gagal Dihubungi" ],
+    "languageCode": "id"
+  }, {
+    "value": "Kartu Sudah Diterima",
+    "synonyms": [ "Kartu Sudah Diterima" ],
+    "languageCode": "id"
+  }, {
+    "value": "Tambah Alamat",
+    "synonyms": [ "Tambah Alamat" ],
+    "languageCode": "id"
+  }, {
+    "value": "DUKCAPIL NOT FOUND - CHECKED",
+    "synonyms": [ "DUKCAPIL NOT FOUND - CHECKED" ],
+    "languageCode": "id"
+  }, {
+    "value": "FAKE ID - CHECKED",
+    "synonyms": [ "FAKE ID - CHECKED" ],
+    "languageCode": "id"
+  }, {
+    "value": "FALSE ALERT - UNBLOCK",
+    "synonyms": [ "FALSE ALERT - UNBLOCK" ],
+    "languageCode": "id"
+  }, {
+    "value": "FALSE ALERT-SAME PERSON",
+    "synonyms": [ "FALSE ALERT-SAME PERSON" ],
+    "languageCode": "id"
+  }, {
+    "value": "VALID AGENT ERROR REVISE",
+    "synonyms": [ "VALID AGENT ERROR REVISE" ],
+    "languageCode": "id"
+  }, {
+    "value": "Customer Contacted",
+    "synonyms": [ "Customer Contacted", "Nasabah Terhubung" ],
+    "languageCode": "id"
+  }, {
+    "value": "Customer Not Found",
+    "synonyms": [ "Customer Not Found", "Nasabah Tidak Ditemukan" ],
+    "languageCode": "id"
+  }, {
+    "value": "Customer Uncontacted",
+    "synonyms": [ "Customer Uncontacted", "Nasabah Tidak Terhubung" ],
+    "languageCode": "id"
+  }, {
+    "value": "Fraud Account",
+    "synonyms": [ "Fraud Account", "Akun Fraud" ],
+    "languageCode": "id"
+  }, {
+    "value": "Setuju",
+    "synonyms": [ "Setuju" ],
+    "languageCode": "id"
+  }, {
+    "value": "Tidak Bisa Dihubungi",
+    "synonyms": [ "Tidak Bisa Dihubungi" ],
+    "languageCode": "id"
+  }, {
+    "value": "Tidak Setuju",
+    "synonyms": [ "Tidak Setuju" ],
+    "languageCode": "id"
+  }, {
+    "value": "Yes",
+    "synonyms": [ "Yes", "Ya" ],
+    "languageCode": "id"
+  }, {
+    "value": "No",
+    "synonyms": [ "No", "Tidak" ],
+    "languageCode": "id"
+  } ]
+}

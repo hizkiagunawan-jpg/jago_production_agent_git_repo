@@ -1,0 +1,245 @@
+{
+  "name": "ceb30a87-ced9-5231-961c-e2c359d39c6e",
+  "displayName": "Collect_fraud__external_fraud_nasabah_2",
+  "form": {
+    "parameters": [ {
+      "displayName": "n1_amount_slot",
+      "required": true,
+      "entityType": "@sys.number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the transaction amount:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan nominal transaksi:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k16_document_completed_slot",
+      "required": true,
+      "entityType": "@jago_entity_document_completed",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Document Completed:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Document Completed:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Document Completed",
+                "options": [ {
+                  "text": "Yes",
+                  "value": "Yes"
+                }, {
+                  "text": "No",
+                  "value": "No"
+                } ],
+                "parameter": "k16_document_completed",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Document Completed",
+                "options": [ {
+                  "text": "Ya",
+                  "value": "Yes"
+                }, {
+                  "text": "Tidak",
+                  "value": "No"
+                } ],
+                "parameter": "k16_document_completed",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s13_informant_email_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Informant Email:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Informant Email:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s14_informant_name_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Informant Name:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Informant Name:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s15_informant_phone_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Informant Phone:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Informant Phone:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k23_ktp_checks_slot",
+      "required": true,
+      "entityType": "@jago_entity_ktp_checks",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the KTP Checks:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan KTP Checks:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "KTP Checks",
+                "options": [ {
+                  "text": "Foto Cek Tidak Tersedia",
+                  "value": "Foto Cek Tidak Tersedia"
+                }, {
+                  "text": "Foto Cocok",
+                  "value": "Foto Cocok"
+                }, {
+                  "text": "Foto Tidak Cocok",
+                  "value": "Foto Tidak Cocok"
+                }, {
+                  "text": "NIK Tidak Ditemukan",
+                  "value": "NIK Tidak Ditemukan"
+                } ],
+                "parameter": "k23_ktp_checks",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "KTP Checks",
+                "options": [ {
+                  "text": "Foto Cek Tidak Tersedia",
+                  "value": "Foto Cek Tidak Tersedia"
+                }, {
+                  "text": "Foto Cocok",
+                  "value": "Foto Cocok"
+                }, {
+                  "text": "Foto Tidak Cocok",
+                  "value": "Foto Tidak Cocok"
+                }, {
+                  "text": "NIK Tidak Ditemukan",
+                  "value": "NIK Tidak Ditemukan"
+                } ],
+                "parameter": "k23_ktp_checks",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s25_reported_bank_name_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Reported Bank Name:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Reported Bank Name:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "n1_amount",
+        "value": "$page.params.n1_amount_slot"
+      }, {
+        "parameter": "k16_document_completed",
+        "value": "$page.params.k16_document_completed_slot"
+      }, {
+        "parameter": "s13_informant_email",
+        "value": "$page.params.s13_informant_email_slot"
+      }, {
+        "parameter": "s14_informant_name",
+        "value": "$page.params.s14_informant_name_slot"
+      }, {
+        "parameter": "s15_informant_phone",
+        "value": "$page.params.s15_informant_phone_slot"
+      }, {
+        "parameter": "k23_ktp_checks",
+        "value": "$page.params.k23_ktp_checks_slot"
+      }, {
+        "parameter": "s25_reported_bank_name",
+        "value": "$page.params.s25_reported_bank_name_slot"
+      } ]
+    },
+    "targetPage": "Fraud_Handoff_Page",
+    "name": "1dfc573b-93ce-5a1a-be9d-53909cccdc31"
+  } ]
+}

@@ -1,0 +1,397 @@
+{
+  "name": "c60e6b7f-b51f-5320-82d9-8691e94e417a",
+  "displayName": "Ask_Category_it_helpdesk_Page",
+  "form": {
+    "parameters": [ {
+      "displayName": "sel_category",
+      "required": true,
+      "entityType": "@jago_cat_it_helpdesk",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please choose the category (reply with the number or name):\n1. Incident Handling - Hardware\n2. Incident Handling - Identity Access\n3. Incident Handling - Information Security\n4. Incident Handling - Network\n5. Incident Handling - Software\n6. Service Request - Hardware\n7. Service Request - Identity Access\n8. Service Request - Information Security\n9. Service Request - Network\n10. Service Request - Software" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Silakan pilih kategori (balas dengan nomor atau nama):\n1. Penanganan Insiden - Perangkat Keras\n2. Penanganan Insiden - Akses Identitas\n3. Penanganan Insiden - Keamanan Informasi\n4. Penanganan Insiden - Jaringan\n5. Penanganan Insiden - Perangkat Lunak\n6. Permintaan Layanan - Perangkat Keras\n7. Permintaan Layanan - Akses Identitas\n8. Permintaan Layanan - Keamanan Informasi\n9. Permintaan Layanan - Jaringan\n10. Permintaan Layanan - Perangkat Lunak" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.sel_category = \"Incident Handling - Hardware\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Incident Handling"
+      }, {
+        "parameter": "l2_category",
+        "value": "Hardware"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "it_helpdesk"
+      }, {
+        "parameter": "sla",
+        "value": ""
+      }, {
+        "parameter": "tag1",
+        "value": "IT Helpdesk::Incident"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::8H"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "it_helpdesk__incident_handling_hardware"
+      } ]
+    },
+    "targetPage": "Collect_it_helpdesk__incident_handling_hardware",
+    "name": "893a9de9-3bc4-598a-83df-062381f797c7"
+  }, {
+    "condition": "$session.params.sel_category = \"Incident Handling - Identity Access\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Incident Handling"
+      }, {
+        "parameter": "l2_category",
+        "value": "Identity Access"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "it_helpdesk"
+      }, {
+        "parameter": "sla",
+        "value": ""
+      }, {
+        "parameter": "tag1",
+        "value": "IT Helpdesk::Incident"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::8H"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "it_helpdesk__incident_handling_identity_access"
+      } ]
+    },
+    "targetPage": "Collect_it_helpdesk__incident_handling_identity_access",
+    "name": "cac66cc0-58ea-5a6a-9d0a-9e91aeb88887"
+  }, {
+    "condition": "$session.params.sel_category = \"Incident Handling - Information Security\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Incident Handling"
+      }, {
+        "parameter": "l2_category",
+        "value": "Information Security"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "it_helpdesk"
+      }, {
+        "parameter": "sla",
+        "value": ""
+      }, {
+        "parameter": "tag1",
+        "value": "IT Helpdesk::Incident"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::8H"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "it_helpdesk__incident_handling_information_security"
+      } ]
+    },
+    "targetPage": "Collect_it_helpdesk__incident_handling_information_security",
+    "name": "6d90ee7a-4a33-5637-88d0-b5d90bc459f0"
+  }, {
+    "condition": "$session.params.sel_category = \"Incident Handling - Network\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Incident Handling"
+      }, {
+        "parameter": "l2_category",
+        "value": "Network"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "it_helpdesk"
+      }, {
+        "parameter": "sla",
+        "value": ""
+      }, {
+        "parameter": "tag1",
+        "value": "IT Helpdesk::Incident"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::8H"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "it_helpdesk__incident_handling_network"
+      } ]
+    },
+    "targetPage": "Collect_it_helpdesk__incident_handling_network",
+    "name": "fb5d360a-7ea8-56de-a118-92219f39744f"
+  }, {
+    "condition": "$session.params.sel_category = \"Incident Handling - Software\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Incident Handling"
+      }, {
+        "parameter": "l2_category",
+        "value": "Software"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "it_helpdesk"
+      }, {
+        "parameter": "sla",
+        "value": ""
+      }, {
+        "parameter": "tag1",
+        "value": "IT Helpdesk::Incident"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::8H"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "it_helpdesk__incident_handling_software"
+      } ]
+    },
+    "targetPage": "Collect_it_helpdesk__incident_handling_software",
+    "name": "8afbb0e3-17f6-5198-94fc-599f2804eadd"
+  }, {
+    "condition": "$session.params.sel_category = \"Service Request - Hardware\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Service Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "Hardware"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "it_helpdesk"
+      }, {
+        "parameter": "sla",
+        "value": ""
+      }, {
+        "parameter": "tag1",
+        "value": "IT Helpdesk::Service"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::5D"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "it_helpdesk__service_request_hardware"
+      } ]
+    },
+    "targetPage": "Collect_it_helpdesk__service_request_hardware",
+    "name": "3ccc1b2b-c245-5845-81d0-ce24804c283a"
+  }, {
+    "condition": "$session.params.sel_category = \"Service Request - Identity Access\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Service Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "Identity Access"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "it_helpdesk"
+      }, {
+        "parameter": "sla",
+        "value": ""
+      }, {
+        "parameter": "tag1",
+        "value": "IT Helpdesk::Service"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::5D"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "it_helpdesk__service_request_identity_access"
+      } ]
+    },
+    "targetPage": "Collect_it_helpdesk__service_request_identity_access",
+    "name": "ac5706cc-4a5c-55d5-8c71-9b60a89f0d24"
+  }, {
+    "condition": "$session.params.sel_category = \"Service Request - Information Security\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Service Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "Information Security"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "it_helpdesk"
+      }, {
+        "parameter": "sla",
+        "value": ""
+      }, {
+        "parameter": "tag1",
+        "value": "IT Helpdesk::Service"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::5D"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "it_helpdesk__service_request_information_security"
+      } ]
+    },
+    "targetPage": "Collect_it_helpdesk__service_request_information_security",
+    "name": "f3f58667-b4a8-56bd-aa85-1bb86ece22fb"
+  }, {
+    "condition": "$session.params.sel_category = \"Service Request - Network\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Service Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "Network"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "it_helpdesk"
+      }, {
+        "parameter": "sla",
+        "value": ""
+      }, {
+        "parameter": "tag1",
+        "value": "IT Helpdesk::Service"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::5D"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "it_helpdesk__service_request_network"
+      } ]
+    },
+    "targetPage": "Collect_it_helpdesk__service_request_network",
+    "name": "e0bdffbc-be50-52dc-8cc9-72c11dbf4c16"
+  }, {
+    "condition": "$session.params.sel_category = \"Service Request - Software\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Service Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "Software"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "it_helpdesk"
+      }, {
+        "parameter": "sla",
+        "value": ""
+      }, {
+        "parameter": "tag1",
+        "value": "IT Helpdesk::Service"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::5D"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "it_helpdesk__service_request_software"
+      } ]
+    },
+    "targetPage": "Collect_it_helpdesk__service_request_software",
+    "name": "df0b3dad-b3e0-510c-aede-7224735ed1a7"
+  } ]
+}

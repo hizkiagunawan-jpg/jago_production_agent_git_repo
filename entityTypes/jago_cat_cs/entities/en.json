@@ -1,0 +1,19 @@
+{
+  "entities": [ {
+    "value": "Internal Request",
+    "synonyms": [ "Internal Request", "Permintaan Internal", "1" ],
+    "languageCode": "en"
+  }, {
+    "value": "Keluhan",
+    "synonyms": [ "Keluhan", "2" ],
+    "languageCode": "en"
+  }, {
+    "value": "Permintaan / Request",
+    "synonyms": [ "Permintaan / Request", "3" ],
+    "languageCode": "en"
+  }, {
+    "value": "Pertanyaan",
+    "synonyms": [ "Pertanyaan", "4" ],
+    "languageCode": "en"
+  } ]
+}

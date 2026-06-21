@@ -1,0 +1,35 @@
+{
+  "entities": [ {
+    "value": "Pemahaman Karakteristik produk oleh Konsumen",
+    "synonyms": [ "Pemahaman Karakteristik produk oleh Konsumen" ],
+    "languageCode": "en"
+  }, {
+    "value": "Informasi Produk kurang memadai",
+    "synonyms": [ "Informasi Produk kurang memadai" ],
+    "languageCode": "en"
+  }, {
+    "value": "Gangguan/ Kerusakan perangkat dan sistem teknologi informasi",
+    "synonyms": [ "Gangguan/ Kerusakan perangkat dan sistem teknologi informasi" ],
+    "languageCode": "en"
+  }, {
+    "value": "Perubahan/ Pemutusan akad/ Perjanjian/ kontrak",
+    "synonyms": [ "Perubahan/ Pemutusan akad/ Perjanjian/ kontrak" ],
+    "languageCode": "en"
+  }, {
+    "value": "Kelalaian Konsumen",
+    "synonyms": [ "Kelalaian Konsumen" ],
+    "languageCode": "en"
+  }, {
+    "value": "Kelalaian Pelaku Usaha Jasa Keuangan",
+    "synonyms": [ "Kelalaian Pelaku Usaha Jasa Keuangan" ],
+    "languageCode": "en"
+  }, {
+    "value": "Tindak Pidana Pelaku Usaha Jasa Keuangan",
+    "synonyms": [ "Tindak Pidana Pelaku Usaha Jasa Keuangan" ],
+    "languageCode": "en"
+  }, {
+    "value": "Lainnya",
+    "synonyms": [ "Lainnya" ],
+    "languageCode": "en"
+  } ]
+}

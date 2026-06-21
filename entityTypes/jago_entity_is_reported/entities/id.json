@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "Dilaporkan",
+    "synonyms": [ "Dilaporkan" ],
+    "languageCode": "id"
+  }, {
+    "value": "Tidak Dilaporkan",
+    "synonyms": [ "Tidak Dilaporkan" ],
+    "languageCode": "id"
+  } ]
+}

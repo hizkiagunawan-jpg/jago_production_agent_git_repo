@@ -1,0 +1,43 @@
+{
+  "entities": [ {
+    "value": "Incident Handling - Hardware",
+    "synonyms": [ "Incident Handling - Hardware", "Penanganan Insiden - Perangkat Keras", "1" ],
+    "languageCode": "id"
+  }, {
+    "value": "Incident Handling - Identity Access",
+    "synonyms": [ "Incident Handling - Identity Access", "Penanganan Insiden - Akses Identitas", "2" ],
+    "languageCode": "id"
+  }, {
+    "value": "Incident Handling - Information Security",
+    "synonyms": [ "Incident Handling - Information Security", "Penanganan Insiden - Keamanan Informasi", "3" ],
+    "languageCode": "id"
+  }, {
+    "value": "Incident Handling - Network",
+    "synonyms": [ "Incident Handling - Network", "Penanganan Insiden - Jaringan", "4" ],
+    "languageCode": "id"
+  }, {
+    "value": "Incident Handling - Software",
+    "synonyms": [ "Incident Handling - Software", "Penanganan Insiden - Perangkat Lunak", "5" ],
+    "languageCode": "id"
+  }, {
+    "value": "Service Request - Hardware",
+    "synonyms": [ "Service Request - Hardware", "Permintaan Layanan - Perangkat Keras", "6" ],
+    "languageCode": "id"
+  }, {
+    "value": "Service Request - Identity Access",
+    "synonyms": [ "Service Request - Identity Access", "Permintaan Layanan - Akses Identitas", "7" ],
+    "languageCode": "id"
+  }, {
+    "value": "Service Request - Information Security",
+    "synonyms": [ "Service Request - Information Security", "Permintaan Layanan - Keamanan Informasi", "8" ],
+    "languageCode": "id"
+  }, {
+    "value": "Service Request - Network",
+    "synonyms": [ "Service Request - Network", "Permintaan Layanan - Jaringan", "9" ],
+    "languageCode": "id"
+  }, {
+    "value": "Service Request - Software",
+    "synonyms": [ "Service Request - Software", "Permintaan Layanan - Perangkat Lunak", "10" ],
+    "languageCode": "id"
+  } ]
+}

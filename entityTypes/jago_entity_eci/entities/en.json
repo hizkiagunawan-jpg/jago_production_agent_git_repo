@@ -1,0 +1,39 @@
+{
+  "entities": [ {
+    "value": "01",
+    "synonyms": [ "01" ],
+    "languageCode": "en"
+  }, {
+    "value": "02",
+    "synonyms": [ "02" ],
+    "languageCode": "en"
+  }, {
+    "value": "03",
+    "synonyms": [ "03" ],
+    "languageCode": "en"
+  }, {
+    "value": "04",
+    "synonyms": [ "04" ],
+    "languageCode": "en"
+  }, {
+    "value": "05",
+    "synonyms": [ "05" ],
+    "languageCode": "en"
+  }, {
+    "value": "06",
+    "synonyms": [ "06" ],
+    "languageCode": "en"
+  }, {
+    "value": "07",
+    "synonyms": [ "07" ],
+    "languageCode": "en"
+  }, {
+    "value": "08",
+    "synonyms": [ "08" ],
+    "languageCode": "en"
+  }, {
+    "value": "Blank",
+    "synonyms": [ "Blank" ],
+    "languageCode": "en"
+  } ]
+}

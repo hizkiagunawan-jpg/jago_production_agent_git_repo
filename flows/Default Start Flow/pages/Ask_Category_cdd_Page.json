@@ -1,0 +1,138 @@
+{
+  "name": "8d7448b3-9d2a-5ac9-a3fb-f7b12e31e108",
+  "displayName": "Ask_Category_cdd_Page",
+  "form": {
+    "parameters": [ {
+      "displayName": "sel_category",
+      "required": true,
+      "entityType": "@jago_cat_cdd",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please choose the category (reply with the number or name):\n1. Escalation - Outreach Customer Information\n2. Escalation - Outreach KTP - Customer's eKTP is Cropped\n3. Escalation - Outreach KTP - Customer's eKTP is Unclear" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Silakan pilih kategori (balas dengan nomor atau nama):\n1. Eskalasi - Outreach Informasi Nasabah\n2. Eskalasi - Outreach KTP - eKTP Nasabah Terpotong\n3. Eskalasi - Outreach KTP - eKTP Nasabah Tidak Jelas" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.sel_category = \"Escalation - Outreach Customer Information\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Internal Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "Escalation - Outreach Customer Information"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "kyc_admin"
+      }, {
+        "parameter": "sla",
+        "value": "3 Hari"
+      }, {
+        "parameter": "tag1",
+        "value": "KYC Admin::Outreach"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::3D"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "cdd__escalation_outreach_customer_information"
+      } ]
+    },
+    "targetPage": "Collect_cdd__escalation_outreach_customer_information",
+    "name": "673e8ea0-16a5-5234-92a4-55d044cdf900"
+  }, {
+    "condition": "$session.params.sel_category = \"Escalation - Outreach KTP - Customer\\'s eKTP is Cropped\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Internal Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "Escalation - Outreach KTP - Customer's eKTP is Cropped"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "kyc_admin"
+      }, {
+        "parameter": "sla",
+        "value": "3 Hari"
+      }, {
+        "parameter": "tag1",
+        "value": "KYC Admin::Outreach"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::3D"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "cdd__escalation_outreach_ktp_customer_s_ektp_"
+      } ]
+    },
+    "targetPage": "Collect_cdd__escalation_outreach_ktp_customer_s_ektp_",
+    "name": "19593b35-e269-55f8-b844-13c7723ba855"
+  }, {
+    "condition": "$session.params.sel_category = \"Escalation - Outreach KTP - Customer\\'s eKTP is Unclear\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Internal Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "Escalation - Outreach KTP - Customer's eKTP is Unclear"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "kyc_admin"
+      }, {
+        "parameter": "sla",
+        "value": "3 Hari"
+      }, {
+        "parameter": "tag1",
+        "value": "KYC Admin::Outreach"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::3D"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "cdd__escalation_outreach_ktp_customer_s_ektp__2"
+      } ]
+    },
+    "targetPage": "Collect_cdd__escalation_outreach_ktp_customer_s_ektp__2",
+    "name": "65558336-4803-5699-9582-038ab083aaea"
+  } ]
+}

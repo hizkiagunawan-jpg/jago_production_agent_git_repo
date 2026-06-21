@@ -1,0 +1,91 @@
+{
+  "entities": [ {
+    "value": "NO::AJ",
+    "synonyms": [ "NO::AJ" ],
+    "languageCode": "id"
+  }, {
+    "value": "NO::ALTO",
+    "synonyms": [ "NO::ALTO" ],
+    "languageCode": "id"
+  }, {
+    "value": "NO::ALTO QRIS",
+    "synonyms": [ "NO::ALTO QRIS" ],
+    "languageCode": "id"
+  }, {
+    "value": "NO::BI Fast",
+    "synonyms": [ "NO::BI Fast" ],
+    "languageCode": "id"
+  }, {
+    "value": "NO::Bibit",
+    "synonyms": [ "NO::Bibit" ],
+    "languageCode": "id"
+  }, {
+    "value": "NO::Gojek",
+    "synonyms": [ "NO::Gojek" ],
+    "languageCode": "id"
+  }, {
+    "value": "NO::Jago",
+    "synonyms": [ "NO::Jago" ],
+    "languageCode": "id"
+  }, {
+    "value": "NO::SKN/RTGS",
+    "synonyms": [ "NO::SKN/RTGS" ],
+    "languageCode": "id"
+  }, {
+    "value": "NO::Stockbit",
+    "synonyms": [ "NO::Stockbit" ],
+    "languageCode": "id"
+  }, {
+    "value": "NO::Tokopedia",
+    "synonyms": [ "NO::Tokopedia" ],
+    "languageCode": "id"
+  }, {
+    "value": "NO::VISA",
+    "synonyms": [ "NO::VISA" ],
+    "languageCode": "id"
+  }, {
+    "value": "YES::AJ",
+    "synonyms": [ "YES::AJ" ],
+    "languageCode": "id"
+  }, {
+    "value": "YES::ALTO",
+    "synonyms": [ "YES::ALTO" ],
+    "languageCode": "id"
+  }, {
+    "value": "YES::ALTO QRIS",
+    "synonyms": [ "YES::ALTO QRIS" ],
+    "languageCode": "id"
+  }, {
+    "value": "YES::BI Fast",
+    "synonyms": [ "YES::BI Fast" ],
+    "languageCode": "id"
+  }, {
+    "value": "YES::Bibit",
+    "synonyms": [ "YES::Bibit" ],
+    "languageCode": "id"
+  }, {
+    "value": "YES::Gojek",
+    "synonyms": [ "YES::Gojek" ],
+    "languageCode": "id"
+  }, {
+    "value": "YES::Jago",
+    "synonyms": [ "YES::Jago" ],
+    "languageCode": "id"
+  }, {
+    "value": "YES::SKN/RTGS",
+    "synonyms": [ "YES::SKN/RTGS" ],
+    "languageCode": "id"
+  }, {
+    "value": "YES::Stockbit",
+    "synonyms": [ "YES::Stockbit" ],
+    "languageCode": "id"
+  }, {
+    "value": "YES::Tokopedia",
+    "synonyms": [ "YES::Tokopedia" ],
+    "languageCode": "id"
+  }, {
+    "value": "YES::VISA",
+    "synonyms": [ "YES::VISA" ],
+    "languageCode": "id"
+  } ]
+}

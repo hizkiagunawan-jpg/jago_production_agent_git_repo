@@ -1,0 +1,55 @@
+{
+  "entities": [ {
+    "value": "Judi Online",
+    "synonyms": [ "Judi Online" ],
+    "languageCode": "en"
+  }, {
+    "value": "Others",
+    "synonyms": [ "Others" ],
+    "languageCode": "en"
+  }, {
+    "value": "Phishing",
+    "synonyms": [ "Phishing" ],
+    "languageCode": "en"
+  }, {
+    "value": "Romance Scam",
+    "synonyms": [ "Romance Scam" ],
+    "languageCode": "en"
+  }, {
+    "value": "Scam - Fake Order",
+    "synonyms": [ "Scam - Fake Order" ],
+    "languageCode": "en"
+  }, {
+    "value": "Scam - Gift/Raffle",
+    "synonyms": [ "Scam - Gift/Raffle" ],
+    "languageCode": "en"
+  }, {
+    "value": "Scam - Impersonating Jago",
+    "synonyms": [ "Scam - Impersonating Jago" ],
+    "languageCode": "en"
+  }, {
+    "value": "Scam - Investment/Lending",
+    "synonyms": [ "Scam - Investment/Lending" ],
+    "languageCode": "en"
+  }, {
+    "value": "Scam - Others",
+    "synonyms": [ "Scam - Others" ],
+    "languageCode": "en"
+  }, {
+    "value": "Scam - Referral",
+    "synonyms": [ "Scam - Referral" ],
+    "languageCode": "en"
+  }, {
+    "value": "Sharing Akun",
+    "synonyms": [ "Sharing Akun" ],
+    "languageCode": "en"
+  }, {
+    "value": "Social Engineering",
+    "synonyms": [ "Social Engineering" ],
+    "languageCode": "en"
+  }, {
+    "value": "Promo Abuse",
+    "synonyms": [ "Promo Abuse" ],
+    "languageCode": "en"
+  } ]
+}

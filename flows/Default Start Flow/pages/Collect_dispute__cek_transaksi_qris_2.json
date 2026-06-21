@@ -1,0 +1,127 @@
+{
+  "name": "03575341-b79d-564a-962b-0d3b877c218c",
+  "displayName": "Collect_dispute__cek_transaksi_qris_2",
+  "form": {
+    "parameters": [ {
+      "displayName": "d5_due_date_slot",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Due Date:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Due Date:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k39_transaction_type_slot",
+      "required": true,
+      "entityType": "@jago_entity_transaction_type",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Transaction Type:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Transaction Type:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Transaction Type",
+                "options": [ {
+                  "text": "Transfer ATM",
+                  "value": "Transfer ATM"
+                }, {
+                  "text": "Outgoing Transfer",
+                  "value": "Outgoing Transfer"
+                }, {
+                  "text": "Incoming Transfer",
+                  "value": "Incoming Transfer"
+                }, {
+                  "text": "Cash Withdrawal ATM",
+                  "value": "Cash Withdrawal ATM"
+                }, {
+                  "text": "Online Debit Card Transaction",
+                  "value": "Online Debit Card Transaction"
+                }, {
+                  "text": "Offline Debit Card Transaction",
+                  "value": "Offline Debit Card Transaction"
+                }, {
+                  "text": "QRIS Transaction",
+                  "value": "QRIS Transaction"
+                }, {
+                  "text": "Biller Payment",
+                  "value": "Biller Payment"
+                } ],
+                "parameter": "k39_transaction_type",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Transaction Type",
+                "options": [ {
+                  "text": "Transfer ATM",
+                  "value": "Transfer ATM"
+                }, {
+                  "text": "Outgoing Transfer",
+                  "value": "Outgoing Transfer"
+                }, {
+                  "text": "Incoming Transfer",
+                  "value": "Incoming Transfer"
+                }, {
+                  "text": "Cash Withdrawal ATM",
+                  "value": "Cash Withdrawal ATM"
+                }, {
+                  "text": "Online Debit Card Transaction",
+                  "value": "Online Debit Card Transaction"
+                }, {
+                  "text": "Offline Debit Card Transaction",
+                  "value": "Offline Debit Card Transaction"
+                }, {
+                  "text": "QRIS Transaction",
+                  "value": "QRIS Transaction"
+                }, {
+                  "text": "Biller Payment",
+                  "value": "Biller Payment"
+                } ],
+                "parameter": "k39_transaction_type",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "d5_due_date",
+        "value": "$page.params.d5_due_date_slot"
+      }, {
+        "parameter": "k39_transaction_type",
+        "value": "$page.params.k39_transaction_type_slot"
+      } ]
+    },
+    "targetPage": "Dispute_Handoff_Page",
+    "name": "3f907405-0470-50d8-a852-38c85aa5e3c9"
+  } ]
+}

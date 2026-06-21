@@ -1,0 +1,175 @@
+{
+  "name": "1bf9aa62-7d44-5f0b-a3a4-856e7c8ea823",
+  "displayName": "Ask_Category_cs_Page",
+  "form": {
+    "parameters": [ {
+      "displayName": "sel_category",
+      "required": true,
+      "entityType": "@jago_cat_cs",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please choose the category (reply with the number or name):\n1. Internal Request\n2. Keluhan\n3. Permintaan / Request\n4. Pertanyaan" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Silakan pilih kategori (balas dengan nomor atau nama):\n1. Permintaan Internal\n2. Keluhan\n3. Permintaan / Request\n4. Pertanyaan" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.sel_category = \"Internal Request\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Internal Request"
+      }, {
+        "parameter": "l2_category",
+        "value": ""
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "kyc_admin"
+      }, {
+        "parameter": "sla",
+        "value": "1 Hari"
+      }, {
+        "parameter": "tag1",
+        "value": "Internal SLA"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::8H"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "cs__internal_request"
+      } ]
+    },
+    "targetPage": "Collect_cs__internal_request",
+    "name": "35936e53-0e13-5ee2-bd1e-762a190d83f6"
+  }, {
+    "condition": "$session.params.sel_category = \"Keluhan\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Keluhan"
+      }, {
+        "parameter": "l2_category",
+        "value": ""
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "priority"
+      }, {
+        "parameter": "sla",
+        "value": "8 Jam"
+      }, {
+        "parameter": "tag1",
+        "value": "Internal SLA"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::8H"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "cs__keluhan"
+      } ]
+    },
+    "targetPage": "Collect_cs__keluhan",
+    "name": "2e6f9971-842b-5fa7-b3ab-dc9d5fabfda1"
+  }, {
+    "condition": "$session.params.sel_category = \"Permintaan / Request\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Permintaan / Request"
+      }, {
+        "parameter": "l2_category",
+        "value": ""
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "ticketing_admin"
+      }, {
+        "parameter": "sla",
+        "value": "8 Jam"
+      }, {
+        "parameter": "tag1",
+        "value": "Internal SLA"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::8H"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "cs__permintaan_request"
+      } ]
+    },
+    "targetPage": "Collect_cs__permintaan_request",
+    "name": "d05c1b0b-f264-5e84-a438-65ef94d8ba08"
+  }, {
+    "condition": "$session.params.sel_category = \"Pertanyaan\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Pertanyaan"
+      }, {
+        "parameter": "l2_category",
+        "value": ""
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "ticketing_admin"
+      }, {
+        "parameter": "sla",
+        "value": "8 Jam"
+      }, {
+        "parameter": "tag1",
+        "value": "Internal SLA"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::8H"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "cs__pertanyaan"
+      } ]
+    },
+    "targetPage": "Collect_cs__pertanyaan",
+    "name": "ae50d7ec-c969-5806-9308-cdccb243ef37"
+  } ]
+}

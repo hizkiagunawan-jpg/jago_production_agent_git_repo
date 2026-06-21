@@ -1,0 +1,73 @@
+{
+  "displayName": "Jago_Production_Agent",
+  "defaultLanguageCode": "id",
+  "supportedLanguageCodes": [ "en" ],
+  "timeZone": "Asia/Bangkok",
+  "enableLogging": true,
+  "projectNumber": 571384310908,
+  "speechToTextSettings": {
+  
+  },
+  "startFlow": "Default Start Flow",
+  "enableStackdriverLogging": true,
+  "enableSpellCorrection": true,
+  "advancedSettings": {
+    "audioExportGcsDestination": {
+      "uri": "gs://chatbotdata-ph-poc/bank_jago"
+    },
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 5
+      }
+    },
+    "playbackInterruptionSettings": {
+    
+    },
+    "loggingSettings": {
+      "enableStackdriverLogging": true,
+      "enableInteractionLogging": true
+    },
+    "speechAdaptationSettings": {
+    
+    }
+  },
+  "dataResidencyOption": "DATA_RESIDENCY_IN_USE_COMPLIANT",
+  "speakerIdSettings": {
+  
+  },
+  "textToSpeechSettings": {
+    "synthesizeSpeechConfigs": [ {
+      "key": "en",
+      "value": {
+        "speakingRate": 1,
+        "pitch": 2,
+        "voice": {
+        
+        }
+      }
+    }, {
+      "key": "id",
+      "value": {
+        "speakingRate": 1,
+        "pitch": 2,
+        "voice": {
+        
+        }
+      }
+    } ]
+  },
+  "genAppBuilderSettings": {
+    "engine": "projects/571384310908/locations/global/collections/default_collection/engines/452afbf7-7ec3-477d-a319-591b313f6ed0-chat-1782008252"
+  },
+  "duplexSettings": {
+  
+  },
+  "answerFeedbackSettings": {
+    "enableAnswerFeedback": true
+  },
+  "enableMultiLanguageTraining": true,
+  "webClientSettings": {
+    "boxBorderRadius": "0"
+  }
+}

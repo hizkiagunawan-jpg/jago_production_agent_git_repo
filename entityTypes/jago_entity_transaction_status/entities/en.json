@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "Success",
+    "synonyms": [ "Success", "Sukses" ],
+    "languageCode": "en"
+  }, {
+    "value": "Decline",
+    "synonyms": [ "Decline", "Ditolak" ],
+    "languageCode": "en"
+  }, {
+    "value": "Report Not Available",
+    "synonyms": [ "Report Not Available", "Laporan Tidak Tersedia" ],
+    "languageCode": "en"
+  } ]
+}

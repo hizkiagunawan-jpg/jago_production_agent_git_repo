@@ -1,0 +1,175 @@
+{
+  "entities": [ {
+    "value": "Account take over dan kartu diaktifkan pihak lain",
+    "synonyms": [ "Account take over dan kartu diaktifkan pihak lain" ],
+    "languageCode": "en"
+  }, {
+    "value": "Biaya administrasi/Provisi/Transaksi",
+    "synonyms": [ "Biaya administrasi/Provisi/Transaksi" ],
+    "languageCode": "en"
+  }, {
+    "value": "Bunga/Bagi Hasil/Margin Keuntungan",
+    "synonyms": [ "Bunga/Bagi Hasil/Margin Keuntungan" ],
+    "languageCode": "en"
+  }, {
+    "value": "Denda/Pinalti",
+    "synonyms": [ "Denda/Pinalti" ],
+    "languageCode": "en"
+  }, {
+    "value": "Fraud application",
+    "synonyms": [ "Fraud application" ],
+    "languageCode": "en"
+  }, {
+    "value": "Fraud eksternal dan kelalaian Bank",
+    "synonyms": [ "Fraud eksternal dan kelalaian Bank" ],
+    "languageCode": "en"
+  }, {
+    "value": "Fraud, penipuan, kecurangan oleh pegawai dan/atau pihak lain",
+    "synonyms": [ "Fraud, penipuan, kecurangan oleh pegawai dan/atau pihak lain" ],
+    "languageCode": "en"
+  }, {
+    "value": "Jumlah NAB, UP atau NAB/UP",
+    "synonyms": [ "Jumlah NAB, UP atau NAB/UP" ],
+    "languageCode": "en"
+  }, {
+    "value": "Jumlah saldo rekening",
+    "synonyms": [ "Jumlah saldo rekening" ],
+    "languageCode": "en"
+  }, {
+    "value": "Jumlah tagihan",
+    "synonyms": [ "Jumlah tagihan" ],
+    "languageCode": "en"
+  }, {
+    "value": "Jumlah tagihan/saldo rekening",
+    "synonyms": [ "Jumlah tagihan/saldo rekening" ],
+    "languageCode": "en"
+  }, {
+    "value": "Jumlah tagihan/sanggahan transaksi",
+    "synonyms": [ "Jumlah tagihan/sanggahan transaksi" ],
+    "languageCode": "en"
+  }, {
+    "value": "Jumlah transaksi kliring/transfer",
+    "synonyms": [ "Jumlah transaksi kliring/transfer" ],
+    "languageCode": "en"
+  }, {
+    "value": "Jumlah transaksi RTGS",
+    "synonyms": [ "Jumlah transaksi RTGS" ],
+    "languageCode": "en"
+  }, {
+    "value": "Kebakaran/",
+    "synonyms": [ "Kebakaran/" ],
+    "languageCode": "en"
+  }, {
+    "value": "Keberadaan atas transaksi",
+    "synonyms": [ "Keberadaan atas transaksi" ],
+    "languageCode": "en"
+  }, {
+    "value": "Keberatan pemberian fasilitas secara sepihak",
+    "synonyms": [ "Keberatan pemberian fasilitas secara sepihak" ],
+    "languageCode": "en"
+  }, {
+    "value": "Kegagalan",
+    "synonyms": [ "Kegagalan" ],
+    "languageCode": "en"
+  }, {
+    "value": "Kegagalan/keterlambatan/ketidaksesuaian transaksi (mis: tarik/setor)",
+    "synonyms": [ "Kegagalan/keterlambatan/ketidaksesuaian transaksi (mis: tarik/setor)" ],
+    "languageCode": "en"
+  }, {
+    "value": "Kehilangan barang",
+    "synonyms": [ "Kehilangan barang" ],
+    "languageCode": "en"
+  }, {
+    "value": "Keterlambatan penerimaan dana hasil pencairan Reksa Dana (redemption)",
+    "synonyms": [ "Keterlambatan penerimaan dana hasil pencairan Reksa Dana (redemption)" ],
+    "languageCode": "en"
+  }, {
+    "value": "Keterlambatan transaksi",
+    "synonyms": [ "Keterlambatan transaksi" ],
+    "languageCode": "en"
+  }, {
+    "value": "Ketidaksesuaian nilai tukar",
+    "synonyms": [ "Ketidaksesuaian nilai tukar" ],
+    "languageCode": "en"
+  }, {
+    "value": "Lainnya",
+    "synonyms": [ "Lainnya" ],
+    "languageCode": "en"
+  }, {
+    "value": "Pelunasan Biaya Penyelenggaraan Ibadah haji (BPIH)",
+    "synonyms": [ "Pelunasan Biaya Penyelenggaraan Ibadah haji (BPIH)" ],
+    "languageCode": "en"
+  }, {
+    "value": "Pemblokiran/Penutupan/perubahan rekening secara sepihak",
+    "synonyms": [ "Pemblokiran/Penutupan/perubahan rekening secara sepihak" ],
+    "languageCode": "en"
+  }, {
+    "value": "Pembukaan tanpa/tidak sesuai persetujuan",
+    "synonyms": [ "Pembukaan tanpa/tidak sesuai persetujuan" ],
+    "languageCode": "en"
+  }, {
+    "value": "Penalti",
+    "synonyms": [ "Penalti" ],
+    "languageCode": "en"
+  }, {
+    "value": "Pencairan tanpa/tidak sesuai persetujuan",
+    "synonyms": [ "Pencairan tanpa/tidak sesuai persetujuan" ],
+    "languageCode": "en"
+  }, {
+    "value": "Pencairan tidak sesuai perintah/specimen",
+    "synonyms": [ "Pencairan tidak sesuai perintah/specimen" ],
+    "languageCode": "en"
+  }, {
+    "value": "Pendebetan rekening tanpa persetujuan",
+    "synonyms": [ "Pendebetan rekening tanpa persetujuan" ],
+    "languageCode": "en"
+  }, {
+    "value": "Penolakan klaim oleh asuransi",
+    "synonyms": [ "Penolakan klaim oleh asuransi" ],
+    "languageCode": "en"
+  }, {
+    "value": "Penundaan/Penolakan pencairan",
+    "synonyms": [ "Penundaan/Penolakan pencairan" ],
+    "languageCode": "en"
+  }, {
+    "value": "Penutupan rekening",
+    "synonyms": [ "Penutupan rekening" ],
+    "languageCode": "en"
+  }, {
+    "value": "Perilaku petugas penagihan",
+    "synonyms": [ "Perilaku petugas penagihan" ],
+    "languageCode": "en"
+  }, {
+    "value": "Permasalahan agunan/jaminan",
+    "synonyms": [ "Permasalahan agunan/jaminan" ],
+    "languageCode": "en"
+  }, {
+    "value": "Permasalahan penyerahan rumah/apartemen",
+    "synonyms": [ "Permasalahan penyerahan rumah/apartemen" ],
+    "languageCode": "en"
+  }, {
+    "value": "permintaan pengembalian dana",
+    "synonyms": [ "permintaan pengembalian dana" ],
+    "languageCode": "en"
+  }, {
+    "value": "Sistem Layanan Informasi Keuangan",
+    "synonyms": [ "Sistem Layanan Informasi Keuangan" ],
+    "languageCode": "en"
+  }, {
+    "value": "SWIFT tidak sesuai dengan tujuan pengiriman",
+    "synonyms": [ "SWIFT tidak sesuai dengan tujuan pengiriman" ],
+    "languageCode": "en"
+  }, {
+    "value": "Tidak menerima laporan/statement",
+    "synonyms": [ "Tidak menerima laporan/statement" ],
+    "languageCode": "en"
+  }, {
+    "value": "Transaksi",
+    "synonyms": [ "Transaksi" ],
+    "languageCode": "en"
+  }, {
+    "value": "Unauthorized transaction",
+    "synonyms": [ "Unauthorized transaction" ],
+    "languageCode": "en"
+  } ]
+}

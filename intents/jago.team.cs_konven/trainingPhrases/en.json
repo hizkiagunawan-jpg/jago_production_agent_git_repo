@@ -1,0 +1,15 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "conventional banking"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "conventional cs"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

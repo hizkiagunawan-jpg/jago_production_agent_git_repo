@@ -1,0 +1,23 @@
+{
+  "entities": [ {
+    "value": "Data Maintenance Request",
+    "synonyms": [ "Data Maintenance Request", "Permintaan Pemeliharaan Data", "1" ],
+    "languageCode": "en"
+  }, {
+    "value": "Outreach KTP Cropped",
+    "synonyms": [ "Outreach KTP Cropped", "Outreach KTP Terpotong", "2" ],
+    "languageCode": "en"
+  }, {
+    "value": "Outreach KTP Unclear",
+    "synonyms": [ "Outreach KTP Unclear", "Outreach KTP Tidak Jelas", "3" ],
+    "languageCode": "en"
+  }, {
+    "value": "Unblock Request - KTP Proper",
+    "synonyms": [ "Unblock Request - KTP Proper", "Permintaan Buka Blokir - KTP Sesuai", "4" ],
+    "languageCode": "en"
+  }, {
+    "value": "Unblock Request - Liveness Proper",
+    "synonyms": [ "Unblock Request - Liveness Proper", "Permintaan Buka Blokir - Liveness Sesuai", "5" ],
+    "languageCode": "en"
+  } ]
+}

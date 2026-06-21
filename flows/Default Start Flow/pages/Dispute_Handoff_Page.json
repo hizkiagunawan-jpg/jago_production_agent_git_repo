@@ -1,0 +1,152 @@
+{
+  "name": "b55bb861-45b9-47bc-9422-e1e0eb5ce0b6",
+  "displayName": "Dispute_Handoff_Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "I have successfully recorded your transaction dispute details. I will immediately connect you with our Financial Dispute team so they can investigate your balance or transfer issue. Please hold on for a moment." ]
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Detail sanggahan transaksi Kakak sudah saya catat dengan baik. Saya akan segera menghubungkan Kakak dengan tim Dispute Keuangan agar kendala saldo atau transfer ini bisa diinvestigasi. Mohon tunggu sesaat ya Kak." ]
+      },
+      "languageCode": "id"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "CLAN": "$session.params.clan",
+          "CUSTOM_FIELDS": {
+            "d10_settle_date": "$session.params.d10_settle_date",
+            "d11_transaction_date": "$session.params.d11_transaction_date",
+            "d1_auth_date": "$session.params.d1_auth_date",
+            "d2_block_or_delete_card_date": "$session.params.d2_block_or_delete_card_date",
+            "d4_date_of_reps_or_win": "$session.params.d4_date_of_reps_or_win",
+            "d5_due_date": "$session.params.d5_due_date",
+            "d6_follow_up_date": "$session.params.d6_follow_up_date",
+            "d9_refund_date": "$session.params.d9_refund_date",
+            "k10_currency": "$session.params.k10_currency",
+            "k14_dispute_reason": "$session.params.k14_dispute_reason",
+            "k15_dispute_stage": "$session.params.k15_dispute_stage",
+            "k17_eci": "$session.params.k17_eci",
+            "k18_entry_mode": "$session.params.k18_entry_mode",
+            "k26_partner": "$session.params.k26_partner",
+            "k29_purchase_inquiry": "$session.params.k29_purchase_inquiry",
+            "k2_bank_name": "$session.params.k2_bank_name",
+            "k30_reason_code": "$session.params.k30_reason_code",
+            "k33_sub_atm_withdrawal": "$session.params.k33_sub_atm_withdrawal",
+            "k36_sub_transfer": "$session.params.k36_sub_transfer",
+            "k37_transaction_claim": "$session.params.k37_transaction_claim",
+            "k38_transaction_status": "$session.params.k38_transaction_status",
+            "k39_transaction_type": "$session.params.k39_transaction_type",
+            "k3_biller_type": "$session.params.k3_biller_type",
+            "k40_type": "$session.params.k40_type",
+            "k6_claim_status": "$session.params.k6_claim_status",
+            "n1_amount": "$session.params.n1_amount",
+            "n3_original_amount": "$session.params.n3_original_amount",
+            "n5_total_of_transaction": "$session.params.n5_total_of_transaction",
+            "n6_total_transaction_amount": "$session.params.n6_total_transaction_amount",
+            "n7_transaction_id": "$session.params.n7_transaction_id",
+            "s11_edc": "$session.params.s11_edc",
+            "s16_location": "$session.params.s16_location",
+            "s18_master_ticket_no": "$session.params.s18_master_ticket_no",
+            "s19_mcc": "$session.params.s19_mcc",
+            "s20_merchant": "$session.params.s20_merchant",
+            "s21_moto_or_eci": "$session.params.s21_moto_or_eci",
+            "s23_refund_amount": "$session.params.s23_refund_amount",
+            "s24_remarks": "$session.params.s24_remarks",
+            "s26_rrn": "$session.params.s26_rrn",
+            "s28_time": "$session.params.s28_time",
+            "s2_additional_info": "$session.params.s2_additional_info",
+            "s3_atm_bank_name": "$session.params.s3_atm_bank_name",
+            "s4_auth_code": "$session.params.s4_auth_code",
+            "s6_card_acceptor_id": "$session.params.s6_card_acceptor_id",
+            "s7_card_number": "$session.params.s7_card_number",
+            "s8_case_number": "$session.params.s8_case_number",
+            "s9_claim_no": "$session.params.s9_claim_no"
+          },
+          "GROUP_CODE": "$session.params.group_code",
+          "L0_TEAM": "$session.params.l0_team",
+          "L1_FORM": "$session.params.l1_form",
+          "L2_CATEGORY": "$session.params.l2_category",
+          "L3_SUB_CATEGORY": "$session.params.l3_sub_category",
+          "L4_SUB_SUB_CATEGORY": "$session.params.l4_sub_sub_category",
+          "RESOLUTION_TIME": "$session.params.resolution_time",
+          "SLA": "$session.params.sla",
+          "TAG1": "$session.params.tag1",
+          "action": "HUMAN_ESCALATION"
+        }
+      },
+      "languageCode": "en"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "CLAN": "$session.params.clan",
+          "CUSTOM_FIELDS": {
+            "d10_settle_date": "$session.params.d10_settle_date",
+            "d11_transaction_date": "$session.params.d11_transaction_date",
+            "d1_auth_date": "$session.params.d1_auth_date",
+            "d2_block_or_delete_card_date": "$session.params.d2_block_or_delete_card_date",
+            "d4_date_of_reps_or_win": "$session.params.d4_date_of_reps_or_win",
+            "d5_due_date": "$session.params.d5_due_date",
+            "d6_follow_up_date": "$session.params.d6_follow_up_date",
+            "d9_refund_date": "$session.params.d9_refund_date",
+            "k10_currency": "$session.params.k10_currency",
+            "k14_dispute_reason": "$session.params.k14_dispute_reason",
+            "k15_dispute_stage": "$session.params.k15_dispute_stage",
+            "k17_eci": "$session.params.k17_eci",
+            "k18_entry_mode": "$session.params.k18_entry_mode",
+            "k26_partner": "$session.params.k26_partner",
+            "k29_purchase_inquiry": "$session.params.k29_purchase_inquiry",
+            "k2_bank_name": "$session.params.k2_bank_name",
+            "k30_reason_code": "$session.params.k30_reason_code",
+            "k33_sub_atm_withdrawal": "$session.params.k33_sub_atm_withdrawal",
+            "k36_sub_transfer": "$session.params.k36_sub_transfer",
+            "k37_transaction_claim": "$session.params.k37_transaction_claim",
+            "k38_transaction_status": "$session.params.k38_transaction_status",
+            "k39_transaction_type": "$session.params.k39_transaction_type",
+            "k3_biller_type": "$session.params.k3_biller_type",
+            "k40_type": "$session.params.k40_type",
+            "k6_claim_status": "$session.params.k6_claim_status",
+            "n1_amount": "$session.params.n1_amount",
+            "n3_original_amount": "$session.params.n3_original_amount",
+            "n5_total_of_transaction": "$session.params.n5_total_of_transaction",
+            "n6_total_transaction_amount": "$session.params.n6_total_transaction_amount",
+            "n7_transaction_id": "$session.params.n7_transaction_id",
+            "s11_edc": "$session.params.s11_edc",
+            "s16_location": "$session.params.s16_location",
+            "s18_master_ticket_no": "$session.params.s18_master_ticket_no",
+            "s19_mcc": "$session.params.s19_mcc",
+            "s20_merchant": "$session.params.s20_merchant",
+            "s21_moto_or_eci": "$session.params.s21_moto_or_eci",
+            "s23_refund_amount": "$session.params.s23_refund_amount",
+            "s24_remarks": "$session.params.s24_remarks",
+            "s26_rrn": "$session.params.s26_rrn",
+            "s28_time": "$session.params.s28_time",
+            "s2_additional_info": "$session.params.s2_additional_info",
+            "s3_atm_bank_name": "$session.params.s3_atm_bank_name",
+            "s4_auth_code": "$session.params.s4_auth_code",
+            "s6_card_acceptor_id": "$session.params.s6_card_acceptor_id",
+            "s7_card_number": "$session.params.s7_card_number",
+            "s8_case_number": "$session.params.s8_case_number",
+            "s9_claim_no": "$session.params.s9_claim_no"
+          },
+          "GROUP_CODE": "$session.params.group_code",
+          "L0_TEAM": "$session.params.l0_team",
+          "L1_FORM": "$session.params.l1_form",
+          "L2_CATEGORY": "$session.params.l2_category",
+          "L3_SUB_CATEGORY": "$session.params.l3_sub_category",
+          "L4_SUB_SUB_CATEGORY": "$session.params.l4_sub_sub_category",
+          "RESOLUTION_TIME": "$session.params.resolution_time",
+          "SLA": "$session.params.sla",
+          "TAG1": "$session.params.tag1",
+          "action": "HUMAN_ESCALATION"
+        }
+      },
+      "languageCode": "id"
+    } ]
+  }
+}

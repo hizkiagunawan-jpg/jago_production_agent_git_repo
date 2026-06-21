@@ -1,0 +1,116 @@
+{
+  "name": "a0aa3186-fbe3-40cd-9a58-a162877bd4bd",
+  "displayName": "Fraud_Handoff_Page",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Your account security is our top priority. I am escalating this report of potential fraud or unauthorized access directly to our Fraud Security team with the highest priority for immediate action. Please wait a moment." ]
+      },
+      "languageCode": "en"
+    }, {
+      "text": {
+        "text": [ "Keamanan akun Kakak adalah prioritas utama kami. Laporan indikasi penipuan atau akses tidak dikenal ini akan langsung saya alihkan ke tim Keamanan Fraud secara prioritas utama untuk penanganan cepat. Mohon tunggu sebentar." ]
+      },
+      "languageCode": "id"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "CLAN": "$session.params.clan",
+          "CUSTOM_FIELDS": {
+            "d12_confirmed_fraud_date": "$session.params.d12_confirmed_fraud_date",
+            "d3_date_of_event": "$session.params.d3_date_of_event",
+            "d7_fraud_date": "$session.params.d7_fraud_date",
+            "k11_customer_info_nik": "$session.params.k11_customer_info_nik",
+            "k12_customer_otp_code": "$session.params.k12_customer_otp_code",
+            "k13_decision": "$session.params.k13_decision",
+            "k16_document_completed": "$session.params.k16_document_completed",
+            "k19_fraud_type": "$session.params.k19_fraud_type",
+            "k20_got_remaining_balance": "$session.params.k20_got_remaining_balance",
+            "k21_is_reported": "$session.params.k21_is_reported",
+            "k22_is_there_a_police_certificate": "$session.params.k22_is_there_a_police_certificate",
+            "k23_ktp_checks": "$session.params.k23_ktp_checks",
+            "k25_modus_operandi": "$session.params.k25_modus_operandi",
+            "k27_password_info_customer": "$session.params.k27_password_info_customer",
+            "k28_password_info_investigator": "$session.params.k28_password_info_investigator",
+            "k32_shared_otp": "$session.params.k32_shared_otp",
+            "k8_confirmed_fraud": "$session.params.k8_confirmed_fraud",
+            "n1_amount": "$session.params.n1_amount",
+            "n2_customer_loss": "$session.params.n2_customer_loss",
+            "n4_third_party_loss": "$session.params.n4_third_party_loss",
+            "s13_informant_email": "$session.params.s13_informant_email",
+            "s14_informant_name": "$session.params.s14_informant_name",
+            "s15_informant_phone": "$session.params.s15_informant_phone",
+            "s1_account_no": "$session.params.s1_account_no",
+            "s24_remarks": "$session.params.s24_remarks",
+            "s25_reported_bank_name": "$session.params.s25_reported_bank_name",
+            "s27_ticket_1_no": "$session.params.s27_ticket_1_no",
+            "s2_additional_info": "$session.params.s2_additional_info",
+            "s32_customer_id": "$session.params.s32_customer_id"
+          },
+          "GROUP_CODE": "$session.params.group_code",
+          "L0_TEAM": "$session.params.l0_team",
+          "L1_FORM": "$session.params.l1_form",
+          "L2_CATEGORY": "$session.params.l2_category",
+          "L3_SUB_CATEGORY": "$session.params.l3_sub_category",
+          "L4_SUB_SUB_CATEGORY": "$session.params.l4_sub_sub_category",
+          "RESOLUTION_TIME": "$session.params.resolution_time",
+          "SLA": "$session.params.sla",
+          "TAG1": "$session.params.tag1",
+          "action": "HUMAN_ESCALATION"
+        }
+      },
+      "languageCode": "en"
+    }, {
+      "liveAgentHandoff": {
+        "metadata": {
+          "CLAN": "$session.params.clan",
+          "CUSTOM_FIELDS": {
+            "d12_confirmed_fraud_date": "$session.params.d12_confirmed_fraud_date",
+            "d3_date_of_event": "$session.params.d3_date_of_event",
+            "d7_fraud_date": "$session.params.d7_fraud_date",
+            "k11_customer_info_nik": "$session.params.k11_customer_info_nik",
+            "k12_customer_otp_code": "$session.params.k12_customer_otp_code",
+            "k13_decision": "$session.params.k13_decision",
+            "k16_document_completed": "$session.params.k16_document_completed",
+            "k19_fraud_type": "$session.params.k19_fraud_type",
+            "k20_got_remaining_balance": "$session.params.k20_got_remaining_balance",
+            "k21_is_reported": "$session.params.k21_is_reported",
+            "k22_is_there_a_police_certificate": "$session.params.k22_is_there_a_police_certificate",
+            "k23_ktp_checks": "$session.params.k23_ktp_checks",
+            "k25_modus_operandi": "$session.params.k25_modus_operandi",
+            "k27_password_info_customer": "$session.params.k27_password_info_customer",
+            "k28_password_info_investigator": "$session.params.k28_password_info_investigator",
+            "k32_shared_otp": "$session.params.k32_shared_otp",
+            "k8_confirmed_fraud": "$session.params.k8_confirmed_fraud",
+            "n1_amount": "$session.params.n1_amount",
+            "n2_customer_loss": "$session.params.n2_customer_loss",
+            "n4_third_party_loss": "$session.params.n4_third_party_loss",
+            "s13_informant_email": "$session.params.s13_informant_email",
+            "s14_informant_name": "$session.params.s14_informant_name",
+            "s15_informant_phone": "$session.params.s15_informant_phone",
+            "s1_account_no": "$session.params.s1_account_no",
+            "s24_remarks": "$session.params.s24_remarks",
+            "s25_reported_bank_name": "$session.params.s25_reported_bank_name",
+            "s27_ticket_1_no": "$session.params.s27_ticket_1_no",
+            "s2_additional_info": "$session.params.s2_additional_info",
+            "s32_customer_id": "$session.params.s32_customer_id"
+          },
+          "GROUP_CODE": "$session.params.group_code",
+          "L0_TEAM": "$session.params.l0_team",
+          "L1_FORM": "$session.params.l1_form",
+          "L2_CATEGORY": "$session.params.l2_category",
+          "L3_SUB_CATEGORY": "$session.params.l3_sub_category",
+          "L4_SUB_SUB_CATEGORY": "$session.params.l4_sub_sub_category",
+          "RESOLUTION_TIME": "$session.params.resolution_time",
+          "SLA": "$session.params.sla",
+          "TAG1": "$session.params.tag1",
+          "action": "HUMAN_ESCALATION"
+        }
+      },
+      "languageCode": "id"
+    } ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "Incoming",
+    "synonyms": [ "Incoming", "Masuk" ],
+    "languageCode": "id"
+  }, {
+    "value": "Outgoing",
+    "synonyms": [ "Outgoing", "Keluar" ],
+    "languageCode": "id"
+  } ]
+}

@@ -1,0 +1,105 @@
+{
+  "name": "16882e11-43cb-51a5-8bf6-103042fb6667",
+  "displayName": "Collect_dispute__cek_top_up_e_wallet_2",
+  "form": {
+    "parameters": [ {
+      "displayName": "k39_transaction_type_slot",
+      "required": true,
+      "entityType": "@jago_entity_transaction_type",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Transaction Type:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Transaction Type:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Transaction Type",
+                "options": [ {
+                  "text": "Transfer ATM",
+                  "value": "Transfer ATM"
+                }, {
+                  "text": "Outgoing Transfer",
+                  "value": "Outgoing Transfer"
+                }, {
+                  "text": "Incoming Transfer",
+                  "value": "Incoming Transfer"
+                }, {
+                  "text": "Cash Withdrawal ATM",
+                  "value": "Cash Withdrawal ATM"
+                }, {
+                  "text": "Online Debit Card Transaction",
+                  "value": "Online Debit Card Transaction"
+                }, {
+                  "text": "Offline Debit Card Transaction",
+                  "value": "Offline Debit Card Transaction"
+                }, {
+                  "text": "QRIS Transaction",
+                  "value": "QRIS Transaction"
+                }, {
+                  "text": "Biller Payment",
+                  "value": "Biller Payment"
+                } ],
+                "parameter": "k39_transaction_type",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Transaction Type",
+                "options": [ {
+                  "text": "Transfer ATM",
+                  "value": "Transfer ATM"
+                }, {
+                  "text": "Outgoing Transfer",
+                  "value": "Outgoing Transfer"
+                }, {
+                  "text": "Incoming Transfer",
+                  "value": "Incoming Transfer"
+                }, {
+                  "text": "Cash Withdrawal ATM",
+                  "value": "Cash Withdrawal ATM"
+                }, {
+                  "text": "Online Debit Card Transaction",
+                  "value": "Online Debit Card Transaction"
+                }, {
+                  "text": "Offline Debit Card Transaction",
+                  "value": "Offline Debit Card Transaction"
+                }, {
+                  "text": "QRIS Transaction",
+                  "value": "QRIS Transaction"
+                }, {
+                  "text": "Biller Payment",
+                  "value": "Biller Payment"
+                } ],
+                "parameter": "k39_transaction_type",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "k39_transaction_type",
+        "value": "$page.params.k39_transaction_type_slot"
+      } ]
+    },
+    "targetPage": "Dispute_Handoff_Page",
+    "name": "1e5daaf3-70f5-5f51-b2ac-13bc42f2047a"
+  } ]
+}

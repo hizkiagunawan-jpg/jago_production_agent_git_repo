@@ -1,0 +1,27 @@
+{
+  "entities": [ {
+    "value": "Multifinance",
+    "synonyms": [ "Multifinance" ],
+    "languageCode": "en"
+  }, {
+    "value": "Water Billing",
+    "synonyms": [ "Water Billing" ],
+    "languageCode": "en"
+  }, {
+    "value": "Credit Card Payment",
+    "synonyms": [ "Credit Card Payment" ],
+    "languageCode": "en"
+  }, {
+    "value": "Prepaid/postpaid mobile phone",
+    "synonyms": [ "Prepaid/postpaid mobile phone" ],
+    "languageCode": "en"
+  }, {
+    "value": "Electricity Billing/Token",
+    "synonyms": [ "Electricity Billing/Token" ],
+    "languageCode": "en"
+  }, {
+    "value": "Internet / TV Cable Billing",
+    "synonyms": [ "Internet / TV Cable Billing" ],
+    "languageCode": "en"
+  } ]
+}

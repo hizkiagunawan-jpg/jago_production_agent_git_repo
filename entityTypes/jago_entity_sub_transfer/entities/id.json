@@ -1,0 +1,35 @@
+{
+  "entities": [ {
+    "value": "Declined",
+    "synonyms": [ "Declined", "Ditolak" ],
+    "languageCode": "id"
+  }, {
+    "value": "Balance Deducted",
+    "synonyms": [ "Balance Deducted" ],
+    "languageCode": "id"
+  }, {
+    "value": "Pending Transaction",
+    "synonyms": [ "Pending Transaction" ],
+    "languageCode": "id"
+  }, {
+    "value": "Submitted Transaction",
+    "synonyms": [ "Submitted Transaction" ],
+    "languageCode": "id"
+  }, {
+    "value": "Unauthorized transfer",
+    "synonyms": [ "Unauthorized transfer" ],
+    "languageCode": "id"
+  }, {
+    "value": "Failed transfer",
+    "synonyms": [ "Failed transfer" ],
+    "languageCode": "id"
+  }, {
+    "value": "Transfer not received by Target Bank",
+    "synonyms": [ "Transfer not received by Target Bank" ],
+    "languageCode": "id"
+  }, {
+    "value": "Incorrect Transfer",
+    "synonyms": [ "Incorrect Transfer" ],
+    "languageCode": "id"
+  } ]
+}

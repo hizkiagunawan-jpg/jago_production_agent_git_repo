@@ -1,0 +1,109 @@
+{
+  "name": "e3c003ce-203e-5d5d-bc8e-9f8ae3b1c7df",
+  "displayName": "Collect_kyc__closing_account",
+  "form": {
+    "parameters": [ {
+      "displayName": "s1_account_no_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the account number:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan nomor rekening:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k7_closing_account_reason_slot",
+      "required": true,
+      "entityType": "@jago_entity_closing_account_reason",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Closing Account Reason:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Closing Account Reason:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Closing Account Reason",
+                "options": [ {
+                  "text": "Customer's Request - Product or features offered are unsuitbale",
+                  "value": "Customer's Request - Product or features offered are unsuitbale"
+                }, {
+                  "text": "Customer's Request - Service given are bad",
+                  "value": "Customer's Request - Service given are bad"
+                }, {
+                  "text": "Customer's Request - Fraud Victim",
+                  "value": "Customer's Request - Fraud Victim"
+                }, {
+                  "text": "Customer's Request - Account is unused",
+                  "value": "Customer's Request - Account is unused"
+                }, {
+                  "text": "Customer's Request - Customer is deceased",
+                  "value": "Customer's Request - Customer is deceased"
+                } ],
+                "parameter": "k7_closing_account_reason",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Closing Account Reason",
+                "options": [ {
+                  "text": "Customer's Request - Product or features offered are unsuitbale",
+                  "value": "Customer's Request - Product or features offered are unsuitbale"
+                }, {
+                  "text": "Customer's Request - Service given are bad",
+                  "value": "Customer's Request - Service given are bad"
+                }, {
+                  "text": "Customer's Request - Fraud Victim",
+                  "value": "Customer's Request - Fraud Victim"
+                }, {
+                  "text": "Customer's Request - Account is unused",
+                  "value": "Customer's Request - Account is unused"
+                }, {
+                  "text": "Customer's Request - Customer is deceased",
+                  "value": "Customer's Request - Customer is deceased"
+                } ],
+                "parameter": "k7_closing_account_reason",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s1_account_no",
+        "value": "$page.params.s1_account_no_slot"
+      }, {
+        "parameter": "k7_closing_account_reason",
+        "value": "$page.params.k7_closing_account_reason_slot"
+      } ]
+    },
+    "targetPage": "KYC_Handoff_Page",
+    "name": "88d53a00-41f7-58d2-a6a7-f4ac6cf72b03"
+  } ]
+}

@@ -1,0 +1,212 @@
+{
+  "name": "2df92add-4c64-5ad6-9673-da2af11158fc",
+  "displayName": "Ask_Category_onboarding_Page",
+  "form": {
+    "parameters": [ {
+      "displayName": "sel_category",
+      "required": true,
+      "entityType": "@jago_cat_onboarding",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please choose the category (reply with the number or name):\n1. Data Maintenance Request\n2. Outreach KTP Cropped\n3. Outreach KTP Unclear\n4. Unblock Request - KTP Proper\n5. Unblock Request - Liveness Proper" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Silakan pilih kategori (balas dengan nomor atau nama):\n1. Permintaan Pemeliharaan Data\n2. Outreach KTP Terpotong\n3. Outreach KTP Tidak Jelas\n4. Permintaan Buka Blokir - KTP Sesuai\n5. Permintaan Buka Blokir - Liveness Sesuai" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.sel_category = \"Data Maintenance Request\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Internal Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "Data Maintenance Request"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "kyc_admin"
+      }, {
+        "parameter": "sla",
+        "value": "1 Hari"
+      }, {
+        "parameter": "tag1",
+        "value": "KYC Admin::Data Maintenance"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::3D"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "onboarding__data_maintenance_request"
+      } ]
+    },
+    "targetPage": "Collect_onboarding__data_maintenance_request",
+    "name": "564a80dd-3fa0-50c7-b89b-9e61c178b782"
+  }, {
+    "condition": "$session.params.sel_category = \"Outreach KTP Cropped\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Internal Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "Outreach KTP Cropped"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "kyc_admin"
+      }, {
+        "parameter": "sla",
+        "value": "3 Hari"
+      }, {
+        "parameter": "tag1",
+        "value": "Onboarding::Outreach"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::3D"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "onboarding__outreach_ktp_cropped"
+      } ]
+    },
+    "targetPage": "Collect_onboarding__outreach_ktp_cropped",
+    "name": "cfd32a20-82eb-581a-aa04-1a7ecbb4889e"
+  }, {
+    "condition": "$session.params.sel_category = \"Outreach KTP Unclear\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Internal Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "Outreach KTP Unclear"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "kyc_admin"
+      }, {
+        "parameter": "sla",
+        "value": "3 Hari"
+      }, {
+        "parameter": "tag1",
+        "value": "Onboarding::Outreach"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::3D"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "onboarding__outreach_ktp_unclear"
+      } ]
+    },
+    "targetPage": "Collect_onboarding__outreach_ktp_unclear",
+    "name": "a4af5591-2b2d-5002-820b-e5412e3fbd7f"
+  }, {
+    "condition": "$session.params.sel_category = \"Unblock Request - KTP Proper\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Internal Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "Unblock Request - KTP Proper"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "kyc_team"
+      }, {
+        "parameter": "sla",
+        "value": "1 Hari"
+      }, {
+        "parameter": "tag1",
+        "value": "KYC Admin::Unblock"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::1D"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "onboarding__unblock_request_ktp_proper"
+      } ]
+    },
+    "targetPage": "Collect_onboarding__unblock_request_ktp_proper",
+    "name": "dce38844-2000-586c-9ae3-c53327eee46f"
+  }, {
+    "condition": "$session.params.sel_category = \"Unblock Request - Liveness Proper\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l1_form",
+        "value": "Internal Request"
+      }, {
+        "parameter": "l2_category",
+        "value": "Unblock Request - Liveness Proper"
+      }, {
+        "parameter": "l3_sub_category",
+        "value": ""
+      }, {
+        "parameter": "l4_sub_sub_category",
+        "value": ""
+      }, {
+        "parameter": "group_code",
+        "value": "kyc_team"
+      }, {
+        "parameter": "sla",
+        "value": "1 Hari"
+      }, {
+        "parameter": "tag1",
+        "value": "KYC Admin::Unblock"
+      }, {
+        "parameter": "resolution_time",
+        "value": "SLA::1D"
+      }, {
+        "parameter": "clan",
+        "value": ""
+      }, {
+        "parameter": "chosen_issue",
+        "value": "onboarding__unblock_request_liveness_proper"
+      } ]
+    },
+    "targetPage": "Collect_onboarding__unblock_request_liveness_proper",
+    "name": "c3f1b996-2c0d-5e8e-9e69-12dfad2432c2"
+  } ]
+}

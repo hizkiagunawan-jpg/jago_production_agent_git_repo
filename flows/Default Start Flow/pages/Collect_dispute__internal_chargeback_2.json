@@ -1,0 +1,481 @@
+{
+  "name": "b1cb973c-0aba-5bc8-b495-d79e87ce5882",
+  "displayName": "Collect_dispute__internal_chargeback_2",
+  "form": {
+    "parameters": [ {
+      "displayName": "k36_sub_transfer_slot",
+      "required": true,
+      "entityType": "@jago_entity_sub_transfer",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Sub Transfer:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Sub Transfer:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Sub Transfer",
+                "options": [ {
+                  "text": "Declined",
+                  "value": "Declined"
+                }, {
+                  "text": "Balance Deducted",
+                  "value": "Balance Deducted"
+                }, {
+                  "text": "Pending Transaction",
+                  "value": "Pending Transaction"
+                }, {
+                  "text": "Submitted Transaction",
+                  "value": "Submitted Transaction"
+                }, {
+                  "text": "Unauthorized transfer",
+                  "value": "Unauthorized transfer"
+                }, {
+                  "text": "Failed transfer",
+                  "value": "Failed transfer"
+                }, {
+                  "text": "Transfer not received by Target Bank",
+                  "value": "Transfer not received by Target Bank"
+                }, {
+                  "text": "Incorrect Transfer",
+                  "value": "Incorrect Transfer"
+                } ],
+                "parameter": "k36_sub_transfer",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Sub Transfer",
+                "options": [ {
+                  "text": "Ditolak",
+                  "value": "Declined"
+                }, {
+                  "text": "Balance Deducted",
+                  "value": "Balance Deducted"
+                }, {
+                  "text": "Pending Transaction",
+                  "value": "Pending Transaction"
+                }, {
+                  "text": "Submitted Transaction",
+                  "value": "Submitted Transaction"
+                }, {
+                  "text": "Unauthorized transfer",
+                  "value": "Unauthorized transfer"
+                }, {
+                  "text": "Failed transfer",
+                  "value": "Failed transfer"
+                }, {
+                  "text": "Transfer not received by Target Bank",
+                  "value": "Transfer not received by Target Bank"
+                }, {
+                  "text": "Incorrect Transfer",
+                  "value": "Incorrect Transfer"
+                } ],
+                "parameter": "k36_sub_transfer",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s4_auth_code_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Auth Code:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Auth Code:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "d1_auth_date_slot",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Auth date:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Auth date:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k10_currency_slot",
+      "required": true,
+      "entityType": "@jago_entity_currency",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Currency:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Currency:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Currency",
+                "options": [ {
+                  "text": "CNY",
+                  "value": "CNY"
+                }, {
+                  "text": "EUR",
+                  "value": "EUR"
+                }, {
+                  "text": "GBP",
+                  "value": "GBP"
+                }, {
+                  "text": "HKD",
+                  "value": "HKD"
+                }, {
+                  "text": "IDR",
+                  "value": "IDR"
+                }, {
+                  "text": "JPY",
+                  "value": "JPY"
+                }, {
+                  "text": "MYR",
+                  "value": "MYR"
+                }, {
+                  "text": "SGD",
+                  "value": "SGD"
+                }, {
+                  "text": "USD",
+                  "value": "USD"
+                } ],
+                "parameter": "k10_currency",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Currency",
+                "options": [ {
+                  "text": "CNY",
+                  "value": "CNY"
+                }, {
+                  "text": "EUR",
+                  "value": "EUR"
+                }, {
+                  "text": "GBP",
+                  "value": "GBP"
+                }, {
+                  "text": "HKD",
+                  "value": "HKD"
+                }, {
+                  "text": "IDR",
+                  "value": "IDR"
+                }, {
+                  "text": "JPY",
+                  "value": "JPY"
+                }, {
+                  "text": "MYR",
+                  "value": "MYR"
+                }, {
+                  "text": "SGD",
+                  "value": "SGD"
+                }, {
+                  "text": "USD",
+                  "value": "USD"
+                } ],
+                "parameter": "k10_currency",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k17_eci_slot",
+      "required": true,
+      "entityType": "@jago_entity_eci",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the ECI:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan ECI:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "ECI",
+                "options": [ {
+                  "text": "01",
+                  "value": "01"
+                }, {
+                  "text": "02",
+                  "value": "02"
+                }, {
+                  "text": "03",
+                  "value": "03"
+                }, {
+                  "text": "04",
+                  "value": "04"
+                }, {
+                  "text": "05",
+                  "value": "05"
+                }, {
+                  "text": "06",
+                  "value": "06"
+                }, {
+                  "text": "07",
+                  "value": "07"
+                }, {
+                  "text": "08",
+                  "value": "08"
+                }, {
+                  "text": "Blank",
+                  "value": "Blank"
+                } ],
+                "parameter": "k17_eci",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "ECI",
+                "options": [ {
+                  "text": "01",
+                  "value": "01"
+                }, {
+                  "text": "02",
+                  "value": "02"
+                }, {
+                  "text": "03",
+                  "value": "03"
+                }, {
+                  "text": "04",
+                  "value": "04"
+                }, {
+                  "text": "05",
+                  "value": "05"
+                }, {
+                  "text": "06",
+                  "value": "06"
+                }, {
+                  "text": "07",
+                  "value": "07"
+                }, {
+                  "text": "08",
+                  "value": "08"
+                }, {
+                  "text": "Blank",
+                  "value": "Blank"
+                } ],
+                "parameter": "k17_eci",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k18_entry_mode_slot",
+      "required": true,
+      "entityType": "@jago_entity_entry_mode",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Entry Mode:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Entry Mode:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Entry Mode",
+                "options": [ {
+                  "text": "10",
+                  "value": "10"
+                }, {
+                  "text": "90",
+                  "value": "90"
+                }, {
+                  "text": "91",
+                  "value": "91"
+                }, {
+                  "text": "95",
+                  "value": "95"
+                }, {
+                  "text": "00",
+                  "value": "00"
+                }, {
+                  "text": "01",
+                  "value": "01"
+                }, {
+                  "text": "02",
+                  "value": "02"
+                }, {
+                  "text": "05",
+                  "value": "05"
+                }, {
+                  "text": "07",
+                  "value": "07"
+                } ],
+                "parameter": "k18_entry_mode",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Entry Mode",
+                "options": [ {
+                  "text": "10",
+                  "value": "10"
+                }, {
+                  "text": "90",
+                  "value": "90"
+                }, {
+                  "text": "91",
+                  "value": "91"
+                }, {
+                  "text": "95",
+                  "value": "95"
+                }, {
+                  "text": "00",
+                  "value": "00"
+                }, {
+                  "text": "01",
+                  "value": "01"
+                }, {
+                  "text": "02",
+                  "value": "02"
+                }, {
+                  "text": "05",
+                  "value": "05"
+                }, {
+                  "text": "07",
+                  "value": "07"
+                } ],
+                "parameter": "k18_entry_mode",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "n3_original_amount_slot",
+      "required": true,
+      "entityType": "@sys.number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Original Amount:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Original Amount:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "d10_settle_date_slot",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Settle Date:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Settle Date:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "k36_sub_transfer",
+        "value": "$page.params.k36_sub_transfer_slot"
+      }, {
+        "parameter": "s4_auth_code",
+        "value": "$page.params.s4_auth_code_slot"
+      }, {
+        "parameter": "d1_auth_date",
+        "value": "$page.params.d1_auth_date_slot"
+      }, {
+        "parameter": "k10_currency",
+        "value": "$page.params.k10_currency_slot"
+      }, {
+        "parameter": "k17_eci",
+        "value": "$page.params.k17_eci_slot"
+      }, {
+        "parameter": "k18_entry_mode",
+        "value": "$page.params.k18_entry_mode_slot"
+      }, {
+        "parameter": "n3_original_amount",
+        "value": "$page.params.n3_original_amount_slot"
+      }, {
+        "parameter": "d10_settle_date",
+        "value": "$page.params.d10_settle_date_slot"
+      } ]
+    },
+    "targetPage": "Dispute_Handoff_Page",
+    "name": "979bc792-d27e-5428-8cee-52e6c685c350"
+  } ]
+}

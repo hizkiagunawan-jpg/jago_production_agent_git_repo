@@ -1,0 +1,581 @@
+{
+  "name": "e6555839-d3e6-57f3-b10c-932b88d4829d",
+  "displayName": "Collect_dispute__cek_transaksi_kartu_2",
+  "form": {
+    "parameters": [ {
+      "displayName": "n7_transaction_id_slot",
+      "required": true,
+      "entityType": "@sys.number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Transaction ID:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Transaction ID:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k38_transaction_status_slot",
+      "required": true,
+      "entityType": "@jago_entity_transaction_status",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Transaction Status:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Transaction Status:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Transaction Status",
+                "options": [ {
+                  "text": "Success",
+                  "value": "Success"
+                }, {
+                  "text": "Decline",
+                  "value": "Decline"
+                }, {
+                  "text": "Report Not Available",
+                  "value": "Report Not Available"
+                } ],
+                "parameter": "k38_transaction_status",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Transaction Status",
+                "options": [ {
+                  "text": "Sukses",
+                  "value": "Success"
+                }, {
+                  "text": "Ditolak",
+                  "value": "Decline"
+                }, {
+                  "text": "Laporan Tidak Tersedia",
+                  "value": "Report Not Available"
+                } ],
+                "parameter": "k38_transaction_status",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k39_transaction_type_slot",
+      "required": true,
+      "entityType": "@jago_entity_transaction_type",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Transaction Type:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Transaction Type:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Transaction Type",
+                "options": [ {
+                  "text": "Transfer ATM",
+                  "value": "Transfer ATM"
+                }, {
+                  "text": "Outgoing Transfer",
+                  "value": "Outgoing Transfer"
+                }, {
+                  "text": "Incoming Transfer",
+                  "value": "Incoming Transfer"
+                }, {
+                  "text": "Cash Withdrawal ATM",
+                  "value": "Cash Withdrawal ATM"
+                }, {
+                  "text": "Online Debit Card Transaction",
+                  "value": "Online Debit Card Transaction"
+                }, {
+                  "text": "Offline Debit Card Transaction",
+                  "value": "Offline Debit Card Transaction"
+                }, {
+                  "text": "QRIS Transaction",
+                  "value": "QRIS Transaction"
+                }, {
+                  "text": "Biller Payment",
+                  "value": "Biller Payment"
+                } ],
+                "parameter": "k39_transaction_type",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Transaction Type",
+                "options": [ {
+                  "text": "Transfer ATM",
+                  "value": "Transfer ATM"
+                }, {
+                  "text": "Outgoing Transfer",
+                  "value": "Outgoing Transfer"
+                }, {
+                  "text": "Incoming Transfer",
+                  "value": "Incoming Transfer"
+                }, {
+                  "text": "Cash Withdrawal ATM",
+                  "value": "Cash Withdrawal ATM"
+                }, {
+                  "text": "Online Debit Card Transaction",
+                  "value": "Online Debit Card Transaction"
+                }, {
+                  "text": "Offline Debit Card Transaction",
+                  "value": "Offline Debit Card Transaction"
+                }, {
+                  "text": "QRIS Transaction",
+                  "value": "QRIS Transaction"
+                }, {
+                  "text": "Biller Payment",
+                  "value": "Biller Payment"
+                } ],
+                "parameter": "k39_transaction_type",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s4_auth_code_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Auth Code:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Auth Code:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "d2_block_or_delete_card_date_slot",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Block or Delete Card Date:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Block or Delete Card Date:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k14_dispute_reason_slot",
+      "required": true,
+      "entityType": "@jago_entity_dispute_reason",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Dispute Reason:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Dispute Reason:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Dispute Reason",
+                "options": [ {
+                  "text": "Unauthorized Transaction",
+                  "value": "Unauthorized Transaction"
+                }, {
+                  "text": "Double Debit",
+                  "value": "Double Debit"
+                }, {
+                  "text": "Transaction failed cardholder debited",
+                  "value": "Transaction failed cardholder debited"
+                }, {
+                  "text": "Paid by other means",
+                  "value": "Paid by other means"
+                }, {
+                  "text": "Reject Transaction",
+                  "value": "Reject Transaction"
+                }, {
+                  "text": "Transaction already canceled",
+                  "value": "Transaction already canceled"
+                }, {
+                  "text": "Merchandise/Service not received",
+                  "value": "Merchandise/Service not received"
+                }, {
+                  "text": "Incorrect transaction amount",
+                  "value": "Incorrect transaction amount"
+                } ],
+                "parameter": "k14_dispute_reason",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Dispute Reason",
+                "options": [ {
+                  "text": "Unauthorized Transaction",
+                  "value": "Unauthorized Transaction"
+                }, {
+                  "text": "Double Debit",
+                  "value": "Double Debit"
+                }, {
+                  "text": "Transaction failed cardholder debited",
+                  "value": "Transaction failed cardholder debited"
+                }, {
+                  "text": "Paid by other means",
+                  "value": "Paid by other means"
+                }, {
+                  "text": "Reject Transaction",
+                  "value": "Reject Transaction"
+                }, {
+                  "text": "Transaction already canceled",
+                  "value": "Transaction already canceled"
+                }, {
+                  "text": "Merchandise/Service not received",
+                  "value": "Merchandise/Service not received"
+                }, {
+                  "text": "Incorrect transaction amount",
+                  "value": "Incorrect transaction amount"
+                } ],
+                "parameter": "k14_dispute_reason",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s11_edc_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the EDC:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan EDC:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k18_entry_mode_slot",
+      "required": true,
+      "entityType": "@jago_entity_entry_mode",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Entry Mode:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Entry Mode:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Entry Mode",
+                "options": [ {
+                  "text": "10",
+                  "value": "10"
+                }, {
+                  "text": "90",
+                  "value": "90"
+                }, {
+                  "text": "91",
+                  "value": "91"
+                }, {
+                  "text": "95",
+                  "value": "95"
+                }, {
+                  "text": "00",
+                  "value": "00"
+                }, {
+                  "text": "01",
+                  "value": "01"
+                }, {
+                  "text": "02",
+                  "value": "02"
+                }, {
+                  "text": "05",
+                  "value": "05"
+                }, {
+                  "text": "07",
+                  "value": "07"
+                } ],
+                "parameter": "k18_entry_mode",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Entry Mode",
+                "options": [ {
+                  "text": "10",
+                  "value": "10"
+                }, {
+                  "text": "90",
+                  "value": "90"
+                }, {
+                  "text": "91",
+                  "value": "91"
+                }, {
+                  "text": "95",
+                  "value": "95"
+                }, {
+                  "text": "00",
+                  "value": "00"
+                }, {
+                  "text": "01",
+                  "value": "01"
+                }, {
+                  "text": "02",
+                  "value": "02"
+                }, {
+                  "text": "05",
+                  "value": "05"
+                }, {
+                  "text": "07",
+                  "value": "07"
+                } ],
+                "parameter": "k18_entry_mode",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s19_mcc_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the MCC:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan MCC:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s20_merchant_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the merchant name:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan nama merchant:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s21_moto_or_eci_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Moto or ECI:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Moto or ECI:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k29_purchase_inquiry_slot",
+      "required": true,
+      "entityType": "@jago_entity_purchase_inquiry",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Purchase Inquiry:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Purchase Inquiry:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Purchase Inquiry",
+                "options": [ {
+                  "text": "Yes",
+                  "value": "Yes"
+                }, {
+                  "text": "No",
+                  "value": "No"
+                } ],
+                "parameter": "k29_purchase_inquiry",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Purchase Inquiry",
+                "options": [ {
+                  "text": "Ya",
+                  "value": "Yes"
+                }, {
+                  "text": "Tidak",
+                  "value": "No"
+                } ],
+                "parameter": "k29_purchase_inquiry",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "d10_settle_date_slot",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Settle Date:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Settle Date:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "n7_transaction_id",
+        "value": "$page.params.n7_transaction_id_slot"
+      }, {
+        "parameter": "k38_transaction_status",
+        "value": "$page.params.k38_transaction_status_slot"
+      }, {
+        "parameter": "k39_transaction_type",
+        "value": "$page.params.k39_transaction_type_slot"
+      }, {
+        "parameter": "s4_auth_code",
+        "value": "$page.params.s4_auth_code_slot"
+      }, {
+        "parameter": "d2_block_or_delete_card_date",
+        "value": "$page.params.d2_block_or_delete_card_date_slot"
+      }, {
+        "parameter": "k14_dispute_reason",
+        "value": "$page.params.k14_dispute_reason_slot"
+      }, {
+        "parameter": "s11_edc",
+        "value": "$page.params.s11_edc_slot"
+      }, {
+        "parameter": "k18_entry_mode",
+        "value": "$page.params.k18_entry_mode_slot"
+      }, {
+        "parameter": "s19_mcc",
+        "value": "$page.params.s19_mcc_slot"
+      }, {
+        "parameter": "s20_merchant",
+        "value": "$page.params.s20_merchant_slot"
+      }, {
+        "parameter": "s21_moto_or_eci",
+        "value": "$page.params.s21_moto_or_eci_slot"
+      }, {
+        "parameter": "k29_purchase_inquiry",
+        "value": "$page.params.k29_purchase_inquiry_slot"
+      }, {
+        "parameter": "d10_settle_date",
+        "value": "$page.params.d10_settle_date_slot"
+      } ]
+    },
+    "targetPage": "Dispute_Handoff_Page",
+    "name": "045b08c0-0cf9-57b3-a784-db34db95273e"
+  } ]
+}

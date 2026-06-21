@@ -1,0 +1,1555 @@
+{
+  "name": "cb050279-94a5-5d23-9851-f806edea9219",
+  "displayName": "Collect_fraud__external_fraud_non_nasabah_1",
+  "form": {
+    "parameters": [ {
+      "displayName": "s1_account_no_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the account number:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan nomor rekening:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "n1_amount_slot",
+      "required": true,
+      "entityType": "@sys.number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the transaction amount:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan nominal transaksi:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k8_confirmed_fraud_slot",
+      "required": true,
+      "entityType": "@jago_entity_confirmed_fraud",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Confirmed Fraud:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Confirmed Fraud:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Confirmed Fraud",
+                "options": [ {
+                  "text": "Yes",
+                  "value": "Yes"
+                }, {
+                  "text": "No",
+                  "value": "No"
+                }, {
+                  "text": "Customer No Reply",
+                  "value": "Customer No Reply"
+                } ],
+                "parameter": "k8_confirmed_fraud",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Confirmed Fraud",
+                "options": [ {
+                  "text": "Ya",
+                  "value": "Yes"
+                }, {
+                  "text": "Tidak",
+                  "value": "No"
+                }, {
+                  "text": "Nasabah Tidak Merespons",
+                  "value": "Customer No Reply"
+                } ],
+                "parameter": "k8_confirmed_fraud",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "d12_confirmed_fraud_date_slot",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Confirmed Fraud Date:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Confirmed Fraud Date:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s32_customer_id_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Customer ID:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Customer ID:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "n2_customer_loss_slot",
+      "required": true,
+      "entityType": "@sys.number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the customer loss amount:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan jumlah kerugian nasabah:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "d3_date_of_event_slot",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Date of Event:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Date of Event:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k16_document_completed_slot",
+      "required": true,
+      "entityType": "@jago_entity_document_completed",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Document Completed:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Document Completed:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Document Completed",
+                "options": [ {
+                  "text": "Yes",
+                  "value": "Yes"
+                }, {
+                  "text": "No",
+                  "value": "No"
+                } ],
+                "parameter": "k16_document_completed",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Document Completed",
+                "options": [ {
+                  "text": "Ya",
+                  "value": "Yes"
+                }, {
+                  "text": "Tidak",
+                  "value": "No"
+                } ],
+                "parameter": "k16_document_completed",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k19_fraud_type_slot",
+      "required": true,
+      "entityType": "@jago_entity_fraud_type",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Fraud Type:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Fraud Type:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Fraud Type",
+                "options": [ {
+                  "text": "56-ATO",
+                  "value": "56-ATO"
+                }, {
+                  "text": "60-ATO",
+                  "value": "60-ATO"
+                }, {
+                  "text": "64-Enumeration",
+                  "value": "64-Enumeration"
+                }, {
+                  "text": "67-Card Delivery Anomaly",
+                  "value": "67-Card Delivery Anomaly"
+                }, {
+                  "text": "68-Blacklisted Registration",
+                  "value": "68-Blacklisted Registration"
+                }, {
+                  "text": "69-Suspicious Outgoing Transaction",
+                  "value": "69-Suspicious Outgoing Transaction"
+                }, {
+                  "text": "71-Suspicious Address of Card Delivery",
+                  "value": "71-Suspicious Address of Card Delivery"
+                }, {
+                  "text": "72-ATO Mule Account",
+                  "value": "72-ATO Mule Account"
+                }, {
+                  "text": "73-ATO in Nigeria",
+                  "value": "73-ATO in Nigeria"
+                }, {
+                  "text": "74-Mule Account Suspicious Pocket Name",
+                  "value": "74-Mule Account Suspicious Pocket Name"
+                }, {
+                  "text": "75-Card Delivery Palembang",
+                  "value": "75-Card Delivery Palembang"
+                }, {
+                  "text": "76-Suspicious Email",
+                  "value": "76-Suspicious Email"
+                }, {
+                  "text": "77-Suspicious Beneficiary",
+                  "value": "77-Suspicious Beneficiary"
+                }, {
+                  "text": "78-Suspicious Device Beneficiary",
+                  "value": "78-Suspicious Device Beneficiary"
+                }, {
+                  "text": "79-Suspicious Pocket Name",
+                  "value": "79-Suspicious Pocket Name"
+                }, {
+                  "text": "80-ATO GP/KP Suspicious Cities",
+                  "value": "80-ATO GP/KP Suspicious Cities"
+                }, {
+                  "text": "81-Suspicious Transfer from Same District",
+                  "value": "81-Suspicious Transfer from Same District"
+                }, {
+                  "text": "82-ATO-Selling Account",
+                  "value": "82-ATO-Selling Account"
+                }, {
+                  "text": "83-Shared Email or Phone Number",
+                  "value": "83-Shared Email or Phone Number"
+                }, {
+                  "text": "Account",
+                  "value": "Account"
+                }, {
+                  "text": "Account Take Over",
+                  "value": "Account Take Over"
+                }, {
+                  "text": "Cards - 3ds",
+                  "value": "Cards - 3ds"
+                }, {
+                  "text": "Cards - Non 3ds",
+                  "value": "Cards - Non 3ds"
+                }, {
+                  "text": "CNP (Cards not Present)",
+                  "value": "CNP (Cards not Present)"
+                }, {
+                  "text": "Counterfeit",
+                  "value": "Counterfeit"
+                }, {
+                  "text": "Customer No Response",
+                  "value": "Customer No Response"
+                }, {
+                  "text": "Enumeration Attempt",
+                  "value": "Enumeration Attempt"
+                }, {
+                  "text": "Fake ID",
+                  "value": "Fake ID"
+                }, {
+                  "text": "Fraudulent Onboarding Process",
+                  "value": "Fraudulent Onboarding Process"
+                }, {
+                  "text": "Improper liveness Process",
+                  "value": "Improper liveness Process"
+                }, {
+                  "text": "Non Fraud",
+                  "value": "Non Fraud"
+                }, {
+                  "text": "Payment / Transfer",
+                  "value": "Payment / Transfer"
+                }, {
+                  "text": "Promo Abuse",
+                  "value": "Promo Abuse"
+                }, {
+                  "text": "FDS-CRD-001-01",
+                  "value": "FDS-CRD-001-01"
+                }, {
+                  "text": "FDS-DEL-001-01",
+                  "value": "FDS-DEL-001-01"
+                }, {
+                  "text": "FDS-DEL-002-01",
+                  "value": "FDS-DEL-002-01"
+                }, {
+                  "text": "FDS-DEL-003-01",
+                  "value": "FDS-DEL-003-01"
+                }, {
+                  "text": "FDS-DEL-004-01",
+                  "value": "FDS-DEL-004-01"
+                }, {
+                  "text": "FDS-DEL-005-01",
+                  "value": "FDS-DEL-005-01"
+                }, {
+                  "text": "FDS-LOG-001-01",
+                  "value": "FDS-LOG-001-01"
+                }, {
+                  "text": "FDS-LOG-002-01",
+                  "value": "FDS-LOG-002-01"
+                }, {
+                  "text": "FDS-LOG-003-01",
+                  "value": "FDS-LOG-003-01"
+                }, {
+                  "text": "FDS-LOG-004-01",
+                  "value": "FDS-LOG-004-01"
+                }, {
+                  "text": "FDS-LOG-005-01",
+                  "value": "FDS-LOG-005-01"
+                }, {
+                  "text": "FDS-LOG-006-01",
+                  "value": "FDS-LOG-006-01"
+                }, {
+                  "text": "FDS-LOG-007-01",
+                  "value": "FDS-LOG-007-01"
+                }, {
+                  "text": "FDS-LOG-008-01",
+                  "value": "FDS-LOG-008-01"
+                }, {
+                  "text": "FDS-LOG-009-01",
+                  "value": "FDS-LOG-009-01"
+                }, {
+                  "text": "FDS-LOG-010-01",
+                  "value": "FDS-LOG-010-01"
+                }, {
+                  "text": "FDS-LOG-011-01",
+                  "value": "FDS-LOG-011-01"
+                }, {
+                  "text": "FDS-LOG-012-01",
+                  "value": "FDS-LOG-012-01"
+                }, {
+                  "text": "FDS-LOG-013-01",
+                  "value": "FDS-LOG-013-01"
+                }, {
+                  "text": "FDS-LOG-013-02",
+                  "value": "FDS-LOG-013-02"
+                }, {
+                  "text": "FDS-LOG-013-03",
+                  "value": "FDS-LOG-013-03"
+                }, {
+                  "text": "FDS-LOG-014-01",
+                  "value": "FDS-LOG-014-01"
+                }, {
+                  "text": "FDS-LOG-015-01",
+                  "value": "FDS-LOG-015-01"
+                }, {
+                  "text": "FDS-LOG-015-02",
+                  "value": "FDS-LOG-015-02"
+                }, {
+                  "text": "FDS-LOG-016-01",
+                  "value": "FDS-LOG-016-01"
+                }, {
+                  "text": "FDS-LOG-017-01",
+                  "value": "FDS-LOG-017-01"
+                }, {
+                  "text": "FDS-LOG-017-03",
+                  "value": "FDS-LOG-017-03"
+                }, {
+                  "text": "FDS-LOG-018-01",
+                  "value": "FDS-LOG-018-01"
+                }, {
+                  "text": "FDS-LOG-019-01",
+                  "value": "FDS-LOG-019-01"
+                }, {
+                  "text": "FDS-LOG-020-01",
+                  "value": "FDS-LOG-020-01"
+                }, {
+                  "text": "FDS-LOG-021-01",
+                  "value": "FDS-LOG-021-01"
+                }, {
+                  "text": "FDS-LOG-022-01",
+                  "value": "FDS-LOG-022-01"
+                }, {
+                  "text": "FDS-LOG-023-01",
+                  "value": "FDS-LOG-023-01"
+                }, {
+                  "text": "FDS-LOG-024-01",
+                  "value": "FDS-LOG-024-01"
+                }, {
+                  "text": "FDS-LOG-025-01",
+                  "value": "FDS-LOG-025-01"
+                }, {
+                  "text": "FDS-LOG-026-01",
+                  "value": "FDS-LOG-026-01"
+                }, {
+                  "text": "FDS-LOG-027-02",
+                  "value": "FDS-LOG-027-02"
+                }, {
+                  "text": "FDS-LOG-028-01",
+                  "value": "FDS-LOG-028-01"
+                }, {
+                  "text": "FDS-LOG-029-01",
+                  "value": "FDS-LOG-029-01"
+                }, {
+                  "text": "FDS-LOG-030-01",
+                  "value": "FDS-LOG-030-01"
+                }, {
+                  "text": "FDS-LOG-031-01",
+                  "value": "FDS-LOG-031-01"
+                }, {
+                  "text": "FDS-LOG-032-01",
+                  "value": "FDS-LOG-032-01"
+                }, {
+                  "text": "FDS-LP-001-01",
+                  "value": "FDS-LP-001-01"
+                }, {
+                  "text": "FDS-TRX-001-01",
+                  "value": "FDS-TRX-001-01"
+                }, {
+                  "text": "FDS-TRX-002-01",
+                  "value": "FDS-TRX-002-01"
+                }, {
+                  "text": "FDS-TRX-003-01",
+                  "value": "FDS-TRX-003-01"
+                }, {
+                  "text": "IF001",
+                  "value": "IF001"
+                }, {
+                  "text": "IF002",
+                  "value": "IF002"
+                }, {
+                  "text": "IF003",
+                  "value": "IF003"
+                }, {
+                  "text": "IF004",
+                  "value": "IF004"
+                }, {
+                  "text": "IF005",
+                  "value": "IF005"
+                }, {
+                  "text": "IF006",
+                  "value": "IF006"
+                }, {
+                  "text": "IF007",
+                  "value": "IF007"
+                }, {
+                  "text": "IF008",
+                  "value": "IF008"
+                }, {
+                  "text": "IF010",
+                  "value": "IF010"
+                }, {
+                  "text": "IF011",
+                  "value": "IF011"
+                }, {
+                  "text": "IF012",
+                  "value": "IF012"
+                }, {
+                  "text": "IF013",
+                  "value": "IF013"
+                }, {
+                  "text": "IF014",
+                  "value": "IF014"
+                }, {
+                  "text": "IF015",
+                  "value": "IF015"
+                }, {
+                  "text": "IF016",
+                  "value": "IF016"
+                }, {
+                  "text": "IF017",
+                  "value": "IF017"
+                }, {
+                  "text": "IF018",
+                  "value": "IF018"
+                }, {
+                  "text": "IF019",
+                  "value": "IF019"
+                }, {
+                  "text": "IF020",
+                  "value": "IF020"
+                }, {
+                  "text": "INF001",
+                  "value": "INF001"
+                }, {
+                  "text": "INF002",
+                  "value": "INF002"
+                }, {
+                  "text": "INF004",
+                  "value": "INF004"
+                }, {
+                  "text": "INF005",
+                  "value": "INF005"
+                }, {
+                  "text": "JF001",
+                  "value": "JF001"
+                }, {
+                  "text": "JF002",
+                  "value": "JF002"
+                }, {
+                  "text": "JF003",
+                  "value": "JF003"
+                }, {
+                  "text": "JF004",
+                  "value": "JF004"
+                }, {
+                  "text": "JF005",
+                  "value": "JF005"
+                }, {
+                  "text": "JF006",
+                  "value": "JF006"
+                }, {
+                  "text": "JF007",
+                  "value": "JF007"
+                }, {
+                  "text": "PC001",
+                  "value": "PC001"
+                }, {
+                  "text": "TES002",
+                  "value": "TES002"
+                }, {
+                  "text": "TES003",
+                  "value": "TES003"
+                }, {
+                  "text": "TES004",
+                  "value": "TES004"
+                }, {
+                  "text": "TES005",
+                  "value": "TES005"
+                }, {
+                  "text": "84 - Visi Misi Mule Account",
+                  "value": "84 - Visi Misi Mule Account"
+                }, {
+                  "text": "85 - Suspicious Source",
+                  "value": "85 - Suspicious Source"
+                }, {
+                  "text": "86 - No Self Transfer History",
+                  "value": "86 - No Self Transfer History"
+                }, {
+                  "text": "87 - FDS Actioned Alerts \u0026 BOP Not Blocked",
+                  "value": "87 - FDS Actioned Alerts \u0026 BOP Not Blocked"
+                }, {
+                  "text": "88 - Sequential Inquiries",
+                  "value": "88 - Sequential Inquiries"
+                }, {
+                  "text": "89 - Mass Registration Uncommon Domain",
+                  "value": "89 - Mass Registration Uncommon Domain"
+                }, {
+                  "text": "90 - Suspicious Email Similarity",
+                  "value": "90 - Suspicious Email Similarity"
+                }, {
+                  "text": "FDS-LOG-035-01",
+                  "value": "FDS-LOG-035-01"
+                }, {
+                  "text": "FDS-TRX-004-01",
+                  "value": "FDS-TRX-004-01"
+                }, {
+                  "text": "FDS-TRX-005-02",
+                  "value": "FDS-TRX-005-02"
+                }, {
+                  "text": "FDS-TRX-007-02",
+                  "value": "FDS-TRX-007-02"
+                }, {
+                  "text": "FDS-TRX-008-01",
+                  "value": "FDS-TRX-008-01"
+                }, {
+                  "text": "FDS-TRX-009-02",
+                  "value": "FDS-TRX-009-02"
+                }, {
+                  "text": "FDS-TRX-010-01",
+                  "value": "FDS-TRX-010-01"
+                }, {
+                  "text": "FDS-TRX-011-01",
+                  "value": "FDS-TRX-011-01"
+                }, {
+                  "text": "FDS-TRX-012-01",
+                  "value": "FDS-TRX-012-01"
+                }, {
+                  "text": "FDS-TRX-013-01",
+                  "value": "FDS-TRX-013-01"
+                }, {
+                  "text": "FDS-TRX-014-01",
+                  "value": "FDS-TRX-014-01"
+                }, {
+                  "text": "FDS-TRX-017-01",
+                  "value": "FDS-TRX-017-01"
+                }, {
+                  "text": "FDS-TRX-018-01",
+                  "value": "FDS-TRX-018-01"
+                }, {
+                  "text": "FDS-TRX-020-01",
+                  "value": "FDS-TRX-020-01"
+                }, {
+                  "text": "FDS-TRX-021-02",
+                  "value": "FDS-TRX-021-02"
+                } ],
+                "parameter": "k19_fraud_type",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Fraud Type",
+                "options": [ {
+                  "text": "56-ATO",
+                  "value": "56-ATO"
+                }, {
+                  "text": "60-ATO",
+                  "value": "60-ATO"
+                }, {
+                  "text": "64-Enumeration",
+                  "value": "64-Enumeration"
+                }, {
+                  "text": "67-Card Delivery Anomaly",
+                  "value": "67-Card Delivery Anomaly"
+                }, {
+                  "text": "68-Blacklisted Registration",
+                  "value": "68-Blacklisted Registration"
+                }, {
+                  "text": "69-Suspicious Outgoing Transaction",
+                  "value": "69-Suspicious Outgoing Transaction"
+                }, {
+                  "text": "71-Suspicious Address of Card Delivery",
+                  "value": "71-Suspicious Address of Card Delivery"
+                }, {
+                  "text": "72-ATO Mule Account",
+                  "value": "72-ATO Mule Account"
+                }, {
+                  "text": "73-ATO in Nigeria",
+                  "value": "73-ATO in Nigeria"
+                }, {
+                  "text": "74-Mule Account Suspicious Pocket Name",
+                  "value": "74-Mule Account Suspicious Pocket Name"
+                }, {
+                  "text": "75-Card Delivery Palembang",
+                  "value": "75-Card Delivery Palembang"
+                }, {
+                  "text": "76-Suspicious Email",
+                  "value": "76-Suspicious Email"
+                }, {
+                  "text": "77-Suspicious Beneficiary",
+                  "value": "77-Suspicious Beneficiary"
+                }, {
+                  "text": "78-Suspicious Device Beneficiary",
+                  "value": "78-Suspicious Device Beneficiary"
+                }, {
+                  "text": "79-Suspicious Pocket Name",
+                  "value": "79-Suspicious Pocket Name"
+                }, {
+                  "text": "80-ATO GP/KP Suspicious Cities",
+                  "value": "80-ATO GP/KP Suspicious Cities"
+                }, {
+                  "text": "81-Suspicious Transfer from Same District",
+                  "value": "81-Suspicious Transfer from Same District"
+                }, {
+                  "text": "82-ATO-Selling Account",
+                  "value": "82-ATO-Selling Account"
+                }, {
+                  "text": "83-Shared Email or Phone Number",
+                  "value": "83-Shared Email or Phone Number"
+                }, {
+                  "text": "Account",
+                  "value": "Account"
+                }, {
+                  "text": "Account Take Over",
+                  "value": "Account Take Over"
+                }, {
+                  "text": "Cards - 3ds",
+                  "value": "Cards - 3ds"
+                }, {
+                  "text": "Cards - Non 3ds",
+                  "value": "Cards - Non 3ds"
+                }, {
+                  "text": "CNP (Cards not Present)",
+                  "value": "CNP (Cards not Present)"
+                }, {
+                  "text": "Counterfeit",
+                  "value": "Counterfeit"
+                }, {
+                  "text": "Customer No Response",
+                  "value": "Customer No Response"
+                }, {
+                  "text": "Enumeration Attempt",
+                  "value": "Enumeration Attempt"
+                }, {
+                  "text": "Fake ID",
+                  "value": "Fake ID"
+                }, {
+                  "text": "Fraudulent Onboarding Process",
+                  "value": "Fraudulent Onboarding Process"
+                }, {
+                  "text": "Improper liveness Process",
+                  "value": "Improper liveness Process"
+                }, {
+                  "text": "Non Fraud",
+                  "value": "Non Fraud"
+                }, {
+                  "text": "Payment / Transfer",
+                  "value": "Payment / Transfer"
+                }, {
+                  "text": "Promo Abuse",
+                  "value": "Promo Abuse"
+                }, {
+                  "text": "FDS-CRD-001-01",
+                  "value": "FDS-CRD-001-01"
+                }, {
+                  "text": "FDS-DEL-001-01",
+                  "value": "FDS-DEL-001-01"
+                }, {
+                  "text": "FDS-DEL-002-01",
+                  "value": "FDS-DEL-002-01"
+                }, {
+                  "text": "FDS-DEL-003-01",
+                  "value": "FDS-DEL-003-01"
+                }, {
+                  "text": "FDS-DEL-004-01",
+                  "value": "FDS-DEL-004-01"
+                }, {
+                  "text": "FDS-DEL-005-01",
+                  "value": "FDS-DEL-005-01"
+                }, {
+                  "text": "FDS-LOG-001-01",
+                  "value": "FDS-LOG-001-01"
+                }, {
+                  "text": "FDS-LOG-002-01",
+                  "value": "FDS-LOG-002-01"
+                }, {
+                  "text": "FDS-LOG-003-01",
+                  "value": "FDS-LOG-003-01"
+                }, {
+                  "text": "FDS-LOG-004-01",
+                  "value": "FDS-LOG-004-01"
+                }, {
+                  "text": "FDS-LOG-005-01",
+                  "value": "FDS-LOG-005-01"
+                }, {
+                  "text": "FDS-LOG-006-01",
+                  "value": "FDS-LOG-006-01"
+                }, {
+                  "text": "FDS-LOG-007-01",
+                  "value": "FDS-LOG-007-01"
+                }, {
+                  "text": "FDS-LOG-008-01",
+                  "value": "FDS-LOG-008-01"
+                }, {
+                  "text": "FDS-LOG-009-01",
+                  "value": "FDS-LOG-009-01"
+                }, {
+                  "text": "FDS-LOG-010-01",
+                  "value": "FDS-LOG-010-01"
+                }, {
+                  "text": "FDS-LOG-011-01",
+                  "value": "FDS-LOG-011-01"
+                }, {
+                  "text": "FDS-LOG-012-01",
+                  "value": "FDS-LOG-012-01"
+                }, {
+                  "text": "FDS-LOG-013-01",
+                  "value": "FDS-LOG-013-01"
+                }, {
+                  "text": "FDS-LOG-013-02",
+                  "value": "FDS-LOG-013-02"
+                }, {
+                  "text": "FDS-LOG-013-03",
+                  "value": "FDS-LOG-013-03"
+                }, {
+                  "text": "FDS-LOG-014-01",
+                  "value": "FDS-LOG-014-01"
+                }, {
+                  "text": "FDS-LOG-015-01",
+                  "value": "FDS-LOG-015-01"
+                }, {
+                  "text": "FDS-LOG-015-02",
+                  "value": "FDS-LOG-015-02"
+                }, {
+                  "text": "FDS-LOG-016-01",
+                  "value": "FDS-LOG-016-01"
+                }, {
+                  "text": "FDS-LOG-017-01",
+                  "value": "FDS-LOG-017-01"
+                }, {
+                  "text": "FDS-LOG-017-03",
+                  "value": "FDS-LOG-017-03"
+                }, {
+                  "text": "FDS-LOG-018-01",
+                  "value": "FDS-LOG-018-01"
+                }, {
+                  "text": "FDS-LOG-019-01",
+                  "value": "FDS-LOG-019-01"
+                }, {
+                  "text": "FDS-LOG-020-01",
+                  "value": "FDS-LOG-020-01"
+                }, {
+                  "text": "FDS-LOG-021-01",
+                  "value": "FDS-LOG-021-01"
+                }, {
+                  "text": "FDS-LOG-022-01",
+                  "value": "FDS-LOG-022-01"
+                }, {
+                  "text": "FDS-LOG-023-01",
+                  "value": "FDS-LOG-023-01"
+                }, {
+                  "text": "FDS-LOG-024-01",
+                  "value": "FDS-LOG-024-01"
+                }, {
+                  "text": "FDS-LOG-025-01",
+                  "value": "FDS-LOG-025-01"
+                }, {
+                  "text": "FDS-LOG-026-01",
+                  "value": "FDS-LOG-026-01"
+                }, {
+                  "text": "FDS-LOG-027-02",
+                  "value": "FDS-LOG-027-02"
+                }, {
+                  "text": "FDS-LOG-028-01",
+                  "value": "FDS-LOG-028-01"
+                }, {
+                  "text": "FDS-LOG-029-01",
+                  "value": "FDS-LOG-029-01"
+                }, {
+                  "text": "FDS-LOG-030-01",
+                  "value": "FDS-LOG-030-01"
+                }, {
+                  "text": "FDS-LOG-031-01",
+                  "value": "FDS-LOG-031-01"
+                }, {
+                  "text": "FDS-LOG-032-01",
+                  "value": "FDS-LOG-032-01"
+                }, {
+                  "text": "FDS-LP-001-01",
+                  "value": "FDS-LP-001-01"
+                }, {
+                  "text": "FDS-TRX-001-01",
+                  "value": "FDS-TRX-001-01"
+                }, {
+                  "text": "FDS-TRX-002-01",
+                  "value": "FDS-TRX-002-01"
+                }, {
+                  "text": "FDS-TRX-003-01",
+                  "value": "FDS-TRX-003-01"
+                }, {
+                  "text": "IF001",
+                  "value": "IF001"
+                }, {
+                  "text": "IF002",
+                  "value": "IF002"
+                }, {
+                  "text": "IF003",
+                  "value": "IF003"
+                }, {
+                  "text": "IF004",
+                  "value": "IF004"
+                }, {
+                  "text": "IF005",
+                  "value": "IF005"
+                }, {
+                  "text": "IF006",
+                  "value": "IF006"
+                }, {
+                  "text": "IF007",
+                  "value": "IF007"
+                }, {
+                  "text": "IF008",
+                  "value": "IF008"
+                }, {
+                  "text": "IF010",
+                  "value": "IF010"
+                }, {
+                  "text": "IF011",
+                  "value": "IF011"
+                }, {
+                  "text": "IF012",
+                  "value": "IF012"
+                }, {
+                  "text": "IF013",
+                  "value": "IF013"
+                }, {
+                  "text": "IF014",
+                  "value": "IF014"
+                }, {
+                  "text": "IF015",
+                  "value": "IF015"
+                }, {
+                  "text": "IF016",
+                  "value": "IF016"
+                }, {
+                  "text": "IF017",
+                  "value": "IF017"
+                }, {
+                  "text": "IF018",
+                  "value": "IF018"
+                }, {
+                  "text": "IF019",
+                  "value": "IF019"
+                }, {
+                  "text": "IF020",
+                  "value": "IF020"
+                }, {
+                  "text": "INF001",
+                  "value": "INF001"
+                }, {
+                  "text": "INF002",
+                  "value": "INF002"
+                }, {
+                  "text": "INF004",
+                  "value": "INF004"
+                }, {
+                  "text": "INF005",
+                  "value": "INF005"
+                }, {
+                  "text": "JF001",
+                  "value": "JF001"
+                }, {
+                  "text": "JF002",
+                  "value": "JF002"
+                }, {
+                  "text": "JF003",
+                  "value": "JF003"
+                }, {
+                  "text": "JF004",
+                  "value": "JF004"
+                }, {
+                  "text": "JF005",
+                  "value": "JF005"
+                }, {
+                  "text": "JF006",
+                  "value": "JF006"
+                }, {
+                  "text": "JF007",
+                  "value": "JF007"
+                }, {
+                  "text": "PC001",
+                  "value": "PC001"
+                }, {
+                  "text": "TES002",
+                  "value": "TES002"
+                }, {
+                  "text": "TES003",
+                  "value": "TES003"
+                }, {
+                  "text": "TES004",
+                  "value": "TES004"
+                }, {
+                  "text": "TES005",
+                  "value": "TES005"
+                }, {
+                  "text": "84 - Visi Misi Mule Account",
+                  "value": "84 - Visi Misi Mule Account"
+                }, {
+                  "text": "85 - Suspicious Source",
+                  "value": "85 - Suspicious Source"
+                }, {
+                  "text": "86 - No Self Transfer History",
+                  "value": "86 - No Self Transfer History"
+                }, {
+                  "text": "87 - FDS Actioned Alerts \u0026 BOP Not Blocked",
+                  "value": "87 - FDS Actioned Alerts \u0026 BOP Not Blocked"
+                }, {
+                  "text": "88 - Sequential Inquiries",
+                  "value": "88 - Sequential Inquiries"
+                }, {
+                  "text": "89 - Mass Registration Uncommon Domain",
+                  "value": "89 - Mass Registration Uncommon Domain"
+                }, {
+                  "text": "90 - Suspicious Email Similarity",
+                  "value": "90 - Suspicious Email Similarity"
+                }, {
+                  "text": "FDS-LOG-035-01",
+                  "value": "FDS-LOG-035-01"
+                }, {
+                  "text": "FDS-TRX-004-01",
+                  "value": "FDS-TRX-004-01"
+                }, {
+                  "text": "FDS-TRX-005-02",
+                  "value": "FDS-TRX-005-02"
+                }, {
+                  "text": "FDS-TRX-007-02",
+                  "value": "FDS-TRX-007-02"
+                }, {
+                  "text": "FDS-TRX-008-01",
+                  "value": "FDS-TRX-008-01"
+                }, {
+                  "text": "FDS-TRX-009-02",
+                  "value": "FDS-TRX-009-02"
+                }, {
+                  "text": "FDS-TRX-010-01",
+                  "value": "FDS-TRX-010-01"
+                }, {
+                  "text": "FDS-TRX-011-01",
+                  "value": "FDS-TRX-011-01"
+                }, {
+                  "text": "FDS-TRX-012-01",
+                  "value": "FDS-TRX-012-01"
+                }, {
+                  "text": "FDS-TRX-013-01",
+                  "value": "FDS-TRX-013-01"
+                }, {
+                  "text": "FDS-TRX-014-01",
+                  "value": "FDS-TRX-014-01"
+                }, {
+                  "text": "FDS-TRX-017-01",
+                  "value": "FDS-TRX-017-01"
+                }, {
+                  "text": "FDS-TRX-018-01",
+                  "value": "FDS-TRX-018-01"
+                }, {
+                  "text": "FDS-TRX-020-01",
+                  "value": "FDS-TRX-020-01"
+                }, {
+                  "text": "FDS-TRX-021-02",
+                  "value": "FDS-TRX-021-02"
+                } ],
+                "parameter": "k19_fraud_type",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k20_got_remaining_balance_slot",
+      "required": true,
+      "entityType": "@jago_entity_got_remaining_balance",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Got Remaining Balance:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Got Remaining Balance:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Got Remaining Balance",
+                "options": [ {
+                  "text": "Yes",
+                  "value": "Yes"
+                }, {
+                  "text": "No",
+                  "value": "No"
+                } ],
+                "parameter": "k20_got_remaining_balance",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Got Remaining Balance",
+                "options": [ {
+                  "text": "Ya",
+                  "value": "Yes"
+                }, {
+                  "text": "Tidak",
+                  "value": "No"
+                } ],
+                "parameter": "k20_got_remaining_balance",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s13_informant_email_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Informant Email:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Informant Email:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s14_informant_name_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Informant Name:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Informant Name:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s15_informant_phone_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Informant Phone:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Informant Phone:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k21_is_reported_slot",
+      "required": true,
+      "entityType": "@jago_entity_is_reported",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Is Reported?:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Is Reported?:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Is Reported?",
+                "options": [ {
+                  "text": "Dilaporkan",
+                  "value": "Dilaporkan"
+                }, {
+                  "text": "Tidak Dilaporkan",
+                  "value": "Tidak Dilaporkan"
+                } ],
+                "parameter": "k21_is_reported",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Is Reported?",
+                "options": [ {
+                  "text": "Dilaporkan",
+                  "value": "Dilaporkan"
+                }, {
+                  "text": "Tidak Dilaporkan",
+                  "value": "Tidak Dilaporkan"
+                } ],
+                "parameter": "k21_is_reported",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k22_is_there_a_police_certificate_slot",
+      "required": true,
+      "entityType": "@jago_entity_is_there_a_police_certificate",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Is there a Police Certificate?:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Is there a Police Certificate?:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Is there a Police Certificate?",
+                "options": [ {
+                  "text": "Yes",
+                  "value": "Yes"
+                }, {
+                  "text": "No",
+                  "value": "No"
+                } ],
+                "parameter": "k22_is_there_a_police_certificate",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Is there a Police Certificate?",
+                "options": [ {
+                  "text": "Ya",
+                  "value": "Yes"
+                }, {
+                  "text": "Tidak",
+                  "value": "No"
+                } ],
+                "parameter": "k22_is_there_a_police_certificate",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k23_ktp_checks_slot",
+      "required": true,
+      "entityType": "@jago_entity_ktp_checks",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the KTP Checks:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan KTP Checks:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "KTP Checks",
+                "options": [ {
+                  "text": "Foto Cek Tidak Tersedia",
+                  "value": "Foto Cek Tidak Tersedia"
+                }, {
+                  "text": "Foto Cocok",
+                  "value": "Foto Cocok"
+                }, {
+                  "text": "Foto Tidak Cocok",
+                  "value": "Foto Tidak Cocok"
+                }, {
+                  "text": "NIK Tidak Ditemukan",
+                  "value": "NIK Tidak Ditemukan"
+                } ],
+                "parameter": "k23_ktp_checks",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "KTP Checks",
+                "options": [ {
+                  "text": "Foto Cek Tidak Tersedia",
+                  "value": "Foto Cek Tidak Tersedia"
+                }, {
+                  "text": "Foto Cocok",
+                  "value": "Foto Cocok"
+                }, {
+                  "text": "Foto Tidak Cocok",
+                  "value": "Foto Tidak Cocok"
+                }, {
+                  "text": "NIK Tidak Ditemukan",
+                  "value": "NIK Tidak Ditemukan"
+                } ],
+                "parameter": "k23_ktp_checks",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k25_modus_operandi_slot",
+      "required": true,
+      "entityType": "@jago_entity_modus_operandi",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the Modus Operandi:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan Modus Operandi:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Modus Operandi",
+                "options": [ {
+                  "text": "Judi Online",
+                  "value": "Judi Online"
+                }, {
+                  "text": "Others",
+                  "value": "Others"
+                }, {
+                  "text": "Phishing",
+                  "value": "Phishing"
+                }, {
+                  "text": "Romance Scam",
+                  "value": "Romance Scam"
+                }, {
+                  "text": "Scam - Fake Order",
+                  "value": "Scam - Fake Order"
+                }, {
+                  "text": "Scam - Gift/Raffle",
+                  "value": "Scam - Gift/Raffle"
+                }, {
+                  "text": "Scam - Impersonating Jago",
+                  "value": "Scam - Impersonating Jago"
+                }, {
+                  "text": "Scam - Investment/Lending",
+                  "value": "Scam - Investment/Lending"
+                }, {
+                  "text": "Scam - Others",
+                  "value": "Scam - Others"
+                }, {
+                  "text": "Scam - Referral",
+                  "value": "Scam - Referral"
+                }, {
+                  "text": "Sharing Akun",
+                  "value": "Sharing Akun"
+                }, {
+                  "text": "Social Engineering",
+                  "value": "Social Engineering"
+                }, {
+                  "text": "Promo Abuse",
+                  "value": "Promo Abuse"
+                } ],
+                "parameter": "k25_modus_operandi",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Modus Operandi",
+                "options": [ {
+                  "text": "Judi Online",
+                  "value": "Judi Online"
+                }, {
+                  "text": "Others",
+                  "value": "Others"
+                }, {
+                  "text": "Phishing",
+                  "value": "Phishing"
+                }, {
+                  "text": "Romance Scam",
+                  "value": "Romance Scam"
+                }, {
+                  "text": "Scam - Fake Order",
+                  "value": "Scam - Fake Order"
+                }, {
+                  "text": "Scam - Gift/Raffle",
+                  "value": "Scam - Gift/Raffle"
+                }, {
+                  "text": "Scam - Impersonating Jago",
+                  "value": "Scam - Impersonating Jago"
+                }, {
+                  "text": "Scam - Investment/Lending",
+                  "value": "Scam - Investment/Lending"
+                }, {
+                  "text": "Scam - Others",
+                  "value": "Scam - Others"
+                }, {
+                  "text": "Scam - Referral",
+                  "value": "Scam - Referral"
+                }, {
+                  "text": "Sharing Akun",
+                  "value": "Sharing Akun"
+                }, {
+                  "text": "Social Engineering",
+                  "value": "Social Engineering"
+                }, {
+                  "text": "Promo Abuse",
+                  "value": "Promo Abuse"
+                } ],
+                "parameter": "k25_modus_operandi",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "s24_remarks_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please describe your issue or add any notes:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon jelaskan kendala Kakak atau tambahkan catatan:" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s1_account_no",
+        "value": "$page.params.s1_account_no_slot"
+      }, {
+        "parameter": "n1_amount",
+        "value": "$page.params.n1_amount_slot"
+      }, {
+        "parameter": "k8_confirmed_fraud",
+        "value": "$page.params.k8_confirmed_fraud_slot"
+      }, {
+        "parameter": "d12_confirmed_fraud_date",
+        "value": "$page.params.d12_confirmed_fraud_date_slot"
+      }, {
+        "parameter": "s32_customer_id",
+        "value": "$page.params.s32_customer_id_slot"
+      }, {
+        "parameter": "n2_customer_loss",
+        "value": "$page.params.n2_customer_loss_slot"
+      }, {
+        "parameter": "d3_date_of_event",
+        "value": "$page.params.d3_date_of_event_slot"
+      }, {
+        "parameter": "k16_document_completed",
+        "value": "$page.params.k16_document_completed_slot"
+      }, {
+        "parameter": "k19_fraud_type",
+        "value": "$page.params.k19_fraud_type_slot"
+      }, {
+        "parameter": "k20_got_remaining_balance",
+        "value": "$page.params.k20_got_remaining_balance_slot"
+      }, {
+        "parameter": "s13_informant_email",
+        "value": "$page.params.s13_informant_email_slot"
+      }, {
+        "parameter": "s14_informant_name",
+        "value": "$page.params.s14_informant_name_slot"
+      }, {
+        "parameter": "s15_informant_phone",
+        "value": "$page.params.s15_informant_phone_slot"
+      }, {
+        "parameter": "k21_is_reported",
+        "value": "$page.params.k21_is_reported_slot"
+      }, {
+        "parameter": "k22_is_there_a_police_certificate",
+        "value": "$page.params.k22_is_there_a_police_certificate_slot"
+      }, {
+        "parameter": "k23_ktp_checks",
+        "value": "$page.params.k23_ktp_checks_slot"
+      }, {
+        "parameter": "k25_modus_operandi",
+        "value": "$page.params.k25_modus_operandi_slot"
+      }, {
+        "parameter": "s24_remarks",
+        "value": "$page.params.s24_remarks_slot"
+      } ]
+    },
+    "targetPage": "Collect_fraud__external_fraud_non_nasabah_2",
+    "name": "4de6e0a5-66cc-5a98-b89e-74fb17cf52dc"
+  } ]
+}

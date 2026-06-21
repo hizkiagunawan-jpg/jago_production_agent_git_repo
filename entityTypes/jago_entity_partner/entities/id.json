@@ -1,0 +1,91 @@
+{
+  "entities": [ {
+    "value": "AdaKami",
+    "synonyms": [ "AdaKami" ],
+    "languageCode": "id"
+  }, {
+    "value": "Amaan",
+    "synonyms": [ "Amaan" ],
+    "languageCode": "id"
+  }, {
+    "value": "Atome",
+    "synonyms": [ "Atome" ],
+    "languageCode": "id"
+  }, {
+    "value": "BFI Finance Indonesia",
+    "synonyms": [ "BFI Finance Indonesia" ],
+    "languageCode": "id"
+  }, {
+    "value": "BNI Finance",
+    "synonyms": [ "BNI Finance" ],
+    "languageCode": "id"
+  }, {
+    "value": "Bibit",
+    "synonyms": [ "Bibit" ],
+    "languageCode": "id"
+  }, {
+    "value": "Buana Finance",
+    "synonyms": [ "Buana Finance" ],
+    "languageCode": "id"
+  }, {
+    "value": "CarSome",
+    "synonyms": [ "CarSome" ],
+    "languageCode": "id"
+  }, {
+    "value": "Dhanapala",
+    "synonyms": [ "Dhanapala" ],
+    "languageCode": "id"
+  }, {
+    "value": "Easy Cash",
+    "synonyms": [ "Easy Cash" ],
+    "languageCode": "id"
+  }, {
+    "value": "Gojek",
+    "synonyms": [ "Gojek" ],
+    "languageCode": "id"
+  }, {
+    "value": "Gopay Unified",
+    "synonyms": [ "Gopay Unified" ],
+    "languageCode": "id"
+  }, {
+    "value": "Home Credit",
+    "synonyms": [ "Home Credit" ],
+    "languageCode": "id"
+  }, {
+    "value": "Indomobil",
+    "synonyms": [ "Indomobil" ],
+    "languageCode": "id"
+  }, {
+    "value": "Jago Stand Alone",
+    "synonyms": [ "Jago Stand Alone" ],
+    "languageCode": "id"
+  }, {
+    "value": "Kredit Pintar",
+    "synonyms": [ "Kredit Pintar" ],
+    "languageCode": "id"
+  }, {
+    "value": "MAB - Gopaylater",
+    "synonyms": [ "MAB - Gopaylater" ],
+    "languageCode": "id"
+  }, {
+    "value": "MGR - Findaya",
+    "synonyms": [ "MGR - Findaya" ],
+    "languageCode": "id"
+  }, {
+    "value": "MNC Guna Usaha",
+    "synonyms": [ "MNC Guna Usaha" ],
+    "languageCode": "id"
+  }, {
+    "value": "Radana",
+    "synonyms": [ "Radana" ],
+    "languageCode": "id"
+  }, {
+    "value": "Stockbit",
+    "synonyms": [ "Stockbit" ],
+    "languageCode": "id"
+  }, {
+    "value": "True Finance",
+    "synonyms": [ "True Finance" ],
+    "languageCode": "id"
+  } ]
+}

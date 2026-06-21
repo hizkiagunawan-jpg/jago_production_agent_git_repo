@@ -1,0 +1,16 @@
+{
+  "name": "b8170623-e107-4818-bdef-b87782e5764e",
+  "displayName": "Case_Status_Check_Page",
+  "form": {
+    "parameters": [ {
+      "displayName": "follow_up_case_number",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  }
+}

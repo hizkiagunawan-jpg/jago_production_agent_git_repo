@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "Yes",
+    "synonyms": [ "Yes", "Ya" ],
+    "languageCode": "id"
+  }, {
+    "value": "No",
+    "synonyms": [ "No", "Tidak" ],
+    "languageCode": "id"
+  }, {
+    "value": "Customer No Reply",
+    "synonyms": [ "Customer No Reply", "Nasabah Tidak Merespons" ],
+    "languageCode": "id"
+  } ]
+}

@@ -1,0 +1,189 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Bukti transferan ga"
+    }, {
+      "text": " muncul tapi saldo kepotong"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Aplikasi error pas di tengah-tengah "
+    }, {
+      "text": "transfer dana"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Kok"
+    }, {
+      "text": " gagal mulu pas "
+    }, {
+      "text": "mau kirim"
+    }, {
+      "text": " duit ya?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Duit kiriman"
+    }, {
+      "text": " pending terus dari tadi"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Transferan saya nyangkut nih"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Resi transfer"
+    }, {
+      "text": " tidak keluar padahal "
+    }, {
+      "text": "saldo"
+    }, {
+      "text": " berkurang"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Masalah transfer real-time antar bank"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Kirim dana"
+    }, {
+      "text": " lewat online transfer pending lama banget"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Transfer saya nyangkut"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "jaringan transfer jago sedang error ya?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Gagal kirim uang lewat via transfer"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Rekening tujuan belum terima "
+    }, {
+      "text": "dana padahal saldo saya"
+    }, {
+      "text": " sudah berkurang"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Uang"
+    }, {
+      "text": " hilang pas transfer tapi gagal"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Dana"
+    }, {
+      "text": " sudah ke-debit tapi dana belum sampai"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Status transaksi sukses tapi "
+    }, {
+      "text": "penerima"
+    }, {
+      "text": " belum terima uangnya"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Duit berkurang tapi uang belum masuk ke rekening tujuan"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Saldo terpotong"
+    }, {
+      "text": " tapi transfer gagal"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Mengapa transferan saya ditolak sistem?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Transaksi "
+    }, {
+      "text": "kirim dana error"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Kenapa saya tidak bisa "
+    }, {
+      "text": "kirim saldo"
+    }, {
+      "text": " ke "
+    }, {
+      "text": "bank"
+    }, {
+      "text": " lain?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Tidak bisa "
+    }, {
+      "text": "transfer antar bank"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Kirim uang bermasalah"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  }, {
+    "parts": [ {
+      "text": "Transfer uang"
+    }, {
+      "text": " gagal terus"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "id"
+  } ]
+}

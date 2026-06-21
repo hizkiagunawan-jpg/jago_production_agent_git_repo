@@ -1,0 +1,205 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Triage_Gate_Page",
+    "name": "2f2073af-687c-455a-93f6-5d8f72c4784a"
+  }, {
+    "intent": "jago.team.card",
+    "condition": "$session.params.l0_team = null OR $session.params.l0_team = \"\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l0_team",
+        "value": "Card"
+      }, {
+        "parameter": "sel_team",
+        "value": "card"
+      } ]
+    },
+    "targetPage": "Ask_Category_card_Page",
+    "name": "7888f124-9ad8-5b5c-8ec0-d54fb189e045"
+  }, {
+    "intent": "jago.team.dispute",
+    "condition": "$session.params.l0_team = null OR $session.params.l0_team = \"\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l0_team",
+        "value": "Dispute"
+      }, {
+        "parameter": "sel_team",
+        "value": "dispute"
+      } ]
+    },
+    "targetPage": "Ask_Category_dispute_Page",
+    "name": "fe2285d8-42bc-5d83-b4fd-50cecd870e8b"
+  }, {
+    "intent": "jago.team.fraud",
+    "condition": "$session.params.l0_team = null OR $session.params.l0_team = \"\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l0_team",
+        "value": "Fraud"
+      }, {
+        "parameter": "sel_team",
+        "value": "fraud"
+      } ]
+    },
+    "targetPage": "Ask_Category_fraud_Page",
+    "name": "c1443948-5daf-53bc-89ce-4f2dfc62dd53"
+  }, {
+    "intent": "jago.team.it_helpdesk",
+    "condition": "$session.params.l0_team = null OR $session.params.l0_team = \"\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l0_team",
+        "value": "IT Helpdesk"
+      }, {
+        "parameter": "sel_team",
+        "value": "it_helpdesk"
+      } ]
+    },
+    "targetPage": "Ask_Category_it_helpdesk_Page",
+    "name": "630285fc-152c-53e1-9130-f4ef85407e7f"
+  }, {
+    "intent": "jago.team.kyc",
+    "condition": "$session.params.l0_team = null OR $session.params.l0_team = \"\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l0_team",
+        "value": "KYC"
+      }, {
+        "parameter": "sel_team",
+        "value": "kyc"
+      } ]
+    },
+    "targetPage": "Ask_Category_kyc_Page",
+    "name": "c786cafa-7992-5444-b30e-49b938456733"
+  }, {
+    "intent": "jago.team.onboarding",
+    "condition": "$session.params.l0_team = null OR $session.params.l0_team = \"\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l0_team",
+        "value": "Onboarding"
+      }, {
+        "parameter": "sel_team",
+        "value": "onboarding"
+      } ]
+    },
+    "targetPage": "Ask_Category_onboarding_Page",
+    "name": "1185f095-7d27-51be-85aa-ac4c9f3a73ab"
+  }, {
+    "intent": "jago.team.cdd",
+    "condition": "$session.params.l0_team = null OR $session.params.l0_team = \"\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l0_team",
+        "value": "CDD/EDD"
+      }, {
+        "parameter": "sel_team",
+        "value": "cdd"
+      } ]
+    },
+    "targetPage": "Ask_Category_cdd_Page",
+    "name": "4dc787be-843b-5c76-ae96-b219cdaffdde"
+  }, {
+    "intent": "jago.team.cs_konven",
+    "condition": "$session.params.l0_team = null OR $session.params.l0_team = \"\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l0_team",
+        "value": "CS Konven"
+      }, {
+        "parameter": "sel_team",
+        "value": "cs_konven"
+      } ]
+    },
+    "targetPage": "Ask_Category_cs_konven_Page",
+    "name": "80cb00e6-fb7d-555f-a759-b6b84b6227e1"
+  }, {
+    "intent": "jago.team.cs",
+    "condition": "$session.params.l0_team = null OR $session.params.l0_team = \"\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "l0_team",
+        "value": "CS"
+      }, {
+        "parameter": "sel_team",
+        "value": "cs"
+      } ]
+    },
+    "targetPage": "Ask_Category_cs_Page",
+    "name": "78bb05aa-c852-5d54-8e13-5a5cb5cbd8ee"
+  }, {
+    "intent": "jago.intent.raise_request",
+    "condition": "$session.params.l0_team = null OR $session.params.l0_team = \"\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Ask_Team_Page",
+    "name": "d102cc37-9b23-5313-9877-7c6cc577e05c"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "Saya tidak mengerti. Bisa diulangi?", "Saya tidak dengar Anda bilang apa. Bisa ulangi lagi?", "Maaf, bisa ulangi lagi?", "Maaf, bisa diulangi?", "Bisa ulangi lagi?", "Maaf, saya tidak mengerti.", "Maaf, tadi bilang apa?", "Sekali lagi?", "Bilang apa tadi?", "Bisa diulangi?", "Saya tidak mengerti.", "Saya tidak dengar." ]
+        },
+        "languageCode": "id"
+      } ]
+    },
+    "name": "a83c8914-66ab-4922-8afd-9c3889363e2b"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "Saya tidak mengerti. Bisa diulangi?", "Saya tidak dengar Anda bilang apa. Bisa ulangi lagi?", "Maaf, bisa ulangi lagi?", "Maaf, bisa diulangi?", "Bisa ulangi lagi?", "Maaf, saya tidak mengerti.", "Maaf, tadi bilang apa?", "Sekali lagi?", "Bilang apa tadi?", "Bisa diulangi?", "Saya tidak mengerti.", "Saya tidak dengar." ]
+        },
+        "languageCode": "id"
+      } ]
+    },
+    "name": "930f88a9-5cdf-4c95-b5c1-73d30ad9ce57"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC"
+  },
+  "advancedSettings": {
+    "enabled": true
+  },
+  "nluSettingsList": [ {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.69999999,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "customConfigKey": "cf604cf6-ec60-47ab-9ae4-7b79f40893eb",
+    "languageCode": "en"
+  }, {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.69999999,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "customConfigKey": "cf604cf6-ec60-47ab-9ae4-7b79f40893eb",
+    "languageCode": "id"
+  } ],
+  "multiLanguageSettings": {
+    "enableMultiLanguageDetection": true,
+    "supportedResponseLanguageCodes": [ "en", "id" ]
+  }
+}

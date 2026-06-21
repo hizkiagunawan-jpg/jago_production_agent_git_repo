@@ -1,0 +1,123 @@
+{
+  "name": "11efeb1e-d8d1-57e0-8a50-e01d89377295",
+  "displayName": "Collect_kyc__str_update_customer_data",
+  "form": {
+    "parameters": [ {
+      "displayName": "k13_decision_slot",
+      "required": true,
+      "entityType": "@jago_entity_decision",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please choose the decision:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Silakan pilih keputusan (decision):" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Decision",
+                "options": [ {
+                  "text": "Blocked",
+                  "value": "Blocked"
+                }, {
+                  "text": "Declined",
+                  "value": "Declined"
+                }, {
+                  "text": "KTP BOP Error",
+                  "value": "KTP BOP Error"
+                }, {
+                  "text": "No Dukcapil Photo",
+                  "value": "No Dukcapil Photo"
+                }, {
+                  "text": "Refunded",
+                  "value": "Refunded"
+                }, {
+                  "text": "Same Person",
+                  "value": "Same Person"
+                }, {
+                  "text": "False Positive",
+                  "value": "False Positive"
+                }, {
+                  "text": "True Positive",
+                  "value": "True Positive"
+                }, {
+                  "text": "Customer No Reply",
+                  "value": "Customer No Reply"
+                }, {
+                  "text": "Approved",
+                  "value": "Approved"
+                }, {
+                  "text": "Rejected",
+                  "value": "Rejected"
+                } ],
+                "parameter": "k13_decision",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Decision",
+                "options": [ {
+                  "text": "Diblokir",
+                  "value": "Blocked"
+                }, {
+                  "text": "Ditolak",
+                  "value": "Declined"
+                }, {
+                  "text": "Error KTP BOP",
+                  "value": "KTP BOP Error"
+                }, {
+                  "text": "Tidak Ada Foto Dukcapil",
+                  "value": "No Dukcapil Photo"
+                }, {
+                  "text": "Dana Dikembalikan",
+                  "value": "Refunded"
+                }, {
+                  "text": "Orang yang Sama",
+                  "value": "Same Person"
+                }, {
+                  "text": "Positif Palsu",
+                  "value": "False Positive"
+                }, {
+                  "text": "Positif Benar",
+                  "value": "True Positive"
+                }, {
+                  "text": "Nasabah Tidak Merespons",
+                  "value": "Customer No Reply"
+                }, {
+                  "text": "Disetujui",
+                  "value": "Approved"
+                }, {
+                  "text": "Ditolak",
+                  "value": "Rejected"
+                } ],
+                "parameter": "k13_decision",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "k13_decision",
+        "value": "$page.params.k13_decision_slot"
+      } ]
+    },
+    "targetPage": "KYC_Handoff_Page",
+    "name": "fe8b40c2-9372-5e5e-bfc7-1f1a0b6b2c03"
+  } ]
+}

@@ -1,0 +1,23 @@
+{
+  "entities": [ {
+    "value": "STR - Close Account",
+    "synonyms": [ "STR - Close Account", "STR - Penutupan Rekening", "1" ],
+    "languageCode": "id"
+  }, {
+    "value": "STR - Update Customer Data",
+    "synonyms": [ "STR - Update Customer Data", "STR - Pembaruan Data Nasabah", "2" ],
+    "languageCode": "id"
+  }, {
+    "value": "Blokir - Account Nasabah",
+    "synonyms": [ "Blokir - Account Nasabah", "Blokir - Rekening Nasabah", "3" ],
+    "languageCode": "id"
+  }, {
+    "value": "Blokir - Kartu debit",
+    "synonyms": [ "Blokir - Kartu debit", "Blokir - Kartu Debit", "4" ],
+    "languageCode": "id"
+  }, {
+    "value": "Closing Account",
+    "synonyms": [ "Closing Account", "Penutupan Rekening", "5" ],
+    "languageCode": "id"
+  } ]
+}

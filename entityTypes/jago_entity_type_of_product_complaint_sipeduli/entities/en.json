@@ -1,0 +1,151 @@
+{
+  "entities": [ {
+    "value": "Bancassurance",
+    "synonyms": [ "Bancassurance" ],
+    "languageCode": "en"
+  }, {
+    "value": "Bank Garansi",
+    "synonyms": [ "Bank Garansi" ],
+    "languageCode": "en"
+  }, {
+    "value": "Bilyet Giro",
+    "synonyms": [ "Bilyet Giro" ],
+    "languageCode": "en"
+  }, {
+    "value": "Commercial paper",
+    "synonyms": [ "Commercial paper" ],
+    "languageCode": "en"
+  }, {
+    "value": "Deposito",
+    "synonyms": [ "Deposito" ],
+    "languageCode": "en"
+  }, {
+    "value": "Derivatif",
+    "synonyms": [ "Derivatif" ],
+    "languageCode": "en"
+  }, {
+    "value": "Direct Debit",
+    "synonyms": [ "Direct Debit" ],
+    "languageCode": "en"
+  }, {
+    "value": "Electronic Banking",
+    "synonyms": [ "Electronic Banking" ],
+    "languageCode": "en"
+  }, {
+    "value": "Giro",
+    "synonyms": [ "Giro" ],
+    "languageCode": "en"
+  }, {
+    "value": "Kartu ATM/Debit/Mesin ATM",
+    "synonyms": [ "Kartu ATM/Debit/Mesin ATM" ],
+    "languageCode": "en"
+  }, {
+    "value": "Kartu Kredit",
+    "synonyms": [ "Kartu Kredit" ],
+    "languageCode": "en"
+  }, {
+    "value": "Kartu Pra Bayar",
+    "synonyms": [ "Kartu Pra Bayar" ],
+    "languageCode": "en"
+  }, {
+    "value": "Kewajiban pada Bank Lain",
+    "synonyms": [ "Kewajiban pada Bank Lain" ],
+    "languageCode": "en"
+  }, {
+    "value": "Kliring (Transfer)/Remittance",
+    "synonyms": [ "Kliring (Transfer)/Remittance" ],
+    "languageCode": "en"
+  }, {
+    "value": "Kredit Tanpa Agunan",
+    "synonyms": [ "Kredit Tanpa Agunan" ],
+    "languageCode": "en"
+  }, {
+    "value": "Kredit/Pembiayaan Investasi",
+    "synonyms": [ "Kredit/Pembiayaan Investasi" ],
+    "languageCode": "en"
+  }, {
+    "value": "Kredit/Pembiayaan Kendaraan Bermotor",
+    "synonyms": [ "Kredit/Pembiayaan Kendaraan Bermotor" ],
+    "languageCode": "en"
+  }, {
+    "value": "Kredit/Pembiayaan Modal Kerja",
+    "synonyms": [ "Kredit/Pembiayaan Modal Kerja" ],
+    "languageCode": "en"
+  }, {
+    "value": "Kredit/Pembiayaan Pemilikan Rumah/Apartemen",
+    "synonyms": [ "Kredit/Pembiayaan Pemilikan Rumah/Apartemen" ],
+    "languageCode": "en"
+  }, {
+    "value": "Penempatan pada Bank lain",
+    "synonyms": [ "Penempatan pada Bank lain" ],
+    "languageCode": "en"
+  }, {
+    "value": "Pengelolaan Portofolio Efek Untuk Kepentingan Nasabah Secara Individual (KPD)",
+    "synonyms": [ "Pengelolaan Portofolio Efek Untuk Kepentingan Nasabah Secara Individual (KPD)" ],
+    "languageCode": "en"
+  }, {
+    "value": "Penghimpun Dana Lainnya",
+    "synonyms": [ "Penghimpun Dana Lainnya" ],
+    "languageCode": "en"
+  }, {
+    "value": "Penyaluran Dana Lainnya",
+    "synonyms": [ "Penyaluran Dana Lainnya" ],
+    "languageCode": "en"
+  }, {
+    "value": "Produk Kerjasama lainnya",
+    "synonyms": [ "Produk Kerjasama lainnya" ],
+    "languageCode": "en"
+  }, {
+    "value": "Reksadana",
+    "synonyms": [ "Reksadana" ],
+    "languageCode": "en"
+  }, {
+    "value": "RTGS",
+    "synonyms": [ "RTGS" ],
+    "languageCode": "en"
+  }, {
+    "value": "Safe Deposit Box",
+    "synonyms": [ "Safe Deposit Box" ],
+    "languageCode": "en"
+  }, {
+    "value": "Sistem Pembayaran Lainnya",
+    "synonyms": [ "Sistem Pembayaran Lainnya" ],
+    "languageCode": "en"
+  }, {
+    "value": "SMS Banking",
+    "synonyms": [ "SMS Banking" ],
+    "languageCode": "en"
+  }, {
+    "value": "Standing Instruction",
+    "synonyms": [ "Standing Instruction" ],
+    "languageCode": "en"
+  }, {
+    "value": "Structured Product",
+    "synonyms": [ "Structured Product" ],
+    "languageCode": "en"
+  }, {
+    "value": "Tabungan",
+    "synonyms": [ "Tabungan" ],
+    "languageCode": "en"
+  }, {
+    "value": "Trade Finance/Letter of Credit",
+    "synonyms": [ "Trade Finance/Letter of Credit" ],
+    "languageCode": "en"
+  }, {
+    "value": "Travellers Cheque",
+    "synonyms": [ "Travellers Cheque" ],
+    "languageCode": "en"
+  }, {
+    "value": "Trust",
+    "synonyms": [ "Trust" ],
+    "languageCode": "en"
+  }, {
+    "value": "Valuta Asing",
+    "synonyms": [ "Valuta Asing" ],
+    "languageCode": "en"
+  }, {
+    "value": "Wealth Management",
+    "synonyms": [ "Wealth Management" ],
+    "languageCode": "en"
+  } ]
+}

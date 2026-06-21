@@ -1,0 +1,329 @@
+{
+  "name": "51fd4a96-7d7b-534a-ab4f-1d9165de293e",
+  "displayName": "Collect_card__card_follow_up",
+  "form": {
+    "parameters": [ {
+      "displayName": "s5_awb_slot",
+      "required": true,
+      "entityType": "@sys.any",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please enter the delivery tracking number (AWB):" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon masukkan nomor resi/pelacakan pengiriman (AWB):" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k9_courier_slot",
+      "required": true,
+      "entityType": "@jago_entity_courier",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please choose the courier:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Silakan pilih kurir pengiriman:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Courier",
+                "options": [ {
+                  "text": "JNT",
+                  "value": "JNT"
+                }, {
+                  "text": "Ninja",
+                  "value": "Ninja"
+                }, {
+                  "text": "Sicepat",
+                  "value": "Sicepat"
+                } ],
+                "parameter": "k9_courier",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Courier",
+                "options": [ {
+                  "text": "JNT",
+                  "value": "JNT"
+                }, {
+                  "text": "Ninja",
+                  "value": "Ninja"
+                }, {
+                  "text": "Sicepat",
+                  "value": "Sicepat"
+                } ],
+                "parameter": "k9_courier",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "d8_pick_up_date_slot",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please specify your preferred pick-up date:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Mohon tentukan tanggal penjemputan (pick up):" ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k31_result_slot",
+      "required": true,
+      "entityType": "@jago_entity_result_status",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please choose the result:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Silakan pilih hasil (result):" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Result",
+                "options": [ {
+                  "text": "Batal Pengiriman",
+                  "value": "Batal Pengiriman"
+                }, {
+                  "text": "Gagal Dihubungi",
+                  "value": "Gagal Dihubungi"
+                }, {
+                  "text": "Kartu Sudah Diterima",
+                  "value": "Kartu Sudah Diterima"
+                }, {
+                  "text": "Tambah Alamat",
+                  "value": "Tambah Alamat"
+                }, {
+                  "text": "DUKCAPIL NOT FOUND - CHECKED",
+                  "value": "DUKCAPIL NOT FOUND - CHECKED"
+                }, {
+                  "text": "FAKE ID - CHECKED",
+                  "value": "FAKE ID - CHECKED"
+                }, {
+                  "text": "FALSE ALERT - UNBLOCK",
+                  "value": "FALSE ALERT - UNBLOCK"
+                }, {
+                  "text": "FALSE ALERT-SAME PERSON",
+                  "value": "FALSE ALERT-SAME PERSON"
+                }, {
+                  "text": "VALID AGENT ERROR REVISE",
+                  "value": "VALID AGENT ERROR REVISE"
+                }, {
+                  "text": "Customer Contacted",
+                  "value": "Customer Contacted"
+                }, {
+                  "text": "Customer Not Found",
+                  "value": "Customer Not Found"
+                }, {
+                  "text": "Customer Uncontacted",
+                  "value": "Customer Uncontacted"
+                }, {
+                  "text": "Fraud Account",
+                  "value": "Fraud Account"
+                }, {
+                  "text": "Setuju",
+                  "value": "Setuju"
+                }, {
+                  "text": "Tidak Bisa Dihubungi",
+                  "value": "Tidak Bisa Dihubungi"
+                }, {
+                  "text": "Tidak Setuju",
+                  "value": "Tidak Setuju"
+                }, {
+                  "text": "Yes",
+                  "value": "Yes"
+                }, {
+                  "text": "No",
+                  "value": "No"
+                } ],
+                "parameter": "k31_result",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Result",
+                "options": [ {
+                  "text": "Batal Pengiriman",
+                  "value": "Batal Pengiriman"
+                }, {
+                  "text": "Gagal Dihubungi",
+                  "value": "Gagal Dihubungi"
+                }, {
+                  "text": "Kartu Sudah Diterima",
+                  "value": "Kartu Sudah Diterima"
+                }, {
+                  "text": "Tambah Alamat",
+                  "value": "Tambah Alamat"
+                }, {
+                  "text": "DUKCAPIL NOT FOUND - CHECKED",
+                  "value": "DUKCAPIL NOT FOUND - CHECKED"
+                }, {
+                  "text": "FAKE ID - CHECKED",
+                  "value": "FAKE ID - CHECKED"
+                }, {
+                  "text": "FALSE ALERT - UNBLOCK",
+                  "value": "FALSE ALERT - UNBLOCK"
+                }, {
+                  "text": "FALSE ALERT-SAME PERSON",
+                  "value": "FALSE ALERT-SAME PERSON"
+                }, {
+                  "text": "VALID AGENT ERROR REVISE",
+                  "value": "VALID AGENT ERROR REVISE"
+                }, {
+                  "text": "Nasabah Terhubung",
+                  "value": "Customer Contacted"
+                }, {
+                  "text": "Nasabah Tidak Ditemukan",
+                  "value": "Customer Not Found"
+                }, {
+                  "text": "Nasabah Tidak Terhubung",
+                  "value": "Customer Uncontacted"
+                }, {
+                  "text": "Akun Fraud",
+                  "value": "Fraud Account"
+                }, {
+                  "text": "Setuju",
+                  "value": "Setuju"
+                }, {
+                  "text": "Tidak Bisa Dihubungi",
+                  "value": "Tidak Bisa Dihubungi"
+                }, {
+                  "text": "Tidak Setuju",
+                  "value": "Tidak Setuju"
+                }, {
+                  "text": "Ya",
+                  "value": "Yes"
+                }, {
+                  "text": "Tidak",
+                  "value": "No"
+                } ],
+                "parameter": "k31_result",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "k35_sub_card_report_slot",
+      "required": true,
+      "entityType": "@jago_entity_sub_card_report",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please choose the card report reason:" ]
+            },
+            "languageCode": "en"
+          }, {
+            "text": {
+              "text": [ "Silakan pilih alasan pelaporan kartu:" ]
+            },
+            "languageCode": "id"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Sub Card Report",
+                "options": [ {
+                  "text": "Lost Card",
+                  "value": "Lost Card"
+                }, {
+                  "text": "Outbound Call Card",
+                  "value": "Outbound Call Card"
+                }, {
+                  "text": "Return to Bank",
+                  "value": "Return to Bank"
+                } ],
+                "parameter": "k35_sub_card_report",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "en"
+          }, {
+            "payload": {
+              "richContent": [ [ {
+                "label": "Sub Card Report",
+                "options": [ {
+                  "text": "Kartu Hilang",
+                  "value": "Lost Card"
+                }, {
+                  "text": "Panggilan Keluar (Outbound Call) Kartu",
+                  "value": "Outbound Call Card"
+                }, {
+                  "text": "Dikembalikan ke Bank",
+                  "value": "Return to Bank"
+                } ],
+                "parameter": "k35_sub_card_report",
+                "type": "dropdown"
+              } ] ]
+            },
+            "languageCode": "id"
+          } ]
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "s5_awb",
+        "value": "$page.params.s5_awb_slot"
+      }, {
+        "parameter": "k9_courier",
+        "value": "$page.params.k9_courier_slot"
+      }, {
+        "parameter": "d8_pick_up_date",
+        "value": "$page.params.d8_pick_up_date_slot"
+      }, {
+        "parameter": "k31_result",
+        "value": "$page.params.k31_result_slot"
+      }, {
+        "parameter": "k35_sub_card_report",
+        "value": "$page.params.k35_sub_card_report_slot"
+      } ]
+    },
+    "targetPage": "Card_Handoff_Page",
+    "name": "6104203e-cb30-56f8-938e-03116a2e9904"
+  } ]
+}
